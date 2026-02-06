@@ -1,0 +1,162 @@
+[
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4696408756_0",
+    "content": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote).\n\n## 📄 Recent pages that I've worked on\n\n## 🖐 Get in touch\n\n✉️ Insert your email here\n\n💼 Insert your LinkedIn URL here\n\n🔗 Insert your Twitter handle here\n\n👤 Insert your Medium profile here\n\nEnd with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4696408756",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4696408756",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2024-12-01T20:08:12.918Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_0",
+    "content": "How do we determine the best fit model and granularity for generating forecasts?\n\nFor the best fit, we have an experimentation foundation for ML-based models (For naive MA based models, we don't have an experimentation structure). It is based on MLFlow, which is an MLOps platform. Using MLFlow, the DS team can keep track of their experiments.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 0,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_1",
+    "content": "n MLFlow, which is an MLOps platform. Using MLFlow, the DS team can keep track of their experiments.\n\n*Experimental machine learning (ML)-based forecasting models are innovative or non-standard approaches that leverage cutting-edge techniques to improve the accuracy and reliability of predictions. These models often aim to address challenges in traditional forecasting, such as handling complex patterns, dealing with sparse or noisy data, or adapting to dynamic environments.MLFlow is often considered part of the broader MLOps ecosystem. While MLFlow focuses on specific lifecycle tasks (like tracking and deployment), a full MLOps platform integrates these tasks into a cohesive system, often adding advanced features like real-time monitoring, automated retraining pipelines, and multi-cloud support.*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 1,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_2",
+    "content": "vanced features like real-time monitoring, automated retraining pipelines, and multi-cloud support.*\n\nRegardless of using ML-based or Naive MA based models, in these experiments, ML / DS teams usually follow a backtesting approach where we are measuring the accuracy of our models for several historical time points;\n\nLast year same period\n\nLast X weeks\n\nSliding windows of Last N dates\n\nWhen we are using ML models, we are using a distributed approach where we train different models for different parts of the data. Using product groups for dividing the data is usually a good idea as they also have different characteristics.\n\nGranularity part depends on your actual needs and pattern of the data.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 2,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_3",
+    "content": "e different characteristics.\n\nGranularity part depends on your actual needs and pattern of the data.\n\nIf you need product-store-day level granular forecasts, starting with naive models on product-store-day is generally a good idea, but at this granularity ML models can be complex. We can apply top-down strategies to break-down aggregate level forecasts to desired levels. For example, you can build your model on product-week level forecasts but we can break-it down to product-store-day week if required.\n\nSometimes, especially in fashion retailers, SKU-store level granularity may not be the best option due to lack of sales volume. In this case, option level granularity would be better.\n\nTL;DR Forecasting level is up to the Data Science team that is working on the problem, and final forecast granularity is up to the downstream solution that is going to consume these forecasts.\n\nNew store and new product forecast generations",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 3,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_4",
+    "content": "m solution that is going to consume these forecasts.\n\nNew store and new product forecast generations\n\nNew Store: We don't have a specialized solution for new stores.\n\nSmartlag, one of our naive models, supports multiple level model training and selecting the most reliable model can use forecasts sourced from higher level granularities. This is a potential idea that needs to be experimented. ML models should be capable of covering new store openings but it actually depends on the model. If it uses a lot of features that depend on store level history, it would be a point that needs more attention if the clients' business involves a lot of new store openings.\n\nNew Product: We prefer to feed the new products from ML-based models since Naive models will not be able to find a history for the new products. Category level features provide a decent baseline for the new products.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 4,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_5",
+    "content": "istory for the new products. Category level features provide a decent baseline for the new products.\n\nRegardless of the model, we encourage using Reference Products and Stores for the new products and stores. Reference Product and Store definitions can feed the forecasts of new products and stores from their references. Our clients can use our UI to enter reference items. Noob team also has a pipeline specialized for detecting similar products & stores and defining them as references. This can also be used.\n\nHow do we measure the forecast accuracy, other than MAPE, do we do back forecasting?\n\nYes, back testing is an important part of our model development cycle. WMAPE and (W)Bias are two important metrics for forecast accuracy. We're also using alternative metrics like SMAPE that provides a balanced overview compared to WMAPE and Bias.\n\nBatch processes, cadences and run times associated with the forecast models",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 5,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_6",
+    "content": "ared to WMAPE and Bias.\n\nBatch processes, cadences and run times associated with the forecast models\n\nWe have our daily pipelines that produce new forecasts every day. Even though your forecast granularity is weekly, we can produce weekly forecasts every day starting from the week start day, to cover up forecast scope changes.\n\nQUESTIONS RELATED TO ASSORTMENT PLANNING\n\nHow do we forecast when we do not have any history?\n\n1. Using PAG and history at PH - we look into the history. This is feature based. This is more of in-season.\n2. Not much ahead like 12-18 months.\n3. This will be an experiment and first time we are doing at Invent.\n4. Category level forecast from Mustafa using profit based model, we can combine the attributes.\n5. Buy driver forecast. Buy Qty and Current Inventory.\n\nWhat are the inputs required to generate forecast for a completely new season?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 6,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_7",
+    "content": "d Current Inventory.\n\nWhat are the inputs required to generate forecast for a completely new season?\n\n1. Style Color x Cluster x Week relationship can be provided. Can you provide 2 levels of forecast Cluster + Store level? - This is required at the most granular level (Forecast scope).\n2. Product attributes - Color, Material, Price Point, Trend etc.\n3. Drivers - Retail Price, Product Rank, Weather, Store demographics, Holidays and Promotions. (Cannot be used) Price clusters can be used.\n4. Location attributes like store ranking, segment, community and location type.\n\nFor Core, Seasonal and Carryovers - can we use different models to forecast?\n\nYes, the indication of product type should come from the data, otherwise DS team can categorize based on the lifecycles.\n\nFor different time horizons, can we use different models?\n\nYes\n\nForecast for New Store, Product Group and New Product.\n\nCan be done references, like item, like store.\n\nHow much history do we need?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 7,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~71202037b35c790f1449cda157c1ddf9eaa80d_4848910415_8",
+    "content": "Group and New Product.\n\nCan be done references, like item, like store.\n\nHow much history do we need?\n\nAt-least 2 years of history. 3 past seasons.\n\nWhat if we have mixture of elapsed + unelapsed periods?\n\nForecast error is high, fallback to elapsed LLY.\n\nWhen do we deploy Model tuning?\n\nDepends on project timelines, seasonality models and feature set.\n\nWhat kind of challenges for ALO replenishment? - NOT KNOWN\n\nWhat are the approaches for store clustering?\n\nK-means - 3 types\n\n1. SeasonalHistorical sales volumes, seasonality patterns.\n2. Geographical.\n3. Product hierarchy level - Sales volumes (TS)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~71202037b35c790f1449cda157c1ddf9eaa80d",
+      "space_name": "ramana.kanakala",
+      "page_id": "4848910415",
+      "title": "FORECASTING MODELS",
+      "url": "https://invent.atlassian.net/wiki/spaces/~71202037b35c790f1449cda157c1ddf9eaa80d/pages/4848910415",
+      "updated_by": "Ramana Kanakala",
+      "updated_date": "2025-01-23T12:26:47.005Z",
+      "chunk_index": 8,
+      "total_chunks": 9
+    }
+  }
+]

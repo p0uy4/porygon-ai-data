@@ -1,0 +1,50 @@
+[
+  {
+    "id": "confluence_UHP_4405592523_0",
+    "content": "Welcome to your new knowledge base space!We've added some suggestions and placeholders. Everything is customizable.Get started with page templates:Template - How-to guideTemplate - Troubleshooting article\n## Welcome! How can we help you?\n\n### About\n\n*Add a little introduction about what you or your team does, what information this space provides, and any additional context.*\n\n### Get in contact\n\n- Team@email.com\n- #slackchannel\n- Raise a ticket at <link>\n\n### Top topics\n\n🍓 Topic 1\n\n- Link to page\n- Link to page\n- Link to page\n\n🥝 Topic 2\n\n- Link to page\n- Link to page\n- Link to page\n\n🍍 Topic 3\n\n- Link to page\n- Link to page\n- Link to page\n\n🍐 Topic 4\n\n- Link to page\n- Link to page\n- Link to page\n\n🍋 Topic 5\n\n- Link to page\n- Link to page\n- Link to page\n\n🍒 Topic 6\n\n- Link to page\n- Link to page\n- Link to page\n\n---\n\n### Team name\n\n#### Get Support\n\n- Link to page\n- Link to page\n- Link to page\n\n#### Related Links\n\n- Link to page\n- Link to page\n- Link to page",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UHP",
+      "space_name": "User Helpdesk Portal",
+      "page_id": "4405592523",
+      "title": "User Helpdesk Portal",
+      "url": "https://invent.atlassian.net/wiki/spaces/UHP/pages/4405592523",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2024-08-20T11:53:22.349Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_UHP_4405592535_0",
+    "content": "Explain what this how-to article is for. For example, you might write an article to teach people at your company how to set up a corporate email account or file an expense report.\n\n## Instructions\n\nCreate a step-by-step guide:\n\n1. Add steps that are simple and self-contained\n2. Add illustrations to instructions by typing /image\n3. Stick to 3-5 steps per task to avoid overloading readers\n\n> Info: Highlight important information in a panel like this one. To edit this panel's color or style, select one of the options in the menu.\n\n## Related articles\n\nThe content by label feature automatically displays related articles based on labels you choose. To edit options for this feature, select the placeholder and tap the pencil icon.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UHP",
+      "space_name": "User Helpdesk Portal",
+      "page_id": "4405592535",
+      "title": "Template - How-to guide",
+      "url": "https://invent.atlassian.net/wiki/spaces/UHP/pages/4405592535",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2024-08-20T11:53:22.032Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_UHP_4405592550_0",
+    "content": "## Problem\n\nAdd a short description of the problem.\n\n## Solution\n\nDescribe how someone would solve the problem in a short, step-by-step guide:\n\n1. Add steps that are simple and self-contained\n2. Add illustrations to instructions by typing /image\n3. Stick to 3-5 steps per task to avoid overloading readers\n\n> Info: Highlight important information in a panel like this one. To edit this panel's color or style, select one of the options in the menu.\n\n## Related articles\n\nThe content by label feature automatically displays related articles based on labels you choose. To edit options for this feature, select the placeholder and tap the pencil icon.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UHP",
+      "space_name": "User Helpdesk Portal",
+      "page_id": "4405592550",
+      "title": "Template - Troubleshooting article",
+      "url": "https://invent.atlassian.net/wiki/spaces/UHP/pages/4405592550",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2024-08-20T11:53:22.196Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

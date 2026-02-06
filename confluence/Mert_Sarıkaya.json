@@ -1,0 +1,3154 @@
+[
+  {
+    "id": "confluence_~124391329_1327628393_0",
+    "content": "---",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327628393",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327628393",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-03T06:56:36.459Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_0",
+    "content": "## Purpose of Document\n\nThe objective of seasonality calculation module is finding seasonality coefficients/multipliers on the desired level, i.e. Product/Store, Product, Store, Product/StoreCluster. These coefficients can then be utilized in clustering, forecasts, outlier detection, lost sales and so on.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 0,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_1",
+    "content": "coefficients can then be utilized in clustering, forecasts, outlier detection, lost sales and so on.\n\nSeasonality calculation plays important role when using any machine learning model that cannot handle seasonality by itself. Consider the moving average (MA) model, it takes last n observations (say for a product-store pair) and generates forecasts by simply taking average of those observations. However, if the time series is highly seasonal, the forecasts can be biased (over or under estimating). As an example, if the time series is at the end of its seasonal period and our previous observations are in season (higher than usual), then our forecast shall be significantly higher than what we will probably observe. In order to correct this difference, we may smooth our previous observation with their seasonality coefficients (deseasonalize),  apply MA, and apply seasonality coefficient to the final result (seasonalize).\n\nScope",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 1,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_2",
+    "content": "seasonalize),  apply MA, and apply seasonality coefficient to the final result (seasonalize).\n\nScope\n\nSimilar situation can be observed when we try to detect outliers. An observation in high seasonal period may look like an outlier when we compare it with the previous low seasonal data points, but it might be actually what it needs to be. Therefore calculating outliers by considering seasonality coefficients helps us to detect outliers conveniently.\n\nIn addition to those, additional information can be gathered by using those seasonality coefficients. When we want to apply special service levels (or standart deviation parameters) to a product group that sells significantly higher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 2,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_3",
+    "content": "tly higher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 3,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_4",
+    "content": "ly higher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 4,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_5",
+    "content": "y higher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 5,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_6",
+    "content": "higher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 6,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_7",
+    "content": "higher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 7,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_8",
+    "content": "igher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 8,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_9",
+    "content": "gher in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 9,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_10",
+    "content": "her in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 10,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_11",
+    "content": "er in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 11,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_12",
+    "content": "r in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 12,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_13",
+    "content": "in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 13,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_14",
+    "content": "in September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 14,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_15",
+    "content": "n September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 15,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_16",
+    "content": "September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 16,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_17",
+    "content": "September (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 17,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_18",
+    "content": "eptember (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 18,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_19",
+    "content": "ptember (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 19,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_20",
+    "content": "tember (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 20,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_21",
+    "content": "ember (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 21,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_22",
+    "content": "mber (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 22,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_23",
+    "content": "ber (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 23,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_24",
+    "content": "er (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 24,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_25",
+    "content": "r (school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 25,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_26",
+    "content": "(school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 26,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_27",
+    "content": "(school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 27,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_28",
+    "content": "school start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 28,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_29",
+    "content": "chool start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 29,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_30",
+    "content": "hool start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 30,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_31",
+    "content": "ool start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 31,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_32",
+    "content": "ol start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 32,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_33",
+    "content": "l start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 33,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_34",
+    "content": "start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 34,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_35",
+    "content": "start period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 35,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_36",
+    "content": "tart period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 36,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_37",
+    "content": "art period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 37,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_38",
+    "content": "rt period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 38,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_39",
+    "content": "t period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 39,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_40",
+    "content": "period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 40,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_41",
+    "content": "period - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 41,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_42",
+    "content": "eriod - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 42,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_43",
+    "content": "riod - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 43,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_44",
+    "content": "iod - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 44,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_45",
+    "content": "od - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 45,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_46",
+    "content": "d - beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 46,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_47",
+    "content": "- beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 47,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_48",
+    "content": "- beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 48,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_49",
+    "content": "beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 49,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_50",
+    "content": "beginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 50,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_51",
+    "content": "eginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 51,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_52",
+    "content": "ginning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 52,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_53",
+    "content": "inning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 53,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_54",
+    "content": "nning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 54,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_55",
+    "content": "ning of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 55,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_56",
+    "content": "ing of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 56,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_57",
+    "content": "ng of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 57,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_58",
+    "content": "g of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 58,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_59",
+    "content": "of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 59,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_60",
+    "content": "of autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 60,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_61",
+    "content": "f autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 61,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_62",
+    "content": "autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 62,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_63",
+    "content": "autumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 63,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_64",
+    "content": "utumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 64,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_65",
+    "content": "tumn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 65,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_66",
+    "content": "umn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 66,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_67",
+    "content": "mn etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 67,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_68",
+    "content": "n etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 68,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_69",
+    "content": "etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 69,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_70",
+    "content": "etc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 70,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_71",
+    "content": "tc.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 71,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_72",
+    "content": "c.)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 72,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_73",
+    "content": ".)\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 73,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_74",
+    "content": ")\n\n## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 74,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_75",
+    "content": "## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 75,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_76",
+    "content": "## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 76,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_77",
+    "content": "## Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 77,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_78",
+    "content": "# Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 78,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_79",
+    "content": "Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 79,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_80",
+    "content": "Seasonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 80,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_81",
+    "content": "easonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 81,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_82",
+    "content": "asonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 82,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_83",
+    "content": "sonality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 83,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_84",
+    "content": "onality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 84,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_85",
+    "content": "nality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 85,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_86",
+    "content": "ality Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 86,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_87",
+    "content": "lity Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 87,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_88",
+    "content": "ity Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 88,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_89",
+    "content": "ty Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 89,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_90",
+    "content": "y Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 90,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_91",
+    "content": "Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 91,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_92",
+    "content": "Calculation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 92,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_93",
+    "content": "- CleaningSeasonality calculation can be done in different bases. For products, it can be calculated for ProductId, HierarchyLevels. For stores, potential set is StoreId, StoreCluster, StoreType (Chain). And for the time dimension, we can calculated day effects (Monday to Sunday), week effects, year-week effects and date effects.For some products, start date might not be the first sales date. When analyzing the data, we had come across to some dummy sales; which means a sale happens then there is a long break until the next sale. Therefore there is a need to decide the start date. We check the mean sales and standard deviation of sales for each product for each week. Therefore if the starting week has less than week - standard deviation sales; we eliminate it. This works as a loop until there is nothing to eliminate.There is a need for calendar shifting here. We assume there is 52 weeks in a year (in reference to retail calendar: https://nrf.com/resources/4-5-4-calendar)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 93,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_94",
+    "content": "re is 52 weeks in a year (in reference to retail calendar: https://nrf.com/resources/4-5-4-calendar). So, 53 week years are shifted back by one week and first week is eliminated. This way Black Friday comes to 47th week and Christmas becomes 50-51th weeks.After cleaning our sales data, we will group our observations according to the bases defined above.\n- TaggingTagging decides on the products to get into the seasonality run:If a product has less than 52 weeks, it cannot get into the seasonality run, If an item is not selling for the last 4 weeks, we consider it dead, If there is a jump in the sales data (no sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 94,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_95",
+    "content": "a (no sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 95,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_96",
+    "content": "(no sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 96,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_97",
+    "content": "(no sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 97,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_98",
+    "content": "no sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 98,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_99",
+    "content": "o sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 99,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_100",
+    "content": "sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 100,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_101",
+    "content": "sales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 101,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_102",
+    "content": "ales for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 102,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_103",
+    "content": "les for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 103,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_104",
+    "content": "es for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 104,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_105",
+    "content": "s for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 105,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_106",
+    "content": "for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 106,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_107",
+    "content": "for 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 107,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_108",
+    "content": "or 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 108,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_109",
+    "content": "r 8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 109,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_110",
+    "content": "8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 110,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_111",
+    "content": "8 weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 111,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_112",
+    "content": "weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 112,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_113",
+    "content": "weeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 113,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_114",
+    "content": "eeks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 114,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_115",
+    "content": "eks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 115,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_116",
+    "content": "ks), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 116,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_117",
+    "content": "s), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 117,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_118",
+    "content": "), we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 118,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_119",
+    "content": ", we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 119,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_120",
+    "content": "we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 120,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_121",
+    "content": "we assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 121,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_122",
+    "content": "e assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 122,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_123",
+    "content": "assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 123,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_124",
+    "content": "assume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 124,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_125",
+    "content": "ssume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 125,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_126",
+    "content": "sume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 126,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_127",
+    "content": "ume there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 127,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_128",
+    "content": "me there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 128,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_129",
+    "content": "e there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 129,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_130",
+    "content": "there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 130,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_131",
+    "content": "there is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 131,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_132",
+    "content": "here is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 132,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_133",
+    "content": "ere is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 133,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_134",
+    "content": "re is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 134,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_135",
+    "content": "e is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 135,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_136",
+    "content": "is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 136,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_137",
+    "content": "is a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 137,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_138",
+    "content": "s a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 138,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_139",
+    "content": "a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 139,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_140",
+    "content": "a problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 140,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_141",
+    "content": "problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 141,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_142",
+    "content": "problem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 142,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_143",
+    "content": "roblem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 143,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_144",
+    "content": "oblem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 144,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_145",
+    "content": "blem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 145,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_146",
+    "content": "lem in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 146,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_147",
+    "content": "em in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 147,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_148",
+    "content": "m in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 148,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_149",
+    "content": "in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 149,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_150",
+    "content": "in the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 150,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_151",
+    "content": "n the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 151,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_152",
+    "content": "the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 152,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_153",
+    "content": "the product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 153,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_154",
+    "content": "he product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 154,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_155",
+    "content": "e product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 155,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_156",
+    "content": "product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 156,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_157",
+    "content": "product (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 157,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_158",
+    "content": "roduct (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 158,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_159",
+    "content": "oduct (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 159,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_160",
+    "content": "duct (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 160,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_161",
+    "content": "uct (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 161,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_162",
+    "content": "ct (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 162,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_163",
+    "content": "t (might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 163,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_164",
+    "content": "(might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 164,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_165",
+    "content": "(might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 165,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_166",
+    "content": "might be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 166,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_167",
+    "content": "ight be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 167,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_168",
+    "content": "ght be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 168,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_169",
+    "content": "ht be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 169,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_170",
+    "content": "t be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 170,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_171",
+    "content": "be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 171,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_172",
+    "content": "be an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 172,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_173",
+    "content": "e an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 173,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_174",
+    "content": "an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 174,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_175",
+    "content": "an in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 175,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_176",
+    "content": "n in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 176,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_177",
+    "content": "in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 177,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_178",
+    "content": "in-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 178,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_179",
+    "content": "n-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 179,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_180",
+    "content": "-stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 180,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_181",
+    "content": "stock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 181,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_182",
+    "content": "tock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 182,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_183",
+    "content": "ock problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 183,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_184",
+    "content": "ck problem)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 184,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_185",
+    "content": "problem)\n- DepromoTo depromo the sales data, we are currently using Prophet (for quick-start https://facebook.github.io/prophet/docs/quick_start.html).Prophet is easy to configure and easy to interpret. It can handle special day effect and removes this effect from the data. But to calculate these effects we need to introduce this promotions as holidays (let's say if promo rate is below 10 percent, low promo, 10-25 medium promo, 25 above high promo) If we have promo data we can simply split the percentage promotions into the bins. If we don't have the promo percentage data or it cannot be acquired easily we can use ASP instead. Prices of some seasonal products are highly variable, like vegetables, and this can easily affect on sales. It can be separated whether this increase in sales causes from promotion or seasonality itself (or price elasticity).After knowing each promo bin affects how much change in sales, we can remove this promo part from the sales for each product or store base.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 185,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_186",
+    "content": "w much change in sales, we can remove this promo part from the sales for each product or store base.\n- OutliersFor several reasons, outliers occur in our sales data and it affects the seasonality calculation significantly. We want to get rid of these outliers, but we do not want to remove them directly, since being outlier might be related with seasonality. We might explain this increase in sales up to a point with seasonality. For this reason, we need to replace outlier observation with mean or threshold values (if such threshold exist)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 186,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_187",
+    "content": "ason, we need to replace outlier observation with mean or threshold values (if such threshold exist)\n- CalculationAfter finding cleaned (from promotion and outliers) sales data, we can run our seasonality calculation algorithm with desired aggregation level. We need to remove the trend part of the data, by assuming that this trend can be caught by our model. We can introduce special day effects on our algorithm (Prophet can handle special days) Depends on the project, one algorithm may not be sufficient. We need to run more algortihms to decide in which period of subset of my aggregation levels should I use which model. Final smart selection part takes care of this question.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 187,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_188",
+    "content": "aggregation levels should I use which model. Final smart selection part takes care of this question.\n- SmoothingMost of the models cannot work well under the highly varying coefficients, for example MA model. Coefficients that are bigger than 3 or 4 cannot be treated good enough since they tend to manipulate final result dramatically. Therefore we need to smooth those coefficients and limit them between speficic ranges.\n- SelectionEach algorithm may work differently for different products, stores or even time periods. Our general approach is using a moving average of 6 with seasonality and price coefficients to find MAPE and decide on the goodness of fit. If we have enough data point, seasonality coefficients were extracted from previous years and used for predicting last 52 weeks. By doing so, we can conclude that which model is doing well for which products - stores - time periods.\n\n## Inputs of the System\n\ndaily_data / weekly_data - columns: ProductId, StoreId, SalesQuantity",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 188,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327792210_189",
+    "content": "ods.\n\n## Inputs of the System\n\ndaily_data / weekly_data - columns: ProductId, StoreId, SalesQuantity\n\nproducts - columns: ProductId, HierarchyLevels\n\nstores: columns: StoreId, StoreType, StoreCluster\n\npromo: columns: ProductId, StoreId, PromoRate\n\n## Outputs of the System\n\nseasonal_coefs - columns : product_related_col, store_related_col, time_related_col, seasonality_coefficient\n\n## Functional Objectives\n\nTo be updated\n\n## Non-functional Objectives\n\nTo be updated",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327792210",
+      "title": "Seasonality Calculation Requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327792210",
+      "updated_by": "Salim Eryiğit (Unlicensed)",
+      "updated_date": "2019-09-04T07:45:54.179Z",
+      "chunk_index": 189,
+      "total_chunks": 190
+    }
+  },
+  {
+    "id": "confluence_~124391329_1327825059_0",
+    "content": "> Tip: Welcome to your space\n> This is your personal space, and you can do whatever you want with it.\n> You could use it to:\n>\n>\n> Create a to-do list\n>\n>\n> Capture rough ideas\n>\n>\n> Store files or useful links\n>\n>\n> Post pictures of your favorite gifs\n>\n>\n> But those are just suggestions. Use it however you'd like.\n> If you'd prefer, you can change the space permissions so nobody else can access this space. Or keep your space open, and add restrictions to individual pages that you want to keep private.\n> To start, you might want to:\n>\n>\n> Customise this overview using the edit icon at the top right of this page.\n>\n>\n> Create a new page by clicking the + in the space sidebar.\n\n---\n\n---\n\n## Search this space\n\n---\n\n---\n\n## Recently updated\n\n> Info: Need inspiration?\n> Check out 5 ways to get the most from your Confluence personal space.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1327825059",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1327825059",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-03T06:55:40.192Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~124391329_1328807937_0",
+    "content": "#### Purpose of Document\n\nThe objective of seasonality calculation module is finding seasonality coefficients/multipliers on the desired aggregation level, i.e. Product/Store, Product, Store, Product/StoreCluster. These coefficients can then be utilized in clustering, forecasts, outlier detection, lost sales and so on.\n\n#### Background",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1328807937",
+      "title": "Seasonality Requirements - 2",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1328807937",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-04T18:16:10.151Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~124391329_1328807937_1",
+    "content": "then be utilized in clustering, forecasts, outlier detection, lost sales and so on.\n\n#### Background\n\nSeasonality calculation plays important role when using any machine learning model that cannot handle seasonality by itself. Consider the moving average (MA) model, it takes last n observations (say for a product-store pair) and generates forecasts by simply taking average of those observations. However, if the time series is highly seasonal, the forecasts can be biased (over or under estimating). As an example, if the time series is at the end of its seasonal period and our previous observations are in season (higher than usual), then our forecast shall be significantly higher than what we will probably observe. In order to correct this difference, we may smooth our previous observation with their seasonality coefficients (deseasonalize),  apply MA, and apply seasonality coefficient to the final result (seasonalize).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1328807937",
+      "title": "Seasonality Requirements - 2",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1328807937",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-04T18:16:10.151Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~124391329_1328807937_2",
+    "content": "nts (deseasonalize),  apply MA, and apply seasonality coefficient to the final result (seasonalize).\n\nSimilar situation can be observed when we try to detect outliers. An observation in high seasonal period may look like an outlier when we compare it with the previous low seasonal data points, but it might be actually what it needs to be. Therefore calculating outliers by considering seasonality coefficients helps us to detect outliers conveniently.\n\nIn addition to those, additional information can be gathered by using those seasonality coefficients. When we want to apply special service levels (or standart deviation parameters) to a product group that sells significantly higher in September (school start period - beginning of autumn etc.)\n\n#### System Purpose\n\nMain purpose of this module is calculating seasonality coefficient to be used in improving forecast accuracy. This calculation can be done in various dimensions, as below:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1328807937",
+      "title": "Seasonality Requirements - 2",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1328807937",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-04T18:16:10.151Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~124391329_1328807937_3",
+    "content": "e used in improving forecast accuracy. This calculation can be done in various dimensions, as below:\n\n| Product Dimension | Store Dimension | Time Dimension |\n| --- | --- | --- |\n| ProductId | StoreId | Day Effects |\n| Hierarchy Levels | Store Type - Chain | Week Effects |\n|  | Store Cluster | Year - Week Effects |\n\n#### Inputs of the System\n\n| Table Name | Is Required | Required Columns |\n| --- | --- | --- |\n| Daily / Weekly Data | True | ProductId, StoreId, Date, SalesQuantity, SalesRevenue |\n| Promo | ASP can be used instead, but not advised | ProductId, StoreId, Date, PromoRate |\n| Calendar | Required for calculating special day effects | Date, Year, Week, WeekIndex, [IsSpecialDay] |\n| Outlier | Can be calculated inside of the module, but not advised | ProductId, StoreId, Date, IsOutlier |\n| Products | Required for hierarchy levels | ProductId, HierarchyLevels |\n| Stores | Required for store cluster or chain information | StoreId, StoreType, StoreCluster |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1328807937",
+      "title": "Seasonality Requirements - 2",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1328807937",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-04T18:16:10.151Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~124391329_1328807937_4",
+    "content": "ls |\n| Stores | Required for store cluster or chain information | StoreId, StoreType, StoreCluster |\n\n#### Outputs of the System\n\n| Table Name | Columns |\n| --- | --- |\n| Seasonality Coefficients | ProductId, StoreId, Day/Week/Date Effects, Coefficient |\n\n#### Functional Objectives\n\n- Calculates week / day effects\n- Calculates special day effects by considering day shifts\n- Handles 53 week - years by shifting weeks / or calculating yearly based coefficients\n- Handles jump in sales, dead items\n- Distinguishes between seasonality and price / promotion effect on sale\n- Handles / smooths outliers that may interrupt seasonality results\n- Calculates special days effects separately\n- Smooths / limits coefficients to prevent over fitting\n- Selects best model for different combinations of products and stores\n\n#### Non-Functional Objectives\n\n- Calculations should be done within x minutes.\n- Module should be robust and modular.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~124391329",
+      "space_name": "Mert Sarıkaya",
+      "page_id": "1328807937",
+      "title": "Seasonality Requirements - 2",
+      "url": "https://invent.atlassian.net/wiki/spaces/~124391329/pages/1328807937",
+      "updated_by": "Mert Sarıkaya (Unlicensed)",
+      "updated_date": "2019-09-04T18:16:10.151Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  }
+]

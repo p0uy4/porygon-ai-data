@@ -1,0 +1,194 @@
+[
+  {
+    "id": "confluence_FS_13992015_0",
+    "content": "## Recent space activity\n\n## Space contributors\n\n## Recently updated",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "13992015",
+      "title": "Flormar S&OP",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/13992015",
+      "updated_by": "Taylan Aydinli (Unlicensed)",
+      "updated_date": "2016-01-07T05:10:11.734Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_FS_13992017_0",
+    "content": "FLORMAR S&OP Otomatizasyon için Adımlar1- Flormar tarafında verinin aktarımının tamamlanması\n\n- Bunu görebilmemiz için Flormar tarafında bir log tutulması\n\n- Şu an mevcut bir log olmadığı için ve Flormar’la toplatımızda görüştüğümüz saatlere istinaden\n\npazartesileri sabaha karşı (03.00-04.00 gibi) bu process’in tamamlanıyor olması lazım.\n\n- Ancak son haftalarda veri tamamlanması ile ilgili sıkıntı yaşıyoruz.\n\n2- Verinin Invent database'ine alınması\n\n- FlormarSOP altında bulunan ve Flormar'dan alınan tüm tablolar için veri aktarımı onlardan log gelene\n\nkadar bu process’i sabah başlatabiliriz. Gökçer bu konuda Flormar’dan teyit alıyor.\n\n- Her hafta yenilenmesi istenilen tablolar:\n\nV_STORES_REP\n\nV_CARI_HIYERARSISI\n\nV_ETICARETSATISLARI\n\nV_MALZEME_HIYERARSI\n\nV_SELLIN_INVENTORY_SOP\n\nV_SELLOUT_INVENTORY_SOP\n\nNot: Bu noktada çalışmaları tamamlandıkça almamız gerekecek başka tablolar olacaktır ancak mevcutta bu\n\ntablolar yeterli olacaktır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "13992017",
+      "title": "FLORMAR S&OP Otomatizasyon için Adımlar",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/13992017",
+      "updated_by": "Gökçer Yapar (Unlicensed)",
+      "updated_date": "2015-11-10T14:31:30.409Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FS_13992017_1",
+    "content": "amlandıkça almamız gerekecek başka tablolar olacaktır ancak mevcutta bu\n\ntablolar yeterli olacaktır.\n\nSon 2 tablo, büyük tablolar olduğundan Gökçer bunlarda ne kadar geçmişe dönük düzeltme yaptıklarını\n\nöğrendi ve tablo alımı buna göre gerçekleşiyor olacak.\n\n3- Aktarım tamamlanınca R kodlarının çalışması\n\n- R kodlarına path tanımlanırken ne şekilde ilerleniyor olacak?\n\n- Mevcut fonksiyonları ve eski çıktıları da kullanıyor olduğundan bunların da aktarılması gerekir.\n\n4- Kodların çalışması bitince Flormar'ın database'ine sonuçların yazılması\n\n[dbo].[FlormarSOP_Output] output tablosunda\n\nthisweek= içinde bulunduğumuz hafta olan veya tabloda maximum olan veriler aktarılıyor olacak.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "13992017",
+      "title": "FLORMAR S&OP Otomatizasyon için Adımlar",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/13992017",
+      "updated_by": "Gökçer Yapar (Unlicensed)",
+      "updated_date": "2015-11-10T14:31:30.409Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FS_17203579_0",
+    "content": "# Süreçler\n\nS&OP projesinin çalışma süreci 4 adımdan oluşur.\n\n## Verinin Invent Tarafına Transferi\n\nVeri Transferi SSIS paketleri kullanılarak yapılmaktadır. Bu paketler PANDORA'da çalışır. Her hafta Pazartesi'yi Salı'ya bağlayan gece, (Gökçer Yapar saatini de yazar misin) Flormar'ın kendi verisini oluşturması bittikten sonra çalıştırılmaktadır. Bu işlemde Flormar'daki veriler, bazı filtreler uygulanarak fakat herhangi bir transformasyon işlemine tabi tutulmadan, doğrudan PANDORA'daki FlormarSOP veritabanına atılmaktadır.\n\n## R Scriptlerinin Çalışması\n\nData Transfer işlemi bittikten sonra R scriptleri çalışmaktadır. Bu scriptler Penelope Server'ında çalışır. Bu scriptler Pandora'da FlormarSOP veritabanında bulunan (Burayı başak sen editle) (tablo isimlerini yazar msın?) isimli tabloları kullanarak CSV dosyaları oluşturmaktadır (Dosyaların basıldığı yeri sonra yazarız). Algoritmanın çalışma detayları Algoritma başlığı altında açıklanmaktadır.\n\n## C# Scriptinin Çalışması",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "17203579",
+      "title": "Çalışma Mekanizması",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/17203579",
+      "updated_by": "Taylan Aydinli (Unlicensed)",
+      "updated_date": "2015-12-29T08:43:54.925Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FS_17203579_1",
+    "content": "lgoritmanın çalışma detayları Algoritma başlığı altında açıklanmaktadır.\n\n## C# Scriptinin Çalışması\n\nR Scriptlerinden sonra, bir C# script'i ile, R scriptlerinin oluşturduğu CSV dosyalarındaki data, PANDORA üzerinde FlormarSOP veritabanında bulunan `FlormarSOP_Output` tablosuna bulk insert yapılır. Bulk insert işleminden sonra (klasör pathi) de bulunan CSV dosyaları silinir.\n\n## S&OP Sonucunun Flormar Tarafına Aktrarılması\n\nC# script'inden sonra PANDORA Server'ında FlormarSOP veritabanındaki `FlormarSOP_Output` tablosundaki veriler, SSIS paketi ile Flormar tarafında bulunan `FlormarSOP_Output` tablosuna yazılır.\n\n# Algoritma\n\nburasi sende",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "17203579",
+      "title": "Çalışma Mekanizması",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/17203579",
+      "updated_by": "Taylan Aydinli (Unlicensed)",
+      "updated_date": "2015-12-29T08:43:54.925Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FS_33456182_0",
+    "content": "Arayüz aşağıda sunulan temel fonksiyon ve çıktıları sunmalıdır:\n\n- Anahtar kullanıcılar (Key users/demand planners): Anahtar kullanıcılar, aynı anda sisteme bağlanıp farklı planlama aksiyonlarını aynı veya farklı anlarda gerçekleştirebilecektir. Her anahtar kullanıcı için yaptığı değişiklikler loglanabilecektir. Gereken zamanlarda, anahtar kullanıcılar için yetkilendirme seviyeleri değiştirilebilecektir. Anahtar kullanıcılar, farklı sorumluluklara sahip olabilirler (farklı satış kanalları, ürün grupları, vb.). Anahtar kullanıcılardan biri süper anahtar kullanıcı olarak tanımlanacaktır ve diğer kullanıcılar için yetki tanımlama/değiştirme/silme işlemlerini yönetecektir.\n\n- Projede, geçmiş satış verilerinden üretilen baz tahmin (sellout ya da sellin) INVENT’ten sisteme girdi olarak gelecektir. Bu durumda sell-in forecast’leri ülke kırılımında almamız gerekir. Haftalık / Aylık disaggregation-aggregation uygulanabilmelidir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "33456182",
+      "title": "Flormar Arayüz İstekleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/33456182",
+      "updated_by": "Serdar Özcan (Unlicensed)",
+      "updated_date": "2016-04-15T13:45:45.025Z",
+      "chunk_index": 0,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FS_33456182_1",
+    "content": "ri ülke kırılımında almamız gerekir. Haftalık / Aylık disaggregation-aggregation uygulanabilmelidir.\n\n- Baz tahminler  Talep Planlama ekibi tarafından farklı bir satırda (gerekirse selline dönüştürülüp) revize edilebilecektir.\n\n- Talep tahmini şu an “ürün grubu” seviyesinde yapılmaktadır ve tahmin tutarlılığı bu seviye üzerinden hesaplanmaktadır. En uygun tahmin seviyesine (forecasting level) analizde birlikte karar verilecek ve planlamaya konu olacak birleştirme/ayrıştırma (aggregation/disaggregation) dinamikleri yine analizde detaylandırılacaktır.\n\n- Baz tahminler, web kullanıcılarının yetki ve sorumluluklarının (ör. uyuşmazlıkların çözüm mekanizması, yetki seviyeleri gibi) Flormar tarafından net biçimde tanımlanması ardından SKU, Ürün Grubu, Kanal, Ülke, Bölge seviyelerine analiz edilebilir ve güncellenebilir olacaktır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "33456182",
+      "title": "Flormar Arayüz İstekleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/33456182",
+      "updated_by": "Serdar Özcan (Unlicensed)",
+      "updated_date": "2016-04-15T13:45:45.025Z",
+      "chunk_index": 1,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FS_33456182_2",
+    "content": "dan SKU, Ürün Grubu, Kanal, Ülke, Bölge seviyelerine analiz edilebilir ve güncellenebilir olacaktır.\n\n- Kabul edilen tahmin seviyesinden farklı seviyelerde tahmin güncelleme imkanı sunmak için (ör. ürün grubu seviyesinde talep tahmini yaparken SKU seviyesinde güncelleme yapmak istendiğinde), INVENT birleştirme ve ayrıştırma (aggregation/disaggregation) mekanizmalarını modelleyecektir.\n\n- Tüm kullanıcılar ilgili tahmin seviyesi için revizyonlarını girebileceklerdir.\n\n- Talep tahminleri aynı zamanda, zaman boyutunda da (hafta/ay/çeyrek/yıl) birleştirilip ayrıştırılabilecektir. En uygun mekanizma, analiz fazında Flormar proje ekibi ile birlikte tanımlanacaktır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "33456182",
+      "title": "Flormar Arayüz İstekleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/33456182",
+      "updated_by": "Serdar Özcan (Unlicensed)",
+      "updated_date": "2016-04-15T13:45:45.025Z",
+      "chunk_index": 2,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FS_33456182_3",
+    "content": "rılabilecektir. En uygun mekanizma, analiz fazında Flormar proje ekibi ile birlikte tanımlanacaktır.\n\n- Talep tahmin senaryoları, farklı tarihlerde yaratılan farklı versiyonları karşılaştırma için kaydedilecektir. Burada istenen çıktıyı doğru üretmek için, kaydetme koşul ve tanımları Flormar ekibiyle birlikte netleştirilecektir (ör. kullanıcı ilgili ay içinde onaylanmış tahmini değiştirmek isterse sistem o anki versiyonu kaydedilen tahminin üzerine mi yazmalıdır?).\n\n- Gelen siparişlerle uzlaşılmış talep planının mahsuplaştırılması ile talep planının performası konusunda izlenebilirlik sağlanacaktır.\n\n- Kullanıcı bazlı güvenlik ve yetkilendirme Flormar ekibi ile tanımlanacaktır (ör. view/no view, edit/no edit yetkileri). Bu yetkilerin bakımı, Flormar ekibinden tanımlanacak süper anahtar kullanıcıya verilecektir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "33456182",
+      "title": "Flormar Arayüz İstekleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/33456182",
+      "updated_by": "Serdar Özcan (Unlicensed)",
+      "updated_date": "2016-04-15T13:45:45.025Z",
+      "chunk_index": 3,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FS_33456182_4",
+    "content": "ileri). Bu yetkilerin bakımı, Flormar ekibinden tanımlanacak süper anahtar kullanıcıya verilecektir.\n\n- Karar destek sisteminin güvenilir ve doğru sonuçlar üretebilmesi için ilgili girdi verilerinin bakımının yapılması önemli bir konudur. Bu verilerin doğruluk ve güvenilirliği Flormar ekibi tarafından sağlanacaktır.\n\n- Geçmiş satış datası, bütçe bilgisi Flormar tarafından ilgili veritabanından sağlanacaktır.\n\n- ICRON S&OP sistemi ile entegrasyonu sağlanacaktır.\n\n- Etkin raporlar hazırlanacaktır. Raporlama ihtiyaçları proje analiz aşamasında detaylı görüşülecek ve analiz tasarım dokümanında Flormar proje ekibi ile birlikte tanımlanacaktır.\n\n- Girdiler\n\n- Invent Sellout Tahmin / Invent Sellin Tahmin\n- Manuel Revizyonlar\n- Geçmiş Satış Verisi\n- Gerçekleşen Müşteri Siparişleri",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "33456182",
+      "title": "Flormar Arayüz İstekleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/33456182",
+      "updated_by": "Serdar Özcan (Unlicensed)",
+      "updated_date": "2016-04-15T13:45:45.025Z",
+      "chunk_index": 4,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FS_33456182_5",
+    "content": "/ Invent Sellin Tahmin\n- Manuel Revizyonlar\n- Geçmiş Satış Verisi\n- Gerçekleşen Müşteri Siparişleri\n\n- Talep Yönetim ModeliBirleştirme ve Ayrıştırma (Aggregation & Disaggregation)İstatistiksel Analiz (Hiyerarşi kırılımları için)Optimizasyon (Hedef gelirden SKU adetlerin hesaplanması)Mahsuplaştırma (Talep Planı-Gelen Siparişler)\n\n- ÇıktılarUzlaşılmış Talep PlanıDeğişikliklerin İzlenmesiKPI Bazlı RaporlamaSenaryo AnalizleriIcron S&OP Entegrasyonu",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "33456182",
+      "title": "Flormar Arayüz İstekleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/33456182",
+      "updated_by": "Serdar Özcan (Unlicensed)",
+      "updated_date": "2016-04-15T13:45:45.025Z",
+      "chunk_index": 5,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FS_56360966_0",
+    "content": "- Flormar S&OP 25.08.2016'da devre disi birakildi.\n- S&OP script'leri TFS'te Flormar SOP projesi altina atildi.\n- Daha once calisan script'lerin olusturdugu datalar (.rdata dosyalari) S3'te invent-misc bucket'i icinde.\n- Flormar S&OP'nin veritabani da en son haliyle backup'landi ve diger DB backup'lariyla ayni lokasyonda.\n\nIleride Flormar S&OP tekrar hayata dondurulecek olursa bu data ve script'lere bu kaynaklardan ulasilabilir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FS",
+      "space_name": "Flormar S&OP",
+      "page_id": "56360966",
+      "title": "25.08.2016 - Flormar S&OP'nin devre disi birakilmasi",
+      "url": "https://invent.atlassian.net/wiki/spaces/FS/pages/56360966",
+      "updated_by": "Taylan Aydinli (Unlicensed)",
+      "updated_date": "2016-08-25T08:13:09.333Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

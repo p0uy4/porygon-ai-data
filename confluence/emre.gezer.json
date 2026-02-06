@@ -1,0 +1,1714 @@
+[
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_4716857169_0",
+    "content": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote).\n\n## 📄 Recent pages that I've worked on\n\n## 🖐 Get in touch\n\n✉️ Insert your email here\n\n💼 Insert your LinkedIn URL here\n\n🔗 Insert your Twitter handle here\n\n👤 Insert your Medium profile here\n\nEnd with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "4716857169",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/4716857169",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2024-12-09T07:23:51.661Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_0",
+    "content": "Bu doküman, müşteriden gelen ürün verilerinin İnvent sistemine nasıl aktarıldığını, sütun adlarının nasıl dönüştürüldüğünü ve bu bilgilerin Broken Assortment’ta nasıl kullanıldığını özetler.\n\n1. [sap].[MainLoad_Product]\n\nMüşteriden S3 aracılığıyla gelen dosyalar (örneğin: MaterialMaster_20250508_10000000000053872957.csv), herhangi bir sütun adı dönüşümü yapılmadan doğrudan sap.Product tablosuna yazılır. Bu işlem MainLoad süreci ile yapılır. Bu adımda veri temizliği veya dönüşüm uygulanmaz; dosyadaki tüm bilgiler birebir aktarılır.\n\n1. [sap].[TransferStagingProducts]\n\nBu prosedür, SAP'den alınan verileri MaviV3.etl.StagingProducts tablosuna dönüştürerek aktarır. Mapping kuralları ve temizlik adımları detaylı şekilde uygulanır. Bunu yaparken geçici tablolar (#Seasonality, #Barcodes, #ProductCosts) kullanılır.\n\na. #Seasonality",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 0,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_1",
+    "content": "Bunu yaparken geçici tablolar (#Seasonality, #Barcodes, #ProductCosts) kullanılır.\n\na. #Seasonality\n\nsaptemp.ProductSeasonHistory tablosundan sezon ve sezon grup bilgisi alınır. Sadece       SznMainGrup dolu, geçerli tarihe denk gelen ve StokId M ile başlayan kayıtlar dahil edilir.\n\nb. #Barcodes\n\nsap.Product tablosundan MALZEME_KODU ve EAN eşleştirilerek ürün barkod bilgisi alınır.\n\nc. #ProductCosts\n\nsaptemp.Cost tablosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 1,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_2",
+    "content": "st tablosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 2,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_3",
+    "content": "t tablosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 3,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_4",
+    "content": "tablosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 4,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_5",
+    "content": "tablosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 5,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_6",
+    "content": "ablosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 6,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_7",
+    "content": "blosundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 7,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_8",
+    "content": "losundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 8,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_9",
+    "content": "osundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 9,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_10",
+    "content": "sundan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 10,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_11",
+    "content": "undan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 11,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_12",
+    "content": "ndan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 12,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_13",
+    "content": "dan her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 13,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_14",
+    "content": "an her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 14,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_15",
+    "content": "n her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 15,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_16",
+    "content": "her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 16,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_17",
+    "content": "her ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 17,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_18",
+    "content": "er ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 18,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_19",
+    "content": "r ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 19,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_20",
+    "content": "ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 20,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_21",
+    "content": "ürün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 21,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_22",
+    "content": "rün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 22,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_23",
+    "content": "ün için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 23,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_24",
+    "content": "n için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 24,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_25",
+    "content": "için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 25,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_26",
+    "content": "için maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 26,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_27",
+    "content": "çin maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 27,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_28",
+    "content": "in maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 28,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_29",
+    "content": "n maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 29,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_30",
+    "content": "maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 30,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_31",
+    "content": "maksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 31,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_32",
+    "content": "aksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 32,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_33",
+    "content": "ksimum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 33,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_34",
+    "content": "simum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 34,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_35",
+    "content": "imum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 35,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_36",
+    "content": "mum StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 36,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_37",
+    "content": "um StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 37,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_38",
+    "content": "m StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 38,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_39",
+    "content": "StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 39,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_40",
+    "content": "StandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 40,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_41",
+    "content": "tandartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 41,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_42",
+    "content": "andartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 42,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_43",
+    "content": "ndartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 43,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_44",
+    "content": "dartMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 44,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_45",
+    "content": "artMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 45,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_46",
+    "content": "rtMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 46,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_47",
+    "content": "tMaliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 47,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_48",
+    "content": "Maliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 48,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_49",
+    "content": "aliyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 49,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_50",
+    "content": "liyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 50,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_51",
+    "content": "iyet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 51,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_52",
+    "content": "yet değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 52,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_53",
+    "content": "et değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 53,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_54",
+    "content": "t değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 54,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_55",
+    "content": "değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 55,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_56",
+    "content": "değeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 56,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_57",
+    "content": "eğeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 57,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_58",
+    "content": "ğeri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 58,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_59",
+    "content": "eri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 59,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_60",
+    "content": "ri alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 60,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_61",
+    "content": "i alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 61,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_62",
+    "content": "alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 62,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_63",
+    "content": "alınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 63,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_64",
+    "content": "lınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 64,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_65",
+    "content": "ınarak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 65,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_66",
+    "content": "narak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 66,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_67",
+    "content": "arak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 67,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_68",
+    "content": "rak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 68,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_69",
+    "content": "ak CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 69,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_70",
+    "content": "k CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 70,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_71",
+    "content": "CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 71,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_72",
+    "content": "CostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 72,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_73",
+    "content": "ostOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 73,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_74",
+    "content": "stOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 74,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_75",
+    "content": "tOfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 75,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_76",
+    "content": "OfGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 76,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_77",
+    "content": "fGoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 77,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_78",
+    "content": "GoodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 78,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_79",
+    "content": "oodsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 79,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_80",
+    "content": "odsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 80,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_81",
+    "content": "dsSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 81,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_82",
+    "content": "sSold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 82,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_83",
+    "content": "Sold olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 83,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_84",
+    "content": "old olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 84,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_85",
+    "content": "ld olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 85,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_86",
+    "content": "d olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 86,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_87",
+    "content": "olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 87,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_88",
+    "content": "olarak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 88,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_89",
+    "content": "larak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 89,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_90",
+    "content": "arak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 90,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_91",
+    "content": "rak atanır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 91,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_92",
+    "content": "| sap.Product | etl.StagingProducts | Açıklama |\n| --- | --- | --- |\n| MALZEME_KODU | ProductCode | İşlem uygulanmadan alınır |\n| MALZEME_TANIM | StokNam | İşlem uygulanmadan alınır |\n|  | AktifSezon | #Seasonality.Season |\n|  | SznGRP | #Seasonality.Seasonality |\n| TR_MODEL | Model | İşlem uygulanmadan alınır |\n| MARKA_KODU | Marka | İşlem uygulanmadan alınır |\n| GENDER_EN | ConsumerType | 'Unknown' olanlar boş kalır |\n| CATEGORY1_EN | AltSinif1 | 'Unknown' olanlar boş bırakılır |\n| CATEGORY2_EN | AltSinif2 | 'Unknown' olanlar boş bırakılır |\n| EN_ALT_SINIF3 | AltSinif3 | 'Unknown' olanlar boş bırakılır |\n| SATIS_FIYAT | KdvsizPrkndYTL | KDV’siz satış fiyatı: SATIS_FIYAT / (1 + (VERGI / 100)) |\n| BOY_DEGER | BedenDikey | NULL ise ‘’ |\n| BEDEN_DEGER | BedenYatay | NULL ise ‘’ |\n|  | BarCode | #Barcodes.Barcode |\n| KARAKTER_BEDEN | OzelKod | İlk karakter kırpılarak alınır: SUBSTRING(..., 2, ...) |\n| VERGI | VAT | İşlem uygulanmadan alınır |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 92,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_93",
+    "content": "İlk karakter kırpılarak alınır: SUBSTRING(..., 2, ...) |\n| VERGI | VAT | İşlem uygulanmadan alınır |\n| MALZEME_TURU | Class | 'ZTIC' → 00 Seri, 'ZDEG' → 88 Değerlendirme |\n| CATI_MALZEME_KODU | RenkKodu | CATI_MALZEME_KODU üzerinden hesaplanır:Eğer TR_MODEL uzunluğu ≥ 7 ise: '-' karakterinden sonrası alınır≤ 6 ise: model uzunluğu kadar son kısım alınır |\n|  | BedenDesc | Eğer BOY_DEGER veya BEDEN_DEGER \"ONE SIZE\" ise → \"ONE SIZE\" olarak yazılır.Her ikisi de boşsa → boş bırakılır.Sadece biri varsa → o değer yazılır.Her ikisi de varsa → BEDEN_DEGER + ' / ' + BOY_DEGER biçiminde yazılır. |\n\n1. [etl].[UpdateProductExtendedProperties]\n\nStagingProducts tablosundaki bazı alanlar, operation.ProductExtendedPropertyValuestablosuna Property–Value formatında yazılır:\n\n| Property | Value |\n| --- | --- |\n| SizeDim1 | BedenYatay |\n| SizeDim2 | BedenDikey |\n| Division | OzelKod |\n| Class | Class |\n| ActivationDate | DropActivationDates.DropActivationDate (Season & ProductGroup eşleşmesiyle) |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 93,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_94",
+    "content": "s |\n| ActivationDate | DropActivationDates.DropActivationDate (Season & ProductGroup eşleşmesiyle) |\n\nÖnce Property != 'EntryDate' olan tüm eski kayıtlar silinir. Ardından tüm alanlar için Value IS NOT NULL olacak şekilde INSERT işlemleri yapılır.\n\n4.Broken Assortment4.a [transfer].[BrokenAssortmentRules_Denim]\n\n- Kullanılan Property’ler:Division = 'ALT'Class != '88 Degerlendirme'SizeDim1 birebir kural eşleşmelerinde kullanılır\n- Ek olarak hiyerarşi kontrolü:Hierarchy2 = 'Denim All'Hierarchy3 IN ('Denim shorts', 'Denim Şort')\n- OptionCode NOT LIKE '%M88%'\n\n4.b [transfer].[BrokenAssortmentRules_Ust]\n\n- Kullanılan Property’ler:Division = 'UST'SizeDim1 bazı eşleşmelerde kontrol edilir\n- Ek kriterler:Hierarchy1 = 'Unisex'SizeCode = 'S'\n\n4.c [transfer].[BrokenAssortmentRules_Kids]\n\n- Property kullanılmaz\n- Filtre:Hierarchy2 IN ('Denim All','Tees','Sweatshirts','Non denim Bottoms')Hierarchy1 IN ('Boys', 'Girls')\n\n4.d [transfer].[BrokenAssortmentRules_Belts]",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 94,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5291048986_95",
+    "content": "s','Non denim Bottoms')Hierarchy1 IN ('Boys', 'Girls')\n\n4.d [transfer].[BrokenAssortmentRules_Belts]\n\n- Property kullanılmaz\n- Filtre: ItemInformationCache.H3 LIKE '%BELT%'",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5291048986",
+      "title": "Broken Assortmentta Product Data Sütunlarının Dönüşümü",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5291048986",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-08T08:22:39.745Z",
+      "chunk_index": 95,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5295144967_0",
+    "content": "Bu belge, `[transfer].[ExecutePreProcessQueries]` prosedürünün çalışmasını, SundayAutoTRN (Auto Run) ile UI üzerinden manuel başlatılan run'lar arasındaki teknik farkları adım adım ve kodlarla detaylı bir şekilde açıklamaktadır.\n\n## SundayAutoTRN (Auto Run)\n\n### 1. Preset Tanımı:\n\n```\nDECLARE @PresetName VARCHAR(30) = (SELECT PresetName FROM engine.AlgoRuns WHERE RunId = @RunId)\nIF (@PresetName LIKE 'SundayAutoTRN%')\n\n```\n\n### 2. Yıl-Hafta Hesaplaması ve Ürün Segmentasyonu:\n\n```\nDECLARE @YearWeek INT = (SELECT YearWeek FROM MaviReporting.report.MaviCalendar WHERE WeekStart <= @TransferTargetDate AND WeekEnd >= @TransferTargetDate)\nDECLARE @IsOdd INT = @YearWeek % 2\n\n```\n\n- Eğer @IsOdd = 0:\n\n```\nHierarchy2 IN ('Denim All', 'Accessories')\n\n```\n\n- Eğer @IsOdd = 1:\n\n```\nHierarchy2 NOT IN ('Denim All', 'Accessories')\n\n```\n\n### 3. #rawproducts Tablosunun Doldurulması:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5295144967",
+      "title": "TRN Pre-Process Akış Dokümantasyonu (SundayAutoTRN)",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5295144967",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-10T08:15:07.880Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5295144967_1",
+    "content": "``\nHierarchy2 NOT IN ('Denim All', 'Accessories')\n\n```\n\n### 3. #rawproducts Tablosunun Doldurulması:\n\n```\nINSERT INTO #rawproducts\nSELECT DISTINCT ip.ProductCode\nFROM data.InventoryPosition ip\nLEFT JOIN operation.Products p ON ip.ProductCode = p.ProductCode\nLEFT JOIN model.View_ProductGroups pg ON p.ProductGroup = pg.GroupId\nWHERE Date >= DATEADD(MONTH,-3,@TransferTargetDate)\n  AND -- (Hierarchy2 şartı yukarıdaki if'e bağlı)\n\n```\n\n### 4. Otomatik Eleme Kuralları:\n\nAşağıdaki kurallara uyan ürünler `#rawproducts` tablosundan silinir:\n\n- Kozmetik: pg.Hierarchy3 = 'Beauty'\n- Sezon dışı: Seasonality NOT IN ('Next','Current','NOS')\n- Kampanya sınıfı: Class = '00 Seri'\n- Açık alım limiti:\n\n```\nNonDenim > 500\nDenimBottoms / Pants > 800\n```\n\n- Raf ömrü < 4 hafta (3 sezon kontrolü)\n\nLoglama:\n\n```\nINSERT INTO MaviReporting.dbo.EliminatedProducts\n```\n\n### 5. AutoWeeklyRunProducts Doldurma:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5295144967",
+      "title": "TRN Pre-Process Akış Dokümantasyonu (SundayAutoTRN)",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5295144967",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-10T08:15:07.880Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5295144967_2",
+    "content": "a:\n\n```\nINSERT INTO MaviReporting.dbo.EliminatedProducts\n```\n\n### 5. AutoWeeklyRunProducts Doldurma:\n\n```\nTRUNCATE TABLE transfer.AutoWeeklyRunProducts\nINSERT INTO transfer.AutoWeeklyRunProducts\nSELECT ProductCode FROM #rawproducts\n```\n\n### 6. Ürün-Mağaza Eşleşmeleri (Cross Join):\n\n```\nINSERT INTO #Pairs\nSELECT p.ProductCode, s.StoreCode\nFROM operation.stores s\nCROSS JOIN (SELECT DISTINCT ProductCode FROM #rawproducts) p\nWHERE s.StoreCode NOT IN (SELECT Store FROM transfer.BlockedStores)\n```\n\n---\n\n## Manuel Run (UI)\n\n### 1. Preset Dışında Başlayan Runlar:\n\nPreset `'SundayAutoTRN%'` değilse manuel UI üzerinden çalıştırılır. Ürün ve mağaza kullanıcı tarafından seçilir.\n\n### 2. Ürün-Mağaza Seçimi:\n\n- Ürünler: transfer.SelectedProductsForUIByRun\n- Eşleşmeler:\n\n```\nINSERT INTO #Pairs\nSELECT Product, Store FROM transfer.SelectedPairsForUIByRun\nWHERE RunId = @RunId\n\n```\n\nBu senaryoda sistematik ürün filtreleme (eliminasyon) işlemi yapılmaz.\n\n---\n\n## Ortak Adımlar (Tüm Run Türleri)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5295144967",
+      "title": "TRN Pre-Process Akış Dokümantasyonu (SundayAutoTRN)",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5295144967",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-10T08:15:07.880Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5295144967_3",
+    "content": "a sistematik ürün filtreleme (eliminasyon) işlemi yapılmaz.\n\n---\n\n## Ortak Adımlar (Tüm Run Türleri)\n\n### 1. BlockedStores Güncellemesi:\n\n```\nTRUNCATE TABLE transfer.BlockedStores\nINSERT INTO transfer.BlockedStores\nSELECT Store FROM replenishment.BlockedStores\n\n```\n\nEk olarak:\n\n```\n-- Satış kanalı 'Store' olmayanlar\n-- Havaalanı mağazaları (örnek: '1901','1902')\n```\n\n### 2. Transfer Bloklama Kuralları:\n\n`#Pairs` üzerinden aşağıdaki koşullarla engelleme yapılır:\n\n- NonReplenishment ürün-mağaza ikilileri → BlockedDestinationsByProduct\n- Son 6 hafta içinde transfer yapılanlar → BlockedOriginsByProduct, BlockedDestinationsByProduct\n- Son 4 haftada shipment/yolda ürün olanlar → BlockedOriginsByProduct\n- İlk defa stok girişi yapılanlar → BlockedOriginsByProduct\n- IA tanımlılığı olmayan kombinasyonlar → BlockedDestinationsByProduct\n\n### 3. Tablolara Yazma:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5295144967",
+      "title": "TRN Pre-Process Akış Dokümantasyonu (SundayAutoTRN)",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5295144967",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-10T08:15:07.880Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5295144967_4",
+    "content": "duct\n- IA tanımlılığı olmayan kombinasyonlar → BlockedDestinationsByProduct\n\n### 3. Tablolara Yazma:\n\n```\nINSERT INTO transfer.BlockedOriginsByProduct (Product, Origin)\n...\nINSERT INTO transfer.BlockedDestinationsByProduct (Product, Destination)\n...\n```\n\n---\n\n## Diğer Notlar\n\n### 1. CapacityTransferRun Durumu:\n\nEğer prosedür `@CapacityTransferRun = 1` parametresiyle çağrılırsa, raf ömrü henüz başlamamış ürünlerin origin olması engellenir. Bu kontrol özellikle planlama sezonları kapsamında yapılır:\n\n- Aktif sezonda veya geçerli sezondan sonra gelen ürünlerin ItemEntryDatesForPSL tablosuna göre raf ömrü giriş tarihi kontrol edilir.\n- Ürünlerin, option bazlı stok girişi olup olmadığına ve yeterli ürün sayısına bakılır.\n- Gerekirse SAP’den gelen EN_PLAN_SHELF_LIFE_WEEK değerine göre gün hesabı yapılır:\n\n```\nDATEDIFF(day, OptionEntryDate, @TransferTargetDate) < p.EN_PLAN_SHELF_LIFE_WEEK * 7\n```\n\nBu ürünler `BlockedOriginsByProduct` tablosuna yazılır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5295144967",
+      "title": "TRN Pre-Process Akış Dokümantasyonu (SundayAutoTRN)",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5295144967",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-10T08:15:07.880Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5311397892_0",
+    "content": "## 1.Müşteri Dosyasının Formatlanması ve SQL için Hazır Hale Getirilmesi\n\nMüşteri tarafında gönderilen Excel dosyasındaki sütun yapısı aşağıdaki sırayla olmalıdır:\n\nBu yapıya göre sistemdeki tabloya veri aktarımı yapılabilmesi için, boş bir hücreye aşağıdaki formül yazılır ve aşağıya doğru sürüklenerek tüm satırlar için uygulanır:\n\n`=\"INSERT INTO table_name VALUES('\"&A2&\"','\"&B2&\"','\"&C2&\"','\"&D2&\"','\"&E2&\"','\"&F2&\"')\"`\n\n## 2. Yeni Tablo Yaratılması ve Doldurulması\n\nSistemde bu değerlerin yükleneceği tablo aşağıdaki yapıya sahip olmalıdır:\n\nÖrnek tablo adı:\n`MaviAnaliz.[dbo].[GurbetciMagazalar_2025]`\n\nExcel’de oluşturulan `INSERT INTO` komutları, SQL Server üzerinde ilgili tabloyla ilgili çalıştırılmalıdır. Excel dosyasındaki ürün sayısı ile SQL'e aktarılan kayıt sayısının birebir eşleştiğinden emin olunmalıdır.\n\n## 3. ClusterValuesUpdate SP Üzerinde Güncelleme\n\n### 3.1",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5311397892",
+      "title": "Mavi Katsayılarının Tanımlanması ve Kontrol Adımları",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5311397892",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-24T09:04:55.823Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5311397892_1",
+    "content": "n birebir eşleştiğinden emin olunmalıdır.\n\n## 3. ClusterValuesUpdate SP Üzerinde Güncelleme\n\n### 3.1\n\nKatsayılar RPL sürecinde kullanılmak üzere prosedürün içinde aşağıdaki bloğun altındaki yerlerde gerekli yerlerde değiştirilir. Commented out olmuş bazı kısımların açılıp çalıştırılması gerekir.\n\n```\n----------------------\n ------------------------ Insert Special Day Effects\n ----------------------\n```\n\n```\nCREATE TABLE #newyear (StoreCode NVARCHAR(30), Hierarchy1 NVARCHAR(30), Hierarchy2 NVARCHAR(30), Hierarchy3 NVARCHAR(30),Season NVARCHAR(30), Lift NVARCHAR(30))\n BEGIN\n  INSERT INTO #newyear --2204\n SELECT\n a.StoreCode,\n a.Hierarchy1,\n a.Hierarchy2,\n a.Hierarchy3,\n a.Class Season,\n a.Multiplier Lift\nFROM MaviAnaliz.[dbo].[GurbetciMagazalar_2025] a\nEND\n```\n\n### 3.2\n\nKatsayının geçerli olacağı tarih aralığı aşağıdaki gibi tanımlanır:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5311397892",
+      "title": "Mavi Katsayılarının Tanımlanması ve Kontrol Adımları",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5311397892",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-24T09:04:55.823Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5311397892_2",
+    "content": "azalar_2025] a\nEND\n```\n\n### 3.2\n\nKatsayının geçerli olacağı tarih aralığı aşağıdaki gibi tanımlanır:\n\n```\nINSERT INTO Maviv3.model.specialdays\nVALUES\n('GurbetciMagazalar_2025', '2025-07-18'),\n('GurbetciMagazalar_2025', '2025-07-19'),\n('GurbetciMagazalar_2025', '2025-07-20'),\n.\n.\n.\n('GurbetciMagazalar_2025', '2025-09-10')\n```\n\nBu tarih aralığı, müşterinin istediği tarihten biraz ilerisini kapsayacak şekilde belirlenmelidir (cover period).\nAncak müşterinin belirttiği gün için sistemde manuel kapanış yapılması gerekir.\n\n### 3.3\n\nYeni tanımlanan isimle çakışma olmaması için DISTINCT ID’ler aşağıdaki şekilde seçilir ve yeni tanımladığımız katsayılar için yeni bir name verilir.\n\n```\nSELECT DISTINCT\nId\nINTO #IDs\nFROM Maviv3.model.specialdays\nWHERE Name='GurbetciMagazalar_2025'\n```\n\n### 3.4 SP Güncellenip Çalıştırılır\n\nYukarıdaki değişiklikler yapıldıktan sonra prosedür `ALTER PROCEDURE` komutu ile güncellenir ve `EXEC` edilerek çalıştırılır.\n\n## 4.Kontroller\n\n### 4.1",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5311397892",
+      "title": "Mavi Katsayılarının Tanımlanması ve Kontrol Adımları",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5311397892",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-24T09:04:55.823Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5311397892_3",
+    "content": "`ALTER PROCEDURE` komutu ile güncellenir ve `EXEC` edilerek çalıştırılır.\n\n## 4.Kontroller\n\n### 4.1\n\nKatsayıların doğru şekilde uygulandığından emin olmak için aşağıdaki sorgu ile Maviv3.forecast.ForecastSpecialDayEffect tablosunun gerekli tarihe kadar doluluğunu kontrol edilmelidir.\n\n```\nSELECT Date,COUNT(*)\nFROM Maviv3.forecast.ForecastSpecialDayEffect  T1\nINNER JOIN Maviv3.model.specialdays T2 ON T1.SpecialDayId=T2.ID\nWHERE Name='GurbetciMagazalar_2025'\nGROUP BY Date ORDER BY DATE DESC\n```\n\n### 4.2\n\nKatsayıların FC Üzerindeki Etkisini Kontrol Etme\n\nYeni katsayıları tanımladıktan sonra  canlı sistemde katsayıların etkili olup olmadığını kontrol etmek için, ilgili Forecast Run ID (örnek: 60962) üzerinden aşağıdaki sorguyu çalıştırmanız gerekmektedir:\n\n```\nSELECT TYPE,SUM(Forecast)\nfrom Maviv3.forecast.ForecastResults\nWHERE RUNID=60962\ngroup by TYPE\n```\n\n- naive → Katsayısız forecast sonucu\n- multip → Katsayı uygulanmış (naive * multiplier) forecast sonucu",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5311397892",
+      "title": "Mavi Katsayılarının Tanımlanması ve Kontrol Adımları",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5311397892",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-24T09:04:55.823Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120203d714223407b4114b77ad5cc50b727dc_5311397892_4",
+    "content": "aive → Katsayısız forecast sonucu\n- multip → Katsayı uygulanmış (naive * multiplier) forecast sonucu\n\nBu şekilde iki tür değer geliyor ve multip satırındaki değer naive'ın çarpılmış haliyse, katsayılar başarıyla uygulanmış demektir.\n\n## 5.IA İçin Tanımlama Yapılması Gerekirse\n\nEğer ilgili mağaza–ürün–sezon kombinasyonları için IA (Initial Allocation) sürecinde de katsayıların etkisinin görülmesi isteniyorsa,\n\n```\nUSE [Maviv3]\nSELECT\n\tl.StoreCode StoreCode,\n\tpg.GroupID ProductGroup,\n\tl.Multiplier * 100.0 Multiplier,\n\tCASE WHEN Class = '88 Degerlendirme' THEN 'Degerlendirme' ELSE 'Standard' END AS  ProjectionType\nINTO #TEMP\nFROM\nMaviAnaliz.[dbo].GurbetciMagazalar_2025 l\nLEFT JOIN model.view_ProductGroups pg ON\n\tl.Hierarchy1 = pg.Hierarchy1 AND\n\tl.Hierarchy2 = pg.Hierarchy2 AND\n\tl.Hierarchy3 = pg.Hierarchy3\nWHERE\n\tpg.Hierarchy4 IS NULL\n\ntruncate table  MaviV3.[initialallocation].[Multipliers]\nINSERT INTO [initialallocation].[Multipliers]\nSELECT\n\t*\nFROM #TEMP\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120203d714223407b4114b77ad5cc50b727dc",
+      "space_name": "emre.gezer",
+      "page_id": "5311397892",
+      "title": "Mavi Katsayılarının Tanımlanması ve Kontrol Adımları",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120203d714223407b4114b77ad5cc50b727dc/pages/5311397892",
+      "updated_by": "Emre Gezer",
+      "updated_date": "2025-07-24T09:04:55.823Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "confluence_~264539638_1183678639_0",
+    "content": "> Info: Welcome to Confluence, a shared and open workspace for all your team’s knowledge, expertise, and important decisions. We’ve put together this short guide to help you create dynamic content in Confluence, see what other people are working on, and connect with your coworkers. Take a look, then start exploring for yourself. To come back to this page, just tap your profile picture in the lower left and choose Personal space.\n\n### Action items\n\n24\nincomplete\nCatch up on popular content. Tap the Confluence logo in the top left and choose Activity to see recent pages and posts. Choose Popular to see pages and posts in order of popularity.\n\n25\nincomplete\nExplore the people directory. Tap the magnifying glass to open the search drawer, then type in a coworker’s name to see their profile in the [people directory](https://confluence.atlassian.com/cloud/people-directory-939512608.html). Check out their Worked on pages to see what they’ve been up to.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~264539638",
+      "space_name": "Ecem Sever",
+      "page_id": "1183678639",
+      "title": "Get to know Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~264539638/pages/1183678639",
+      "updated_by": "Ecem Sever (Unlicensed)",
+      "updated_date": "2019-04-09T20:26:43.828Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~264539638_1183678639_1",
+    "content": "ud/people-directory-939512608.html). Check out their Worked on pages to see what they’ve been up to.\n\n26\nincomplete\nUpdate your user profile. Tap on your avatar in the bottom left, then select Profile to view your profile in the [people directory](https://confluence.atlassian.com/cloud/people-directory-939512608.html). To add or edit your information, choose Manage your account.\n\n27\nincomplete\nCreate your first page. Choose from one of our [best practice templates](https://www.atlassian.com/software/confluence/templates) or build the perfect page from scratch. If you’re new to the team, try introducing yourself with a [blog post](https://www.atlassian.com/blog/it-teams/internal-blogging-knowledge-sharing).\n\n28\nincomplete\nGet the mobile app. [Download the Confluence Cloud mobile app](https://www.atlassian.com/software/confluence/mobile-app), so you can jot down notes, share ideas, and keep up with your team when you’re on the go.\n\n### Tips and tricks",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~264539638",
+      "space_name": "Ecem Sever",
+      "page_id": "1183678639",
+      "title": "Get to know Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~264539638/pages/1183678639",
+      "updated_by": "Ecem Sever (Unlicensed)",
+      "updated_date": "2019-04-09T20:26:43.828Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~264539638_1183678639_2",
+    "content": "jot down notes, share ideas, and keep up with your team when you’re on the go.\n\n### Tips and tricks\n\n- How to build Confluence spaces for any team or project\n- Create engaging Confluence pages in 4 easy steps\n- Provide feedback and in-line comments (video)\n- A quick and easy guide to Confluence shortcuts\n- 5 Confluence Cloud mobile tips for 2019",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~264539638",
+      "space_name": "Ecem Sever",
+      "page_id": "1183678639",
+      "title": "Get to know Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~264539638/pages/1183678639",
+      "updated_by": "Ecem Sever (Unlicensed)",
+      "updated_date": "2019-04-09T20:26:43.828Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  }
+]

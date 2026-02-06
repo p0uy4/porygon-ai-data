@@ -1,0 +1,34 @@
+[
+  {
+    "id": "confluence_RPLUI_3788963979_0",
+    "content": "Welcome to your new space!\nSpaces help your team structure, organize, and share work, so every team member has visibility into institutional knowledge and access to the information they need to do their best work.\n\n# Get started with the basics\n\nStart editing this page:\n\n11\nincomplete\nClick the pencil icon ✏️ or `e` on your keyboard to edit and start typing. You can edit anywhere.\n\n13\nincomplete\nHit `/` to see all the types of content you can add to your page. Try `/image` or `/table`\n\n14\nincomplete\nUse the toolbar at the top to play around with *font*, colors, formatting, and more\n\n15\nincomplete\nClick `close` to save your draft or `publish` when your page is ready to be shared\n\n#### 🪄 Need some inspiration?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "RPLUI",
+      "space_name": "RPL UI Squad",
+      "page_id": "3788963979",
+      "title": "RPL UI Squad Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/RPLUI/pages/3788963979",
+      "updated_by": "Ali Aslantürk (Unlicensed)",
+      "updated_date": "2023-05-17T04:16:10.873Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_RPLUI_3788963979_1",
+    "content": "to save your draft or `publish` when your page is ready to be shared\n\n#### 🪄 Need some inspiration?\n\n- Check out our Confluence best practices guide.\n- Get a quick intro into what spaces are and how to best use them at Set up your site and spaces.\n- Check out our guide for ideas on how to set up your space overview.\n- If starting from a blank space is daunting, try using one of the space templates instead.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "RPLUI",
+      "space_name": "RPL UI Squad",
+      "page_id": "3788963979",
+      "title": "RPL UI Squad Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/RPLUI/pages/3788963979",
+      "updated_by": "Ali Aslantürk (Unlicensed)",
+      "updated_date": "2023-05-17T04:16:10.873Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

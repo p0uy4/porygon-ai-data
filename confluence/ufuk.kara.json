@@ -1,0 +1,66 @@
+[
+  {
+    "id": "confluence_~7120201f36f1924ac44b0eb47d0e386494b028_5410915918_0",
+    "content": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote).\n\n## 📄 Recent content that I've worked on\n\n## 🖐 Get in touch\n\n✉️ Insert your email here\n\n💼 Insert your LinkedIn URL here\n\n🔗 Insert your Twitter handle here\n\n👤 Insert your Medium profile here\n\nEnd with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120201f36f1924ac44b0eb47d0e386494b028",
+      "space_name": "ufuk.kara",
+      "page_id": "5410915918",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120201f36f1924ac44b0eb47d0e386494b028/pages/5410915918",
+      "updated_by": "Ufuk Kara",
+      "updated_date": "2025-09-01T07:02:39.911Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~7120201f36f1924ac44b0eb47d0e386494b028_5693833217_0",
+    "content": "> Info: Welcome to the Shield module! In this training, you will gain the essential knowledge and practical insights you need to understand and apply Shield effectively, supported by detailed slides and engaging video tutorials.\n\nTable of Contents",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120201f36f1924ac44b0eb47d0e386494b028",
+      "space_name": "ufuk.kara",
+      "page_id": "5693833217",
+      "title": "Duplicate of 3.1 Helper Tools (Enabler) - Airflow",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120201f36f1924ac44b0eb47d0e386494b028/pages/5693833217",
+      "updated_by": "Ufuk Kara",
+      "updated_date": "2025-11-24T12:50:44.663Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~7120201f36f1924ac44b0eb47d0e386494b028_5693833217_1",
+    "content": "ly Shield effectively, supported by detailed slides and engaging video tutorials.\n\nTable of Contents\n\n| Training Steps | Resource | Status | Feedback / Comment |\n| --- | --- | --- | --- |\n| 1. AirflowHow to set up local airflow?What are the process actions of airflow? |  |  |  |\n| 1.1 Read the “Local Airflow Setup” document. | Local Airflow Setup | 3373 58891cdd-654f-4f6d-a16c-c83334dab60d complete |  |\n| 1.2. Read the “Actions to Take During the Process” document. | Actions to Take During the Process | 3374 d81434ba-56b3-46af-adc6-4887949824c8 complete |  |\n| 1.3 Read the “Accessing Job Inputs” document. | Accessing Job Inputs | 3375 2ac9ef7c-b777-4f6d-b4c8-5cd085a2822a complete |  |\n| 1.4 Watch the “Airflow Alfamart Handover” video. | https://drive.google.com/file/d/1G4dHtyV88vuGbhsL3XAP01SSkI_2q-kc/view | 3376 08aada2e-dca1-4199-aeb6-c3139516cf02 complete |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120201f36f1924ac44b0eb47d0e386494b028",
+      "space_name": "ufuk.kara",
+      "page_id": "5693833217",
+      "title": "Duplicate of 3.1 Helper Tools (Enabler) - Airflow",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120201f36f1924ac44b0eb47d0e386494b028/pages/5693833217",
+      "updated_by": "Ufuk Kara",
+      "updated_date": "2025-11-24T12:50:44.663Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~7120201f36f1924ac44b0eb47d0e386494b028_5696716801_0",
+    "content": "> Info: Welcome to the Shield module! In this training, you will gain the essential knowledge and practical insights you need to understand and apply Shield effectively, supported by detailed slides and engaging video tutorials.\n\nTable of Contents\n\n| Training Steps | Resource | Status | Feedback / Comment |\n| --- | --- | --- | --- |\n| 1. Shield |  |  |  |\n| 1.1 Read the “Default Pipelines” document. | Default Pipelines | 1 1 complete |  |\n| 2. Shield & Airflow |  |  |  |\n| 2.1 Read the “Daily DAG and fabbrica.yaml” document. | Daily DAG and fabbrica.yaml | 3 3 complete |  |\n| 3. Pre ETLHow to write pre-ETLs? |  |  |  |\n| 3.1 Read the “How to Write PreETLs” document. | How to Write PreEtls? | 3343 36cdcc94-2ac5-40c9-8a41-2e1f071c56cb incomplete |  |\n| 4. Shield Cluster Configuration |  |  |  |\n| 4.1 Read the “Cluster Configuration” document. | Cluster Configuration | 3344 e313e78f-6ed9-4137-8e36-fe5db1ebfbe4 incomplete |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120201f36f1924ac44b0eb47d0e386494b028",
+      "space_name": "ufuk.kara",
+      "page_id": "5696716801",
+      "title": "Duplicate of 1.4 Rocks - Shield",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120201f36f1924ac44b0eb47d0e386494b028/pages/5696716801",
+      "updated_by": "Ufuk Kara",
+      "updated_date": "2025-12-22T14:30:28.316Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

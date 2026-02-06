@@ -1,0 +1,66 @@
+[
+  {
+    "id": "confluence_~ekin.alkan_58261519_0",
+    "content": "Okumalar\n\n@1-19 Eylül Arası\n\n18\ncomplete\nThe New Science of Retailing (Chapter 3)\n\n19\ncomplete\n Retail Terimleri Sözlüğü\n\n20\ncomplete\nConfluence → Replenishment sekmesi\n\n21\ncomplete\nConfluence → Replenishment Sıkça Sorulan Sorular\n\n38\ncomplete\nGüven Stoğu --> [https://www.lokad.com/calculate-safety-stocks-with-sales-forecasting](https://www.lokad.com/calculate-safety-stocks-with-sales-forecasting)\n\n51\ncomplete\nReorder point calculation ([Lokad.com](http://Lokad.com) da articlelar exceller vs var. )\n\n52\ncomplete\nTurkish retail sector / moda perakende\n\n53\ncomplete\n Topics in retail analytics\n\n54\ncomplete\n Moving average\n\n55\ncomplete\nRegression\n\n56\ncomplete\n Out of stock analysis / Lost sales analysis  ([http://static1.1.sqspcdn.com/static/f/1249295/16522962/1330784495440/OutofStock-Anaysis.pdf?token=vhgYmofTyYuejWkCYAkYTuGYyWc%3D](http://static1.1.sqspcdn.com/static/f/1249295/16522962/1330784495440/OutofStock-Anaysis.pdf?token=vhgYmofTyYuejWkCYAkYTuGYyWc%3D))\n\n@ 19-25 Eylül Arası",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~ekin.alkan",
+      "space_name": "Ekin Alkan",
+      "page_id": "58261519",
+      "title": "Servis Analisti Eğitim Planı",
+      "url": "https://invent.atlassian.net/wiki/spaces/~ekin.alkan/pages/58261519",
+      "updated_by": "Fatih Üşen (Unlicensed)",
+      "updated_date": "2017-08-04T12:52:35.188Z",
+      "chunk_index": 0,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~ekin.alkan_58261519_1",
+    "content": "962/1330784495440/OutofStock-Anaysis.pdf?token=vhgYmofTyYuejWkCYAkYTuGYyWc%3D))\n\n@ 19-25 Eylül Arası\n\n57\ncomplete\n SQL training / yazılan kodların üzerinden geçilmesi. temel sql kodlarının öğrenilmesi\n\n58\ncomplete\nMaps tablolarının incelenmesi (Servis IT den birisiyle çalışarak olmalı)\n\n59\ncomplete\nTableau raporların incelenmesi\n\n60\ncomplete\nGünlük olarak Servis Analistleri ile1 er saatlik çalışma set edilmesi. 1-2 hafta bu şekilde training verelim. Analist o gün yaptığı işleri ve nasıl yaptığını özetlesin ve training amaçlı tasklar versin\n\n61\nincomplete\n Proje analistlerinin servis işlerini yaparken beraber çalışılması\n\nExtralar\n\n65\nincomplete\n\n\nSistemsel\n\n@1-7 Eylül Arası\n\n27\ncomplete\nTableau download ve gezinme\n\n28\ncomplete\nJIRA ve Confluenca'a kayıt olma\n\n29\ncomplete\nFlo, Mavi, Toypa ve diğer servis müşterilerinin arayüzlerine girmek için kullanıcı açma\n\n30\ncomplete\nServis müşterilerinin DBlerine giriş yapabilmek için kullanıcı adı ve şifreleri öğrenme",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~ekin.alkan",
+      "space_name": "Ekin Alkan",
+      "page_id": "58261519",
+      "title": "Servis Analisti Eğitim Planı",
+      "url": "https://invent.atlassian.net/wiki/spaces/~ekin.alkan/pages/58261519",
+      "updated_by": "Fatih Üşen (Unlicensed)",
+      "updated_date": "2017-08-04T12:52:35.188Z",
+      "chunk_index": 1,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~ekin.alkan_58261519_2",
+    "content": "30\ncomplete\nServis müşterilerinin DBlerine giriş yapabilmek için kullanıcı adı ve şifreleri öğrenme\n\n32\ncomplete\n[tableau.inventanalytics.com](http://tableau.inventanalytics.com)'a giriş yapma\n\n34\ncomplete\nServis müşterilerinin mail gruplarına üye olma\n\n36\ncomplete\nR ve R Studio kurma\n\n77\ncomplete\nSQL kurma\n\nMAPS Eğitimi İçeriği (7-8-9 Eylül, )\n\n78\ncomplete\nProjelerin kabaca akışının anlatılması (DT – Forecast – RT vs)\n\n79\ncomplete\nSistemin çalışma saatleri nelerdir? Proje bazlı conf dokümanına yönlendirelim\n\n80\ncomplete\nSistemin T anında nerede olduğunu nasıl kontrol ederiz?\n\n81\ncomplete\nBir store sku için ham data – hesaplanan forecast – standart dev – RT örneği üzerinden geçilmesi\n\n82\ncomplete\nLS örnekleri üzerinden geçilmesi (son haftanın bir kısmında SO yaşayan pairi gösterelim ve sonraki hafta buna hesaplanan LS yi gösterelim)\n\n83\ncomplete\nÖzel gün öncesi forecast artışı örnek\n\n84\ncomplete\nOtomatik ve manual servis maillerinin anlamı nedir? İçeriğin üzerinden geçilmesi",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~ekin.alkan",
+      "space_name": "Ekin Alkan",
+      "page_id": "58261519",
+      "title": "Servis Analisti Eğitim Planı",
+      "url": "https://invent.atlassian.net/wiki/spaces/~ekin.alkan/pages/58261519",
+      "updated_by": "Fatih Üşen (Unlicensed)",
+      "updated_date": "2017-08-04T12:52:35.188Z",
+      "chunk_index": 2,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~ekin.alkan_58261519_3",
+    "content": "örnek\n\n84\ncomplete\nOtomatik ve manual servis maillerinin anlamı nedir? İçeriğin üzerinden geçilmesi\n\n85\ncomplete\nMapsteki temel tabloların üzerinden geçilmesi (Store master- product master – IP – WH inventory - )\n\n86\nincomplete\nConfluence forecasting & RT dokümanlarının gösterilmesi. RT hesaplama ve Forecast hesaplama kısmının pseudo code unun örnek olarak açıklanması\n\nNOT: Buradaki örnekleri excele vs alıp yapabiliriz fakat örnekleri bulmada kullanılan sqlleri run etmeyi vs gösterelim.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~ekin.alkan",
+      "space_name": "Ekin Alkan",
+      "page_id": "58261519",
+      "title": "Servis Analisti Eğitim Planı",
+      "url": "https://invent.atlassian.net/wiki/spaces/~ekin.alkan/pages/58261519",
+      "updated_by": "Fatih Üşen (Unlicensed)",
+      "updated_date": "2017-08-04T12:52:35.188Z",
+      "chunk_index": 3,
+      "total_chunks": 4
+    }
+  }
+]

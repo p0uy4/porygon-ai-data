@@ -1,0 +1,962 @@
+[
+  {
+    "id": "confluence_NSA_224231438_0",
+    "content": "System will define starting inventory amounts per SKU for the new store. The amounts will be decided by the replenishment period of the store. For doing this kind of a prediction; we need a way to decide on similar stores. Also since new store inventory tends to be bulked up (aim of having high in-stock rates; it was the case for GNC), this problem calls up for a higher ROP than the regular ROP (our prediction is worse since we work with similar stores and service level is higher).\n\nFor the specific GNC project, starting inventory decisions will be made on a larger batch of products in the Invent's side and GNC will select among them. The results will be shared on a regular basis.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "224231438",
+      "title": "Problem Definition",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/224231438",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-28T10:05:54.151Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_NSA_224591886_0",
+    "content": "System Summary:\n\n- How many new stores are getting into the system? (by year / month / quarter / week).\n- When does the replenishment start after initial allocation?\n- How the store's sales pattern aligns with the stores which are close to that? Store ADI compared to the stores in the same region etc.\n- What happens the close store sales after the new store launch? Is there any decrease in sales?\n\nCurrent Solution Analysis:\n\n- How does the in-stock rate of a new store perform following the launch? Is the in-stock rate of the first month in line with the subsequent periods?\n- How the initial allocation amount changes through new stores in current system? same for all / changes by store size / store cluster etc.\n\nSolution Analysis:Live System Performance Metrics / Reports:\n\n- First 8 weeks of lost sales\n- In-stock rates\n- Weeks of supply",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "224591886",
+      "title": "Analysis Steps",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/224591886",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-28T11:15:26.595Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_0",
+    "content": "For the solution algorithm, we are using sales data from similar stores and product features. After deciding on the initial features, we have used several models (Lasso, Ridge, XGBOOST) and compared their performance. At this part, our metric was combination of lost sales and inventory cost for the 28 day period. Lasso and Ridge functions in R doesn't support NA values and even in non-NA cases XGBOOST performed better on training and test sets; therefore the engine is built using XGBOOST.\n\nNote: In this part, I have tried to use generalized additive models because of the its ability to facilitate negative binomial as the distribution (which might be useful for low selling items), but because of my current technical competency couldn't decide on the parameters. Still, I will share the training and test data with the R code for quickly checking different models.\n\n## Data Preparation\n\nHere is the list of features in the XGBOOST algorithm:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 0,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_1",
+    "content": "cking different models.\n\n## Data Preparation\n\nHere is the list of features in the XGBOOST algorithm:\n\n- Same planogram store count\n- Average sales for same planogram\n- Maximum sales for same planogram segment\n- Same city store count\n- Average sales for same city\n- Maximum sales for same city\n- Same ZIP store count\n- Average sales for same ZIP\n- Maximum sales for same ZIP\n- Trend ratio\n- Top 250 or not (binary)\n- Has lead or not (binary)\n- Lead Quantity\n- Product Group 1\n- ASP (if ASP is not available use Price)\n- Cost\n- Population based on ZIP code\n- Median income based on ZIP code\n\nFirst step is deciding on the active item list to generate targets. For testing, we have used active item list provided by GNC in the opening day of the store. For the engine, it is not possible since active items are yet to be decided on. Therefore we are working on a larger set, decided by the query:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 1,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_2",
+    "content": "tive items are yet to be decided on. Therefore we are working on a larger set, decided by the query:\n\n```sql\nSELECT DISTINCT ProductCode as Product\n  FROM GNCStaging.raw.ProductStore\n WHERE Storecode in (SELECT Storecode\n                        FROM GNCStaging.raw.Stores\n                        WHERE ChannelType in ('Corporate','Military'))\n        AND ActiveItem = 'Y'\n   GROUP BY ProductCode\n       HAVING COUNT(*)>1 -- Active product in at least 2 stores\n```\n\nNext part is deciding on the similar stores. I think this is the most customer based part of the solution. We have used 3 different similarity categories; same city, same ZIP code and same assortment planogram segments. First 2 categories is obvious. 3rd one is provided by GNC, showing what segment of each product group will be sent to the new store. Example row:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 2,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_3",
+    "content": "vided by GNC, showing what segment of each product group will be sent to the new store. Example row:\n\n*Currently this data is not fed into our database automatically, therefore there is a need to add the new store segments to GNCStaging.dbo.StorePlanogramSegments manually.*\n\nIn deciding on the similarity, we have used several features when there are more than 5 similar stores in a category (i.e. there might be 198 stores in the same planogram segment). Deciding on the similarity features will need to be done from scratch for each client. For the GNC example, we have focused on square foot (-200, +50; result of analysis), location (outlet, mall, strip center) and replenishment cycle (all new stores has replenishment cycle of 1 week). Sales revenue/quantity for the new store was compared with the similar stores in deciding the features.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 3,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_4",
+    "content": "es revenue/quantity for the new store was compared with the similar stores in deciding the features.\n\nAfter deciding the similar stores, we need to have sales data for active items in the similar stores. In this part, we use expanded store data. In here, we are getting sales data from the last 28 day with stock. If there isn't stock for 28 days, we just extrapolate ([28/stocked days]*[Sales in the stocked days]). If there is a negative value, it is equalized to 0. For each store - product pair, we calculate the same planogram segment store count (if there are 4 stores but some products are active only in 1 store, we have 1 at that column for that pair). Maximum sales is obvious in its name; we tested the feature and it worked well.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 4,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_5",
+    "content": "lumn for that pair). Maximum sales is obvious in its name; we tested the feature and it worked well.\n\n- Trend ratio is calculated from last year; sales ratio of the period used for forecasting and 28 day period of the opening store. This is a product based metric and found using GNC.data.InventoryPosition table. Minimum and maximum trends are capped since in our replenishment engine we are capping the multipliers (1.65 and 0.65).\n- Top250 item is found from [GNCReporting].[dbo].[ProductsSaleRank] table, based on ProductOverAllSalesQRank column.\n- If an item has lead, that feature is added with the lead quantity from [GNCStaging].[raw].[ComponentProduct] table.\n- ASP is found from [GNCReporting].[test].[ProductASPFinal]\n- Rest of the features are from GNCStaging.raw.Products table.\n- Population is found from Census data and median income is found from taxation data of US.\n\n## Model Description\n\nModel works in 2 steps:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 5,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_6",
+    "content": "and median income is found from taxation data of US.\n\n## Model Description\n\nModel works in 2 steps:\n\n- Prediction using an previously trained XGBOOST model\n- ROP calculation based on the predictions\n\nTraining of the model is the important part. First of all, we used the targets from Pegasus to train the model. Sales data is incomplete when there is a stock out in a pair; therefore we relied on demand generation of Pegasus to train the model.\n\nIn training, there were several tricks used. Pairs with at least 1 demand are used in training (in forecasting competitions of Kaggle this was the way to go and it worked). Also we used log conversion of targets. Log conversion is used to make residuals look more like normal distribution; even though it wasn't good enough. Some more transformations might be used to increase the model performance, especially for linear models.\n\nParameter tuning is done via grid search. Example code is given as:\n\n```ruby\nXGBoost Parameter Selection Deneme",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 6,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_7",
+    "content": "uning is done via grid search. Example code is given as:\n\n```ruby\nXGBoost Parameter Selection Deneme\n\n best_param <- list()\n best_seednumber <- 1234\n best_rmse <- Inf\n best_rmse_index <- 0\n\n set.seed(42)\n for (iter in 1:100) {\n   param <- list(objective = \"reg:linear\",\n                 eval_metric = \"rmse\",\n                 max_depth = sample(4:10, 1),\n                 eta = runif(1, .01, .3), # Learning rate, default: 0.3\n                 subsample = runif(1, .6, .9),\n                 colsample_bytree = runif(1, .5, .8),\n                 min_child_weight = sample(1:40, 1),\n                 max_delta_step = sample(1:10, 1)\n   )\n   cv.nround <-  1000\n   cv.nfold <-  5 # 5-fold cross-validation\n   seed.number  <-  sample.int(10000, 1) # set seed for the cv\n   set.seed(seed.number)\n   mdcv <- xgb.cv(data = dtrain, params = param,\n                  nfold = cv.nfold, nrounds = cv.nround,\n                  verbose = F, early_stopping_rounds = 8, maximize = FALSE)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 7,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_8",
+    "content": "ld, nrounds = cv.nround,\n                  verbose = F, early_stopping_rounds = 8, maximize = FALSE)\n\n   min_rmse_index  <-  mdcv$best_iteration\n   min_rmse <-  mdcv$evaluation_log[min_rmse_index]$test_rmse_mean\n\n   if (min_rmse < best_rmse) {\n     best_rmse <- min_rmse\n     best_rmse_index <- min_rmse_index\n     best_seednumber <- seed.number\n     best_param <- param\n   }\n   print(iter)\n }\n\n # # The best index (min_rmse_index) is the best \"nround\" in the model\n nround = best_rmse_index\n set.seed(best_seednumber)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 8,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_9",
+    "content": "ednumber)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 9,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_10",
+    "content": "dnumber)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 10,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_11",
+    "content": "number)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 11,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_12",
+    "content": "umber)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 12,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_13",
+    "content": "mber)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 13,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_14",
+    "content": "ber)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 14,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_15",
+    "content": "er)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 15,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_16",
+    "content": "r)\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 16,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_17",
+    "content": ")\n\n xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 17,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_18",
+    "content": "xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 18,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_19",
+    "content": "xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 19,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_20",
+    "content": "xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 20,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_21",
+    "content": "xg_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 21,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_22",
+    "content": "g_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 22,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_23",
+    "content": "_mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 23,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_24",
+    "content": "mod <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 24,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_25",
+    "content": "od <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 25,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_26",
+    "content": "d <- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 26,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_27",
+    "content": "<- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 27,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_28",
+    "content": "<- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 28,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_29",
+    "content": "- xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 29,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_30",
+    "content": "xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 30,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_31",
+    "content": "xgboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 31,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_32",
+    "content": "gboost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 32,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_33",
+    "content": "boost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 33,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_34",
+    "content": "oost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 34,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_35",
+    "content": "ost(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 35,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_36",
+    "content": "st(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 36,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_37",
+    "content": "t(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 37,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_38",
+    "content": "(data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 38,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_39",
+    "content": "data = dtrain, params = best_param, nround = nround, verbose = F)\n\n```\n\nROP calculation process is done through service level and standard deviations. Calculation of standard deviations is a problematic issue right now; we are using standard deviation of product sales (again, the targets from Pegasus) from the first 58 stores. We can use that standard deviations for some time but we would need to update them in some time. I had tried using standard deviations of 28 day sales in each store for each product but I had a worse solution from there. This kind of looks like a forward looking process but my assumption is for each test store we can use the results of the other 57 stores to calculate deviations and the result shouldn't change much (Note from future: I didn't set up the whole thing but checked it for individual stores. There was a drop in performance but it was still working good). Updating the model and deviations in every 6 months sounds good to me (starting from 2019-01-01).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 39,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_40",
+    "content": "). Updating the model and deviations in every 6 months sounds good to me (starting from 2019-01-01).\n\nFor some products we have high deviations. That is due to promotions in some places (i.e. product 476574). I didn't add the promo flag to the model because I thought we might not be able to know if there is a promotion or not when predicting the future. Also we capped the deviations and ROP's; deviations at 10 (we checked what happens for different cap levels; until 8 we are not getting any lost sales in the test store but we wanted to stay in the safe side) and ROP's at 150. I also added minimum 2 ROP rule based on GNC's top 250 list.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 40,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_41",
+    "content": "tay in the safe side) and ROP's at 150. I also added minimum 2 ROP rule based on GNC's top 250 list.\n\nI have selected the service level by comparing it with the real scenario. I wouldn't call the predictions of the model really great, therefore we really need to use a high service level for a low lost sales ratio. Current level is selected on the basis of comparisons, it beats the real scenario by 20% in both lost sales and inventory costs. Beating the real scenario in both sides was necessary for convincing.\n\n### Model Details\n\nImportance Matrix:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 41,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_42",
+    "content": "the real scenario in both sides was necessary for convincing.\n\n### Model Details\n\nImportance Matrix:\n\n| Feature | Gain |\n| --- | --- |\n| Feature | Gain |\n| Top250 | 28.66% |\n| LeadQty | 11.81% |\n| Price | 11.47% |\n| AvgQtyAssortment | 8.04% |\n| AvgQtyCity | 6.92% |\n| CityCap | 6.56% |\n| Cost | 6.18% |\n| AssortmentCap | 4.59% |\n| AvgQtyZip | 4.18% |\n| CityStoreCount | 2.56% |\n| ZipCap | 2.36% |\n| PG1Protein | 1.66% |\n| AssortmentStoreCount | 1.08% |\n| Population based on Zip | 1.05% |\n| PG1Food/Drink | 0.66% |\n| Lead | 0.48% |\n| Income based on Zip | 0.40% |\n| PG1Wellness Supplements | 0.31% |\n| ZipStoreCount | 0.29% |\n| PG1General Merchandise | 0.15% |\n| PG1Performance Supplements | 0.14% |\n| PG1Vitamins | 0.13% |\n| PG1Herbs and Greens | 0.10% |\n\n### Additional Comments",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 42,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_43",
+    "content": "pplements | 0.14% |\n| PG1Vitamins | 0.13% |\n| PG1Herbs and Greens | 0.10% |\n\n### Additional Comments\n\nSupercede implementation is missing right now. It is not that easy in to implement in training and test; and also whole simulation should be run from start. We might need to lower the used service levels (my guess is, whole implementation and testing process would take around 2 days). For now, I am only sending results for just 1 product in a supercede chain; which would guard us against any problems in the customer side. Currently there is a risk of under-predicting the superceded pairs (since I am just using sales of the product, without its supercede); but most of the lost sales was due to not flagged promotions. Therefore, I expect performance increases to be minimal with the implementation.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 43,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_44",
+    "content": "flagged promotions. Therefore, I expect performance increases to be minimal with the implementation.\n\nTop 250 constraint is a weird one; I have chosen to use GNC's Top 250 file (with corrections on the basis of supercedes; they have some inactive products in the list). The problem is, our replenishment engine is not exactly sending minimum 2 products from top 250.  If an item has a high DOS (in some cases, if there isn't a sale for that pair), ROP will be 1 instead of 2. But I am staying in the safe side and sending minimum 2 from each.\n\nOur model was built using data from 28 days prior to the opening of the store. As it might be expected, that is not the case in the real life; since GNC wants to continuously update the file as the opening date approaches. Model performance doesn't change much between using data from 1 month prior or 2 months; but model might be changing. Hopefully, trend ratio is not calculated for 1 months prior.\n\n### Working On Different Models",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 44,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_605814798_45",
+    "content": "nging. Hopefully, trend ratio is not calculated for 1 months prior.\n\n### Working On Different Models\n\nFor the training of the new model; I will be sharing my codes and training - test sets. Using these, different models can be fitted and it will be easier to develop a better model. Also this project might act as a good training;data in a structured way of a Kaggle competition and real life implications to motivate. Everything needed is in the GitTrain folder; just working on BoostModelforGit code would be enough.\n\nWhen there is a need for the new model; it is easy to create the predictors via the engine (run it until the model part). Creating the targets (total demand) will be the tricky part which is done through Pegasus right now.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "605814798",
+      "title": "Solution Algorithm",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/605814798",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-19T13:33:24.853Z",
+      "chunk_index": 45,
+      "total_chunks": 46
+    }
+  },
+  {
+    "id": "confluence_NSA_675414042_0",
+    "content": "First analysis steps should be about how the existing system works:\n\n- Types of new stores. They might be open - close (which can be solved by just using the previous forecasts) or a completely new store\n\nInventory Analysis\n\nObjective:\n\n- Understanding how new store inventory changes during the opening period\n- Deciding on KPI's\n\nSample project results:\n\nInventory graph for 10 test stores, 100 days, GNC:\n\nInventory graph for 1 test store, 28 days, GNC:\n\nSample project interpretations:\n\n- Looks like average-inventory cost seems like a better fit than start-inventory cost since there is a high jump in day 8. If the graph had a high start and no replenishment for a while; we should have worked with that whole period instead of 60 days.\n- I think this is the part you can decide on the analysis period.\n\nSimilarity Analysis",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "675414042",
+      "title": "Analysis",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/675414042",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-27T07:06:15.163Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_NSA_675414042_1",
+    "content": "d of 60 days.\n- I think this is the part you can decide on the analysis period.\n\nSimilarity Analysis\n\nThis is more of a trial - and - error part. In store data table; we have several features which might be an indicator of similarity. Therefore aim of this part is trying to come up with a good representation of similarity. Some kind of grid search algorithm might be implemented to select important features.\n\nSample project: In GNC, we are using squarefootage as an important metric in similarity. Deciding the boundaries for square footage needed a lot of examination of previously opened stores with graphs like this (store 8 is the new store):\n\n- Total sales quantity graphs:\n\n- Shares for different products:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "675414042",
+      "title": "Analysis",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/675414042",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-27T07:06:15.163Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_NSA_675414042_2",
+    "content": "e this (store 8 is the new store):\n\n- Total sales quantity graphs:\n\n- Shares for different products:\n\nIt is possible to create a grid-search algorithm for the similarity total sales quantity. That won't check for the similarity on the basis of shares for different product groups though. I focused on the line similarity but a simple RMSE on the product group percentages would work easier. For the GNC project, it was done via analyzing 10 stores by hand; it wasn't an automatic process.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "675414042",
+      "title": "Analysis",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/675414042",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-27T07:06:15.163Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_NSA_675446794_0",
+    "content": "| Table ID | Table Name | Table Explanation | Must Have? (1=YES 0=NO) |\n| --- | --- | --- | --- |\n|  | Sales Data |  | 1 |\n|  | Inventory Data | Store-Product based inventory data | 1 |\n|  | Store Data | Store features | 1 |\n|  | Store Planogram Data | Store performance expectations data | 0 (not a must have, but important) |\n|  | Store - Product Active Item Data | If an item is active in the store or not | 0 |\n|  | Zip Data | Socioeconomic stats based on ZIP | 0 (not that important) |\n|  | Product Data | Product features | 1 |\n|  | Supercede Data | Perfect substitute products | 0 |\n\nSales Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| StoreCode | Character |  |\n| ProductCode | Character |  |\n| Date | Date |  |\n| SalesQuantity | Integer |  |\n| SalesRevenue | Double |  |\n\nInventory Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| StoreCode | Character |  |\n| ProductCode | Character |  |\n| Date | Date |  |\n| Inventory on hand | Integer |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "675446794",
+      "title": "Data Requirement List",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/675446794",
+      "updated_by": "Koray Parkin",
+      "updated_date": "2019-03-08T15:40:46.071Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_NSA_675446794_1",
+    "content": "Character |  |\n| ProductCode | Character |  |\n| Date | Date |  |\n| Inventory on hand | Integer |  |\n\nStore-Product Active Item\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| StoreCode | Character |  |\n| ProductCode | Character |  |\n| Active | Character |  |\n\nStore Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| StoreCode | Character |  |\n| DateOpened | Character |  |\n| City | Character |  |\n| State | Character |  |\n| Zip | Character |  |\n| SquareFootage | Integer |  |\n| LocationType | Character | Example: \"Outlet\", \"Mall\" |\n| ReplicationCycle | Character | Once in a week etc. |\n\nStore Planogram Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| StoreCode | Character |  |\n| ProductType1 - Segment* | Character |  |\n\n- This table has columns for each hierarchy group segments. This basically gives us the company's performance expectations from the new store in the GNC case.\n\nZip Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "675446794",
+      "title": "Data Requirement List",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/675446794",
+      "updated_by": "Koray Parkin",
+      "updated_date": "2019-03-08T15:40:46.071Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_NSA_675446794_2",
+    "content": "ically gives us the company's performance expectations from the new store in the GNC case.\n\nZip Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| ZipCode | Character |  |\n| Population | Double |  |\n| Median Income | Double |  |\n\n- This table might have more columns; in the end you can just check which features work better.\n\nProduct Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| ProductCode | Character |  |\n| ProductGroup1 | Character |  |\n| ProductPrice | Double |  |\n| COGS | Double |  |\n| CasePack Quantity | Integer |  |\n| HasLead | Binary |  |\n| Lead Quantity | Integer |  |\n\nSupercede Data\n\n| Column | Data Type | Explanation |\n| --- | --- | --- |\n| Product1 | Character |  |\n| Product2 | Character |  |\n| Product3 | Character |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "675446794",
+      "title": "Data Requirement List",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/675446794",
+      "updated_by": "Koray Parkin",
+      "updated_date": "2019-03-08T15:40:46.071Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_NSA_678690889_0",
+    "content": "- Promotion effects. Some of our lost sales were due to promotions. Promotion flag wasn't part of the variables since there might be cases where we wouldn't know the promotion 1 month beforehand.\n- Complete integration of supercede products. With the chain system, it is possible to add up sales of whole items as one in the data preparation part. This will probably end up with better predictions (although supercede wasn't the case for the products with highest lost sales) but it is not a problem for the engine to give solutions right now. This change would need some calibration on service levels.\n- General additive models. Most of the GNC's products are slow. Therefore a model with negative binomial distribution might work better; this is something to check (there will be some NA's; so this should be integrated with XGBOOST on NA's).\n- In a similar fashion; we can add product classifications such as lumpy - intermittent and see if it works or not.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "678690889",
+      "title": "Future Tasks",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/678690889",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2020-04-28T03:47:34.597Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_NSA_678690889_1",
+    "content": "fashion; we can add product classifications such as lumpy - intermittent and see if it works or not.\n- Store capacity info can be part of the solution\n- Originally, we were using standard deviation of the products in previous “new opened stores” for the target calculation. Trying quantile regression and predicting the 95% is a possible option for this task.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "678690889",
+      "title": "Future Tasks",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/678690889",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2020-04-28T03:47:34.597Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_NSA_678821904_0",
+    "content": "Main performance indicators are inventory cost, in stock rates and lost sales ratio. These are calculated through simulation using PEGASUS. Different time periods might be used. Also, in this part deciding on the replenishment targets (Initial inventory as targets or RPL targets) is important; the best approach should be selected with the help of KPI's.\n\nSecondary performance indicator (not used directly in model calibration but used for the reporting) is WOS graphics for different product speed clusters for different time periods.\n\nSample project:\n\nMain performance table:\n\nWOS start:\n\nWOS - 60th Day:\n\nWOS - 60th Day - Without CasePack Amounts (This graph is a better performance indicator especially for slow items):",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "678821904",
+      "title": "Performance Measurement",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/678821904",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-27T13:56:35.230Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_NSA_678821904_1",
+    "content": "- Without CasePack Amounts (This graph is a better performance indicator especially for slow items):\n\nLost sale ratios for different time periods; this is important for deciding the targets to use for the period. For example, the table below shows that initial inventory targets works significantly worse in the second month; there needs to be some kind of update (which I didn't do):",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "678821904",
+      "title": "Performance Measurement",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/678821904",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-27T13:56:35.230Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_NSA_682459178_0",
+    "content": "Since I couldn't find any good papers/competitions about the new store allocation problem; I have checked several different sources and competitions about forecasting. I'll be sharing them in here and the reason behind it:\n\n## Rossmann Kaggle Competition Winner - Ensemble Model\n\n[https://kaggle2.blob.core.windows.net/forum-message-attachments/102102/3454/Rossmann_nr1_doc.pdf](https://kaggle2.blob.core.windows.net/forum-message-attachments/102102/3454/Rossmann_nr1_doc.pdf)\n\nThe problem is forecasting the 6 week of sales for 1115 stores for Rossmann Drug Store. The paper describes an ensemble model; therefore it helped me in creating the features and fine-tuning the algorithm (with eliminating 0 sales and log transforming)\n\n## Product Classification\n\n[https://hrcak.srce.hr/160979](https://hrcak.srce.hr/160979)\n\nTitle of the Paper:Demand Forecasting in the Fashion Industry: A Review\n\nAuthors:Maria Elena Nenni, Luca Giustiniano, Luca Pirolo",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "682459178",
+      "title": "Research Papers",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/682459178",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-28T11:13:03.841Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_NSA_682459178_1",
+    "content": "ecasting in the Fashion Industry: A Review\n\nAuthors:Maria Elena Nenni, Luca Giustiniano, Luca Pirolo\n\nPurpose:Product classification based on different features such as smoothness - intermittence - lumpiness - erraticness - slow moving; which might be useful for the project.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "NSA",
+      "space_name": "New Store Allocation",
+      "page_id": "682459178",
+      "title": "Research Papers",
+      "url": "https://invent.atlassian.net/wiki/spaces/NSA/pages/682459178",
+      "updated_by": "Ali Erdem Banak",
+      "updated_date": "2018-09-28T11:13:03.841Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

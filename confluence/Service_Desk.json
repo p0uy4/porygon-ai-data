@@ -1,0 +1,18 @@
+[
+  {
+    "id": "confluence_SRVCDSK_100925575_0",
+    "content": "> Tip: This is the home page for your knowledge base space within Confluence. You can use your knowledge base to capture best practices and address common problems.\n\nNext, you might want to:\n\n1incompleteCreate your first knowledge base article - Click \"Create\" and select a \"How-to\" or \"Troubleshooting\" article.2incompleteCustomise the home page - Click \"Edit\" to get started. Include useful information like what users can expect to find in this knowledge base, frequently asked questions and links to other resources.\n\n---\n\n### Frequently asked questions\n\n- Add links to popular how-to and troubleshooting articles.\n- Highlight important documentation.\n\n### Need more help?\n\n- Link to resources such as your service desk, questions & answers or a forum.\n- List contacts for getting additional help.\n\n### Other resources\n\n- Include links to relevant external sites and services.\n- Add other helpful information.\n\n---\n\n## Browse by topic\n\n## Recently updated articles",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "SRVCDSK",
+      "space_name": "Service Desk",
+      "page_id": "100925575",
+      "title": "Service Desk",
+      "url": "https://invent.atlassian.net/wiki/spaces/SRVCDSK/pages/100925575",
+      "updated_by": "Asım Erel (Unlicensed)",
+      "updated_date": "2017-11-17T11:43:54.015Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "confluence_DD_1327825372_0",
+    "content": "> Tip: Welcome to your new space\n> Use it to create something wonderful.\n> To start, you might want to:\n>\n>\n> Customise this overview using the edit icon at the top right of this page.\n>\n>\n> Create a new page by clicking the + in the space sidebar, then go ahead and fill it with plans, ideas, or anything else your heart desires.\n\n---\n\n> Info: Need inspiration?\n>\n>\n> Get a quick intro into what spaces are, and how to best use them at Confluence 101: organize your work in spaces.\n>\n>\n> Check out our guide for ideas on how to set up your space overview.\n>\n>\n> If starting from a blank space is daunting, try using one of the space templates instead.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1327825372",
+      "title": "Design Documents Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1327825372",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-03T07:13:32.378Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_DD_1328021767_0",
+    "content": "# Purpose of Document\n\nThis is a design document for smart selection module to be used in noob library.\n\nSmart Selection module is expected to perform 2 methods:\n\n- selection of best model over a user defined granularity (e.g. over product-store-week)\n- ensemble of various estimators over a user defined granularity (e.g. linear combination of forecasts from various estimators over product-store-week)\n\nFirst method is a look up method where while second one is an ensemble approach.\n\n# Background",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1328021767",
+      "title": "Smart Selection",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1328021767",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-11T14:24:22.018Z",
+      "chunk_index": 0,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1328021767_1",
+    "content": "eek)\n\nFirst method is a look up method where while second one is an ensemble approach.\n\n# Background\n\nAny robust forecasting system should have multiple estimators and cannot rely on a single estimator. For instance, features about products (price, promotion, product specific attributes, etc.) or stores (store class, location, etc.) cannot be utilized in time series models like MA, ARIMA, Prophet; but these models are strong when it comes to predict seasonal product-store pairs. Hence, a good strategy is to have different estimators for each pair and finalizing the forecast by considering all of the estimators. This consideration can be in 2 ways:\n\n1. Building a look up table for each pair. This table will tell which estimator is good for which pair and when.\n2. Building a final estimator based on all the estimators producing forecasts. This is the ensemble approach.\n\n# Design\n\n## Input",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1328021767",
+      "title": "Smart Selection",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1328021767",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-11T14:24:22.018Z",
+      "chunk_index": 1,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1328021767_2",
+    "content": "based on all the estimators producing forecasts. This is the ensemble approach.\n\n# Design\n\n## Input\n\nEach estimator should have at least forecast and actual values over desired granularity. For instance, for a product-store pairs over a weekly data, each estimator should at least have this form:\n\n| productid | storeid | week | forecast | actual |\n| --- | --- | --- | --- | --- |\n| 1 | 1 | 1 | 23 | 20 |\n| 1 | 2 | 1 | 17 | 15 |\n| 1 | 1 | 2 | 18 | 17 |\n\nFor the look up approach, each estimator's performance needs to be measured. Performance metrics can be MAPE, Bias or any other metric defined by the user. Based on these metrics, a final score for each estimator can be determined. For each product-store-week, best performing estimator's forecast is used in  final estimation.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1328021767",
+      "title": "Smart Selection",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1328021767",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-11T14:24:22.018Z",
+      "chunk_index": 2,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1328021767_3",
+    "content": "ned. For each product-store-week, best performing estimator's forecast is used in  final estimation.\n\nFor the ensemble approach, additional columns to above table can be used. For instance, product, store and week based features can be added. Forecasts from different estimators along with features are fed into another model and the final estimation is determined.\n\n## Output\n\nThe output of the smart selection module (when used with look up method) should at least have this form:\n\n| productid | storeid | week | estimator | forecast |\n| --- | --- | --- | --- | --- |\n| 1 | 1 | 3 | 1 | 23 |\n| 1 | 2 | 3 | 2 | 10 |\n| 1 | 3 | 3 | 3 | 30 |\n\nThe output of the ensemble method does not have 'estimator' column.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1328021767",
+      "title": "Smart Selection",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1328021767",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-11T14:24:22.018Z",
+      "chunk_index": 3,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1331691551_0",
+    "content": "## Introduction\n\n### Purpose of Document\n\nThis document specifies the scope of and requirements of communication between Cheetah UI and Markdown Algorithm run system (MapsUnified).\n\n### Project Scope\n\nThe scope of this project is to build a reliable communication system between Cheetah UI and Markdown Algorithm when user starts a new run by selecting a set of target groups or specifying a filter for items. The communication is from Cheetah UI to Markdown Algorithm.\n\nCheetah Team (Enes Faruk Meniz, Eren Şahin) and Markdown Team (Burak Sivrikaya, Sercan Sağman) are responsible individuals in this project.\n\n### Background",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1331691551",
+      "title": "Cheetah - Markdown Run Integration Design Document",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1331691551",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-09-11T12:33:44.267Z",
+      "chunk_index": 0,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1331691551_1",
+    "content": "n Team (Burak Sivrikaya, Sercan Sağman) are responsible individuals in this project.\n\n### Background\n\nIn current system, Cheetah back-end selects the items for the run and their parameters based on the user who started the run. Then, the selected items are saved to a SQL table. The run initialization waits for this process to complete. However, the cheetah back-end system fails to complete the process when the number of selected items increases. The system either runs out of memory or it fails to write to SQL table within the timeout period.\n\nHowever, the system also needs a new feature to handle saving the user's calendar parameters, and the week dimension of the calendar multiplies the data size according to the season. So it is estimated that cheetah back-end system is not capable for fulfilling this new feature.\n\n## Objective",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1331691551",
+      "title": "Cheetah - Markdown Run Integration Design Document",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1331691551",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-09-11T12:33:44.267Z",
+      "chunk_index": 1,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1331691551_2",
+    "content": "estimated that cheetah back-end system is not capable for fulfilling this new feature.\n\n## Objective\n\nTo deal with the problems described in Background section, the new system will communicate through a distributed data storage solution which allows writing / reading millions of rows in a few seconds. The current candidates are Redis and Amazon Kinesis.\n\nCheetah UI will write the data required for the run:\n\n- Items selected for the run and their parameters (specified by selected target groups / filters)\n- Markdown Calendar of the user who started the run\n- Manual Weekly Constraints of the user who started the run if the user selected to use manual weekly constraints\n\nThen the run will be be initiated. Cheetah UI is also responsible for specifying the information required to read the data (i.e. data keys) by writing it to a SQL table.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1331691551",
+      "title": "Cheetah - Markdown Run Integration Design Document",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1331691551",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-09-11T12:33:44.267Z",
+      "chunk_index": 2,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1331691551_3",
+    "content": "specifying the information required to read the data (i.e. data keys) by writing it to a SQL table.\n\nMarkdown Algorithm will read the data from the data storage system and It will save it to SQL tables for logging purposes. After reading, the data will be deleted from data storage by Markdown Algorithm.\n\n## Tasks\n\n| # | Requirement | User Story | Importance | Jira Issue | Notes |\n| --- | --- | --- | --- | --- | --- |\n| 1 |  |  |  |  |  |\n| 2 |  |  |  |  |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1331691551",
+      "title": "Cheetah - Markdown Run Integration Design Document",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1331691551",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-09-11T12:33:44.267Z",
+      "chunk_index": 3,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_DD_1336180759_0",
+    "content": "# Introduction\n\n## Purpose\n\nThis is a requirements specification document for the lost sales module. This module is designed to calculate how much of sales are lost due to stock out. Lost sales module can be used not only for reporting of client's inventory management but also be a part of our forecasting and replenishment solution's assessment.\n\nThis document describes the scope, objectives and the goal of this module. In addition to identifying the functional and non-functional requirements, the document defines the input and output structures of the system and thereby directs the design and implementation of the target system.\n\n## Scope",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1336180759",
+      "title": "Lost Sales",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1336180759",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-16T10:22:50.722Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_DD_1336180759_1",
+    "content": "ures of the system and thereby directs the design and implementation of the target system.\n\n## Scope\n\nLost sales calculation is one of the key performance metrics in any modern inventory management system. The performance of the current inventory management system can be tracked by its contribution to improvements in lost sales. Another important aspect of lost sales is that it can show the financial impact of inventory management system. In other words, lost sales module can be used to justify how much financial value is added to the client's business by our (or any other) inventory management algorithms.\n\nThe scope of lost sales module is to develop a stand-alone module that calculates how much sales opportunity is missed due to stock out with different granularities (store-sku, sku levels, etc.) and metrics (sales quantity, sales revenue, etc.).\n\n## System Purpose\n\n### Responsibilities\n\nThe primary responsibilities of the lost sales module:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1336180759",
+      "title": "Lost Sales",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1336180759",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-16T10:22:50.722Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_DD_1336180759_2",
+    "content": ".).\n\n## System Purpose\n\n### Responsibilities\n\nThe primary responsibilities of the lost sales module:\n\n- Calculates lost sales (both quantity and revenue) over different levels of granularity. 3 components of granularity are:Product: can be product, product group, hierarchy etc...Store: can be store, store cluster, segment, etc...Time: can be day, week or any other time unit. Also, time interval can be flexible; promo vs non-promo period, last n days/weeks, etc.\n- Provides a comprehensive reporting that can be visualized by Tableau (or any other tool)\n- Allow specification of product, store and time levels by the user.\n\n### System Input\n\nThe main input to the system is the daily sales and inventory of sku-store pairs.\n\nOther inputs of the system are as follows:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1336180759",
+      "title": "Lost Sales",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1336180759",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-16T10:22:50.722Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_DD_1336180759_3",
+    "content": "tem is the daily sales and inventory of sku-store pairs.\n\nOther inputs of the system are as follows:\n\n- Date interval for which lost sales will be calculated.\n- Resolution of the lost sales calculation e.g. daily, weekly, etc.\n- Time level to use for aggregations. For instance, the input data may be daily but the lost sales report can be weekly, monthly or any other aggregation level that the client's business might require. However, the desired time granularity of the lost sales report shall not be smaller than the input granularity. For instance, weekly sales and inventory data of sku-store pairs cannot be used to calculate lost sales on a daily basis.\n\n### System Output\n\nMain system output is a table that contains calculated lost sales of sku-store pairs (or higher granularity).\n\n# Objectives\n\n## Functional Objectives",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1336180759",
+      "title": "Lost Sales",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1336180759",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-16T10:22:50.722Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_DD_1336180759_4",
+    "content": "lated lost sales of sku-store pairs (or higher granularity).\n\n# Objectives\n\n## Functional Objectives\n\n- The module output shall be a table that shows the lost sales of pairs.\n- The module shall allow the user to select different time levels for smart selection as long as this level is greater than the input data.\n- The module shall be able to run at the any given level, e.g. Product/Store/day, Product/week, Store/month, etc.\n\n## Non-Functional Objectives\n\n- The whole selection process shall be completed in 15 minutes.\n- The module must fully be compatible with spark environment.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1336180759",
+      "title": "Lost Sales",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1336180759",
+      "updated_by": "Burak Önal (Deactivated)",
+      "updated_date": "2019-09-16T10:22:50.722Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_0",
+    "content": "## Introduction\n\n### Purpose of Document\n\nThis document specifies the scope and requirements of daily Data Migration process of the data required for Koctas Pricing user interface, which will be connected to Invent database server.\n\n### Project Scope\n\nThe scope of this project is to build a data migration application to migrate data between Koctas and Invent database servers. The Data Migration process is a double ended data transfer process, in which firstly the data will be moved to Invent database server after daily data transfer, and then the data will be transferred back to Koctas database server multiple times in a day to keep two servers synchronized.\n\n### Background",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 0,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_1",
+    "content": "to Koctas database server multiple times in a day to keep two servers synchronized.\n\n### Background\n\nCurrently, Koctas Pricing database in Koctas database server is updated every morning (approx. 7-7.30 am) with daily data transfer. Koctas Pricing user interface is located on Invent web servers and the user interface is communicating Koctas database server through a VPN connection. This situation leads to performance issues such as loss of connection, slow queries or queries failed to return a response to UI.\n\n## Objective\n\nTo overcome performance issues described in Background section, the master data related to user interface will be transferred to Invent database servers daily. Since the tables are updated by user interactions in the user interface, the data will be transferred back to Koctas database multiple times in a day.\n\n## Design\n\nThere exists three kind of tables:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 1,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_2",
+    "content": "rred back to Koctas database multiple times in a day.\n\n## Design\n\nThere exists three kind of tables:\n\n1. Master data tables: Tables which are updated by daily data transfer.\n2. Pricing run tables: Tables which are filled by pricing runs.\n3. UI tables: Tables which are updated by user interactions in the UI.\n\nGroup 1 Tables: Master data tables",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 2,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_3",
+    "content": "tables: Tables which are updated by user interactions in the UI.\n\nGroup 1 Tables: Master data tables\n\n| Step | Table Name | Data Flow Direction |\n| --- | --- | --- |\n| 1 | model.ProductGroupHierarchy | Koctas → Invent |\n| 2 | model.ProductGroupLabels | Koctas → Invent |\n| 3 | model.Brands | Koctas → Invent |\n| 4 | model.VatRates | Koctas → Invent |\n| 5 | model.Products | Koctas → Invent |\n| 6 | pricing.PricingProducts | Koctas → Invent |\n| 7 | pricing.Competitors | Koctas → Invent |\n| 8 | pricing.CompetitorPrices | Koctas → Invent |\n| 9 | pricing.ProductDailySummary | Koctas → Invent |\n| 10 | pricing.ProductDetailedSummary | Koctas → Invent |\n| 11 | pricing.ProductCompetitors | Koctas → Invent |\n| 12 | pridcing.HierarchyOptions | Koctas → Invent |\n| 13 | pricing.PropertyOptions | Koctas → Invent |\n| 14 | pricing.AttributeDescriptions | Koctas → Invent |\n\nGroup 2 Tables: Pricing Run Result Tables",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 3,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_4",
+    "content": "| 14 | pricing.AttributeDescriptions | Koctas → Invent |\n\nGroup 2 Tables: Pricing Run Result Tables\n\n| Table Name | Data Flow Direction |\n| --- | --- |\n| pricing.PricingResults | Invent → Koctas |\n| pricing.ClearanceRunLog | Invent → Koctas |\n| pricing.PriceLadders | Invent → Koctas |\n| pricing.PriceLadderForecasts | Invent → Koctas |\n\nGroup 3 Tables: UI User Interaction tables",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 4,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_5",
+    "content": "tas |\n| pricing.PriceLadderForecasts | Invent → Koctas |\n\nGroup 3 Tables: UI User Interaction tables\n\n| Table Name | Data Flow Direction |\n| --- | --- |\n| pricing.AttributeRuleConditions | Invent → Koctas |\n| pricing.AttributeRuleGroups | Invent → Koctas |\n| pricing.AttributeRuleInteractions | Invent → Koctas |\n| pricing.AttributeRuleOrders | Invent → Koctas |\n| pricing.AttributeRules | Invent → Koctas |\n| pricing.PricingResultApprovalInteractions | Invent → Koctas |\n| pricing.RuleGroup | Invent → Koctas |\n| pricing.RuleGroupClearanceRule | Invent → Koctas |\n| pricing.RuleGroupCompetitorRule | Invent → Koctas |\n| pricing.RuleGroupFilter | Invent → Koctas |\n| pricing.RuleGroupOptimizationRule | Invent → Koctas |\n| pricing.UserRestrictions | Invent → Koctas |\n\nFollowing diagram summarizes daily operation.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 5,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1363705857_6",
+    "content": "ctas |\n| pricing.UserRestrictions | Invent → Koctas |\n\nFollowing diagram summarizes daily operation.\n\n- After daily data transfer, the master data (group 1 tables) is migrated from Koctas database server to Invent database server at 8:00 (utc +3)\n- Daily pricing run inserts the results to Invent Database server. (group 2 tables)\n- User interactions in the UI updates group 3 tables.\n- To keep both servers synchronized, group 2 and group 3 tables are migrated to Koctas database server 3 times during the day. (13:00, 17:00, 21:00)\n\n## Tasks\n\n| # | Jira Issue | Notes |\n| --- | --- | --- |\n| 1 |  |  |\n| 2 |  |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1363705857",
+      "title": "Koctas Pricing Data Migration",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1363705857",
+      "updated_by": "Eren Şahin",
+      "updated_date": "2019-10-30T14:28:33.948Z",
+      "chunk_index": 6,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_0",
+    "content": "This document tries to clarify NOOB and ROCKET recommended file structure to be used in InventVx systems.  While any file path below is recommended only and can be changed at will, please do so after careful consideration.  Diverging from the common paths used will make it harder to for someone else (or you in 6 months time) to find the necessary data.\n\n# NOOB File Structure\n\nNOOB_HOME should be a subdirectory in datastore bucket.  An example for NOOB_HOME would be s3://invent-fiba-datastore/noob/\n\n## NOOB INPUTS:\n\nNOOB_HOME/sales -- should be partitioned by year and iso_week\nproduct_id\nstore_id\ndate str\nsales_quantity numeric\nsales_revenue numeric\nyear int (must be iso year)\nweek int (must be iso week)\n\nDo not have hundreds of small files in any one single directory.  Consider repartitioning on date column",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 0,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_1",
+    "content": "ot have hundreds of small files in any one single directory.  Consider repartitioning on date column\n\nNOOB_HOME/inventory -- should be partitioned by year and iso_week\nproduct_id\nstore_id\ndate str\ninventory numeric\nincoming_inventory numeric\nyear int (must be iso year)\nweek int (must be iso week)\n\nDo not have hundreds of small files in any one single directory.  Consider repartitioning on date column\n\nNOOB_HOME/scope/xxx_scope (different files for different NOOB scopes)\nproduct_id\nstore_id\n\nExamples would be forecast_scope, lost_sales_scope, simulation_scope etc.\n\nNOOB_HOME/product_family\nproduct_id\nparent_id\n\nstores predecessor/successor relationships for products, must be in one to many relationship, i.e. a product can be either a parent or a child. Refer to the [relevant noob documentation](http://pypi.inventanalytics.com/html/noob/api/noob.data.daily_data.html).\n\n## OPTIONAL INPUT:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 1,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_2",
+    "content": "ation](http://pypi.inventanalytics.com/html/noob/api/noob.data.daily_data.html).\n\n## OPTIONAL INPUT:\n\nNOOB_HOME/product\nproduct_id\nProduct master data (must have product_id, all other columns are optional)\n\nNOOB_HOME/store\nstore_id\nStore master data (must have store_id, all other columns are optional)\n\nNOOB_HOME/promo -- should be partitioned by year and iso_week\nPromo data (depends heavily on customer's data, can be -product_id, store_id, date- based with promo bins, can be -hierarchy, year, week- based with discount rate, etc. , too many different alternatives)\n\n## OUTPUT:\n\n### Forecast\n\nThere should be two types of forecast output: operation and reporting. The first one feeds order decisions, while the latter is for reporting and model selection purposes. Operation runs could be of any frequency (daily, weekly etc.). However, reporting runs are expected to be weekly, i.e sum of daily predictions in a week. Folder structure is below:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 2,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_3",
+    "content": "g runs are expected to be weekly, i.e sum of daily predictions in a week. Folder structure is below:\n\n\\_ NOOB_HOME\n  \\_ forecast\n    \\_ operation\n      \\_ model-x\n        \\_ run_date=2020-12-20\n          \\_ forecast_start_date=2020-12-20\n          \\_ forecast_start_date=2020-12-21\n        \\_ run_date=2020-12-21\n          \\_ forecast_start_date=2020-12-21\n          \\_ forecast_start_date=2020-12-22\n    \\_ reporting\n      \\_ model-x\n        \\_ run_date=2020-12-20\n          \\_ forecast_start_date=2020-12-20\n          \\_ forecast_start_date=2020-12-28\n        \\_ run_date=2020-12-28\n          \\_ forecast_start_date=2020-12-28\n          \\_ forecast_start_date=2020-12-25NOOB_HOME/forecast\nproduct_id int\nstore_id int\nforecast_start_date str\nforecast_end_date str\nprediction decimal\n\nMight need partitioning if the data is biggish.  “weekly” folder under forecasts folder has output from weekly runs and used internally by NOOB for producing daily forecast output.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 3,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_4",
+    "content": "folder has output from weekly runs and used internally by NOOB for producing daily forecast output.\n\nnoteWord to the wise:  Be careful with precision and floating point numbers, such as the prediction column above.  Read and understand [floating point arithmetic](https://docs.python.org/3/tutorial/floatingpoint.html).\n\nWord to the wise:  Be careful with precision and floating point numbers, such as the prediction column above.  Read and understand [floating point arithmetic](https://docs.python.org/3/tutorial/floatingpoint.html).\n\nNOOB_HOME/outlier\nproduct_id\nstore_id\ndate str\nis_outlier boolean\n\netc\n\nAll other files under NOOB_HOME are for internal use and subject to change without notice.  Do not depend on them.\n\nConsider implementing a scratch folder under NOOB such as NOOB_HOME/tmp.  Files under this directory should be short lived - less than 10 days - and will be cleaned on a regular basis.\n\n# ROCKET File Structure",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 4,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_5",
+    "content": "e short lived - less than 10 days - and will be cleaned on a regular basis.\n\n# ROCKET File Structure\n\nROCKET_HOME should be a subdirectory in datastore bucket.  An example for ROCKET_HOME would be s3://invent-fiba-datastore/rocket/\n\n## INPUT:\n\nROCKET_HOME/scope/xxx_scope\nproduct_id int\nstore_id int\n\nDifferent files for different scopes.  Examples would be replenishment_scope, ia_scope etc.\n\nROCKET_HOME/cover_period\nproduct_id int\nstore_id int\ncover_period int\n\nROCKET_HOME/forecast\nproduct_id int\nstore_id int\ndate date\nforecast double\ntarget_date date\n\nMight need partitioning if the data is biggish\n\nROCKET_HOME/look_ahead\nproduct_id int\nstore_id int\nlook_ahead boolean\n\nROCKET_HOME/service_level\nstore_id int\nproduct_id int\nservice_level double\n\nROCKET_HOME/volatility\nproduct_id int\nstore_id int\nweek int\nvolatility double\n\nROCKET_HOME/inventory\nstore_id int\nproduct_id int\nnet_stock double\nnet_incoming_stock double",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 5,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_6",
+    "content": "double\n\nROCKET_HOME/inventory\nstore_id int\nproduct_id int\nnet_stock double\nnet_incoming_stock double\n\nROCKET_HOME/casepack_quantity\nproduct_id int\nstore_id int\npackage_quantity double\n\nROCKET_HOME/profit\nproduct_id int\nstore_id int\nprofit double\n\nROCKET_HOME/warehouse_inventory\nproduct_id int\nwarehouse_id int\nnet_stock double\nnet_incoming_stock double -- optional\n\nROCKET_HOME/product_store_warehouse_relation\nproduct_id int\nstore_id int\nwarehouse_id int\nrelative_cost int\n\n## OUTPUT:\n\nOutput data will be under run based folders under runs subfolder.  Example for target would be ROCKET_HOME/runs/2019-12-18-ia-342bf8f1/targets\n\nROCKET_HOME/runs/xxxx/targetROCKET_HOME/runs/xxxx/needROCKET_HOME/runs/xxxx/order\n\netc.\n\nAll other files under ROCKET_HOME are for internal use and subject to change without notice.  Do not depend on them.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 6,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_1408794704_7",
+    "content": "under ROCKET_HOME are for internal use and subject to change without notice.  Do not depend on them.\n\nConsider implementing a scratch folder under ROCKET such as ROCKET_HOME/tmp.  Files under this directory should be short lived - less than 10 days - and will be cleaned on a regular basis.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "1408794704",
+      "title": "InventVx File Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/1408794704",
+      "updated_by": "Burak Yılmaz (Unlicensed)",
+      "updated_date": "2020-03-09T10:20:36.091Z",
+      "chunk_index": 7,
+      "total_chunks": 8
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_0",
+    "content": "## Overview\n\nThis document outlines our approach to effectively manage Apache Spark applications running on Databricks clusters, tailored for each customer's specific needs. Our process involves the use of custom Docker images that contain the appropriate versions of our internal libraries for each customer. This strategy ensures compatibility and optimal performance of the applications.\n\n## Process Outline\n\nThe process to create and deploy these custom Docker images is as follows:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 0,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_1",
+    "content": "ons.\n\n## Process Outline\n\nThe process to create and deploy these custom Docker images is as follows:\n\n1. Create Temporary Docker Image: Initiate a temporary Docker image that includes the necessary components for running the customer integration tests (CIT).\n2. Run Customer Integration Tests (CIT): Utilize the temporary Docker image to perform CIT on test data, verifying the functionality of our applications with the customer-specific environment.\n3. Generate Latest Versions Docker Image: Upon successful completion of CIT, a stable Docker image is created. This image includes the latest working versions of the libraries, as determined by the requirements and constraints files generated during testing.\n4. Deploy on Databricks Clusters: The final, stable Docker image is then used to run the customer’s pipelines on the Databricks clusters, ensuring a stable and efficient environment.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 1,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_2",
+    "content": "un the customer’s pipelines on the Databricks clusters, ensuring a stable and efficient environment.\n\nFor customers who do not have CIT, the generation of Docker images is managed through a separate Jenkins pipeline. When CIT is present, it triggers this Jenkins pipeline to ensure synchronization of the processes.\n\n## Advantages of the Approach\n\n- Customization: Tailored Docker images for each customer ensure that specific library versions and configurations are in place.\n- Stability: Running CITs before deployment minimizes the risk of compatibility issues in production.\n\n## Example of Dockerfile\n\nThis is the example of Dockerfile to create a dbx image for Spider customer\n\n```docker\n# Base image. ensure the version is the same as the one used in the cluster\nFROM databricksruntime/standard:12.2-LTS\n\n# Invent's python package repository\nARG INVENT_PYPI=https://pypi.euwest1.prod.inventanalytics.com/\n\nRUN mkdir -p /usr/share/man/man1z",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 2,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_3",
+    "content": "ry\nARG INVENT_PYPI=https://pypi.euwest1.prod.inventanalytics.com/\n\nRUN mkdir -p /usr/share/man/man1z\n\n# Install apt and pip requirements\nRUN apt-get update \\\n  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \\\n  git \\\n  build-essential \\\n  unixodbc unixodbc-dev \\\n  curl \\\n  gnupg \\\n  python3 python3-dev python3-pip python3-venv \\\n  openjdk-8-jre-headless \\\n  gettext-base \\\n  && apt-get autoremove -yqq --purge \\\n  && apt-get clean \\\n  && rm -rf /var/lib/apt/lists/*\n\n# install kubectl\nRUN curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - \\\n  && echo \"deb https://apt.kubernetes.io/ kubernetes-xenial main\" | tee -a /etc/apt/sources.list.d/kubernetes.list \\\n  && apt-get update \\\n  && apt-get install -y kubectl\n\n# install kustomize\nRUN curl -s \"https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh\"  | bash",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 3,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_4",
+    "content": "ttps://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh\"  | bash\n\n# install Microsoft ODBC driver to connect MS SQL server\nRUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \\\n  && curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list > /etc/apt/sources.list.d/mssql-release.list \\\n  && apt-get update \\\n  && ACCEPT_EULA=Y apt-get install msodbcsql17\n\nRUN ln -s /usr/bin/python3 /usr/bin/python\n\nENV PYTHONPATH=$PYTHONPATH:/opt/app\n\n# Change bash encoding from POSIX to C.UTF-8\nENV LC_ALL=C.UTF-8\n\n# Virtual env for build\nCOPY ./requirements*.txt ./\nRUN /databricks/python3/bin/pip install --no-cache-dir \"pip<22.0\" setuptools --upgrade \\\n  && /databricks/python3/bin/pip install --no-cache-dir --index-url ${INVENT_PYPI} \\\n  -r requirements-build.txt \\\n  && /databricks/python3/bin/pip install --no-cache-dir --index-url ${INVENT_PYPI} \\\n  -r requirements-spark.txt\n\nRUN pip install ipykernel",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 4,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_5",
+    "content": "l --no-cache-dir --index-url ${INVENT_PYPI} \\\n  -r requirements-spark.txt\n\nRUN pip install ipykernel\n\n# install jdbc\nRUN mkdir -p /databricks/jars \\\n  && wget https://download.microsoft.com/download/f/c/d/fcd3f599-2d60-46c1-8628-45c2eff1b207/sqljdbc_8.4.1.0_enu.tar.gz -O sqljdbc_8.4.1.0_enu.tar.gz \\\n  && tar xf ./sqljdbc_8.4.1.0_enu.tar.gz \\\n  && sudo cp sqljdbc_8.4/enu/mssql-jdbc-8.4.1.jre8.jar /databricks/jars/\n\nRUN groupadd -r librariesgruop && useradd -r -g librariesgruop libraries\n# add libraries to sudoers\nRUN echo \"libraries ALL=(ALL) NOPASSWD:ALL\" >> /etc/sudoers\n\n# install aws cli\nRUN /databricks/python3/bin/pip install --no-cache-dir awscli\nRUN ln -s /databricks/python3/bin/aws /usr/local/bin/aws\n```\n\nImportart notes for databricks base image:\n\n- make sure the runtime version of the base image is the same as the one used in the cluster\n- the main python installation: /databricks/python3 so all pip or python commands should run from /databricks/python3/bin/\n\n## Benchmark",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 5,
+      "total_chunks": 7
+    }
+  },
+  {
+    "id": "confluence_DD_4005593214_6",
+    "content": "abricks/python3 so all pip or python commands should run from /databricks/python3/bin/\n\n## Benchmark\n\nStandard:\n\nContainarized:\n\n## Conclusion\n\nBy adopting this method of using customer-based runtime Docker images, we can significantly improve the reliability and efficiency of our Spark applications.\n\n## Reference\n\n[https://docs.databricks.com/en/compute/custom-containers.html](https://docs.databricks.com/en/compute/custom-containers.html)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "DD",
+      "space_name": "Design Documents",
+      "page_id": "4005593214",
+      "title": "Rocks Containarization",
+      "url": "https://invent.atlassian.net/wiki/spaces/DD/pages/4005593214",
+      "updated_by": "Ayman Khalil",
+      "updated_date": "2024-01-26T12:24:26.149Z",
+      "chunk_index": 6,
+      "total_chunks": 7
+    }
+  }
+]

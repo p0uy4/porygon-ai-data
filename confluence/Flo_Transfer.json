@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "confluence_FT_1284571184_0",
+    "content": "> Tip: Welcome to your new space\n> Use it to create something wonderful.\n> To start, you might want to:\n>\n>\n> Customise this overview using the edit icon at the top right of this page.\n>\n>\n> Create a new page by clicking the + in the space sidebar, then go ahead and fill it with plans, ideas, or anything else your heart desires.\n\n---\n\n> Info: Need inspiration?\n>\n>\n> Get a quick intro into what spaces are, and how to best use them at Confluence 101: organize your work in spaces.\n>\n>\n> Check out our guide for ideas on how to set up your space overview.\n>\n>\n> If starting from a blank space is daunting, try using one of the space templates instead.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "1284571184",
+      "title": "Flo Transfer Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/1284571184",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2019-06-11T06:44:45.616Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_FT_1284636673_0",
+    "content": "Custom UI Parameters\n\nCustom UI parametreleri ekleme çıkarma ve gruplama işlemlerini aşağadaki tablodan yapabiliriz.\n\nSELECT TOP (1000) [Id]\n,[ParameterName]\n,[Description]\n,[ParameterType]\n,[DefaultValue]\n,[ParentId]\nFROM [FloV2].[transfer].[CustomUIRunParameters]\n\n| Id | ParameterName | Description | ParameterType | DefaultValue | ParentId |\n| --- | --- | --- | --- | --- | --- |\n| 1 | DefaultWarehouseThresholdValue | Default Warehouse Threshold | Number | 200 | NULL |\n| 2 | UseCapacityConstraints | Use Capacity Constraints | Bool | False | NULL |\n| 3 | UseOptionCountLimit | Use Option Count Limit | Bool | False | 2 |\n| 4 | UseProductQuantityLimit | Use Product Quantity Limit | Bool | False | 2 |\n| 5 | MaxMissingItemRatioToBeNotBroken | Min Size Percentage Not To Be Broken | inverse-float | 0.4 | NULL |\n\nTablodan parametre çıkarmak için öncelikle [transfer].[CustomUIRunParameters] Tablosunda ilgili parametreye ait satırlar silinmelidir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "1284636673",
+      "title": "Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/1284636673",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2019-06-11T06:56:41.292Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_0",
+    "content": "Pair Selection\n*[transfer].[GetTransferProductsStores]*\n\n- Son 1 ayda hiç bir mağazada satışı olmayan ürünler elenir.\n- Satış kontrolünden geçen bir generic kodunun tüm bedenleri transfere dahil edilir.\n- 1001 ve 1011 depolarındaki single ve assortment stoklar kontrol edilir ve birleştirilir.\n- Stock + Incoming stock değeri arayüzde belirlenen eşik değerinden (DefaultWarehouseThresholdValue=200) büyük olan ürünler elenir.\n- Son 3 haftada depoya 30 veya daha fazla stok girişi olan ürünler elenir.\n- Tüm mağazalardaki stoklar kontrol edilir ve  tüm mağazalardaki toplam stoğu 5 veya daha az olan ürünler elenir.\n- Replenishment sistemine kapalı olan mağazalar ve bloklu mağazalar kapsam dışında bırakılır.\n- Elemelerin sonunda seçilen genericler altında tanımlı bütün ürünler transfer ikililerine dahil edilir.\n\nManuel Belirlenmiş Kurallar\n*[dbo].[UpdateBlockTables]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 0,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_1",
+    "content": "ürünler transfer ikililerine dahil edilir.\n\nManuel Belirlenmiş Kurallar\n*[dbo].[UpdateBlockTables]*\n\n- Hedef mağazada maksimum stoğun 4 adetten fazla olmaması sağlanır.\n- RPL frekansı kapalı olan mağazalar yasaklanır.\n- Mağazalar ilk satış gördüğü tarihten itibaren 28 gün transfere yasaklanır.\n- Mağazalar son 28 günde hiç satış görmediyse transfere kapanır.\n- Son 21 gün içerisinde mağazaya yeni giren ürünler ve yolda stoğu olan ürünler, ilgili mağazada kaynak ürün-mağaza ikilisi olmaya yasaklanır.\n\n*[transfer].[ExecutePreProcessQueries]*\nArayüzde seçilmiş ürünler için çalışır.\n\n- Destination bloklu ikililer silinir.\n- Stoğun daha önce hiç planlanmadığı ikililer yasaklanır.\n- Son 14 gün içinde mağazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 1,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_2",
+    "content": "de mağazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 2,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_3",
+    "content": "e mağazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 3,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_4",
+    "content": "mağazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 4,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_5",
+    "content": "mağazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 5,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_6",
+    "content": "ağazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 6,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_7",
+    "content": "ğazadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 7,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_8",
+    "content": "azadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 8,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_9",
+    "content": "zadan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 9,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_10",
+    "content": "adan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 10,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_11",
+    "content": "dan stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 11,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_12",
+    "content": "an stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 12,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_13",
+    "content": "n stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 13,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_14",
+    "content": "stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 14,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_15",
+    "content": "stok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 15,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_16",
+    "content": "tok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 16,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_17",
+    "content": "ok çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 17,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_18",
+    "content": "k çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 18,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_19",
+    "content": "çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 19,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_20",
+    "content": "çıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 20,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_21",
+    "content": "ıkışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 21,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_22",
+    "content": "kışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 22,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_23",
+    "content": "ışı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 23,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_24",
+    "content": "şı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 24,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_25",
+    "content": "ı görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 25,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_26",
+    "content": "görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 26,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_27",
+    "content": "görülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 27,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_28",
+    "content": "örülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 28,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_29",
+    "content": "rülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 29,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_30",
+    "content": "ülen ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 30,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_31",
+    "content": "len ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 31,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_32",
+    "content": "en ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 32,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_33",
+    "content": "n ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 33,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_34",
+    "content": "ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 34,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_35",
+    "content": "ikililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 35,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_36",
+    "content": "kililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 36,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_37",
+    "content": "ililer yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 37,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_38",
+    "content": "liler yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 38,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_39",
+    "content": "iler yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 39,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_40",
+    "content": "ler yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 40,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_41",
+    "content": "er yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 41,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_42",
+    "content": "r yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 42,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_43",
+    "content": "yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 43,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_44",
+    "content": "yasaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 44,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_45",
+    "content": "asaklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 45,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_46",
+    "content": "saklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 46,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_47",
+    "content": "aklanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 47,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_48",
+    "content": "klanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 48,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_49",
+    "content": "lanır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 49,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_50",
+    "content": "anır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 50,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_51",
+    "content": "nır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 51,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_52",
+    "content": "ır.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 52,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_53",
+    "content": "r.\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 53,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_54",
+    "content": ".\n\n*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 54,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_55",
+    "content": "*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 55,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_56",
+    "content": "*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 56,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_57",
+    "content": "*[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 57,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_58",
+    "content": "[tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 58,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_59",
+    "content": "tableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 59,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_60",
+    "content": "ableau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 60,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_61",
+    "content": "bleau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 61,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_62",
+    "content": "leau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 62,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_63",
+    "content": "eau].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 63,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_64",
+    "content": "au].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 64,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_65",
+    "content": "u].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 65,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_66",
+    "content": "].[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 66,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_67",
+    "content": ".[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 67,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_68",
+    "content": "[GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 68,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_69",
+    "content": "GenerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 69,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_70",
+    "content": "enerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 70,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_71",
+    "content": "nerateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 71,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_72",
+    "content": "erateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 72,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_73",
+    "content": "rateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 73,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_74",
+    "content": "ateTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 74,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_75",
+    "content": "teTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 75,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_76",
+    "content": "eTransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 76,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_77",
+    "content": "TransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 77,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_78",
+    "content": "ransferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 78,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_79",
+    "content": "ansferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 79,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_80",
+    "content": "nsferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 80,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_81",
+    "content": "sferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 81,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_82",
+    "content": "ferDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 82,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_83",
+    "content": "erDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 83,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_84",
+    "content": "rDetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 84,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_85",
+    "content": "DetailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 85,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_86",
+    "content": "etailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 86,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_87",
+    "content": "tailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 87,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_88",
+    "content": "ailedResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 88,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_89",
+    "content": "iledResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 89,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_90",
+    "content": "ledResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 90,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_91",
+    "content": "edResults]*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 91,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_92",
+    "content": "- [FloReporting].[dbo].[PostProcess]Değişikliklerden önceki sonuçlar FloReporting.dbo.TransferResultsBeforePostProcess tablosuna kaydedilir.Farklı satış kanalları arasında oluşmuş transfer önerileri (varsa) silinir. Bir mağazadan Destination count limitten daha fazla mağazaya gönderim önerisi olduğu durumlarda öncelik daha fazla transfer adedi oluşan mağazalarda olmak üzere silme işlemi yapılır.Bir hedef mağazaya toplam 1000 adetten fazla öneri çıkması durumunda, sonuçlar forecaste göre sıralanıp fazla sonuçlar silinir.   İki mağaza arasında 10 adetten daha az öneri oluşması durumunda, oluşan transfer önerileri silinir.\n- Bir generic için hem origin hem destination olan mağazalar , hangisi için daha fazla öneri oluştuğu kontrol edilerek  silinir.\n- Hedef veya kaynakta kırıklık oluşturan sonuçlar silinir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 92,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_FT_2109210636_93",
+    "content": "öneri oluştuğu kontrol edilerek  silinir.\n- Hedef veya kaynakta kırıklık oluşturan sonuçlar silinir.\n- Eğer Option Transfer parametresi True ise 1 generic altında tanımlı ürünlerden transfer önerisi oluşmamış olanlar bellirlenir ve kaynak mağazadaki geri kalan ürünler de transfer önerisine dahil edilir. (1 generic bir kaynaktan sadece 1 hedefe gittiği için eksik ürün kodlarını belirlemek mümkün.)Eğer eklediğimiz ürün kodu sayısı mevcut ürün kodu sayısından fazlaysa ekleme değil silme işlemi yapılır.Arayüzden belirlenen option transfer threshold değerine göre hedef generic ikilileri için nihai stok adedi hesaplanır ve forecast * ( 1 + threshold ) değerinden büyük ise bu kararlar silinir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FT",
+      "space_name": "Flo Transfer",
+      "page_id": "2109210636",
+      "title": "Kısıt Dökümanı",
+      "url": "https://invent.atlassian.net/wiki/spaces/FT/pages/2109210636",
+      "updated_by": "Ecemnaz Bay (Deactivated)",
+      "updated_date": "2021-02-01T11:46:45.981Z",
+      "chunk_index": 93,
+      "total_chunks": 94
+    }
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "confluence_ALGO_82981844_0",
+    "content": "> Tip: Confluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\n\n## Recent space activity\n\n## Space contributors",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82981844",
+      "title": "Invent Algorithm Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82981844",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2017-02-17T14:15:57.202Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_0",
+    "content": "### R Açılışında Paketlerin Otomatik Yüklenmesi\n\nR'da yazdığımız her kodun başına sisteme dahil etmek istediğimiz paketleri library() ile yazmamız gerekiyor. Bunu nasıl otomatize edebileceğimizi araştırdım ve bir .RProfile dosyası oluşturarak bu yükten kurtulabileceğimizi farkettim. .RProfile dosyası içindeki .First fonksiyonu içerisinde istediğiniz komutları ekleyerek, R her açıldığında otomatik yapmasını sağlayabilrsiniz.\n\nAşağıdaki kodu bir dosyaya yazıp, .RProfile adıyla kendi R home klasörünüze atarsanız yeni bir R oturumu açtığınızda içindeki paketler otomatik olarak yüklenecek.\n\nBenim için bu klasör: C:\\Users\\sabri.karagonen\\Documents\nAncak bilgisayardan bilgisayara değişebilir. Kendi klasörünüzü öğrenmek için R'da path.expand(\"~\") yazmanız yeterli.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 0,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_1",
+    "content": "dan bilgisayara değişebilir. Kendi klasörünüzü öğrenmek için R'da path.expand(\"~\") yazmanız yeterli.\n\n```\n.First <- function(){\n\tlibrary(\"RODBC\");require(data.table);require(reshape2);require(plyr);require(splitstackshape);\n\tlibrary(stats);require(zoo);library(stringr);library(gridExtra)\n\trequire(ggplot2);require(dplyr);library(R2HTML);library(rJava);\n\tlibrary(sendmailR);library(mailR);library(Ckmeans.1d.dp);\n\n cat(\"\\nWelcome at\", date(), \"\\n\")\n}\n\n.Last <- function(){\n cat(\"\\nGoodbye at \", date(), \"\\n\")\n}\n```\n\n()\n\nAynı profilin içerisinde RStudio'nun bazı varsayılan ayarlarını da belirlemek mümkün. Ekte ben bir kısmını ekledim, options() komutu veya Google ile daha fazla ayara ulaşmak mümkün.\n\nNot: Dosyayı indirdikten sonra Notepad++ gibi bir editörle açıp, \".RProfile\" adıyla farklı kaydetmeniz gerekecek çünkü Windows ismi olmayan dosyalara izin vermiyor ve indirdiğiniz dosyayı \"RProfile\" şeklinde kaydediyor.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 1,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_2",
+    "content": "Windows ismi olmayan dosyalara izin vermiyor ve indirdiğiniz dosyayı \"RProfile\" şeklinde kaydediyor.\n\n```\noptions(papersize=\"a4\")\noptions(editor=\"notepad\")\noptions(pager=\"internal\")\noptions(Scipen=99)\noptions(prompt=\"> \")\noptions(continue=\"+ \")\noptions(tab.width = 2)\noptions(width = 130)\noptions(graphics.record=TRUE)\noptions(max.print = 100000)\noptions(digits = 5)\noptions(stringsAsFactors = F)\noptions(datatable.print.topn = 10)\noptions(datatable.print.nrows = 50)\noptions(datatable.fread.dec.locale = \"English_United States.1254\")\n\n.First <- function(){\n\tSys.setlocale(\"LC_ALL\", \"English_United States.1254\")\n\tlibrary(\"RODBC\");require(data.table);require(reshape2);require(plyr);require(splitstackshape);\n\tlibrary(stats);require(zoo);library(stringr);library(gridExtra)\n\trequire(ggplot2);require(dplyr);library(R2HTML);library(rJava);\n\tlibrary(sendmailR);library(mailR);library(Ckmeans.1d.dp);\n\n cat(\"\\nWelcome at\", date(), \"\\n\")\n}",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 2,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_3",
+    "content": "a);\n\tlibrary(sendmailR);library(mailR);library(Ckmeans.1d.dp);\n\n cat(\"\\nWelcome at\", date(), \"\\n\")\n}\n\n.Last <- function(){\n cat(\"\\nGoodbye at \", date(), \"\\n\")\n}\n```\n\n---\n\nFactor vs Character\n\n(Volkan Gümüşkaya)\n\nLongtermforecast için çalıştırdığım bir Rscript normalde birkaç dakikayı geçmezken tablo boyutları benzer (sadece 5-6% büyük) ve exponential da çalışmayan bir kod 20 dakikaları buldu. Sebebinin şundan kaynaklandığını gördüm:\n\n230.000 lik bir datatable daki SKU isimleri (bu skular üstünden loop döndürüyorum) hızlı olanda “character” yavaş olanda “factor” data tipinde imiş. Bu basit değişikliği yapınca büyük tablolu olan gerçekten de çok daha hızlı çalıştı. Performansa ciddi katkısı olduğu için paylaşmak istedim. Konuyla ilgili alakalı olabilecek şu link var:\n\n[http://stackoverflow.com/questions/18304760/why-character-is-often-preferred-to-factor-in-data-table-for-key](http://stackoverflow.com/questions/18304760/why-character-is-often-preferred-to-factor-in-data-table-for-key)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 3,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_4",
+    "content": "ackoverflow.com/questions/18304760/why-character-is-often-preferred-to-factor-in-data-table-for-key)\n\nBu arada deneysel 1 Milyonluk bir array oluşturup boyutlarını karşılaştırdığımda factor arrayinin %6 daha fazla yer kapladığını gördüm.\n\n---\n\nR SQL Connection'larinda Şifreyi Script'in İçerisinde Göstermeme\n\nScriptlerin İçerisine direkt olarak sql bağlantısı için userId ve şifre yazıyoruz plain text olarak. Yaptığımız işlem aslında şifrenin genel mantığına aykırı olmuş oluyor. Bu yüzden şöyle bir paket var tam kullanmalık. Paketimizin adı \"keyringr\" yapılacak işlemse çok basit. Şifreyi bir txt dosyasında encrypted şekilde tutmak. (Çözülmesi çok zor değildir belki ama bir bakışta şifreyi anlamak imkansız).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 4,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_5",
+    "content": "crypted şekilde tutmak. (Çözülmesi çok zor değildir belki ama bir bakışta şifreyi anlamak imkansız).\n\nİlk olarak keyringr paketini çağırıyoruz ve şifreyi tutmak istediğimiz, içi boş olan bir txt dosyası oluşturuyoruz.  (Daha sonra bu txt dosyasının bulunduğu directory'i kullanacağız.) Sonrasında powershell açıyoruz ve aşağıdaki kodu execute ediyoruz. Burada en son kısımda txt dosyasının path'ini veriyoruz. Sonra PowerShell bizden şifre istiyor. Kullanacağımız şifreyi yazıyoruz. Böylece bu txt dosyasının içerisinde şifre yazılıyor.\n\n*Minik bir not: Dikkatlerden kaçabileceği için ekleyeyim dedim, powershell kodunda path verilirken \" \\ \" kullanılırken R'da path yazarken \" / \" veya \" \\\\ \" kullanmamız gerekiyor.*\n\n```powershell\nPS C:\\Users\\onur.uzun> Read-Host \"PW?\" -AsSecureString | ConvertFrom-SecureString | Out-File \"C\\Users\\....\"\nPW?: \n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 5,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_6",
+    "content": "uzun> Read-Host \"PW?\" -AsSecureString | ConvertFrom-SecureString | Out-File \"C\\Users\\....\"\nPW?: \n```\n\nSonrasında R'da aşağıdaki kodu kullanarak şifreyi çağırabiliyoruz. Şifreyi fonksiyonla çağırarak kullanabiliyoruz. Ancak fonksiyonu normal çalıştırmamızda konsola şifreyi yazmıyor. Eğer şifreyi görmek ve kontrol etmek isterseniz bir objeye assignment yapıp objeyi çağırarak bakabiliyoruz.\n\n```\nlibrary(keyringr)\ndecrypt_dpapi_pw(\"C:/Users/onur.uzun/...\")\n\ndbhandle <- odbcDriverConnect(paste0(\"driver={SQL Server};server=\",serverIP,\";database=\",database,\";uid=\",userId,\";pwd=\",decrypt_dpapi_pw(\"C:/Users/onur.uzun/.....\")))\n#eger yukaridaki sekilde yaparsaniz hicbir yerde sifre plain text olarak yazmaz.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 6,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_7",
+    "content": "onur.uzun/.....\")))\n#eger yukaridaki sekilde yaparsaniz hicbir yerde sifre plain text olarak yazmaz.\n\ndbhandletext <- paste0(\"driver={SQL Server};server=\",serverIP,\";database=\",database,\";uid=\",userId,\";pwd=\",decrypt_dpapi_pw(\"C:/Users/onur.uzun/.....\") )\ndbhandle <- odbcDriverConnect(dbhandletext)\n#eger bu sekilde yaparsaniz dbhandletext objesini kosturursaniz, sifre plain text olarak konsolda yazacaktir.\n\n```\n\n---\n\n### \"Unique\" fonksiyonuyla çalışırken\n\nUnique fonksiyonuyla çalışırken yaşadığım birkaç sorun oldu (Volkan Gümüşkaya) :\n\n- Unique fonksiyonunun localimde çalışırken, server da (muhtemelen package ın farklı versiyonda olması kaynaklı) hiç çalışmaması. Örn aşağıdaki şekilde serverda run aldığımda fonksiyon direkt tüm kolonlar üstünden unique alıyor.\n\n```\n# v1,v2,v3,...,v10 kolon isimli bir DT miz olsun ve v1,v2,v3 üstündne unique lemek, kalanlardan da hangi satırların geldiğini önemsemeden tutmak istiyorum.\nsetkeyv(DT, C(\"v1,v2,v3\")\nDT<-unique(DT)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 7,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_8",
+    "content": "da hangi satırların geldiğini önemsemeden tutmak istiyorum.\nsetkeyv(DT, C(\"v1,v2,v3\")\nDT<-unique(DT)\n\n# Sonuçta tüm kolonlar üstünden unique liyor, sadece v1,v2,v3 üstünden değil.\n```\n\nBu kodun yerine şu kodu çalıştırınca istediğimiz oluyor:\n\n```\n# v1,v2,v3,...,v10 kolon isimli bir DT miz olsun ve v1,v2,v3 üstündne unique lemek istiyorum.\nDT<-unique(DT, by = c(\"v1\",\"v2\",\"v3\")\n# Bu syntax datatable in syntaxi ve unique leme işlemi OK.\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 8,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_9",
+    "content": "DT<-unique(DT, by = c(\"v1\",\"v2\",\"v3\")\n# Bu syntax datatable in syntaxi ve unique leme işlemi OK.\n```\n\n- Yukardaki kodu başka DT ler için çalıştırdığımda ise birkaç kez şöyle bir sorun oldu. Örneğin DT de \"TR5147\" diye bir product ım olmasına rağmen DT[productcode=='TR5147\"] sorgusu boş geliyor. Sonuç olarak Onur Özkan Uzun ,Sabri Karagönen ve  la baktık, data tiplerini kontrol ettik ve sorunun temel sebebi birkaç farklı library de \"unique\" fonksiyonun olması ve hangisini çalıştırdığını bilmemiz (rJava, base ve datatable) ya da explicit \"Şu library nin fonksiyonunu kullan\" demememiz olabilir. Ne yapabiliriz?\n- DT yi \"v1,v2,v3\" üstünden unique leyeceksek \"v4,,...v10 da kalsın kullanırım\" dememek, sadece o kolonları seçip (DT[,.(v1,v2,v3)]) unique lemek.\n- Hangi library nin fonksiyonunu çekeceğimizi belirtmemiz (datable::unqiue gibi)\n- unique kullanmamak:)\n\n---\n\n### Kopyalanan Veriyi R'a çekmek",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 9,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_82982315_10",
+    "content": "izi belirtmemiz (datable::unqiue gibi)\n- unique kullanmamak:)\n\n---\n\n### Kopyalanan Veriyi R'a çekmek\n\nBazen Excel'den veya SQL'den doğrudan veriyi kopyalayıp R'a aktarmak istiyoruz. Ancak bunun için genelde veriyi alıp, csv olarak kaydedip R içinde açmak gibi bir yöntem uygulamak gerekiyordu.\n\nAşağıdaki kodla clipboard'daki veriyi doğrudan R'a çekebiliyorsunuz:\n\n```\nread.delim(\"clipboard-128\")\n```\n\n### Linkler\n\n| Link | Açıklama |\n| --- | --- |\n| https://awesome-r.com | Kullanışlı R paketlerinin bir araya getirildiği bir derleme |\n| https://github.com/search?l=R&o=desc&q=R&s=stars&type=Repositories&utf8=✓ | Github'daki en yüksek yıldızlanan R paketleri |\n| https://cran.r-project.org/web/packages/keyringr/keyringr.pdf | Keyringr paketinin dokumani |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "82982315",
+      "title": "R Best Practices, Tips & Tricks",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/82982315",
+      "updated_by": "Sabri Karagönen (Unlicensed)",
+      "updated_date": "2017-09-15T07:31:39.758Z",
+      "chunk_index": 10,
+      "total_chunks": 11
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_0",
+    "content": "R’da yapabileceğimiz bir takım işleri neden C üzerinden yapmak isteriz?\n\nÇeşitli döngüleri içeren algoritmaları R’da kodlamak, çalışma süreleri (ya da algoritma hızı) açısından oldukça sorunlu olabilir. Bu tür durumlarda döngüleri C veya Fortran gibi daha alt seviye dillerde kodlamak ve bunları R üzerinden çalıştırmak algoritma çalışma hızı açısından büyük avantajlar sağlayacaktır. Bu bölümde bir takım R döngülerini C’de nasıl gerçekleştiririz sorusunu cevaplamaya çalışacağız.\n\nR ile C’de yazıp derlediğimiz kodları çalıştırmak için neler gereklidir?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 0,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_1",
+    "content": "u cevaplamaya çalışacağız.\n\nR ile C’de yazıp derlediğimiz kodları çalıştırmak için neler gereklidir?\n\nR içinde C’de yazdığımız kodları çalıştırabilmek için bir derleyiciye (compiler) ihtiyaç vardır. Unix tabanlı sistemlerin kendi içinde açık kaynak kodlu C derleyicileri olsa da, Windows sistemlerde derleyiciyi yüklemek gerekmektedir. Bunun için Rtools([https://cran.r-project.org/bin/windows/Rtools/](https://cran.r-project.org/bin/windows/Rtools/))yüklemek ve birkaç ayar yapmak yeterlidir. Rtools yükleme dosyasını indirdikten sonra çalıştıralım. Yükleme sırasında nelerin yükleneceğine dair bilgi istendiği yere kadar varsayılan değerler ile ilerleyebiliriz. Bu ekran aşağıda paylaşılmıştır.\n\nŞekil 1. Örnek Rtools yükleme penceresi",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 1,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_2",
+    "content": "erler ile ilerleyebiliriz. Bu ekran aşağıda paylaşılmıştır.\n\nŞekil 1. Örnek Rtools yükleme penceresi\n\nSize daha sonra R 32 bit ve 64 bit versiyonu için hangi klasörün kullanılacağı sorulacak. Bunlar için de varsayılan klasör isimleri ile devam edebilirsiniz. Yükleme işlemindeki en önemli kısım sistem yolunun (system path) değiştirilmesi ile ilgili kısımdır. Bu ekran aşağıda paylaşılmıştır. “Edit the system PATH” seçeneği seçilip “Next” dediğiniz zaman kullanılacak derleyicinin bulunduğu yol (örneğin “c:\\Rtools\\gcc-4.6.3\\bin;”, gcc açık kaynak kodlu bir C++ derleyicisidir.) ve R programının yüklü olduğu yol (örneğin “C:\\R\\R-3.2.2\\bin\\x64;”) girdilerini sağlamanız gerekmektedir. Benim bilgisayarımdaki örnek “system path” görüntüsü aşağıda verilmiştir (Şekil 3). Gerekli değişiklikler yapıldıktan sonra program yüklenir ve R için kullanılacak C kodlarını derlemek için gerekli programlar yüklenmiş ve tanımlanmış olur.\n\nŞekil 2. Örnek system PATH düzenleme penceresi",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 2,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_3",
+    "content": "in gerekli programlar yüklenmiş ve tanımlanmış olur.\n\nŞekil 2. Örnek system PATH düzenleme penceresi\n\nŞekil 3. Örnek system PATH düzenleme penceresi\n\nC’de yazdığımız kodu R’da çalıştırma mantığı",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 3,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_4",
+    "content": "ceresi\n\nŞekil 3. Örnek system PATH düzenleme penceresi\n\nC’de yazdığımız kodu R’da çalıştırma mantığı\n\n1. C’de yaptıracağımız işleri C dilinde çeşitli argümanlar alan fonksiyonlar halinde yazarız. Bu fonksiyonlar sonuç dönmeyen yani “void” tipinde fonksiyonlar olmalıdır.\n2. Yazılan C kodu R yardımıyla derlenerek (compile) bir dinamik kütüphane oluşturulur. Bu dinamik kütüphaneler Windows ortamında “*.dll” (dynamic-link library) uzantılı, Unix ortamında “*.so” (shared object) uzantılı dosyalar halinde tutulur.\n3. R üzerinde dinamik kütüphanenin tanımlandığı ve ona gerekli girdileri sağlayan bir üst R fonksiyonu yazılır. Bu fonksiyon C kodu ile R tarafında tanımlı değişkenler (vektör, matris ve benzeri) arası bilgi alışverişini sağlar. R tarafında tanımlanan bu fonksiyon C tarafına gidecek değerleri kontrol edip gerekli girdileri C fonksiyonuna yolladıktan sonra, C fonksiyonundan gelen sonucu alıp, düzenleyip R ortamına döndürür.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 4,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_5",
+    "content": "fonksiyonuna yolladıktan sonra, C fonksiyonundan gelen sonucu alıp, düzenleyip R ortamına döndürür.\n\nBu işlemleri basit bir örnek üzerinde sırasıyla ele alalım.\n\n1. R’dan çağrılabilen C fonksiyonları\n\nn uzunluğundaki bir vektör içindeki sayıların karesini döngüler ile hesaplayan bir C fonksiyonu yazalım. Normalde bu işlemi R’da döngü kullanmadan yapabiliriz ama bu örnekte amacımız C’nin döngülerdeki başarısını göstermek.\n\n| void ustu(int *nin, double *x){  int n = nin[0];  int i;  for (i=0; i<n; i++)         x[i] = x[i] * x[i];} |\n| --- |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 5,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_6",
+    "content": "in, double *x){  int n = nin[0];  int i;  for (i=0; i<n; i++)         x[i] = x[i] * x[i];} |\n| --- |\n\nC’de void tipinde yazılmış bu fonksiyon iki tane argüman alıyor. Bunlar “nin” ve “x” işaretçileri (pointer). R ile bağlantı kuracağımız C’de yazılmış fonksiyonların hepsi void tipinde olmalı ve argüman olarak da pointer almalıdır. Burada “nin” vektör içinde kaç tane değer olduğunu belirtir ve “integer” tipindedir. R’a sonuç olarak döneceğimiz değer de, Yani “x”, bir argüman olarak girer ve C’de “integer” tipi değişkenin sınırlarından büyük bir sonuç olabileceği için “double” tipinde tanımlanmıştır. Bunun dışında bir neden de girdilerin kesirli sayılar olabilmesidir. Eğer kesirli sayıların karelerini hesaplamak istersek girdi tipini “double” olarak tanımlamak gerekir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 6,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_7",
+    "content": "er kesirli sayıların karelerini hesaplamak istersek girdi tipini “double” olarak tanımlamak gerekir.\n\nFonksiyonun içinde “integer” tipinde “n” değişkeni tanımlanıp “nin” işaretçisinin işaret ettiği ilk elemana eşitlenir. Unutmayalım ki C dilinde diziler (array) sıfırdan başlayarak indekslenir. Dolayısıyla R tarafından belirlenecek olan “nin” dizisinin ilk elamanı vektör içinde kaç sayı olduğunu belirtir.\n\nDaha sonrasında C’deki for döngü yapısı işletilir. Bunun içinde “x” vektörü içindeki her değer değer kendisi ile çarpılarak verilen değerin karesi hesaplanır. Bunu da “x” vektörünün her elemanını bir for döngüsünü sıfırdan başlatarak yapıyoruz.\n\nBu kodu “*.c” uzantısı ile “ustu.c” isimli bir dosyaya kaydedelim.\n\n2.Yazılan C kodunu R yardımıyla derlemek",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 7,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_8",
+    "content": "“*.c” uzantısı ile “ustu.c” isimli bir dosyaya kaydedelim.\n\n2.Yazılan C kodunu R yardımıyla derlemek\n\nR yazdığımız C kodlarını derleyebilmemiz için çeşitli komutlar sağlar. Bu komutlara R’ı yüklediğiniz klasör altında bulabiliriz. R ile C’yi konuşturma işlerinin en sorunlu kısmı burası denebilir. Bunun sebebi komut satırını kullanmak zorunluluğudur. Bunları aşama aşama anlatmaya çalışacağız.\n\nEğer Windows ortamındaysanız Başlangıç (Start) menüsünden Komut Penceresi (Command Window) açalım. Alternatif olarak Başlangıç menüsüne “cmd” yazarak da bu pencereyi açabiliriz. Daha sonra R’ı yüklediğimiz klasöre gideceğiz. Aşağıda R klasörünün yüklendiği klasör “C:\\R-3.0.3” olan ve “ustu.c” dosyasının “C:\\mustafa\\Dokumanlar\\RBlog\\”  altında tutulduğu bir durumda kullanılacak komutları görebilirsiniz. Ayrıca ekran görüntüsü de Şekil 4’de verilmiştir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 8,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_9",
+    "content": "bir durumda kullanılacak komutları görebilirsiniz. Ayrıca ekran görüntüsü de Şekil 4’de verilmiştir.\n\nC:\\Users\\baydogan>cd C:\\R-3.0.3\\bin\\x64C:\\R-3.0.3\\bin\\x64>R CMD SHLIB C:/mustafa/Dokumanlar/RBlog/ustu.cŞekil 4. Örnek komut penceresi ekran görüntüsü\n\nC kodunuzda herhangi bir sorun olmaması durumunda ekran görüntüsünde paylaşılan gibi mesajlar görmeniz beklenir. Başarılı işlem sonucunda C dosyanızın bulunduğu klasör altında “ustu.dll” ve “ustu.o” adlı iki dosya oluşması beklenir. Burada önemli olan nokta eğer yüklediğiniz R’ın 64 bitlik versiyonu ise oluşturulan kütüphane dosyasının 64bitlik R klasörü altında derlenmesi gerekmektedir. Bir başka deyişle 32bitlik R ile derlenmiş kütüphane 64bitlik R’da çalışmaz. Bunun tam tersi de geçerlidir. Ayrıca klasör isimleriniz boşluklar içeriyorsa komutları tırnak içine alarak çalıştırmanız gereklidir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 9,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_10",
+    "content": "rıca klasör isimleriniz boşluklar içeriyorsa komutları tırnak içine alarak çalıştırmanız gereklidir.\n\nEğer Unix ortamındaysanız izleyeceğimiz yol aynı. Tek fark R yüklenmesi sırasında “PATH” değişkenine eklendiği için R’ın yüklü olduğu klasöre gitmemize gerek yok. Komut Penceresi yerine “Terminal” kullanarak yukarıdaki operasyonun aynısını R CMD SHLIB cDosyaYoluşeklinde yaparak “[ustu.so](http://ustu.so)” dosyasını oluşturabilirsiniz.\n\nŞimdi sırada oluşturduğumuz kütüphane dosyasını R tarafında tanıtmak var. Bunun için bir paketleyici (wrapper) bir R fonksiyonu yazacağız.\n\n3.Oluşturulan kütüphaneyi paketleyecek R fonksiyonun yazılması",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 10,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_11",
+    "content": "wrapper) bir R fonksiyonu yazacağız.\n\n3.Oluşturulan kütüphaneyi paketleyecek R fonksiyonun yazılması\n\nDinamik kütüphane dosyası oluşturulduktan sonra C’de yazılmış üstü fonksiyonumuzu aşağıdaki komutla çalıştırabiliriz. Bunun için R’ın bize sağladığı “.C” isimli fonksiyonu kullanacağız. “.C” fonksiyonunu kullanmadan önce dinamik kütüphaneyi R ortamına “dyn.load(.)” fonksiyonu aracılığıyla yükleyeceğiz. Artık bu fonksiyonu kullanmak istemediğimizde “dyn.unload(.)” fonksiyonunu kullanabiliriz. R terminaline:\n\n| #dll dosyasının yolunu dyn.load fonksiyonuna veriyoruzdyn.load(\"C:/mustafa/Dokumanlar/RBlog/ustu.dll\")#.C komutu ile “ustu” isimli fonksiyonu çağırıyoruzRnd=rnorm(5)Rnd# [1] 0.9704198 0.6040528 0.5571135 0.4412880 1.1645262.C(\"ustu\", n=as.integer(5), x=as.double(Rnd))#$n# [1] 5##$x# [1] 0.9417147 0.3648797 0.3103754 0.1947351 1.3561212 |\n| --- |\n\n```\n\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 11,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_12",
+    "content": "ouble(Rnd))#$n# [1] 5##$x# [1] 0.9417147 0.3648797 0.3103754 0.1947351 1.3561212 |\n| --- |\n\n```\n\n```\n\nC’de çalışacak ustu fonksiyonuna girdi olarak karesi alınacak vektörde kaç tane sayı, *n=5*, ve karesi alınacak sayılar vektörü, *x*, beş uzunluğunda standart normal dağılımdan 5 tane değer verilir. Fonksiyonun çıktısı C’den dönen *n* ve *x* sayısıdır.\n\nYukarıdaki “.C” fonksiyonu ile yapılan fonksiyon çağırma işlemi genellikle tercih edilen bir yaklaşım değildir. Bunun yerine R’da paketleyici (wrapper) R fonksiyonları yazmayı tercih ederiz. Bunun sebebi ise gerekli girdi kontrollerini yapabilmek, sonuçları şekillendirebilmek ve bazı gereksiz girdileri R fonksiyonu içinde hesaplayabilmektir (örneğin Rnd vektörünün beş uzunluğunda olduğunu R içinde hesaplayabiliriz).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 12,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_13",
+    "content": "inde hesaplayabilmektir (örneğin Rnd vektörünün beş uzunluğunda olduğunu R içinde hesaplayabiliriz).\n\nYeni bir R dosyası oluşturup, aşağıdaki gibi bir fonksiyonu bu dosya içinde kaydedelim. Bu dosya içinde dinamik kütüphane yüklenmiş mi yüklenmemiş mi kontrolünü de yapmamız mümkündür ve aslında bu kontrolü yapmak gereklidir. Fonksiyonun ilk satırlarında “is.loaded(.)” fonksiyonunu kullanarak “ustu” fonksiyonun yüklenip yüklenmediğini kontrol ediyoruz ve yüklenmediyse “dyn.load(.)” yardımıyla yüklenmesini sağlıyoruz.\n\n| karesiC <- function(x) {           if (!is.numeric(x))                   stop(\"Girilen değer sayı olmalı\")           if(!is.loaded(\"ustu\"))                   dyn.load(\"C:/mustafa/Dokumanlar/RBlog/ustu.dll\")            out <- .C(\"ustu\",                   n=as.integer(length(x)),                   x=as.double(x))           return(out$x)   } |\n| --- |\n\nSonuçlar",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 13,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_14",
+    "content": "nteger(length(x)),                   x=as.double(x))           return(out$x)   } |\n| --- |\n\nSonuçlar\n\nKarşılaştırma yapmak için “karesiC” fonksiyonun R versiyonunu aşağıdaki gibi kodladık (“karesiR” adı altında). Bunun dışında aynı hesapı R’da vektörel olarak yapan “karesiVektorel” fonksiyonunu da yazalım.\n\n| karesiR <- function(x) {           if (!is.numeric(x))                   stop(\"Girilen değer sayı olmalı\")           for(i in 1:length(x)){                   x[i]= x[i]*x[i]           }           return(x)   }    karesiVektorel<- function(x) {           if (!is.numeric(x))                   stop(\"Girilen değer sayı olmalı\")           x=x*x           return(x)   } |\n| --- |\n\nBu üç fonksiyona standart normal dağılımdan üretilmiş bir milyon uzunluğunda bir vektör verip, çalışma sürelerini kontrol edeceğiz. Tabi öncelikle bu fonksiyonları önceden R’a tanıtmamız gerekiyor. Öncelikle R terminalinde bu kodları çalıştıralım. Sonra aşağıdaki komutları uygulayalım.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 14,
+      "total_chunks": 16
+    }
+  },
+  {
+    "id": "confluence_ALGO_83135071_15",
+    "content": "gerekiyor. Öncelikle R terminalinde bu kodları çalıştıralım. Sonra aşağıdaki komutları uygulayalım.\n\n| Rnd=rnorm(1000000)system.time(karesiR(Rnd))#   user  system elapsed #   6.74    0.01    6.83 system.time(karesiVektorel(Rnd))#   user  system elapsed #   0.01    0.00    0.02 system.time(karesiC(Rnd))#   user  system elapsed #      0       0     0 |\n| --- |\n\nÖrnekte de görüldüğü gibi döngüler vektörel olarak ya da C üzerinden döndürülmeye çalışılırsa önemli kazançlar elde edilmekte. Verdiğimiz örnek R ile C arasındaki bağlantının nasıl yapıldığını anlatabilmek adına çok kolay bir uygulama üzerinden yapıldı. Bilimsel hesaplama problemleri iterasyon gerektiren birden çok döngüyü içerdiğinden R ile C bağlantısı oldukça önem kazanmıştır ve hem hafıza (memory) hem de işlemci kullanımı açısından kayda değer kazançlar sağlamaktadır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "ALGO",
+      "space_name": "Invent Algorithm",
+      "page_id": "83135071",
+      "title": "R ve C Bağlantısı",
+      "url": "https://invent.atlassian.net/wiki/spaces/ALGO/pages/83135071",
+      "updated_by": "Mustafa Baydoğan (Unlicensed)",
+      "updated_date": "2017-02-24T08:43:41.054Z",
+      "chunk_index": 15,
+      "total_chunks": 16
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_0",
+    "content": "Welcome to Confluence!You can use Confluence to create a rich knowledge base or to collaborate with others using words, videos, images, graphics, charts, and graphs.This page walks you through some Confluence basics like spaces, pages, and elements that allow you to create and manage impactful content for your teams.On this page\n\n# Confluence 101\n\n[https://www.youtube.com/embed/kaNPNbAT-as%22](https://www.youtube.com/embed/kaNPNbAT-as%22)\n\n## 🗃️ Spaces\n\nSpaces are places for individuals, teams, and companies to organize and work on ideas, projects, documentation, and announcements. Spaces can be customized and integrated with both Atlassian tools and others. [Create](https://confluence.atlassian.com/conf73/create-a-space-991927526.html) as many spaces as you need to get things done:\n\n###### Give each team their own space so they can work closely and make information easier to find.\n\n###### Put all the information related to your project in one place so everyone can work together.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 0,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_1",
+    "content": "###### Put all the information related to your project in one place so everyone can work together.\n\n###### Store anything you’re working on, keep your to-do lists, and polish content before moving it into a shared space.\n\n16\nincomplete\nIn the main navigation bar, select`Spaces`→`Create space`to create a new space.\n\n[Learn more about spaces](https://www.atlassian.com/software/confluence/guides/get-started/set-up)\n\n## 📄 Pages\n\nPages are where teams define, collaborate on, and document their work. They’re the building blocks of Confluence.\n\nTo create a page within a space, select the `+` to create a new page. You can also create pages using the `Create` button in the main navigation bar.\n\n|  |\n| --- |\n\n17\nincomplete\nPress`c`to create a page at any time.\n\n[Learn more about pages](https://www.atlassian.com/software/confluence/guides/get-started/create-content)\n\n[Back to top ⤴](#On-this-page)\n\n---\n\n# Making purposeful content\n\n## ✏️ Confluence editor",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 1,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_2",
+    "content": "-content)\n\n[Back to top ⤴](#On-this-page)\n\n---\n\n# Making purposeful content\n\n## ✏️ Confluence editor\n\nChanges can only be made to page content when in the editor. Changes will save automatically and be pushed live the next time the page is published.\n\n## 🛠️ Templates\n\nIf you’re not sure where to start when setting up a new space or page, save time with a space or page template.\n\n|  |\n| --- |\n\n35\nincomplete\nPress`e`when on a page to open the editor.\n\n[Learn more about page templates](https://support.atlassian.com/confluence-cloud/docs/create-a-page-from-a-template) | [Browse space templates](https://support.atlassian.com/confluence-cloud/docs/create-a-space-from-a-template)\n\n## 🧰 Elements\n\nElements are tools like calendars, note panels, and layouts, designed to help you make your pages more powerful.\n\n|  |\n| --- |\n\n20\nincomplete\nPress`/`to see a list of elements.\n\n[Learn more about elements](https://support.atlassian.com/confluence-cloud/docs/create-a-space-from-a-template)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 2,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_3",
+    "content": "about elements](https://support.atlassian.com/confluence-cloud/docs/create-a-space-from-a-template)\n\n## 📸 Header images\n\nMake your pages more visually impactful with emojis and header images. 🍕 Emojis aren’t just a fun way to spice up your page—they also show up in search, so using them strategically makes it easier to find pages later on.\n\n|  |\n| --- |\n\n21\nincomplete\nSelect`Add status`at the top of the page, so teammates can see your progress at a glance.\n\n[Learn more about page header images](https://support.atlassian.com/confluence-cloud/docs/make-your-page-and-its-title-more-memorable)\n\n[Back to top ⤴](#On-this-page)\n\n---\n\n# Collaborating with teammates\n\n## 🧑‍💻 Real-time editing\n\nYou and up to 11 teammates can edit a page together in real time. Changes save and sync automatically so that everyone editing sees the same thing. Start editing together by selecting the Edit icon in the header.\n\n|  |\n| --- |\n\n22\nincomplete\nPress`Command + Enter`when in the editor to publish.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 3,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_4",
+    "content": "con in the header.\n\n|  |\n| --- |\n\n22\nincomplete\nPress`Command + Enter`when in the editor to publish.\n\n[Learn more about collaborative editing](https://support.atlassian.com/confluence-cloud/docs/create-edit-and-publish-a-page/#Collaborative-editing)\n\n## 💬 Mentions and comments\n\nComments are a great way to start a conversation about a page or blog post. They allow you to remark on content, add important information, ask questions, and generally drive collaboration and teamwork.\n\n@mention a teammate to bring them into the conversation, and they can reply to and/or like comments.\n\n|  |\n| --- |\n\n23\nincomplete\nInline comment →Added to a highlighted section of the page or post you are editing or viewing; good for targeted comments on a specific word or phrase.\n\n24\nincomplete\nPage comment →Added below the content of the page or post you are viewing; good for comments that apply to the content as a whole.\n\n25\nincomplete\nLeave an inline comment when viewing a page or in the editor.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 4,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_5",
+    "content": "the content as a whole.\n\n25\nincomplete\nLeave an inline comment when viewing a page or in the editor.\n\n[Learn more about comments](https://support.atlassian.com/confluence-cloud/docs/comment-on-pages-and-blog-posts/)\n\n[Back to top ⤴](#On-this-page)\n\n---\n\n# Organizing your content\n\n## 🌳 Page tree\n\nThe page tree is where your content is organized within a space. Drag and drop to reorder or nest pages, so you can more effectively share your work with others.\n\n[Learn more about the page tree](https://support.atlassian.com/confluence-cloud/docs/move-copy-and-hide-pages/)\n\n## 📣 Space overview\n\nTo help your teammates find relevant content, curate your space overview with useful elements like calendars and page statuses, and include information about what is in your space.\n\n26\nincomplete\nUse the `/info` panel element to highlight important information in your space overview.\n\n[Learn more about space overview](https://support.atlassian.com/confluence-cloud/docs/set-up-your-space-homepage/)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 5,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_6",
+    "content": "out space overview](https://support.atlassian.com/confluence-cloud/docs/set-up-your-space-homepage/)\n\n## 🌻 Content types\n\n###### If your content that won’t change over time, create it as a blog post. The blog feed for each space displays the most recent posts first.\n\n###### If your content may change over time, create it as a page. Pages nest, so you can create categories and subcategories.\n\n27\nincomplete\nPress`k`for a shareable link to your page or post.\n\n[Learn more about sharing pages and blog posts](https://support.atlassian.com/confluence-cloud/docs/share-a-page-or-blog-post/)\n\n## 📏 Tables\n\nTables allow you to organize important information on a page to discuss it with your team. Present the information the way it makes sense to you—resize columns, color cells, rows and columns, and sort the table by clicking the column headers.\n\n|  |\n| --- |\n\n28\nincomplete\nType`/table`to add a table at any time.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 6,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_7",
+    "content": "by clicking the column headers.\n\n|  |\n| --- |\n\n28\nincomplete\nType`/table`to add a table at any time.\n\n[Learn more about tables](https://confluence.atlassian.com/conf73/tables-991927743.html)\n\n## 🌱 Drafts\n\nConfluence autosaves your content as you work—if you select `Close` in the editor without publishing, you’ll create a draft, or an unpublished page you can get back to at any time.\n\nOnly you can see your draft, unless you share a link to it.\n\n[Learn more about drafts](https://confluence.atlassian.com/doc/drafts-149040.html)\n\n[Back to top ⤴](#On-this-page)\n\n---\n\n# What’s next?\n\n## 🧐 TL;DR\n\nThese are the top three actions we think will help you get the most from Confluence.\n\n32\nincomplete\nExplore a `Space`\n\n33\nincomplete\n`Create` a page\n\n34\nincomplete\n`Invite` a teammate\n\n## Jira ❤️ Confluence\n\nChoose from 70+ templates to help you structure your thinking, improve documentation quality, and adopt best practices for agile development.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 7,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416311_8",
+    "content": "ucture your thinking, improve documentation quality, and adopt best practices for agile development.\n\n[https://www.youtube.com/watch?v=ohtDFXNAUns](https://www.youtube.com/watch?v=ohtDFXNAUns)\n[Back to top ⤴](#On-this-page)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416311",
+      "title": "Getting started in Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416311",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:14.368Z",
+      "chunk_index": 8,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~5570582208e0cd9d2844e3b4c7bce660ac2c21_4056416312_0",
+    "content": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote).\n\n## 📄 Recent pages that I've worked on\n\n## 🖐 Get in touch\n\n✉️ Insert your email here\n\n💼 Insert your LinkedIn URL here\n\n🔗 Insert your Twitter handle here\n\n👤 Insert your Medium profile here\n\nEnd with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~5570582208e0cd9d2844e3b4c7bce660ac2c21",
+      "space_name": "Can Mustafa Kone",
+      "page_id": "4056416312",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~5570582208e0cd9d2844e3b4c7bce660ac2c21/pages/4056416312",
+      "updated_by": "Can Mustafa Kone",
+      "updated_date": "2024-02-23T06:45:16.059Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

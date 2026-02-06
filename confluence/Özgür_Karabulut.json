@@ -1,0 +1,210 @@
+[
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303363_0",
+    "content": "Adınızı, size nasıl hitap edilmesini istediğinizi, rolünüzü, takımınızı ve konumunuzu (veya uzaktan çalışıp çalışmadığınızı) bilmek isteyen çalışma arkadaşlarınıza merhaba deyin.\n\n## 📄 En son üzerinde çalıştığım içerik\n\n## 🖐 İletişime geçin\n\n✉️ Buraya e-posta adresinizi girin\n\n💼 Buraya LinkedIn URL'nizi girin\n\n🔗 Buraya Twitter kullanıcı adınızı girin\n\n👤 Buraya Medium profilinizi girin\n\nHeyecanınızı yansıtan bir cümleyle bitirin. Bazı seçenekler: \"<Şirket adı> şirketinde olmaktan çok mutluyum ve işe başlamak için sabırsızlanıyorum!\" veya \"Hepinizle tanışmayı dört gözle bekliyorum!\" ya da \"Hepinizi tanımak için sabırsızlanıyorum!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303363",
+      "title": "Genel bakış",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303363",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.470Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_0",
+    "content": "Confluence ve Jira birlikte çok fazla şey yapabiliyor, bu sayfa her ikisini de takımınızın iş akışına dahil etmek için kullanabileceğiniz bir referans ve kaynak olarak sunulur. Gerekli olduğunda bu sayfaya yeniden başvurabilirsiniz.\n\n1981\nincomplete\nDaha sonra başvurmak için bu sayfayı yer imlerine ekleyin.\n\n[https://www.youtube.com/watch?v=EyPiFfiBVdg](https://www.youtube.com/watch?v=EyPiFfiBVdg)Bir bölüme atla\n\n---\n\n# Jira ve Confluence arasında geçiş yapın\n\nConfluence'ta bir Jira konu bağlantısı eklediğinizde veya Jira'dan bir Confluence sayfasına bağlandığınızda Confluence sayfasının üst kısmında bir `Jira bağlantıları` düğmesi görünür. Böylece Confluence'tan Jira'ya ve Jira'dan Confluence'a hızlıca geçebilirsiniz ve iş akışınız hızlanır.\n\nConfluence İçeriğinin Üst Kısmındaki Jira Bağlantısı\n\n---\n\n# Confluence'taki ilerlemenizi görün",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 0,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_1",
+    "content": "ır.\n\nConfluence İçeriğinin Üst Kısmındaki Jira Bağlantısı\n\n---\n\n# Confluence'taki ilerlemenizi görün\n\nPaydaşlarınızla takımınızın çalışmalarının veya proje ilerlemesinin anlık görüntüsünü paylaşın. Confluence ve Jira'yı entegre ettiğinizde Jira'daki bilgileri görselleştirilmiş olarak görebilirsiniz. Mevcut bir gösterge panosundan bağlantıyı kopyalayıp Confluence sayfanıza yapıştırarak bir Jira makrosu ekleyin. Paydaşlarınız ilerlemeyi gerçek zamanlı olarak görür.\n\nConfluence'taki Jira Konuları Makrosu\n\nConfluence İçeriğindeki Jira Projesi Zaman Çizelgesi\n\n---\n\n# Tüm takımlar için\n\n### Gereklilikleri tanımlayın",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 1,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_2",
+    "content": "e İçeriğindeki Jira Projesi Zaman Çizelgesi\n\n---\n\n# Tüm takımlar için\n\n### Gereklilikleri tanımlayın\n\nGörüntülerken veya düzenlerken konu oluşturabilirsiniz, bu nedenle Confluence planlama ve gereklilikleri toplama için harika bir seçenektir. Beklentileri tanımlamak ve kısaca açıklamak için [ürün gereklilikleri şablonu](https://invent.atlassian.net/wiki/templates?space=~712020facc8acb71e54b87aefbcabff7fcabc9&template=com.atlassian.confluence.plugins.confluence-software-blueprints:requirements-blueprint) kullanın. Ardından doğrudan o sayfada bir Jira epiği ve başka konular oluşturun.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 2,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_3",
+    "content": "irements-blueprint) kullanın. Ardından doğrudan o sayfada bir Jira epiği ve başka konular oluşturun.\n\nÜrün gereksinimleri şablonunu kullanarak bir Confluence sayfası oluşturun.Epiğinizi Jira'da oluşturmak için \"Jira epiğine veya özelliğine bağlantı\" yer tutucu metnini seçin ve Yeni konu oluştur seçeneğini belirleyin.Hikayelerinizi tanımlamak ve sayfayı kaydetmek için takımınızla iş birliği yapın.Gereksinimler sayfanızdaki metni vurgulayın, Jira'da hikayeler oluşturup bunları otomatik olarak epiğinize bağlamak için Jira konusu oluştur bağlantısını seçin.Confluence'tan ya da Jira'dan hikayelerin ilerlemesini takip edin.Confluence ve Jira arasındaki güçlü entegrasyon konulara ve bunların durumlarına Confluence'tan kolayca erişebilmenizi, bunun yanı sıra Confluence sayfalarıyla ilgili bağlantıları Jira'da görüntüleyebilmenizi sağlar.\n\n[Confluence'ta gereklilikleri tanımlamak hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 3,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_4",
+    "content": "fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/)\n\n### Yol haritanızı paylaşın\n\nGereklilikleri tanımladıktan sonra projenizin veya takımınızın yol haritasını [Jira yol haritası makrosu](https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-roadmap-macro/) ile paylaşın.\n\nJira Yol Haritası Makrosu\n\n1977\nincomplete\nDilediğinizde içerik oluşturmak için`c`tuşuna basın.Yol haritanızı eklemek ve yapılandırmak için`/jirayolharitası`yazın.\n\n[Başa dön ⤴](#)\n\n---\n\n# Confluence sözlüğü: Terimler ve özellikler\n\n### Alanlar\n\nAlanlar bireylerin, takımların ve şirketlerin fikirleri, projeleri, belgeleri ve duyuruları organize edebileceği ve bunlar üzerinde çalışabileceği yerlerdir. Alanlar özelleştirilebilir ve hem Atlassian araçları hem de diğer araçlar ile entegre edilebilir. İşleri tamamlamak için istediğiniz kadar alan [oluşturun](https://support.atlassian.com/confluence-cloud/docs/create-a-blank-space/):\n\n#### Takım Alanları",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 4,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_5",
+    "content": "un](https://support.atlassian.com/confluence-cloud/docs/create-a-blank-space/):\n\n#### Takım Alanları\n\nYakından çalışabilmeleri ve bilgileri daha kolay bulabilmeleri için her takıma kendi alanını verin.\n\n#### Proje Alanları\n\nHerkesin beraber çalışabilmesi için projenizle ilgili tüm bilgileri tek bir yerde toplayın.\n\n#### Kişisel Alanlar\n\nÜzerinde çalıştığınız her şeyi burada saklayın, yapılacaklar listeleri oluşturun ve içeriklerinizi paylaşılan bir alana taşımadan önce burada düzenleyin.\n\n16\nincomplete\nYeni bir alan oluşturmak için ana gezinme çubuğunda`Alanlar`→`Alan oluştur`seçeneğini belirleyin.\n\n[Alanlar hakkında daha fazla bilgi](https://www.atlassian.com/software/confluence/guides/get-started/set-up)\n\n---\n\n### İçerik türleri\n\nAlanda içerik oluşturmak için `+` simgesini ve ardından içerik türünüzü seçin. Ayrıca ana gezinme çubuğundaki `Oluştur` düğmesiyle de içerik oluşturabilirsiniz.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 5,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_6",
+    "content": "ik türünüzü seçin. Ayrıca ana gezinme çubuğundaki `Oluştur` düğmesiyle de içerik oluşturabilirsiniz.\n\nBeyaz tahtalar takımınızın beyin fırtınası yapacağı, bağlantılar oluşturabileceği ve fikirlerini hayata geçirebileceği bir yerdir.\n\nSayfalar Confluence'ın yapı taşlarıdır. Çalışmalar üzerinde iş birliği yapmak, bunları iyileştirmek ve belgelemek için fikirleri bir sayfaya bırakın.\n\nBlog gönderileri, genellikle geniş bir kitleyle paylaşılan, belirli bir bakış açısını gösteren bireysel olarak yazılmış içerik parçalarıdır. Örnek olay incelemelerini veya geniş öngörüleri belgelemek için idealdir.\n\n36\nincomplete\nSayfanız veya gönderiniz için paylaşılabilir bir bağlantı oluşturmak isterseniz`k`tuşuna basın.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 6,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_7",
+    "content": "lete\nSayfanız veya gönderiniz için paylaşılabilir bir bağlantı oluşturmak isterseniz`k`tuşuna basın.\n\n[İçerik paylaşma hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/share-a-page-or-blog-post/) | [Beyaz tahtalar hakkında daha fazla bilgi](https://hello.atlassian.net/wiki/spaces/~766660823/whiteboard/3078363456?atlOrigin=eyJpIjoiNGJkN2VmODk5NzMzNDZmYWE2N2RmN2ViYzBiZjgzZjciLCJwIjoiY29uZmx1ZW5jZS1jaGF0cy1pbnQifQ)\n\n---\n\n### Gerçek zamanlı düzenleme\n\nSiz ve en fazla 11 takım arkadaşınız bir sayfayı aynı anda düzenleyebilirsiniz. Değişiklikler otomatik olarak kaydedilir ve senkronize edilir, böylece düzenleyen herkes aynı şeyi görür. Başlıktaki `Düzenle` simgesini seçerek beraber düzenlemeye başlayın.\n\n|  |\n| --- |\n\n22\nincomplete\nDüzenleyicideyken yayınlamak için`Command + Enter`tuşlarına basın.\n\n[Ortak düzenleme hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/create-edit-and-publish-a-page/#Collaborative-editing)\n\n---",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 7,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_8",
+    "content": "port.atlassian.com/confluence-cloud/docs/create-edit-and-publish-a-page/#Collaborative-editing)\n\n---\n\n### Bahsetmeler ve yorumlar\n\nYorumlar, bir sayfa veya blog gönderisi hakkında konuşmaya başlamanın harika bir yoludur. İçerik üzerinde açıklama yapmanızı, önemli bilgiler eklemenizi, sorular sormanızı sağlar ve genel olarak iş birliği ile takım çalışmasını teşvik eder.\n\nKonuşmaya dahil olup yorumlara yanıt verebilmesi ve/veya yorumları beğenebilmesi için bir takım arkadaşından @bahsedin.\n\n|  |\n| --- |\n\n23\nincomplete\nSatır içi yorum → Düzenlediğiniz veya görüntülediğiniz bir içeriğin vurgulanan bölümüne eklenir; belirli bir kelimeyi veya ifadeyi hedefleyen yorumlar için idealdir.\n\n24\nincomplete\nGenel yorum → Görüntülediğiniz içeriğin altına eklenir; içeriğin bütünüyle ilgili yorumlar için idealdir.\n\n25\nincomplete\nİçeriği görüntülerken veya düzenlerken satır içi bir yorum ekleyin.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 8,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_9",
+    "content": "ar için idealdir.\n\n25\nincomplete\nİçeriği görüntülerken veya düzenlerken satır içi bir yorum ekleyin.\n\n[Yorumlar hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/comment-on-pages-and-blog-posts/)\n\n---\n\n### İçerik ağacı\n\nİçerik ağacı, içeriğinizin bir alanda organize edildiği yerdir. İçerikleri yeniden sıralamak veya iç içe geçirmek için sürükleyip bırakın, böylece işlerinizi başkalarıyla daha etkili bir şekilde paylaşabilirsiniz.\n\n1970\nincomplete\nYayınladıktan sonra`[`tuşunu seçerek içerik ağacını genişletin veya daraltın.\n\n[İçerik ağacı hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/move-copy-and-hide-pages/)\n\n---\n\n### Tablolar\n\nTablolar, takımınızla tartışmak üzere önemli bilgileri bir sayfada düzenlemenizi sağlar. Bilgileri size mantıklı gelen şekilde sunun; sütunları yeniden boyutlandırın, hücreleri, satırları ve sütunları renklendirin ve sütun başlıklarına tıklayarak tabloları sıralayın.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 9,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_10",
+    "content": "hücreleri, satırları ve sütunları renklendirin ve sütun başlıklarına tıklayarak tabloları sıralayın.\n\n28\nincomplete\nDilediğiniz zaman bir tablo eklemek için`/tablo`yazın.\n\n[Tablolar hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/add-formatting-to-your-page/#Tables)\n\n---\n\n### Taslaklar\n\nConfluence siz çalışırken içeriğinizi otomatik olarak kaydeder. Düzenleyicide içeriği yayınlamadan `Kapat` seçeneğini belirlerseniz dilediğiniz zaman dönebileceğiniz bir taslak veya yayınlanmamış bir sayfa oluşturursunuz.\n\nBağlantısını paylaşmadığınız sürece taslağınızı yalnızca siz görebilirsiniz.\n\n[Taslaklar hakkında daha fazla bilgi](https://support.atlassian.com/confluence-cloud/docs/create-edit-and-publish-a-page/#Drafts)\n\n[Başa dön ⤴](#On-this-page)\n\n---\n\n### Kısaca\n\nConfluence'tan en iyi şekilde yararlanmanıza yardımcı olacağını düşündüğümüz en iyi üç işlem şunlardır.\n\n32\nincomplete\n`/` menüsünü keşfedin",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 10,
+      "total_chunks": 12
+    }
+  },
+  {
+    "id": "confluence_~712020facc8acb71e54b87aefbcabff7fcabc9_5191303364_11",
+    "content": "nıza yardımcı olacağını düşündüğümüz en iyi üç işlem şunlardır.\n\n32\nincomplete\n`/` menüsünü keşfedin\n\n33\nincomplete\n[Bir Jira konusu ekleme](https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-issues-macro/)\n\n34\nincomplete\n[Bilgi bankası makalesi oluşturun](https://support.atlassian.com/jira-service-management-cloud/docs/write-knowledge-base-articles/)\n\n[Başa dön ⤴](#On-this-page)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~712020facc8acb71e54b87aefbcabff7fcabc9",
+      "space_name": "Özgür Karabulut",
+      "page_id": "5191303364",
+      "title": "Jira'da Confluence'ı kullanmaya başlayın",
+      "url": "https://invent.atlassian.net/wiki/spaces/~712020facc8acb71e54b87aefbcabff7fcabc9/pages/5191303364",
+      "updated_by": "Özgür Karabulut (Unlicensed)",
+      "updated_date": "2025-05-29T14:45:04.504Z",
+      "chunk_index": 11,
+      "total_chunks": 12
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_3712549316_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n## Date\n\n## Participants\n\nList meeting participants using their @ mention names\n\n-\n- @ mention a person to add them as an attendee and they will be notified.\n\n## Goals\n\nList goals for this meeting (e.g., Set design priorities for FY19)\n\n-\n\n## Discussion topics\n\n| Time | Item | Presenter | Notes |\n| --- | --- | --- | --- |\n|  |  |  | Add notes for each discussion topic |\n|  |  |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or discussion topics:\n\n-\n\n## Decisions\n\nType /decision to record the decisions you make in this meeting:\n\nabca4aff-cbad-4fe3-9cd9-cf5246822868325f58d3-f789-40aa-b9a8-df3d3c3d55a6DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "3712549316",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549316",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2023-02-08T08:24:34.250Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_3712549317_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "3712549317",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549317",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2023-02-08T08:24:34.672Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_3712549318_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder for storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549317/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "3712549318",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549318",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2023-02-08T08:24:34.780Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_3712549325_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nStatusNot started / YellowIn progress / GreenCompleteImpactRedHigh / YellowMedium / GreenLowDriver@ mention driverApprover@ approverContributors@ contributorsInformed@ stakeholdersDue dateType // to add a dateResourcesType /link to add links to relevant research, pages, and related decisions\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision.\n\n## Background\n\nProvide context on a decision the team needs to make and include information about constraints and challenges.\n\n## Options considered\n\n|  | Option 1 | Option 2 |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns.\n\n1\nincomplete\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\n\n## Outcome\n\nSummarize the outcome.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "3712549325",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549325",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2023-02-08T08:24:34.448Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_3712549332_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nTarget releaseType // to add a target release dateEpicType /Jira to add Jira epics and issuesDocument statusDRAFTDocument owner@ mention ownerDesigner@ designerTech lead@ leadTechnical writers@ writersQA\n## Objective\n\nProvide context on this project and explain how it fits into your organization's strategic goals.\n\n## Success metrics\n\nList project goals and the metrics you'll use to judge its success.\n\n| Goal | Metric |\n| --- | --- |\n| e.g., Simplify the user experience | e.g., Customer satisfaction score increases |\n|  |  |\n\n## Assumptions\n\nList any assumptions you have about your users, technical constraints, or business goals.\n\n## Milestones\n\nType /planner to create a visual roadmap and help your team stay on track. To edit workstreams or dates, select the placeholder and tap the pencil icon.\n\nType /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "3712549332",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549332",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2023-02-08T08:24:34.578Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_3712549332_1",
+    "content": "ype /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.\n\n## Requirements\n\n| Requirement | User Story | Importance | Jira Issue | Notes |\n| --- | --- | --- | --- | --- |\n| e.g., Must be mobile responsive | e.g., John is a PM who wants to check on his team's progress from the train station |  |  |  |\n|  |  |  |  |  |\n\n## User interaction and design\n\nType /image to add mockups, diagrams, and screenshots related to the requirements.\n\n## Open Questions\n\n| Question | Answer | Date Answered |\n| --- | --- | --- |\n| e.g., How might we make users more aware of this feature? | e.g., We'll announce the feature with a blog post and a presentation | Type // to add a date |\n\n## Out of Scope\n\nList the features discussed which are out of scope or might be revisited in a later release.\n\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "3712549332",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/3712549332",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2023-02-08T08:24:34.578Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4044849167_0",
+    "content": "Running iterations on a different date:\n\n[https://invent.atlassian.net/wiki/spaces/3712548955/pages/4045111299/](https://invent.atlassian.net/wiki/spaces/3712548955/pages/4045111299/)\n\nObserving Elasticity:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4044849167",
+      "title": "Fiba Chain Level Weekly Forecast",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4044849167",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-02-16T12:48:15.779Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4045111299_0",
+    "content": "We created a workflow for taking easier iterations on a new date . By “a new date” we mean an earlier date that has different properties from the current iteration performed. For example, you ran your iterations in 2023-11-05, where a 3 month forecast will cover black friday, christmas and new years sales. But what if you would like to see how your model performs in a setting where you will cover Ramadan and Eid Al-Adha. You could run this workflow to setup the tables that will allow you to make forecast iterations.\n\n# Important Note:\n\n1-) This workflow is reliant on creating another noob folder that is allocated only for the specific run_date you wish to run forecasts. That is why you need to change the `noob_home` variable in the `metadata_config.yml` you are using in Databricks. Be very careful, not changing the `noob_home `variable will overwrite the tables in your datastore.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4045111299",
+      "title": "Workflow for taking iterations on a new date",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4045111299",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-02-16T12:47:17.269Z",
+      "chunk_index": 0,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4045111299_1",
+    "content": "Be very careful, not changing the `noob_home `variable will overwrite the tables in your datastore.\n\n2-) Creating and running the noob_etl and noob_chain_weekly dags in production before this will help you to create the flow you wish without an error.\n\nIn order to take a run with an earlier date, you need to create tables in that earlier date, like you are at date and making a prediction. You can do that by creating a similar workflow at the top, and modify according to your needs.\n\nTwo required tasks to achieve this are:\n\nNoobEtlEarlierDate: Where you can create the tables that are created in the noob-etl .\n\nNoobChainWeeklyEarlierDate: Where you can create the tables that are created in noob_chain_weekly dag.\n\nThese are just a notebooks that will allow you to run the required modules. You have to make the customer specific extensions and config changes.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4045111299",
+      "title": "Workflow for taking iterations on a new date",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4045111299",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-02-16T12:47:17.269Z",
+      "chunk_index": 1,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4045111299_2",
+    "content": "u to run the required modules. You have to make the customer specific extensions and config changes.\n\nOther tasks can be run here that is required in long term forecast. In Fiba instance, we included seasonality and speed clusters as features, therefore before running NoobChainWeeklyEarlierDate, we ran the notebooks that will create the required tables.\n\nDatabricks Job Link: [https://inventanalytics-fiba.cloud.databricks.com/?o=5872417667248434#job/983794599796190/tasks](https://inventanalytics-fiba.cloud.databricks.com/?o=5872417667248434#job/983794599796190/tasks)\n\nNoobEtlEarlierDate Notebook Link: [https://inventanalytics-fiba.cloud.databricks.com/?o=5872417667248434#notebook/2518434472745905/command/2518434472745917](https://inventanalytics-fiba.cloud.databricks.com/?o=5872417667248434#notebook/2518434472745905/command/2518434472745917)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4045111299",
+      "title": "Workflow for taking iterations on a new date",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4045111299",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-02-16T12:47:17.269Z",
+      "chunk_index": 2,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4045111299_3",
+    "content": "cs-fiba.cloud.databricks.com/?o=5872417667248434#notebook/2518434472745905/command/2518434472745917)\n\nNoobChainWeeklyEarlierDate Notebook Link: [https://inventanalytics-fiba.cloud.databricks.com/?o=5872417667248434#notebook/2518434472745922/command/2518434472745928](https://inventanalytics-fiba.cloud.databricks.com/?o=5872417667248434#notebook/2518434472745922/command/2518434472745928)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4045111299",
+      "title": "Workflow for taking iterations on a new date",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4045111299",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-02-16T12:47:17.269Z",
+      "chunk_index": 3,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4543873063_0",
+    "content": "1-) Wait for ETL to finish for latest data\n\n2-) Generate targets [https://adb-3902171999061009.9.azuredatabricks.net/?o=3902171999061009#notebook/3714586174624151/command/2862892905449691](https://adb-3902171999061009.9.azuredatabricks.net/?o=3902171999061009#notebook/3714586174624151/command/2862892905449691), just change RUN_DATE to 2024-10-17 should be enough (running until # Sales Curve for markdown.ItemSeasonalityEffects table) markdown cell is enough\n\n3-) Update Price Steps for New scope here:\n\n[https://adb-3902171999061009.9.azuredatabricks.net/?o=3902171999061009#notebook/1402072047574255/command/3561459003353151](https://adb-3902171999061009.9.azuredatabricks.net/?o=3902171999061009#notebook/1402072047574255/command/3561459003353151)\n\njust running should be enough. (dont forget to wait until etl finished, otherwise this wouldnt work as intended)\n\n4-) Run the SQL scripts\n\nSetMarkdownST Targets: Running should be enough",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4543873063",
+      "title": "Caleres Markdown Manual Run",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4543873063",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-10-11T12:10:50.712Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~63e34b66724a5c79c7bb4c01_4543873063_1",
+    "content": "wouldnt work as intended)\n\n4-) Run the SQL scripts\n\nSetMarkdownST Targets: Running should be enough\n\nGenerate EOL Passed Items Script: just make sure Rundate is correct\n\n5 -) Take runs in three part, note the run ids (X, X+1,X+2)\n\n6-) Create Results table: [https://adb-3902171999061009.9.azuredatabricks.net/editor/notebooks/3114910995287145?o=3902171999061009#command/3023553887567323](https://adb-3902171999061009.9.azuredatabricks.net/editor/notebooks/3114910995287145?o=3902171999061009#command/3023553887567323)\n\n6-) Notes: RTV’d backpack items, after the run, put SuggestedPrice = Current Cluster Price\n\nGuardRail: could be set by altering the SellthroughOffTargetPoint1, SellthroughOffTargetPoint2, SellthroughOffTargetPoint3  at Caleres.markdown.BenchmarkMarkdownParameters. Step map i\n\nNotes: No Tenure Exists currently. Setting Tenure = 1 at Caleres.markdown.BenchmarkMarkdownParameters should do the trick, unfortunately I could not create tenure feature for EOL Passed Items",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~63e34b66724a5c79c7bb4c01",
+      "space_name": "Sefa Yapıcı",
+      "page_id": "4543873063",
+      "title": "Caleres Markdown Manual Run",
+      "url": "https://invent.atlassian.net/wiki/spaces/~63e34b66724a5c79c7bb4c01/pages/4543873063",
+      "updated_by": "Sefa Yapıcı",
+      "updated_date": "2024-10-11T12:10:50.712Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

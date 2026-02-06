@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "confluence_~966776698_1213169834_0",
+    "content": "> Info: Welcome to Confluence, a shared and open workspace for all your team’s knowledge, expertise, and important decisions. We’ve put together this short guide to help you create dynamic content in Confluence, see what other people are working on, and connect with your coworkers. Take a look, then start exploring for yourself. To come back to this page, just tap your profile picture in the lower left and choose Personal space.\n\n### Action items\n\n24\nincomplete\nCatch up on popular content. Tap the Confluence logo in the top left and choose Activity to see recent pages and posts. Choose Popular to see pages and posts in order of popularity.\n\n25\nincomplete\nExplore the people directory. Tap the magnifying glass to open the search drawer, then type in a coworker’s name to see their profile in the [people directory](https://confluence.atlassian.com/cloud/people-directory-939512608.html). Check out their Worked on pages to see what they’ve been up to.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1213169834",
+      "title": "Get to know Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1213169834",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-04-22T07:52:21.145Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~966776698_1213169834_1",
+    "content": "ud/people-directory-939512608.html). Check out their Worked on pages to see what they’ve been up to.\n\n26\nincomplete\nUpdate your user profile. Tap on your avatar in the bottom left, then select Profile to view your profile in the [people directory](https://confluence.atlassian.com/cloud/people-directory-939512608.html). To add or edit your information, choose Manage your account.\n\n27\nincomplete\nCreate your first page. Choose from one of our [best practice templates](https://www.atlassian.com/software/confluence/templates) or build the perfect page from scratch. If you’re new to the team, try introducing yourself with a [blog post](https://www.atlassian.com/blog/it-teams/internal-blogging-knowledge-sharing).\n\n28\nincomplete\nGet the mobile app. [Download the Confluence Cloud mobile app](https://www.atlassian.com/software/confluence/mobile-app), so you can jot down notes, share ideas, and keep up with your team when you’re on the go.\n\n### Tips and tricks",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1213169834",
+      "title": "Get to know Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1213169834",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-04-22T07:52:21.145Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~966776698_1213169834_2",
+    "content": "jot down notes, share ideas, and keep up with your team when you’re on the go.\n\n### Tips and tricks\n\n- How to build Confluence spaces for any team or project\n- Create engaging Confluence pages in 4 easy steps\n- Provide feedback and in-line comments (video)\n- A quick and easy guide to Confluence shortcuts\n- 5 Confluence Cloud mobile tips for 2019",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1213169834",
+      "title": "Get to know Confluence",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1213169834",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-04-22T07:52:21.145Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036007_0",
+    "content": "---",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036007",
+      "title": "Microsoft Azure Container Management",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036007",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-10T15:02:24.893Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_0",
+    "content": "Installation and docs: [https://docs.microsoft.com/en-us/python/azure/?view=azure-python](https://docs.microsoft.com/en-us/python/azure/?view=azure-python)\n\n1) Tree of directory sizes in a container\n\n1\nincomplete\nLook up for the \"account name\" and \"account key\" of the container to be searched\n\n2\nincomplete\n\n```py\nimport json\nimport time\n\nfrom datetime import timedelta\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 0,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_1",
+    "content": "edelta\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 1,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_2",
+    "content": "delta\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 2,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_3",
+    "content": "elta\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 3,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_4",
+    "content": "lta\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 4,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_5",
+    "content": "ta\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 5,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_6",
+    "content": "a\nfrom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 6,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_7",
+    "content": "from azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 7,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_8",
+    "content": "from azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 8,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_9",
+    "content": "rom azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 9,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_10",
+    "content": "om azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 10,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_11",
+    "content": "m azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 11,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_12",
+    "content": "azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 12,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_13",
+    "content": "azure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 13,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_14",
+    "content": "zure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 14,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_15",
+    "content": "ure.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 15,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_16",
+    "content": "re.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 16,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_17",
+    "content": "e.storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 17,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_18",
+    "content": ".storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 18,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_19",
+    "content": "storage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 19,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_20",
+    "content": "torage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 20,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_21",
+    "content": "orage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 21,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_22",
+    "content": "rage.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 22,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_23",
+    "content": "age.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 23,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_24",
+    "content": "ge.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 24,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_25",
+    "content": "e.blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 25,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_26",
+    "content": ".blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 26,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_27",
+    "content": "blob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 27,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_28",
+    "content": "lob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 28,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_29",
+    "content": "ob import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 29,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_30",
+    "content": "b import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 30,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_31",
+    "content": "import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 31,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_32",
+    "content": "import BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 32,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_33",
+    "content": "mport BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 33,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_34",
+    "content": "port BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 34,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_35",
+    "content": "ort BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 35,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_36",
+    "content": "rt BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 36,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_37",
+    "content": "t BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 37,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_38",
+    "content": "BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 38,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_39",
+    "content": "BlockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 39,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_40",
+    "content": "lockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 40,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_41",
+    "content": "ockBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 41,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_42",
+    "content": "ckBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 42,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_43",
+    "content": "kBlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 43,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_44",
+    "content": "BlobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 44,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_45",
+    "content": "lobService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 45,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_46",
+    "content": "obService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 46,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_47",
+    "content": "bService\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 47,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_48",
+    "content": "Service\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 48,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_49",
+    "content": "ervice\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 49,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_50",
+    "content": "rvice\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 50,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_51",
+    "content": "vice\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 51,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_52",
+    "content": "ice\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 52,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_53",
+    "content": "ce\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 53,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_54",
+    "content": "e\nfrom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 54,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_55",
+    "content": "from azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 55,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_56",
+    "content": "from azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 56,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_57",
+    "content": "rom azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 57,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_58",
+    "content": "om azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 58,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_59",
+    "content": "m azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 59,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_60",
+    "content": "azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 60,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_61",
+    "content": "azure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 61,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_62",
+    "content": "zure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 62,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_63",
+    "content": "ure.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 63,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_64",
+    "content": "re.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 64,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_65",
+    "content": "e.storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 65,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_66",
+    "content": ".storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 66,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_67",
+    "content": "storage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 67,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_68",
+    "content": "torage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 68,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_69",
+    "content": "orage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 69,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_70",
+    "content": "rage.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 70,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_71",
+    "content": "age.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 71,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_72",
+    "content": "ge.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 72,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_73",
+    "content": "e.blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 73,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_74",
+    "content": ".blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 74,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_75",
+    "content": "blob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 75,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_76",
+    "content": "lob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 76,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_77",
+    "content": "ob.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 77,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_78",
+    "content": "b.models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 78,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_79",
+    "content": ".models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 79,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_80",
+    "content": "models import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 80,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_81",
+    "content": "odels import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 81,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_82",
+    "content": "dels import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 82,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_83",
+    "content": "els import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 83,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_84",
+    "content": "ls import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 84,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_85",
+    "content": "s import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 85,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_86",
+    "content": "import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 86,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_87",
+    "content": "import Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 87,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_88",
+    "content": "mport Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 88,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_89",
+    "content": "port Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 89,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_90",
+    "content": "ort Include",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 90,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_91",
+    "content": "def get_size_tree(account_name,\n                  account_key,\n                  output_dir,\n                  max_tree_depth = 0,\n                  include_deleted = False):\n    \"\"\"\n    Get all the sizes of blob containers and subfolders in an Azure directory.\n    Azure SDK needs to be installed. For more info:\n        https://github.com/Azure/azure-sdk-for-python\n    Inputs:\n        - Account name and account key is specified for each Storage account,\n          you can also find them inside Primary Connection String.\n        - Output directory is the name of the .txt file in which the size tree\n          is outputted in JSON format.\n        - Maximum tree depth is the maximum depth of subfolders that the\n          function records. Default: 0 means no limitations.\n        - If you set include_deleted to True, soft-deleted files will also be\n          included while the size is calculated.\n    Outputs:\n        - A .txt file is created inside the directory the user specified.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 91,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_92",
+    "content": "s calculated.\n    Outputs:\n        - A .txt file is created inside the directory the user specified.\n        - Time elapsed is printed.\n    \"\"\"\n    t = time.time()\n\n    block_blob_service = BlockBlobService(account_name = account_name,\n                                          account_key = account_key\n                                          )\n\n    containers = block_blob_service.list_containers()\n\n    def create_size_tree(containers, max_tree_depth):\n\n        result = {}\n\n        for container in containers:\n            root = {'files': {}, 'size': 0}\n\n            if include_deleted == True:\n                blobs = block_blob_service.list_blobs(container.name,\n                                                      include=Include.DELETED)\n            else:\n                blobs = block_blob_service.list_blobs(container.name)\n\n            for path in blobs:\n\n                size = path.properties.content_length\n                cur = root\n                parts = path.name.split('/')",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 92,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1246036012_93",
+    "content": "th.properties.content_length\n                cur = root\n                parts = path.name.split('/')\n\n                dir_len = len(parts)\n\n                for part in parts[:min(max_tree_depth, dir_len)-1]:\n\n                    cur['size'] += size\n                    cur = cur['files'].setdefault(\n                            part, {'files': {}, 'size': 0}\n                            )\n                cur['size'] += size\n\n            result[container.name] = root\n\n        return result\n\n    with open(output_dir,\"w\") as f:\n        f.write(json.dumps(create_size_tree(containers, max_tree_depth)))\n    f.close()\n\n    print (str(timedelta(seconds=time.time() - t)))\n\n```\n\n3\nincomplete\nOutput hierarchy is in JSON format, without the leaves.\n\n4\nincomplete\nResults for 13.05.2019 are below:\n\n5\nincomplete\n (1h 51m has elapsed to get the output on local)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1246036012",
+      "title": "Azure SDK for Python",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1246036012",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-05-16T07:54:10.813Z",
+      "chunk_index": 93,
+      "total_chunks": 94
+    }
+  },
+  {
+    "id": "confluence_~966776698_1324580865_0",
+    "content": "Inputs to this module:\n\n- Target date\n\n- Store id / store cluster pairs\n\n| store_id | store_cluster |\n| --- | --- |\n\n- Aggregate forecasts ran with target date\n\n| store_cluster | product_id | prediction |\n| --- | --- | --- |\n\n- store-product based daily enrich output\n\n| store_id | product_id | date | sales_quantity |\n| --- | --- | --- | --- |\n\n1st algorithm (Last x days mean sales):\n\n- Read a default lookback_days value from config, filter daily enrich between (target_date - lookback_days, target_date)\n- Filter out stock-out rows.\n- Group by store_id, product_id, take the mean of sales quantity.\n- Join store clusters table to the resulting table. We would have something like:\n\n| store_id | product_id | store_cluster | mean_sales_quantity |\n| --- | --- | --- | --- |\n\n- Group by [product_id, store_cluster], sum mean_sales_quantity. This is the denominator to the prediction. We have:\n\n| product_id | store_cluster | sum_mean_sales_quantity |\n| --- | --- | --- |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1324580865",
+      "title": "Aggregate Forecast Breakdown",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1324580865",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-08-22T10:13:09.203Z",
+      "chunk_index": 0,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~966776698_1324580865_1",
+    "content": "e prediction. We have:\n\n| product_id | store_cluster | sum_mean_sales_quantity |\n| --- | --- | --- |\n\n- Join this table with aggregate forecasts, on [store_cluster, product_id].\n- Then comes the division of prediction by sum_mean_sales_quantity.\n\n| product_id | store_cluster | prediction | sum_mean_sales_quantity | multiplier |\n| --- | --- | --- | --- | --- |\n\n- The multiplier has the distinct multipliers for distinct products. Join this with the table before store_id based grouping which has mean sales quantity, on product id, store cluster.\n- Multiply mean sales quantity with the multiplier column, we get breakdown forecasts:,\n\n| store_id | product_id | store_cluster | mean_sales_quantity | multiplier | forecast |\n| --- | --- | --- | --- | --- | --- |\n\n2nd algorithm (total sales of xth hierarchy of the product):",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1324580865",
+      "title": "Aggregate Forecast Breakdown",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1324580865",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-08-22T10:13:09.203Z",
+      "chunk_index": 1,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~966776698_1324580865_2",
+    "content": "| --- | --- | --- | --- | --- | --- |\n\n2nd algorithm (total sales of xth hierarchy of the product):\n\n- We would need an extra \"hierarchy\" column. This can be joined to the daily enrich data here, but as well at the enrich stage.\n- Add that column's name to the config file.\n\n| store_id | product_id | date | sales_quantity | hierarchy_x |\n| --- | --- | --- | --- | --- |\n\n- Read a default lookback_days value from config, filter daily enrich between (target_date - lookback_days, target_date)\n- Filter out stock-out rows.\n- Group by store_id, hierarchy_x and take the sum of sales_quantity. Join aggregated data to the main data on store_id.\n- Join store clusters table to the resulting table. We would have something like:\n\n| store_id | product_id | store_cluster | sum_sales_quantity |\n| --- | --- | --- | --- |\n\n- The rest is pretty much the same as 1st algorithm.\n\nDesign details:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1324580865",
+      "title": "Aggregate Forecast Breakdown",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1324580865",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-08-22T10:13:09.203Z",
+      "chunk_index": 2,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_~966776698_1324580865_3",
+    "content": "y |\n| --- | --- | --- | --- |\n\n- The rest is pretty much the same as 1st algorithm.\n\nDesign details:\n\n- Lookback days would probably cover a few weeks. Daily enrich is planned to be year-week partitioned, which is OK.\n- Forecasting algorithms write everything necessary to metadata. However, for testing purposes, it would be faster to read prediction data from a path that we know the parameters of.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~966776698",
+      "space_name": "Cem Karagözlü",
+      "page_id": "1324580865",
+      "title": "Aggregate Forecast Breakdown",
+      "url": "https://invent.atlassian.net/wiki/spaces/~966776698/pages/1324580865",
+      "updated_by": "Cem Karagözlü (Unlicensed)",
+      "updated_date": "2019-08-22T10:13:09.203Z",
+      "chunk_index": 3,
+      "total_chunks": 4
+    }
+  }
+]

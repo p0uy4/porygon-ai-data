@@ -1,0 +1,1858 @@
+[
+  {
+    "id": "confluence_~631855824_3298853036_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n## Date\n\n## Participants\n\nList meeting participants using their @mention names:-\n- @mention a person to add them as an attendee and they will be notified.\n\n## Goals\n\nList goals for this meeting (e.g., Set design priorities for FY19):-\n\n## Discussion topics\n\n| Time | Item | Presenter | Notes |\n| --- | --- | --- | --- |\n|  |  |  | Add notes for each discussion topic |\n|  |  |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or discussion topics:-\n\n## Decisions\n\nType /decision to record the decisions you make in this meeting:90820618-e6c2-402b-8442-c992cbb44a8a376404ce-d3cd-448e-8035-5123d39ae676DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3298853036",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3298853036",
+      "updated_by": "İlter Efe",
+      "updated_date": "2021-10-25T08:15:14.862Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~631855824_3298853037_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3298853037",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3298853037",
+      "updated_by": "İlter Efe",
+      "updated_date": "2021-10-25T08:15:15.315Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~631855824_3298853038_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder of storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~631855824/pages/3298853037/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3298853038",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3298853038",
+      "updated_by": "İlter Efe",
+      "updated_date": "2021-10-25T08:15:15.393Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~631855824_3298853045_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nStatus\n\nNot started / YellowIn progress / GreenComplete\n\nImpact\n\nRedHigh / YellowMedium / GreenLow\n\nDriver\n\n@ mention driver\n\nApprover\n\n@ approver\n\nContributors\n\n@ contributors\n\nInformed\n\n@ stakeholders\n\nDue date\n\nType // to add a date\n\nResources\n\nType /link to add links to relevant research, pages, and related decisions\n\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision.\n\n## Background\n\nProvide context on a decision the team needs to make and include information about constraints and challenges.\n\n## Options considered\n\n|  | Option 1 | Option 2 |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns.\n\n1\nincomplete\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\n\n## Outcome\n\nSummarize the outcome.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3298853045",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3298853045",
+      "updated_by": "İlter Efe",
+      "updated_date": "2021-10-25T08:15:15.014Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~631855824_3298853052_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nTarget releaseType // to add a target release dateEpicType /Jira to add Jira epics and issuesDocument statusDRAFTDocument owner@ mention ownerDesigner@ designerTech lead@ leadTechnical writers@ writersQA\n## Objective\n\nProvide context on this project and explain how it fits into your organization's strategic goals.\n\n## Success metrics\n\nList project goals and the metrics you'll use to judge its success.\n\n| Goal | Metric |\n| --- | --- |\n| e.g., Simplify the user experience | e.g., Customer satisfaction score increases |\n|  |  |\n\n## Assumptions\n\nList any assumptions you have about your users, technical constraints, or business goals.\n\n## Milestones\n\nType /planner to create a visual roadmap and help your team stay on track. To edit workstreams or dates, select the placeholder and tap the pencil icon.\n\nType /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3298853052",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3298853052",
+      "updated_by": "İlter Efe",
+      "updated_date": "2021-10-25T08:15:15.173Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~631855824_3298853052_1",
+    "content": "ype /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.\n\n## Requirements\n\n| Requirement | User Story | Importance | Jira Issue | Notes |\n| --- | --- | --- | --- | --- |\n| e.g., Must be mobile responsive | e.g., John is a PM who wants to check on his team's progress from the train station |  |  |  |\n|  |  |  |  |  |\n\n## User interaction and design\n\nType /image to add mockups, diagrams, and screenshots related to the requirements.\n\n## Open Questions\n\n| Question | Answer | Date Answered |\n| --- | --- | --- |\n| e.g., How might we make users more aware of this feature? | e.g., We'll announce the feature with a blog post and a Summit presentation | Type // to add a date |\n\n## Out of Scope\n\nList the features discussed which are out of scope or might be revisited in a later release.\n\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3298853052",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3298853052",
+      "updated_by": "İlter Efe",
+      "updated_date": "2021-10-25T08:15:15.173Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~631855824_3714187296_0",
+    "content": "### Networking:\n\n- OSI Layers:\n\nPysical Layer\n\nEthernet\n\nFrame\n\nEthtool\n\nData Link Layer\n\nMAC\n\nNetwork Layer\n\nIP\n\nigmp\n\nicmp\n\nTransport Layer\n\nTCP\n\nUDP\n\nSession Layer\n\nPresentation Layer\n\nEncryption\n\nCompression\n\nİlter Notes:\n\nAli Notes:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "3714187296",
+      "title": "DevOps Week 1",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/3714187296",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-02-08T21:02:44.638Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~631855824_4433936394_0",
+    "content": "## Jaguar Project\n\nStaging/Dev Account\n\nServices:\n\nIAM → Roles, Users\n\nRDS\n\nS3\n\nCloudFront\n\nACM\n\nSecrets Manager\n\nVPC → Subnets, Routes\n\nElastic Cache — Redis\n\nLambda\n\nJenkins → Staging\n\nRoute53\n\nAPI Gateway\n\nCognito\n\n--\n\nSES\n\nWordPress → Documentation\n\nGoogle BigQuery\n\nGoogle IAM → Service Accounts\n\nAzureBlob → sp\n\nTableau",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4433936394",
+      "title": "Business Continuity & Disaster [Cheetah/Rocks]",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4433936394",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-09-03T08:57:49.929Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_0",
+    "content": "This article shows how to use Microsoft Entra credentials to create a user delegation SAS for a container or blob with the Azure CLI.\n\n## Install the latest version of the Azure CLI\n\n---\n\nTo use the Azure CLI to secure a SAS with Microsoft Entra credentials, first make sure that you have installed the latest version of Azure CLI. For more information about installing the Azure CLI, see [Install the Azure CLI](https://github.com/MicrosoftDocs/azure-docs/blob/main/cli/azure/install-azure-cli).\n\nTo create a user delegation SAS using the Azure CLI, make sure that you have installed version 2.0.78 or later. To check your installed version, use the `az --version` command.\n\n## Sign in with Microsoft Entra credentials\n\n---\n\nSign in to the Azure CLI with your Microsoft Entra credentials. For more information, see [Sign in with the Azure CLI](https://github.com/MicrosoftDocs/azure-docs/blob/main/cli/azure/authenticate-azure-cli).\n\n## Assign permissions with Azure RBAC\n\n---",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 0,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_1",
+    "content": "/azure-docs/blob/main/cli/azure/authenticate-azure-cli).\n\n## Assign permissions with Azure RBAC\n\n---\n\nTo create a user delegation SAS from Azure PowerShell, the Microsoft Entra account used to sign in to Azure CLI must be assigned a role that includes the Microsoft.Storage/storageAccounts/blobServices/generateUserDelegationKey action. This permission enables that Microsoft Entra account to request the *user delegation key*. The user delegation key is used to sign the user delegation SAS. The role providing the Microsoft.Storage/storageAccounts/blobServices/generateUserDelegationKey action must be assigned at the level of the storage account, the resource group, or the subscription.\n\n```\naz role assignment create \\\n    --role \"Storage Blob Data Contributor\" \\\n    --assignee alpha-test-user@inventanalytics.com \\\n    --scope \"/subscriptions/d1c7a815-cba1-458a-b08e-63c312a63ff5/resourceGroups/invent-test-rg/providers/Microsoft.Storage/storageAccounts/inventtest\"\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 1,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_2",
+    "content": "c312a63ff5/resourceGroups/invent-test-rg/providers/Microsoft.Storage/storageAccounts/inventtest\"\n```\n\n## Use Microsoft Entra credentials to secure a SAS\n\n---\n\nWhen you create a user delegation SAS with the Azure CLI, the user delegation key that is used to sign the SAS is created for you implicitly. The start time and expiry time that you specify for the SAS are also used as the start time and expiry time for the user delegation key.\n\nBecause the maximum interval over which the user delegation key is valid is 7 days from the start date, you should specify an expiry time for the SAS that is within 7 days of the start time. The SAS is invalid after the user delegation key expires, so a SAS with an expiry time of greater than 7 days will still only be valid for 7 days.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 2,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_3",
+    "content": "ey expires, so a SAS with an expiry time of greater than 7 days will still only be valid for 7 days.\n\nWhen creating a user delegation SAS, the `--auth-mode login` and `--as-user parameters` are required. Specify *login* for the `--auth-mode` parameter so that requests made to Azure Storage are authorized with your Microsoft Entra credentials. Specify the `--as-user` parameter to indicate that the SAS returned should be a user delegation SAS.\n\n## Create a user delegation SAS for a container\n\n---\n\nTo create a user delegation SAS for a container with the Azure CLI, call the [az storage container generate-sas](https://github.com/MicrosoftDocs/azure-docs/blob/main/cli/azure/storage/container#az-storage-container-generate-sas) command.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 3,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_4",
+    "content": "oftDocs/azure-docs/blob/main/cli/azure/storage/container#az-storage-container-generate-sas) command.\n\nSupported permissions for a user delegation SAS on a container include Add, Create, Delete, List, Read, and Write. Permissions can be specified singly or combined. For more information about these permissions, see [Create a user delegation SAS](https://github.com/MicrosoftDocs/azure-docs/blob/main/rest/api/storageservices/create-user-delegation-sas).\n\nThe following example returns a user delegation SAS token for a container. Remember to replace the placeholder values in brackets with your own values:\n\n```\naz storage container generate-sas \\\n    --account-name <storage-account> \\\n    --name <container> \\\n    --permissions acdlrw \\\n    --expiry <date-time> \\\n    --auth-mode login \\\n    --https-only login \\\n    --as-user\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 4,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_5",
+    "content": "dlrw \\\n    --expiry <date-time> \\\n    --auth-mode login \\\n    --https-only login \\\n    --as-user\n```\n\nnoteThe SAS token returned by Blob Storage does not include the delimiter character ('?') for the URL query string. If you are appending the SAS token to a resource URL, remember to also append the delimiter character.\n\nThe SAS token returned by Blob Storage does not include the delimiter character ('?') for the URL query string. If you are appending the SAS token to a resource URL, remember to also append the delimiter character.\n\n```\nhttps://<storage-account>.blob.core.windows.net/<container-name>?<SAS>\n```\n\n## Example 1:\n\n---\n\nStorage Account: inventtest\n\nBlob Container: input\n\nPermissions:\n\n- a: Add\n- c: Create\n- d: Delete\n- l: List\n- r: Read\n- w: Write\n\nExpiry Date: `2024-10-19`(YYYY-MM-DD)\n\nProtocol: HTTPS only\n\n---",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 5,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_6",
+    "content": "ete\n- l: List\n- r: Read\n- w: Write\n\nExpiry Date: `2024-10-19`(YYYY-MM-DD)\n\nProtocol: HTTPS only\n\n---\n\n```\naz storage container generate-sas \\\n    --account-name inventtest \\\n    --name input \\\n    --permissions acdlrw \\\n    --expiry 2024-10-19 \\\n    --auth-mode login \\\n    --as-user \\\n    --https-only\n```\n\nOutput (The user delegation SAS token returned will be similar to):\n\n```\n\"se=2024-10-19&sp=racwdl&spr=https&sv=2022-11-02&sr=c&skoid=1949ec9b-2408-4586-be39-445a5e1592b6&sktid=5601ab2c-0ffb-47b0-8f77-dab790566623&skt=2024-10-18T05%3A30%3A25Z&ske=2024-10-19T00%3A00%3A00Z&sks=b&skv=2022-11-02&sig=xxxx\n```\n\n### How can we use “User Delegated SAS Keys” ?\n\n---\n\nWe need Resource URL with appended Delimiter and SAS Key\n\nURI: `https://<storage-account>.blob.core.windows.net/<container-name>`\n\nDelimiter: “?”\n\nSAS Key:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 6,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_7",
+    "content": "y\n\nURI: `https://<storage-account>.blob.core.windows.net/<container-name>`\n\nDelimiter: “?”\n\nSAS Key:\n\n```\n\"se=2024-10-19&sp=racwdl&spr=https&sv=2022-11-02&sr=c&skoid=1949ec9b-2408-4586-be39-445a5e1592b6&sktid=5601ab2c-0ffb-47b0-8f77-dab790566623&skt=2024-10-18T05%3A30%3A25Z&ske=2024-10-19T00%3A00%3A00Z&sks=b&skv=2022-11-02&sig=xxxx\"\n```\n\n#### Resource URL:\n\n`https://inventtest.blob.core.windows.net/input?se=2024-10-19&sp=racwdl&spr=https&sv=2022-11-02&sr=c&skoid=1949ec9b-2408-4586-be39-445a5e1592b6&sktid=5601ab2c-0ffb-47b0-8f77-dab790566623&skt=2024-10-18T05%3A30%3A25Z&ske=2024-10-19T00%3A00%3A00Z&sks=b&skv=2022-11-02&sig=xxxx`\n\n#### Use Delegated SAS keys in Azure Storage Explorer\n\n[https://docs.google.com/presentation/d/1barD0Wt7AB2u7V6YtrmkZPEOr5ajuqk6NIb4UEJUJQQ/edit?usp=drive_link](https://docs.google.com/presentation/d/1barD0Wt7AB2u7V6YtrmkZPEOr5ajuqk6NIb4UEJUJQQ/edit?usp=drive_link)\n\n## Revoke a user delegation SAS",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 7,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_4563894347_8",
+    "content": "d/1barD0Wt7AB2u7V6YtrmkZPEOr5ajuqk6NIb4UEJUJQQ/edit?usp=drive_link)\n\n## Revoke a user delegation SAS\n\nTo revoke a user delegation SAS from the Azure CLI, call the [az storage account revoke-delegation-keys](https://github.com/MicrosoftDocs/azure-docs/blob/main/cli/azure/storage/account#az-storage-account-revoke-delegation-keys) command. This command revokes all the user delegation keys associated with the specified storage account. Any shared access signatures associated with those keys are invalidated.\n\nRemember to replace placeholder values in angle brackets with your own values:\n\n```\naz storage account revoke-delegation-keys \\\n    --name <storage-account> \\\n    --resource-group <resource-group>\n```\n\nBoth the user delegation key and Azure role assignments are cached by Azure Storage, so there may be a delay between when you initiate the process of revocation and when an existing user delegation SAS becomes invalid.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "4563894347",
+      "title": "Create a user delegation SAS for a container or blob with the Azure CLI",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/4563894347",
+      "updated_by": "İlter Efe",
+      "updated_date": "2024-10-18T09:36:33.981Z",
+      "chunk_index": 8,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_0",
+    "content": "### ✅ Goal\n\nRestore the *latest version* of every object under:\n\n```\ns3://invent-teknosa-datastore/parquet/data-files/ProductUDA/\n```\n\n...so that they appear as current objects again.\n\n### AWS CLI\n\n### 🔧 Step-by-Step Solution (Using AWS CLI)\n\n#### 1. List Latest Versions\n\nRun this command to list the latest versions under that prefix:\n\n```\naws s3api list-object-versions \\\n  --bucket invent-teknosa-datastore \\\n  --prefix parquet/data-files/ProductUDA/ \\\n  --query 'Versions[?IsLatest==`true`]' \\\n  --output json > latest_versions.json\n```\n\n#### 2. Filter Out the Delete Markers (Optional but Recommended)\n\n```\naws s3api list-object-versions \\\n  --bucket invent-teknosa-datastore \\\n  --prefix parquet/data-files/ProductUDA/ \\\n  --query 'DeleteMarkers[?IsLatest==`true`]' \\\n  --output json > delete_markers.json\n```\n\nTo make the files \"live\" again, you need to remove these delete markers.\n\n---\n\n#### 3. Delete the Delete Markers (Undo Deletion)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 0,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_1",
+    "content": "in, you need to remove these delete markers.\n\n---\n\n#### 3. Delete the Delete Markers (Undo Deletion)\n\nLoop through the `delete_markers.json` and delete them like this:\n\n```\naws s3api delete-object \\\n  --bucket invent-teknosa-datastore \\\n  --key <object-key> \\\n  --version-id <delete-marker-version-id>\n```\n\nThis effectively restores the most recent version of that object as the current version.\n\n---\n\n#### 4. Re-copy Latest Versions (Optional Clean-up)\n\nIf you want to ensure all objects under `ProductUDA/` are re-uploaded as standard (current) versions (e.g., no version history, just fresh uploads), you can re-copy them:\n\n```\naws s3api copy-object \\\n  --bucket invent-teknosa-datastore \\\n  --copy-source invent-teknosa-datastore/<key>?versionId=<version-id> \\\n  --key <key>\n```\n\nYou can loop over the `latest_versions.json` file to do this in bulk.\n\n---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 1,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_2",
+    "content": "lk.\n\n---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 2,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_3",
+    "content": "k.\n\n---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 3,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_4",
+    "content": ".\n\n---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 4,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_5",
+    "content": "---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 5,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_6",
+    "content": "---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 6,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_7",
+    "content": "---\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 7,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_8",
+    "content": "--\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 8,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_9",
+    "content": "-\n\n### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 9,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_10",
+    "content": "### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 10,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_11",
+    "content": "### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 11,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_12",
+    "content": "### 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 12,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_13",
+    "content": "## 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 13,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_14",
+    "content": "# 💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 14,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_15",
+    "content": "💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 15,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_16",
+    "content": "💡 Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 16,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_17",
+    "content": "Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 17,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_18",
+    "content": "Want a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 18,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_19",
+    "content": "ant a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 19,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_20",
+    "content": "nt a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 20,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_21",
+    "content": "t a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 21,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_22",
+    "content": "a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 22,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_23",
+    "content": "a Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 23,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_24",
+    "content": "Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 24,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_25",
+    "content": "Script to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 25,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_26",
+    "content": "cript to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 26,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_27",
+    "content": "ript to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 27,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_28",
+    "content": "ipt to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 28,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_29",
+    "content": "pt to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 29,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_30",
+    "content": "t to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 30,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_31",
+    "content": "to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 31,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_32",
+    "content": "to Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 32,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_33",
+    "content": "o Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 33,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_34",
+    "content": "Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 34,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_35",
+    "content": "Automate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 35,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_36",
+    "content": "utomate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 36,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_37",
+    "content": "tomate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 37,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_38",
+    "content": "omate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 38,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_39",
+    "content": "mate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 39,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_40",
+    "content": "ate This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 40,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_41",
+    "content": "te This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 41,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_42",
+    "content": "e This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 42,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_43",
+    "content": "This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 43,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_44",
+    "content": "This?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 44,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_45",
+    "content": "his?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 45,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_46",
+    "content": "is?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 46,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_47",
+    "content": "s?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 47,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_48",
+    "content": "?\n\nI can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 48,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_49",
+    "content": "I can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 49,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_50",
+    "content": "I can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 50,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_51",
+    "content": "I can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 51,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_52",
+    "content": "can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 52,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_53",
+    "content": "can generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 53,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_54",
+    "content": "an generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 54,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_55",
+    "content": "n generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 55,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_56",
+    "content": "generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 56,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_57",
+    "content": "generate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 57,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_58",
+    "content": "enerate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 58,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_59",
+    "content": "nerate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 59,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_60",
+    "content": "erate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 60,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_61",
+    "content": "rate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 61,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_62",
+    "content": "ate a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 62,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_63",
+    "content": "te a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 63,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_64",
+    "content": "e a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 64,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_65",
+    "content": "a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 65,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_66",
+    "content": "a Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 66,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_67",
+    "content": "Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 67,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_68",
+    "content": "Python or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 68,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_69",
+    "content": "ython or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 69,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_70",
+    "content": "thon or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 70,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_71",
+    "content": "hon or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 71,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_72",
+    "content": "on or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 72,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_73",
+    "content": "n or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 73,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_74",
+    "content": "or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 74,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_75",
+    "content": "or shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 75,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_76",
+    "content": "r shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 76,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_77",
+    "content": "shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 77,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_78",
+    "content": "shell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 78,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_79",
+    "content": "hell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 79,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_80",
+    "content": "ell script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 80,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_81",
+    "content": "ll script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 81,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_82",
+    "content": "l script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 82,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_83",
+    "content": "script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 83,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_84",
+    "content": "script for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 84,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_85",
+    "content": "cript for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 85,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_86",
+    "content": "ript for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 86,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_87",
+    "content": "ipt for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 87,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_88",
+    "content": "pt for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 88,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_89",
+    "content": "t for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 89,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_90",
+    "content": "for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 90,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_91",
+    "content": "for you to:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 91,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_92",
+    "content": "- List latest versions\n- Remove delete markers\n- Copy objects to restore current version🔧 Step-by-Step Solution (Using AWS CLI) 1. List Latest Versions Run this command to list the latest versions under that prefix:aws s3api list-object-versions \\\n  --bucket invent-teknosa-datastore \\\n  --prefix parquet/data-files/ProductUDA/ \\\n  --query 'Versions[?IsLatest==`true`]' \\\n  --output json > latest_versions.json2. Filter Out the Delete Markers (Optional but Recommended) aws s3api list-object-versions \\\n  --bucket invent-teknosa-datastore \\\n  --prefix parquet/data-files/ProductUDA/ \\\n  --query 'DeleteMarkers[?IsLatest==`true`]' \\\n  --output json > delete_markers.jsonTo make the files \"live\" again, you need to remove these delete markers.3. Delete the Delete Markers (Undo Deletion) Loop through the delete_markers.json and delete them like this:aws s3api delete-object \\\n  --bucket invent-teknosa-datastore \\\n  --key <object-key> \\",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 92,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_93",
+    "content": "hem like this:aws s3api delete-object \\\n  --bucket invent-teknosa-datastore \\\n  --key <object-key> \\\n  --version-id <delete-marker-version-id>This effectively restores the most recent version of that object as the current version.4. Re-copy Latest Versions (Optional Clean-up) If you want to ensure all objects under ProductUDA/ are re-uploaded as standard (current) versions (e.g., no version history, just fresh uploads), you can re-copy them:aws s3api copy-object \\\n  --bucket invent-teknosa-datastore \\\n  --copy-source invent-teknosa-datastore/<key>?versionId=<version-id> \\\n  --key <key>You can loop over the latest_versions.json file to do this in bulk.\n\n---\n\n### ✅ Step-by-Step Recovery\n\n#### 1. List Delete Markers\n\nRun this command to extract the latest delete markers:\n\n```\naws s3api list-object-versions \\\n  --bucket invent-teknosa-datastore \\\n  --prefix parquet/data-files/ProductUDA/ \\\n  --query 'DeleteMarkers[?IsLatest==`true`]' \\\n  --output json > delete_markers.json\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 93,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_94",
+    "content": "oductUDA/ \\\n  --query 'DeleteMarkers[?IsLatest==`true`]' \\\n  --output json > delete_markers.json\n```\n\nCheck the contents:\n\n```\ncat delete_markers.json\n```\n\nYou should see output like this:\n\n```\n[\n  {\n    \"Key\": \"parquet/data-files/ProductUDA/file1.parquet\",\n    \"VersionId\": \"XYZ123\",\n    \"IsLatest\": true,\n    ...\n  },\n  ...\n]\n```\n\n---\n\n#### 2. Delete Those Delete Markers (Restore Files)\n\nYou can run the following shell script to remove each delete marker and restore the file:\n\n```\n#!/bin/bash\n\nINPUT=\"delete_markers.json\"\n\nfor row in $(jq -c '.[]' $INPUT); do\n  KEY=$(echo $row | jq -r '.Key')\n  VERSION_ID=$(echo $row | jq -r '.VersionId')\n\n  echo \"Restoring $KEY (deleting delete marker $VERSION_ID)\"\n  aws s3api delete-object \\\n    --bucket invent-teknosa-datastore \\\n    --key \"$KEY\" \\\n    --version-id \"$VERSION_ID\"\ndone\n\n```\n\nSave it as `restore_ProductUDA.sh`, make it executable:\n\n```\nchmod +x restore_ProductUDA.sh\n./restore_ProductUDA.sh\n```\n\n---\n\n### 🧪 Final Validation",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 94,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5213519887_95",
+    "content": "utable:\n\n```\nchmod +x restore_ProductUDA.sh\n./restore_ProductUDA.sh\n```\n\n---\n\n### 🧪 Final Validation\n\nOnce you’ve deleted the delete markers:\n\n```bash\naws s3 ls s3://invent-teknosa-datastore/parquet/data-files/ProductUDA/ --recursive\n```\n\nYou should now see the folder and all restored files listed.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5213519887",
+      "title": "AWS S3 Bucket Restore Example 4",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5213519887",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-06-10T15:00:08.416Z",
+      "chunk_index": 95,
+      "total_chunks": 96
+    }
+  },
+  {
+    "id": "confluence_~631855824_5536350249_0",
+    "content": "## Problem\n\n- Idle Airflow workloads left running by feature branchesThere are ~50 nodes and ~860 pods, which contains unnecessary and unmaintained workload\n- No failed job cleaner.\n- Each airflow scheduler (85 pieces) has 2 replicas.\n- There are problems in prometheus-server0 and prometheus-prometheus-node-exporter-qczgf\n\n## Action/Result\n\nCurrently, 26 nodes, and 450 pods.\n\nCost ↓ from $600 → $280 / day (-55%)\n\n## Next Steps",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5536350249",
+      "title": "Customertest-eu-aks Cluster Observations",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5536350249",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-10-20T10:43:57.118Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~631855824_5536350249_1",
+    "content": "tion/Result\n\nCurrently, 26 nodes, and 450 pods.\n\nCost ↓ from $600 → $280 / day (-55%)\n\n## Next Steps\n\n1. Automating cleanup 1— branch close → namespace+identity delete\n2. Automating cleanup 2— If there is no Scheduler activity for 7 days, then set replicas to 0 and keep “Persistent Volume”. No activity for 14 Days, delete NS.\n3. Start/Stop → Basically, when there is no development, Developers should be able to stop the workload.\n4. Setting ownership labels, so each namespace has an expiry date and ownerExclude “Long Running Runs”\n5. Adding Slack alerts to warn users before idle workloads are stopped\n6. Separating branch types — so Databricks-only branches don’t trigger K8s deployments”Databricks branches use the same naming conventions.\n7. Follow-up Memory:112 Node pool utility.Since Rocket-pandas is using Azure Batch, no need to spin up a node. →\n\n85' airlfow-scheduler deployments that has 2 replikas.\n\n49 nodes\n\n860 pods\n\nNot used feature-branch\n\nActions",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5536350249",
+      "title": "Customertest-eu-aks Cluster Observations",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5536350249",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-10-20T10:43:57.118Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~631855824_5536350249_2",
+    "content": "fow-scheduler deployments that has 2 replikas.\n\n49 nodes\n\n860 pods\n\nNot used feature-branch\n\nActions\n\n1. No failed-job cleaning pipeline. → A cron job was created.\n2. 85 Airflow-scheduler deployments → 2 Replikas.\n3. Currently ~870 pods, 49 nodes\n\n### Command I use to set replicas to 0:\n\n```\nkubectl -n <namespace> scale statefulset airflow-db --replicas=0\n```\n\n```\nkubectl -n <namespace> scale deployment airflow-scheduler --replicas=0\nkubectl -n <namespace> scale deployment airflow-web --replicas=0\n```\n\nAfter the cleaning up - Last Status\n\nActive Pod: 480\n\nActive Node: 30 – 24 User2\n\n### Second Triage\n\nCurrently 426 Pod\n\n26 Node",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~631855824",
+      "space_name": "ilter.efe",
+      "page_id": "5536350249",
+      "title": "Customertest-eu-aks Cluster Observations",
+      "url": "https://invent.atlassian.net/wiki/spaces/~631855824/pages/5536350249",
+      "updated_by": "İlter Efe",
+      "updated_date": "2025-10-20T10:43:57.118Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "confluence_~56622981_3396010229_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n## Date\n\n## Participants\n\nList meeting participants using their @ mention names\n\n-\n- @ mention a person to add them as an attendee and they will be notified.\n\n## Goals\n\nList goals for this meeting (e.g., Set design priorities for FY19)\n\n-\n\n## Discussion topics\n\n| Time | Item | Presenter | Notes |\n| --- | --- | --- | --- |\n|  |  |  | Add notes for each discussion topic |\n|  |  |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or discussion topics:\n\n-\n\n## Decisions\n\nType /decision to record the decisions you make in this meeting:\n\nba32e95b-4d03-4a0c-8c6f-dfbd252a6f851e4ced1f-7ac2-4b20-85fe-b0c97417f573DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~56622981",
+      "space_name": "Selen Çakıroğlu",
+      "page_id": "3396010229",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~56622981/pages/3396010229",
+      "updated_by": "Selen Çakıroğlu",
+      "updated_date": "2022-02-17T07:13:20.934Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~56622981_3396010230_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~56622981",
+      "space_name": "Selen Çakıroğlu",
+      "page_id": "3396010230",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~56622981/pages/3396010230",
+      "updated_by": "Selen Çakıroğlu",
+      "updated_date": "2022-02-17T07:13:21.403Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~56622981_3396010231_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder of storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~56622981/pages/3396010230/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~56622981",
+      "space_name": "Selen Çakıroğlu",
+      "page_id": "3396010231",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~56622981/pages/3396010231",
+      "updated_by": "Selen Çakıroğlu",
+      "updated_date": "2022-02-17T07:13:21.483Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~56622981_3396010238_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nStatusNot started / YellowIn progress / GreenCompleteImpactRedHigh / YellowMedium / GreenLowDriver@ mention driverApprover@ approverContributors@ contributorsInformed@ stakeholdersDue dateType // to add a dateResourcesType /link to add links to relevant research, pages, and related decisions\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision.\n\n## Background\n\nProvide context on a decision the team needs to make and include information about constraints and challenges.\n\n## Options considered\n\n|  | Option 1 | Option 2 |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns.\n\n1\nincomplete\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\n\n## Outcome\n\nSummarize the outcome.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~56622981",
+      "space_name": "Selen Çakıroğlu",
+      "page_id": "3396010238",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~56622981/pages/3396010238",
+      "updated_by": "Selen Çakıroğlu",
+      "updated_date": "2022-02-17T07:13:21.149Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~56622981_3396010245_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nTarget releaseType // to add a target release dateEpicType /Jira to add Jira epics and issuesDocument statusDRAFTDocument owner@ mention ownerDesigner@ designerTech lead@ leadTechnical writers@ writersQA\n## Objective\n\nProvide context on this project and explain how it fits into your organization's strategic goals.\n\n## Success metrics\n\nList project goals and the metrics you'll use to judge its success.\n\n| Goal | Metric |\n| --- | --- |\n| e.g., Simplify the user experience | e.g., Customer satisfaction score increases |\n|  |  |\n\n## Assumptions\n\nList any assumptions you have about your users, technical constraints, or business goals.\n\n## Milestones\n\nType /planner to create a visual roadmap and help your team stay on track. To edit workstreams or dates, select the placeholder and tap the pencil icon.\n\nType /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~56622981",
+      "space_name": "Selen Çakıroğlu",
+      "page_id": "3396010245",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~56622981/pages/3396010245",
+      "updated_by": "Selen Çakıroğlu",
+      "updated_date": "2022-02-17T07:13:21.302Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~56622981_3396010245_1",
+    "content": "ype /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.\n\n## Requirements\n\n| Requirement | User Story | Importance | Jira Issue | Notes |\n| --- | --- | --- | --- | --- |\n| e.g., Must be mobile responsive | e.g., John is a PM who wants to check on his team's progress from the train station |  |  |  |\n|  |  |  |  |  |\n\n## User interaction and design\n\nType /image to add mockups, diagrams, and screenshots related to the requirements.\n\n## Open Questions\n\n| Question | Answer | Date Answered |\n| --- | --- | --- |\n| e.g., How might we make users more aware of this feature? | e.g., We'll announce the feature with a blog post and a presentation | Type // to add a date |\n\n## Out of Scope\n\nList the features discussed which are out of scope or might be revisited in a later release.\n\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~56622981",
+      "space_name": "Selen Çakıroğlu",
+      "page_id": "3396010245",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~56622981/pages/3396010245",
+      "updated_by": "Selen Çakıroğlu",
+      "updated_date": "2022-02-17T07:13:21.302Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4228776307_0",
+    "content": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote).\n\n## 📄 Recent pages that I've worked on\n\n## 🖐 Get in touch\n\n✉️ Insert your email here\n\n💼 Insert your LinkedIn URL here\n\n🔗 Insert your Twitter handle here\n\n👤 Insert your Medium profile here\n\nEnd with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4228776307",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4228776307",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2024-05-24T16:37:47.019Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4572413971_0",
+    "content": "AP-93: Initialize → AP-72: Toolbar → AP-92: List view → AP-84: Product Card → AP-85: P.Card Detail\n\n53\n53\ncomplete\nList view gridde product description’a tıklanınca product detail drawer açılacak.\n\n66\n66\ncomplete\nList View datasheet grid config’i columnlar ve sort - search ayarlanmalı.\n\n54\n54\ncomplete\nSeason ve Time Range Filtreleri için default değerler bir endpoint ile verilecek. Hazırlanınca onu kullan.\n\n55\n55\nincomplete\nImage’lar farklı boyutlarda olacak, card ve card detaildeki carousel medium, carouseldaki küçükler small?, list view griddeki resimler small, tıklandığında açılan resimler large. Hazır olunca kullan.\n\n56\n56\ncomplete\nProduct Card height'ı ürün sayısı az olduğunda sayfayı kaplayacak şekilde uzuyor. Düzelt.\n\n57\n57\ncomplete\nProduct card üzerindeki iconlar IconComponent ile kullanılacak.\n\n61\n61\ncomplete\nProduct card - kpi area daki kpi’lara da format gerekli.\n\n58\n58\ncomplete\nTime range filter’da hafta aralığı 1-53 olsun.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4572413971",
+      "title": "Actual Sales Analysis Notes and To Do's",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4572413971",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-01-27T08:12:39.347Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4572413971_1",
+    "content": "area daki kpi’lara da format gerekli.\n\n58\n58\ncomplete\nTime range filter’da hafta aralığı 1-53 olsun.\n\n59\n59\nincomplete\nRange info filter’da seçeneklerin tamamı ilk başta seçili gelsin.\n\n67\n67\nincomplete\nRange Info Filter’da parent optionlar seçili olsa da filtre içinde gitmemeli, seçili leafler gitmeli.\n\n69\n69\ncomplete\nCub 0.1.23 ile sub item select’li cub multi functional dropdown fixlendi. Range Info select için kullanılacak.\n\n60\n60\ncomplete\nAP-92 List View - ImageColumn’da cub image ve tooltip’e gerekli proplar eklenince onları antd den cub componentine çevir.(image → height, tooltip → arrow, overlayInnerStyle)\n\n62\n62\ncomplete\nFilter pane de required filtreler olduğu zaman `useRequiredFiltersAppliedStatus`ile zorunlu filtrelerin dolu olup olmadığına bak, değilse data çekilmeyecek.\n\n68\n68\ncomplete\nFilter pane config ayarlanmalı. Bazı filtreler zorunlu yapılacak. Zorunlu filtreler doldurulmadan veri çekilmeyecek.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4572413971",
+      "title": "Actual Sales Analysis Notes and To Do's",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4572413971",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-01-27T08:12:39.347Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4572413971_2",
+    "content": "ig ayarlanmalı. Bazı filtreler zorunlu yapılacak. Zorunlu filtreler doldurulmadan veri çekilmeyecek.\n\n70\n70\nincomplete\nGallery view’da infinite query kullandık, sayfa sayfa çekilen veriler cacheleniyor. Bu sayfalar çok fazla olduğunda son birkaç sayfa cache de tutulmalı, öncesi için tekrar istek atılmalı yukarı çıkıldığında. Çok veri olunca bu test edilmeli.\n\n71\n71\ncomplete\nGallery view’da filterPane’deki saved filters’dan seçim yapıldığında otomatik kaydedip apply buttonuna basılması gerekmediği için tekrar pagination isteği atmıyor. Esin’le bakacağız.\n\n63\n63\ncomplete\n`assortmentPlanning`config’i biraz daha gerçeğe göre ayarlamalıyız.\n\n64\n64\ncomplete\nGrid arka planı beyaz olacak.\n\n72\n72\ncomplete\nProduct objesinden rank ve images gelmeli.\n\n74\n74\ncomplete\nAnalytical view için gerekli groups değeri product configden alınacak.\n\n75\n75\nincomplete\nLimit products için filterpane’e bir switch eklenecek.\n\n76\n76\nincomplete\nLifecycle ve product depth hesaplanmalı.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4572413971",
+      "title": "Actual Sales Analysis Notes and To Do's",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4572413971",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-01-27T08:12:39.347Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4572413971_3",
+    "content": "s için filterpane’e bir switch eklenecek.\n\n76\n76\nincomplete\nLifecycle ve product depth hesaplanmalı.\n\n77\n77\nincomplete\nsezon ve zaman filter and lenmeli.\n\n78\n78\nincomplete\nFilterpane’de region ve salesChannel da olmalı.\n\n79\n79\nincomplete\nRange info (product card detail) için config\n\n80\n80\ncomplete\nChartlarda büyük değer daha kötü anlam ifade ettiği durumda ne yapcaz?chartReverse flagiyle\n\n81\n81\nincomplete\ncolumnFilters filterCommon false gidiyor columnFilters çalışmıyor\n\n82\n82\nincomplete\nList view detail panelde sort olmadığı için alan dolmuyor.\n\n83\n8ad371b1-ed0b-4c52-b610-c48f2e9f18e6\nincomplete\nreact query kullanılacak.\n\nGannt plana benziyor mu? : [https://cheetahtest.inventanalytics.com/inventory-management/delivery-schedule](https://cheetahtest.inventanalytics.com/inventory-management/delivery-schedule)\n\nCollapsible row var: [https://cheetahtest.inventanalytics.com/allocation](https://cheetahtest.inventanalytics.com/allocation)\n\nRequired filters in:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4572413971",
+      "title": "Actual Sales Analysis Notes and To Do's",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4572413971",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-01-27T08:12:39.347Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4572413971_4",
+    "content": "tanalytics.com/allocation](https://cheetahtest.inventanalytics.com/allocation)\n\nRequired filters in:\n\n[https://cheetahtest.inventanalytics.com/inventory-management/forecast-review-edit](https://cheetahtest.inventanalytics.com/inventory-management/forecast-review-edit)\n\n[https://cheetahtest.inventanalytics.com/replenishment/replenishment-planning](https://cheetahtest.inventanalytics.com/replenishment/replenishment-planning)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4572413971",
+      "title": "Actual Sales Analysis Notes and To Do's",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4572413971",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-01-27T08:12:39.347Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4683431951_0",
+    "content": "| Problem Owner | Problem / Request | Notes / Explanations | Solution and version | Task Link |\n| --- | --- | --- | --- | --- |\n|  | CubButton içindeki text overflow olduğunda ellipsis yapmıyor. |  | antd’nin buton için ellipsis özelliği yok, button container dışına taşıp içindeki text kadar alan kaplıyor. Text çok uzun olduğu durumlarda button yerine CubLink kullanılabilir. |  |\n|  | CubDisplay’de items propuna birden çok kpi geçildiğinde kpi’lar alt alta sıralanıyor. Yan yana olan versiyonu da olmalı. |  | Listelemek istediğim her kpi için bir CubDisplay kullanıp items propuna bir elemanlık title-value pair geçtim. Bir satıra overflow olmadan yerleştirmek için de minWidth propuna fit-content verip CubCol’a flex={1} verdim ve tüm CubDisplay’leri CubRow’a sardım. |  |\n|  | CubEmpty’nin page versionu (sayfayı kaplayan, border’lı) versiyonu da olmalı |  | CubEmpty with withContainer propv0.2.11 |  |\n|  | CubLink ellipsis propu eksik |  | eklendi - v0.2.13 |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4683431951",
+      "title": "Cub issues and notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4683431951",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-05-06T10:01:53.890Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4683431951_1",
+    "content": "ty with withContainer propv0.2.11 |  |\n|  | CubLink ellipsis propu eksik |  | eklendi - v0.2.13 |  |\n|  | CubIcon ile iconlar sayfadaki diğer componentlerden daha geç yükleniyor. |  | v0.2.15 |  |\n|  | CubDrawer'ın sağ ve solunda 10px margin var, drawer’da margin olmamalı. |  | CubDetailPanel’de yazılmış bir global style sebebiyle bu oluyor,  v0.2.16 ile düzeltildi. |  |\n|  | CubDescriptionsda label uzun olduğunda wrap olmuyor ve satırın çoğunu kaplıyor. |  | items objesinde labelStyle’a maxWidth verilerek çözülebiliyor ancak tüm itemlara aynı anda etki eden bir labelStyle propu CubDisplay’e eklenecek.v0.2.16 ile eklendi. |  |\n|  | CubProgress’in stroke color'ı değiştirilebilmeli |  | v0.2.16 ile strokeColor prop’u eklendi. |  |\n|  | CubPopconfirm’de sadece başlık ve butonlar var, açıklama da ekleyebilir miyiz? |  | CubPopconfirm’deki title propu aktif edildi ve zorunlu hale getirildi, descriptions prop’u optional. İkisi birden geçildiğinde title otomatik bold oluyor. v0.2.16 |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4683431951",
+      "title": "Cub issues and notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4683431951",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-05-06T10:01:53.890Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4683431951_2",
+    "content": "di, descriptions prop’u optional. İkisi birden geçildiğinde title otomatik bold oluyor. v0.2.16 |  |\n|  | CubDetailPaneli açıp, minimize edip, sonra kapatıp panel tekrar açıldığında minimized haliyle açılıyor ve altta açıldığı fark edilmiyor. Kapatıldıysa tekrar açıldığında her türlü standart haliyle açılmalı.CubDetailPanel minimized durumdayken sağında scroll çıkmamalı.CubDetailPanel tam ekran yapıldığında eğer ekran uzunluğu 800px den kısaysa header bar yukarda erişilemeyen bir yerde kalıyor.CubDetailPaneli açıp, ikinci icona basıp maximize edip, ilk butona basıp minimize edip, tekrar ikinci butona basıldığında panel default boyutunda açıldı ama ilk butonun oku yukarı bakıyor, aşağı bakıyor olmalı. |  | v0.2.16 |  |\n|  | CubSplitter lazy prop’u açılmalı |  |  |  |\n|  | CubAlert’in title'ı bold olmalı |  |  |  |\n|  | CubText ve CubTitle’a color propu |  |  |  |\n|  | CubDropdown componenti gerekli (Reset-Cancel-Apply butonları olan boş bir dropdown) |  |  |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4683431951",
+      "title": "Cub issues and notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4683431951",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-05-06T10:01:53.890Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4683431951_3",
+    "content": "|  | CubDropdown componenti gerekli (Reset-Cancel-Apply butonları olan boş bir dropdown) |  |  |  |\n|  | CubTreeSelect’te seçili olan item listesinde hem parent hem children geliyor. |  |  |  |\n|  | CubSpace ile sarılan bir component eğer CubPopover ise, popover açıldığında trigger'ının üstünde gözüküyor. | antd space componentleri span ile sarıyor, bu yüzden border daha içerde olarak algılıyor. | CubPopover olan bir container için CubSpace değil CubFlex kullan. |  |\n|  | ICubCarouselRef  direkt Cub’dan export edilmeli | import { ICubCarouselRef } from \"cub/dist/lib/components/atoms/DataDisplay/CubCarousel/types\"; |  |  |\n|  | Cub componentlerinde deprecated olmuş proplar var özellikle style ve classname’ler ile ilgili, onlar düzeltilecek. |  |  |  |\n|  | CubPopconfirm’e width propu eklenecek. | assortment-range plan-new season-delete prouct confirmde kullanılacak. |  |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4683431951",
+      "title": "Cub issues and notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4683431951",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-05-06T10:01:53.890Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4683431951_4",
+    "content": "th propu eklenecek. | assortment-range plan-new season-delete prouct confirmde kullanılacak. |  |  |\n|  | CubSelectCommon’da multi select modunda seçilen seçenekler en yukarda gelsin. | Assortment multi season select için istendi. | Cub 0.6.35 |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4683431951",
+      "title": "Cub issues and notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4683431951",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2025-05-06T10:01:53.890Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4701683724_0",
+    "content": "266\n266\nincomplete\nFilter pane config ve required alanlar\n\n267\n267\ncomplete\nFilter pane’deki filtrenin grid isteğine geçilmesi\n\n268\n268\nincomplete\nseason, time range ve range info filter için filter config ayarlaması\n\n```\n{\n  label: \"Color\",\n  value: \"color\",\n  children: [\n    {\n      label: \"Black\",\n      value: \"black\"\n    },\n    {\n      label: \"Chestnut\",\n      value: \"chestnut\"\n    },\n    {\n      label: \"Navy Blue\",\n      value: \"navyBlue\"\n    },\n    {\n      label: \"White\",\n      value: \"white\"\n    }\n  ]\n},\n```\n\n270\n270\nincomplete\nproduct status kpi’ların status’leri\n\n271\n271\nincomplete\nproduct lifecycle'ın product’tan gelmesi\n\n272\n272\nincomplete\nproduct detail için ayrı bir endpoint oluşturma ve onu kullanma\n\n273\n273\nincomplete\nproduct detail’dan ürünün configdeki tüm alanlarının gelmesi ve status kpi’ların min, max, q1 ve q2 değerlerinin de gelmesi\n\n274\n274\nincomplete\nproduct detaildan ürünün tüm fotoğraflarının gelmesi",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4701683724",
+      "title": "To Do",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4701683724",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2024-12-09T09:50:35.495Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~7120209ef4aa868a2a4f6f96f91076acc3091b_4701683724_1",
+    "content": "q2 değerlerinin de gelmesi\n\n274\n274\nincomplete\nproduct detaildan ürünün tüm fotoğraflarının gelmesi\n\n275\n275\nincomplete\nproduct detaildan seçili sort kriterine göre o ürünün toplamda kaçıncı sırada olduğu bilgisi\n\n276\n276\nincomplete\nAssortment configde:\n\n277\n277\nincomplete\nsortableFields'ın value-label pair olması\n\n278\n278\nincomplete\nsortableFields’dan bir seçeneğin default olarak belirlenmesi (şirketten şirkete değişebilir, eğer kullanılıyorsa default gmroi olsun isteniyor)\n\n279\n279\nincomplete\nlist view grid configi düzenlenmesi ([https://taylanaydinliinventanalytic-my.sharepoint.com/:x:/g/personal/mustafa_erdogan_inventanalytics_com/ESMFgdAVT2FIrK2Vs9ulayYBQWRYfR-p8m9FWJtT-rx0zg?rtime=jzj5VCH03Eg](https://taylanaydinliinventanalytic-my.sharepoint.com/:x:/g/personal/mustafa_erdogan_inventanalytics_com/ESMFgdAVT2FIrK2Vs9ulayYBQWRYfR-p8m9FWJtT-rx0zg?rtime=jzj5VCH03Eg) )\n\n280\n280\nincomplete",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120209ef4aa868a2a4f6f96f91076acc3091b",
+      "space_name": "hazal.koz",
+      "page_id": "4701683724",
+      "title": "To Do",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120209ef4aa868a2a4f6f96f91076acc3091b/pages/4701683724",
+      "updated_by": "Hazal Koz",
+      "updated_date": "2024-12-09T09:50:35.495Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

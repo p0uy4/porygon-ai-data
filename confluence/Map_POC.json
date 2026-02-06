@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "confluence_MP_5367530096_0",
+    "content": "## Description\n\nIn a sentence or two, describe the purpose of this space.\n## Project Tracker\n\ncom.atlassian.confluence.project-linker\nproject-linker\ndefault\n3781a39a-e79f-41c1-a914-38846c22a77c\n\n## Recently updated content\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.\n\n## Contributors\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367530096",
+      "title": "Map POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367530096",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:20:49.008Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824480_0",
+    "content": "Consulting managers can use this page for any purpose they wish, like adding meeting notes, business discussions or any template (s)he likes.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824480",
+      "title": "Map POC - 0. Project Management (PM's workplace)",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824480",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.457Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824493_0",
+    "content": "Creating customer-specific know-how ensures all critical information and unique aspects of the project requirements.\n\n## Client Summary\n\nnoteCompany Name: XYZ CropSector:Technology\n\nBrands:~150\n\nRevenue: $150 billion (FY 2024)\n\nProduct Count: ~ 98K SKUs\n\nKey Products:\n\n1. Smartphones\n2. Laptops\n3. Cloud Services\n\nHeadquarters:Silicon Valley, California, USA\n\nGlobal Reach:Operations in over 5 countries, with ~ 850 stores\n\nProject Scope:\n\n- Regions In Scope: PL(Poland), CZ(Czechia), SK(Slovakia), RO(Romania), HU(Hungary)\n- Store Scope: Brand Type: Retail,\n- Out-of-Store Scope: E-commerce\n\nSolutions:Transfer, Replenishment\n\nCompany Name: XYZ CropSector:Technology\n\nBrands:~150\n\nRevenue: $150 billion (FY 2024)\n\nProduct Count: ~ 98K SKUs\n\nKey Products:\n\n1. Smartphones\n2. Laptops\n3. Cloud Services\n\nHeadquarters:Silicon Valley, California, USA\n\nGlobal Reach:Operations in over 5 countries, with ~ 850 stores\n\nProject Scope:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824493",
+      "title": "Map POC - 1. Client Information",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824493",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.705Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824493_1",
+    "content": "ley, California, USA\n\nGlobal Reach:Operations in over 5 countries, with ~ 850 stores\n\nProject Scope:\n\n- Regions In Scope: PL(Poland), CZ(Czechia), SK(Slovakia), RO(Romania), HU(Hungary)\n- Store Scope: Brand Type: Retail,\n- Out-of-Store Scope: E-commerce\n\nSolutions:Transfer, Replenishment\n\n## Know the People We Will Work With\n\nPeople that we connect with regularly in client and Invent key users\n\n| Name | Contact Area | Email | Phone |\n| --- | --- | --- | --- |\n| eg. Miłosz | Technical Lead - Responsible for the development, implementation and maintenance of technical systems | milosz@mail.com |  |\n| eg. Magda | Analyst - Support for Miłosz and the repl + TRN system (ad hoc) | magna@mail.com |  |\n| eg. Anita | Analyst - support for the repl + transfers ad hoc + later first allocation ad hoc | anita@mail.com |  |\n| eg. Krystian | PM - responsible for coordinating meetings like Alina and I till now + in Invent tool > analyst and business settings | krystian@mail.com |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824493",
+      "title": "Map POC - 1. Client Information",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824493",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.705Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824493_2",
+    "content": "like Alina and I till now + in Invent tool > analyst and business settings | krystian@mail.com |  |\n\n## Communication Channels\n\nFill in the communication channels in the table below\n\n| Instant Messages | E-mail or Teams Chat |\n| --- | --- |\n| Meetings | Teams Call |\n| Meeting Notes | Teams Files (sample link) or Google Drive (sample link) |\n| Announcements | E-mail or Teams Post (sample link) |\n\n## Client Meeting Details\n\nFill in the client meeting details in the table below",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824493",
+      "title": "Map POC - 1. Client Information",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824493",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.705Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824493_3",
+    "content": "st (sample link) |\n\n## Client Meeting Details\n\nFill in the client meeting details in the table below\n\n|  | Schedule | Agenda |\n| --- | --- | --- |\n| Q&A Session | - | Client gives updates on created runs and ask questions if they have. |\n| KPI Review | - | TRN performance KPI follow ups and discussions. |\n| Business Meetings | e.g Twice a week, on Tuesday's and Thursday's | Task list and discussion topics. |\n| Steerco | e.g Once a month. | KPI shares and updates. |\n| Data Collection | e.g Once a week. | Implementation and hypercare topics are discussed. Can be canceled after handover to CX support. |\n| PM | e.g Once a week. | Client project leads and Invent managers attends the meeting, and discuss ongoing topics / expectations. |\n\n## Client Permission Details\n\nFill in the project details in the table below.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824493",
+      "title": "Map POC - 1. Client Information",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824493",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.705Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824493_4",
+    "content": "ics / expectations. |\n\n## Client Permission Details\n\nFill in the project details in the table below.\n\n| Airflow |  |\n| --- | --- |\n| Azure |  |\n| Database |  |\n| Shared Drives |  |\n| Jira & Confluence |  |\n| Slack & Teams |  |\n| Email Groups |  |\n| UI Permission Types |  |\n| Ftp Server |  |\n| Databricks |  |\n| Git Repository |  |\n| Jenkins |  |\n| Tableau |  |\n\n## Official Kick-Off Presentation\n\nFill in relevant documents and URLs in the table below\n\n|  | Relevant Files |\n| --- | --- |\n| Kick-Off Meeting Presentation | Link to project pages or URLs |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824493",
+      "title": "Map POC - 1. Client Information",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824493",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.705Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824512_0",
+    "content": "Understanding the data transfer process during a handover is crucial because this ensures that the transition is smooth and secure, and maintains the integrity and continuity of operations. Here is a [1.1 Data Transfer Process] from an existing client.\n\n## Flow\n\n- The customer sends daily data to invent-xxx-input/daily_data/ in Microsoft Azure Storage every night at 2.30 AM.\n- …\n\n## Daily File Instructions\n\nFill in the table below for files transferred using the daily data process.\n\n| File Name | Datastore Folder | Critical |\n| --- | --- | --- |\n| eg. transactional_sales.csv | operation/transactional_salesoperation/sales | Yes |\n| eg. supplier.csv | master-data/suppliers | No |\n|  |  |  |\n\n> Info: The critical column contains information on whether we can continue from the previous day if the customer does not send the file.\n\n## Manual File Instructions\n\nFill in the table below for files not transferred using the daily data process.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824512",
+      "title": "Map POC - 2. Data Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824512",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.910Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824512_1",
+    "content": "l File Instructions\n\nFill in the table below for files not transferred using the daily data process.\n\n| File Name | Datastore Folder | Critical | Notes |\n| --- | --- | --- | --- |\n| eg. supersede_item_family | invent-ebebek2-filemanager-ui/supersede_relations/ | No | We receive this file with UPLOAD MANAGEMENT via interfaces. |\n|  |  |  |  |\n\n## Data Validation\n\nFill in relevant documents and URLs in the table below\n\n|  | Relevant Files |\n| --- | --- |\n| Descriptive Analysis Presentation | Link to project pages or URLs |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824512",
+      "title": "Map POC - 2. Data Structure",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824512",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:25.910Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824527_0",
+    "content": "When communicating the data control process, it’s important to be clear, concise, and thorough to ensure all stakeholders understand the situation and what action needs to be taken. Below are some key points and checkpoints for effectively managing data control communication.\n\n## Control Checkpoints\n\nFollow all steps in the process and complete the checkpoints below.\n\nReal-Time Validation:\n\n11\n11\nincomplete\nEnsure that “Manifest File” control is performed for files received from the customer\n\nData Format Checks:\n\n285\n285\nincomplete\nVerify that data conforms to expected formats (e.g., date, number, text, unique data, missing column, negative inventory, etc.) and provide details for checkpoints\n\n286\n286\nincomplete\nEnsure that data fields are correctly mapped from source (CSV) to Invent data format (Operation)\n\nError Detection:Identifying errors that stop the system from working:\n\n20\n20\nincomplete\nDuplication Records\n\n21\n21\nincomplete\nEmpty column Content",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824527",
+      "title": "Map POC - Input Data Control Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824527",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:26.084Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824527_1",
+    "content": "he system from working:\n\n20\n20\nincomplete\nDuplication Records\n\n21\n21\nincomplete\nEmpty column Content\n\n22\n22\nincomplete\nDate, RunDate Control\n\n## Airflow Alerts and Notifications\n\nImplement automated error detection mechanisms (e.g., alerts for invalid entries, missing CSV, etc.) via emails, and slack channels:\n\n24\n24\nincomplete\nFile Transfer Control\n\n25\n25\nincomplete\nInput File Control\n\n26\n26\nincomplete\nMake sure it includes the previous day - current day change\n\n27\n27\nincomplete\nMake sure it includes the sales-stock difference control, etc.\n\nHere is a sample “File Transfer Control” email from an existing client:\n\nHere is a sample “Input File Control” email from an existing client:\n\n## Communication Channels\n\nFill in the communication channels in the table below in case of an error with the daily data flow.\n\n| Error Messages | E-mail or Teams Chat |\n| --- | --- |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824527",
+      "title": "Map POC - Input Data Control Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824527",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:26.084Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824572_0",
+    "content": "## Special Cases\n\nnoteClient Specific Terminologies:\n\n- e.g. You can enter instances like Style Color = Option, Site = Store, etc.\n\nSpecial Days:\n\n- e.g. Christmas period should be ignored from ignore table to avoid forecast fluctuation.\n\nSpecial Rules:\n\n- e.g. Pairs are eliminated from run scopes if not in the initial allocation scope. (Except stock consolidation runs)\n\nClient Specific Terminologies:\n\n- e.g. You can enter instances like Style Color = Option, Site = Store, etc.\n\nSpecial Days:\n\n- e.g. Christmas period should be ignored from ignore table to avoid forecast fluctuation.\n\nSpecial Rules:\n\n- e.g. Pairs are eliminated from run scopes if not in the initial allocation scope. (Except stock consolidation runs)\n\n## Pre-ETLs\n\nUnderstanding the pre-ETL steps during a handover is crucial because they ensure a smooth and secure transition and maintain the integrity and continuity of operations. Here is a [3.2 Pre ETLs] from an existing client.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824572",
+      "title": "Map POC - Pre-ETL Documentation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824572",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:26.768Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824572_1",
+    "content": "intain the integrity and continuity of operations. Here is a [3.2 Pre ETLs] from an existing client.\n\nFill in the table below for all CSV files separately\n\n| Table Name: |  |\n| --- | --- |\n| Input Client CSV |  |\n| Mandatory |  |\n| Can Be Copied From Previous Day |  |\n| History Need |  |\n| Output (Feed) Table Name |  |\n| Pre_Etl Extension |  |\n| Output Table Path |  |\n\n| Input Table Column | Output (Feed) Table Columns |\n| --- | --- |\n|  |  |\n| Key Notes |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824572",
+      "title": "Map POC - Pre-ETL Documentation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824572",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:26.768Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824587_0",
+    "content": "Creating client-specific know-how ensures all critical information and unique aspects of the project requirements.\n\n## Understand the Business\n\nFill in relevant documents and URLs in the table below\n\n|  | Relevant Files |\n| --- | --- |\n| Conceptual Design Document | Link to project pages or URLs |\n| Business Requirement Tracking List | https://docs.google.com/spreadsheets/d/1tHXdIgjuHcqnU3cqb-rmBg5-8zT-ErGp/edit?gid=702027247#gid=702027247 |\n\n## Highlight Important Concepts\n\nAfter reading the project documents, fill in relevant documents and URLs in the table below\n\n> Tip: Features Promised to the Client:eg. Authorizations and roles based on countries on UI (  on live)\n\n> Warning: Features Initially Promised to the Client But Cancelled:eg. Weekly Scheduled Transfers\n\n> Note: Features Not Promised to the Client:Size distribution rule revision for large sizes (for Japan) (  on live)\n\nnoteFeatures Not Promised to the Client But Implemented:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824587",
+      "title": "Map POC - 3. Concept Design",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824587",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:26.947Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824587_1",
+    "content": "on for large sizes (for Japan) (  on live)\n\nnoteFeatures Not Promised to the Client But Implemented:\n\n1. Fully automated result implementation to the SAP system\n2.\n\nFeatures Not Promised to the Client But Implemented:\n\n1. Fully automated result implementation to the SAP system\n2.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824587",
+      "title": "Map POC - 3. Concept Design",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824587",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:26.947Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_MP_5367824602_0",
+    "content": "In Airflow, tracking logs for failed tasks is an essential part of monitoring and debugging workflows. Here’s a checklist of how you can effectively track failed task logs:\n\n## Document Checklist\n\nFollow all steps in the process and complete the checkpoints below.\n\n303\n303\nincomplete\nHas the document been created for the Pre-ETL?\n\n304\n304\nincomplete\nIs there an IO Control email?\n\n314\n314\nincomplete\nIs there any DAG scheduled only in DBX and not in Airflow?*(Link)*\n\n305\n305\nincomplete\nEnsure the [Off-duty Excel](https://docs.google.com/spreadsheets/d/1vqrRoCjg1kL3trx3pI7puZaOcjHUlTdXDSK6igQqQAg/edit?gid=1953709686#gid=1953709686) is completed (The document that determines the criticality of the tasks needs to be filled out)\n\n## Test Process\n\nFollow all steps in the process and complete the checkpoints below.\n\n298\n298\nincomplete\nIs there a test environment?\n\n299\n299\nincomplete\nIs the code tested before going live?\n\n300\n300\nincomplete\nAre there unit tests in the project?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824602",
+      "title": "Map POC - 4. Base Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824602",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:27.121Z",
+      "chunk_index": 0,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_MP_5367824602_1",
+    "content": "plete\nIs the code tested before going live?\n\n300\n300\nincomplete\nAre there unit tests in the project?\n\n301\n301\nincomplete\nHas a load test been conducted? What is the maximum scope on the relevant server, and how many pairs can be processed?\n\n## Error Management\n\n306\n306\nincomplete\nAre the [fail logs](https://docs.google.com/spreadsheets/d/1xV0Q_gHqXp19uSQ2A2Hp_G2c7xcqrV8wjHdZIXny9hk/edit?gid=259683016#gid=259683016) being maintained? (They should cover the last 30 days)\n\nWhen Trouble Shooting Guideline issues in Airflow, it’s important to follow a structured approach to identify and resolve problems efficiently. Additionally, communicating with the client throughout the troubleshooting process is crucial for maintaining transparency, managing expectations, and ensuring satisfaction.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824602",
+      "title": "Map POC - 4. Base Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824602",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:27.121Z",
+      "chunk_index": 1,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_MP_5367824602_2",
+    "content": "g process is crucial for maintaining transparency, managing expectations, and ensuring satisfaction.\n\n307\n307\nincomplete\nIs there a [Trouble Shooting Guideline (TSG)](https://docs.google.com/document/d/1-3ozR986wpkZYbfOzN1rPtZ_qCVgSQ-m/edit)? (Define the guideline including actions, customer point of contact, etc.)\n\n308\n308\nincomplete\nAre the DAGs (Pre-ETL + UpdateDataStore) running without errors?\n\n309\n309\nincomplete\nIs there a recurring error?\n\n310\n310\nincomplete\nAre the first-party dependent libraries fixed?\n\n## Pager Duty\n\n> Info: For PagerDuty setup, please contact the CX-IT Rocks team.\n\nPagerDuty is an incident management and notification tool that integrates well with Airflow to alert teams in case of task or job failures. Teams can use PagerDuty to receive alerts when a task or Dag fails, helping ensure a timely response to critical issues.\n\n311\n311\nincomplete\nIs there an alert system in place, such as PagerDuty?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824602",
+      "title": "Map POC - 4. Base Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824602",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:27.121Z",
+      "chunk_index": 2,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_MP_5367824602_3",
+    "content": "sponse to critical issues.\n\n311\n311\nincomplete\nIs there an alert system in place, such as PagerDuty?\n\n312\n312\nincomplete\nIs PagerDuty installed on critical dags that produce daily output to the client?\n\nnoteDefine Critical DAGs with Onboarding Team:Critical DAGs such as data pipelines that feed real-time dashboards, ETL jobs, DT jobs, result transfer, etc. are essential to business operations.\n\nDefine Critical DAGs with Onboarding Team:Critical DAGs such as data pipelines that feed real-time dashboards, ETL jobs, DT jobs, result transfer, etc. are essential to business operations.\n\n313\n313\nincomplete\nEnsure there is Pagerduty set-up: daily-dag, maps-runner, maps-controller (for transfer projects)\n\n## SLA and Timeout\n\nSLA and Timeout are mechanisms to manage task and workflow performance, ensuring that tasks or DAGs complete within expected timeframes. They help identify tasks that are running longer than expected, allowing for invention, alerting, or fail-safe measures.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824602",
+      "title": "Map POC - 4. Base Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824602",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:27.121Z",
+      "chunk_index": 3,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_MP_5367824602_4",
+    "content": "asks that are running longer than expected, allowing for invention, alerting, or fail-safe measures.\n\n283\n283\nincomplete\nWhat are the SLAs (data transfer start times, ETL completion times)?\n\n284\n284\nincomplete\nIs SLA installed on critical dags? and has it been confirmed that the notification structure works in case of delay?\n\n## Airflow Alerts and Notifications\n\nSetting up alerts and notifications can also help with tracking failed tasks:\n\n285\n285\nincomplete\nEmail Alerts:Configure the email_on_failure parameter in your DAG or task to send an email when a task fails.\n\n*Here is an “airflow mail” from an existing client:*\n\n286\n286\nincomplete\nSlack Integrations:Use Airflow’s built-in integration to notify team via slack\n\n*Here is a “cicd slack channel message” from an existing client:*\n\n302\n302\nincomplete\nReporting (Standard UI Screens and Base Reports onboarded)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824602",
+      "title": "Map POC - 4. Base Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824602",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:27.121Z",
+      "chunk_index": 4,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_MP_5367824602_5",
+    "content": "an existing client:*\n\n302\n302\nincomplete\nReporting (Standard UI Screens and Base Reports onboarded)\n\n*Add here the link of Report List including base reports (KPI Report, Lost Sales…etc).*[Report List template](https://docs.google.com/spreadsheets/d/1zkEFAnn8D4OhKBp-ME-Q-NKY7nZsqZ3utOtk2Y5c2dI/edit?gid=0#gid=0)*should have been filled already within the scope of Delivery Framework.*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824602",
+      "title": "Map POC - 4. Base Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824602",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:27.121Z",
+      "chunk_index": 5,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_MP_5367824660_0",
+    "content": "Advanced implementation is the phase in which project teams fine tune the standard solution to extend with the client's special cases.\n\n## Business requirements which go beyond standard features\n\nFill in the project details in the table below.\n\n|  | Relevant Files |\n| --- | --- |\n| Business Requirement Tracking List(all extensions should be included in BRT excel) | https://docs.google.com/spreadsheets/d/1tHXdIgjuHcqnU3cqb-rmBg5-8zT-ErGp/edit?gid=702027247#gid=702027247 |\n\n## Alignment on the success measurement\n\nFill in the project details in the table below.\n\n|  | Relevant Files |\n| --- | --- |\n| Success Measurement Presentation |  |\n\n## Report list\n\nList the reports developed for the client in the table below.\n\n|  | Relevant Files |\n| --- | --- |\n| Report list |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824660",
+      "title": "Map POC - 5. Advanced Implementation",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824660",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:28.089Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824679_0",
+    "content": "Use the [Inventory Screens Onboarding To-Dos & Questionnaire] to copy the relevant checklist items for your project confluence page!",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824679",
+      "title": "Map POC - UI Screens Onboarding Questionnaire",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824679",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:28.374Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824694_0",
+    "content": "Use the checklist below to ensure all available UI screens or reports are functioning well in terms of the following dimensions for the users:\n\n## Design and Layout\n\n9\n9\nincomplete\nCreate a [help page](https://drive.google.com/file/d/1ntH-jml8AJfZ8m7HKdrRiBjzAlweB-YQ/view) for each screen or report in the documentation button.\n\n1\n1\nincomplete\nRemove all unnecessary functions in the UI to eliminate the clutter.\n\n12\n12\nincomplete\nSimplify all screens/tables by hiding or completely removing unnecessary functions/parameters/columns.\n\n2\n2\nincomplete\nAdjust column widths in tables according to the length of the data. Each column should be wide enough for the headers and content to be easily readable.\n\n10\n10\nincomplete\nTest if all buttons and functions work properly (i.e. import & export functions)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824694",
+      "title": "Map POC - UI Screens Configuration Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824694",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:28.582Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_MP_5367824694_1",
+    "content": ".\n\n10\n10\nincomplete\nTest if all buttons and functions work properly (i.e. import & export functions)\n\n11\n11\nincomplete\nAgree with the client on the filtering, aggregation, or breakdown levels for each report, screen, or output. (ie. KPIs on a country level? A donut chart at the product group level? etc.)\n\n13\n13\nincomplete\nRemove all unnamed property or null fields (eg. Property 1, Property 2, etc.)\n\n14\n14\nincomplete\nSet upper and lower bounds for values displayed\n\n15\n15\nincomplete\nEnsure all reports/graphs comply with Invent’s corporate identity.\n\n45\ne1237fbd-dd65-4b33-b7df-f6f718de06ac\nincomplete\nEnsure that the report update date is included in the title of all reports.\n\n## Data Quality\n\n32\n32\nincomplete\nEnsure the database and the report input data are consistent. (eg. sales, scope, inventory, etc.)\n\n33\n33\nincomplete\nEnsure the report input and report output are consistent.\n\n34\n34\nincomplete\nEnsure that relationships between tables are consistent.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824694",
+      "title": "Map POC - UI Screens Configuration Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824694",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:28.582Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_MP_5367824694_2",
+    "content": "rt output are consistent.\n\n34\n34\nincomplete\nEnsure that relationships between tables are consistent.\n\n36\n36\nincomplete\nEnsure filters are appropriately applied and labeled.\n\n37\n37\nincomplete\nEnsure that default filters are applied to speed up if the report data is too large\n\n## Performance and Efficiency\n\n39\n39\nincomplete\nOptimize data extracts and queries to minimize loading time.\n\n40\n40\nincomplete\nSimplify calculations and reduce the number of marks and data points if necessary.\n\n42\n42\nincomplete\nUse data extracts instead of live connections for large datasets.\n\n43\n43\nincomplete\nMinimize the use of complex calculations and custom queries.\n\n44\n44\nincomplete\nIs the report being maintained regularly if needed? (e.g. if the report is cumulative, the data can reach 100m+ rows)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824694",
+      "title": "Map POC - UI Screens Configuration Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824694",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:28.582Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_MP_5367824754_0",
+    "content": "| Report Headings |\n| --- |\n| Boxes |\n| Color: Dark Blue - Hex Code: #001f5b,                               RGB Code: (0,31,91)Size: Width Between 40-45 pixels |\n\n| Container and Filters | Filter Boxes | Table Content |\n| --- | --- | --- |\n| Content | Font | Color |\n| Color: Grey - Hex Code: #f5f5f5                       RGB Code:(245,245,245)Size: Width: 765 (if right-sided)         Width: 157Filters must be written inside of ContainersFilter Headings must be Calibri Bold, 10pt | Color: White - Hex Code: #ffffff                        RGB Code: (255,255,255)Size: -------Frame: Black colored, 100% opacity, thinnest | WorksheetHeader      PaneTooltipTitle |\n\n| Example Report |\n| --- |\n| Example Report Document |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824754",
+      "title": "Map POC - Reporting Display Guide",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824754",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:29.485Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824813_0",
+    "content": "Maintenance guidelines are critical to ensuring the longevity, reliability,  and safety of systems and processes. Here are [07. Maintenance Guideline] and [07. Maintenance Guideline] from an existing client.\n\n> Action items in Maintenance Guideline are expected to managed by the Delivery Manager (read the information for each part below, and contact related teams if necessary). Once the CX-IT support started (support handed-over to CX-IT Team), CX-IT Team will follow this guideline.\n\n## Azure Maintenance\n\n> Contact Shield team, if you haven’t handed-over support to CX-IT Team yet\n\n15\n15\nincomplete\nMaintenance dag runs every week.\n\n## Database Maintenance\n\n> Contact Database Admin team (Burak Obuz), if you haven’t handed-over support to CX-IT Team yet\n\nRegularly perform database maintenance tasks such as indexing, vacuuming, and backup rotations. Monitoring query performance and optimizing where necessary",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824813",
+      "title": "Map POC - Maintenance Guideline",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824813",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.698Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_MP_5367824813_1",
+    "content": "dexing, vacuuming, and backup rotations. Monitoring query performance and optimizing where necessary\n\n16\n16\nincomplete\nMaintenance Plan Daily and Weekly jobs are executed periodically.\n\n17\n17\nincomplete\nConfirm no temp/redundant data in storage\n\n18\n18\nincomplete\nNo folder in delta format without a vacuum\n\n25\n25\nincomplete\nConfirm Maintenance task for DB\n\n> Info: Confirm that there is vacuum and lifecycle in the data produced by the productConfirm that there is vacuum in the data produced by the project team except the product, i.e. reporting data in delta format, etc. If historical is accumulated, application of lifecycle+vacuum\n\n## Code and Configuration Management\n\n> This part is project team’s responsibility, if you haven’t handed-over support to CX-IT Team yet\n\n19\n19\nincomplete\nIf there is any manual work that we expect someone to do during service, we should document that need.\n\n## Performance Optimization",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824813",
+      "title": "Map POC - Maintenance Guideline",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824813",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.698Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_MP_5367824813_2",
+    "content": "t we expect someone to do during service, we should document that need.\n\n## Performance Optimization\n\n> This part is project team’s responsibility, if you haven’t handed-over support to CX-IT Team yet\n\n20\n20\nincomplete\nReview the Tableau site and delete any reports that are not updated automatically or not published/used in the UI\n\n21\n21\nincomplete\nReport Cluster usage loads. make sure it is efficient, with no redundant cost ([Databricks Cluster Best Practices])\n\n## CIT/Version Upgrades\n\n> Contact related product team (i.e. for Markdown contact ACME team), if you haven’t handed-over support to CX-IT Team yet\n\n22\n22\nincomplete\nDaily CIT notifications are sent to the #client-cit slack channel. It is project teams to follow up these notifications and take action when fails. [How is Debugging at CIT?]",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824813",
+      "title": "Map POC - Maintenance Guideline",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824813",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.698Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_MP_5367824834_0",
+    "content": "## Basics\n\n38\n5ac04d91-be29-47f9-857e-e9dc4b80bf0d\nincomplete\nSystem runs according to the daily flow timeline agreed with the client\n\n30\n30\nincomplete\nAll functions and reports listed in Business Requirement List & Concept Design Document work properly\n\n31\n31\nincomplete\nOutput format is acceptable for the client to consume in their systems.\n\n## Result Quality\n\n17\n17\nincomplete\nQuality Control:The answer should be given by UI screen reports, the way of answering should be part of the UI documentation on Cheetah.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824834",
+      "title": "Map POC - 6. Testing and Quality Assurance",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824834",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.996Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824834_1",
+    "content": "given by UI screen reports, the way of answering should be part of the UI documentation on Cheetah.\n\n1. Target is high/low for these Store-SKU combinations, why?\n2. Why is there no order for store.x-sku.y?\n3. What was my revenue, sales, lost sales, and in-stock status last week?\n4. What were my in-stock levels yesterday?\n5. Review Store-SKU target & order quantity for:Number of in-stock days < 3 daysTarget WOS (Weeks of Supply) < 10 daysTarget WOS > 60 days & Target > 4\n6. Show test scenarios for these (Change → Run → Result review → Go live)How will the target & orders change if we add 5 additional DOS?How will the target & orders change if we increase/decrease service level by 3%?Apply forecast multiplier.\n\n32\n32\nincomplete\nService Levels:Are service levels configured?\n\n33\n33\nincomplete\nAt what level (product / product-store etc) they are configured\n\n*This section should be demonstrated in a recorded session, prepared in advance by the project team*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824834",
+      "title": "Map POC - 6. Testing and Quality Assurance",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824834",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.996Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824834_2",
+    "content": "*This section should be demonstrated in a recorded session, prepared in advance by the project team*\n\n34\n34\nincomplete\nSpecial Day Effect:Ensure that the special days are reviewed and verified before the handover. This includes confirming the accuracy of forecast data, sales comparisons, and any manual processes required. Documentation should be completed and approved prior to the handover to the client.\n\n- Show the top 5 special days in a year.Run forecasts 2 months before that day in the upcoming year and summarize results by: forecast vs previous year sales. explain differencesIf there is any manual review or process needed for these times, show the documentation, and get approval\n- Seasonality curve for each sub-category, compared with the previous year’s sales\n- Confirm the path for detailed run results",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824834",
+      "title": "Map POC - 6. Testing and Quality Assurance",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824834",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.996Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824834_3",
+    "content": "ch sub-category, compared with the previous year’s sales\n- Confirm the path for detailed run results\n\n35\n35\nincomplete\nSeasonality Effect:Monitor and manage seasonal variations to ensure accurate forecasting and performance analysis. This includes tracking seasonality trends for each category, comparing them with previous years’ sales, and adjusting forecasts as necessary. Ensure that any seasonal adjustments are documented and approved before implementation.\n\n- Identify a specific season change period in the year (for example, the start or end of a summer season).Run forecasts 2 months before that day in the upcoming year and summarize results by: forecast vs previous year sales. explain differencesIf there is any manual review or process needed for these times, show the documentation, and get approval\n- Seasonality curve for each sub-category, compared with the previous year’s sales\n- Confirm the path for detailed run results\n\n### Early Run Setting",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824834",
+      "title": "Map POC - 6. Testing and Quality Assurance",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824834",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.996Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824834_4",
+    "content": "ed with the previous year’s sales\n- Confirm the path for detailed run results\n\n### Early Run Setting\n\n36\n36\nincomplete\nDo we have an Early Run Setting? If yes, please share the documentation and pipeline summary.\n\n37\n37\nincomplete\nIs there a rule set like this: In case of a disruption in the daily data flow, the maximum DOS and IA scope products for the next day’s decision mechanism should be up to T-1 day?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824834",
+      "title": "Map POC - 6. Testing and Quality Assurance",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824834",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:30.996Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_MP_5367824847_0",
+    "content": "Equip users with the necessary knowledge and resources and go-live with the solutions\n\n## Go Live Delivery:\n\nFill in the project details in the table below\n\n|  | Relevant Files |\n| --- | --- |\n| Solution Trainings |  |\n| Video Tutorials (If any) |  |\n| Change Management Plan |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824847",
+      "title": "Map POC - 7. Go Live",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824847",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:31.249Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824860_0",
+    "content": "|  | Relevant Files |\n| --- | --- |\n| Steerco Meeting Presentation (benefits proven with KPIs) |  |\n| FAQs Document |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824860",
+      "title": "Map POC - 8. Hypercare",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824860",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:31.540Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_MP_5367824873_0",
+    "content": "## Backlog & Drive Review\n\n156\n156\nincomplete\nJira Backlog Review: Are there any redundant tasks?\n\n198\n198\nincomplete\nDrive Review Review the Google Drive, organize the important documents, and delete redundant ones.\n\n## Open Topics\n\n157\n157\nincomplete\nHigh-Level Workload: Share a high-level summary of open tasks and expected workload.\n\n160\n160\nincomplete\nCritical Dates: Confirm if there are any critical due dates expected by the customer.\n\n## Manual & Inefficient Works\n\n164\n164\nincomplete\nManual works: If there is any manual work expected to be performed by someone during the service, we should document this requirement.\n\n165\n165\nincomplete\nImprovement Areas:Inform the CX team whether there is any process/operation that is being done in a sub-optimal way and could be improved by adopting a more robust way-of-doing.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824873",
+      "title": "Map POC - 9. Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824873",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:31.779Z",
+      "chunk_index": 0,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_MP_5367824873_1",
+    "content": "hat is being done in a sub-optimal way and could be improved by adopting a more robust way-of-doing.\n\n199\n199\nincomplete\nStatic Definitions:Check and develop an update routine if there are any parameters/configurations that are set based on a one-time analysis. This could include seasonality coeffs, min/max targets, additional days, etc.\n\n## Client Glossary\n\n180\n180\nincomplete\nClient Glossary:Creating a dictionary for client terminology involves defining the key concepts used in the clients process. This ensures an understanding of vocabulary and its role in client daily operations.\n\n## Storage Clean Up\n\n190\n190\nincomplete\nStorage Clean-Up: Confirm that there is no temporary or redundant data stored.\n\n191\n191\nincomplete\nDelta Format Folders: Ensure that there are no folders in Delta format without having gone through the vacuum process.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824873",
+      "title": "Map POC - 9. Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824873",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:31.779Z",
+      "chunk_index": 1,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_MP_5367824873_2",
+    "content": "rs: Ensure that there are no folders in Delta format without having gone through the vacuum process.\n\n192\n192\nincomplete\nTableau Site Review: Review the Tableau site and delete any reports that are not automatically updated, or that are not published/used in the UI.\n\n## Cost Improvement\n\n193\n193\nincomplete\nCost Debt:Is there a Cloud Cost Debt? Are the maintenance dags open? Are there unused forecasts generated by Noob? (Sometimes, what happens is Noob generates 4-5 forecasts, but only one is used because the smart selection wasn't applied, etc.)\n\n194\n194\nincomplete\nAlbatross: Has the project been added to Albatross? It might be necessary to create a task in Alpha here.\n\n195\n195\nincomplete\nCost ReviewReview the monthly cost of the project,  align with the finance team about the cost, if any reduction opportunity plan with the related team.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824873",
+      "title": "Map POC - 9. Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824873",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:31.779Z",
+      "chunk_index": 2,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_MP_5367824873_3",
+    "content": "align with the finance team about the cost, if any reduction opportunity plan with the related team.\n\n196\n196\nincomplete\nEfficient Databricks Clusters: Report Cluster usage loads. make sure it is efficient, with no redundant cost: [Databricks Cluster Best Practices]\n\n## Version control\n\n200\n4cd8656c-6c31-4a4e-85cb-53fad310be62\nincomplete\nCheck the version available in client, and aligned with CE team.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824873",
+      "title": "Map POC - 9. Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824873",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:31.779Z",
+      "chunk_index": 3,
+      "total_chunks": 4
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_0",
+    "content": "Handover Start Criteria:\nIn order to maintain an efficient handover process, the following criteria must be complete before Delivery to CX handover can begin.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 0,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_1",
+    "content": "handover process, the following criteria must be complete before Delivery to CX handover can begin.\n\n|  | # | Item | Responsible | Description | Comments & Notes |\n| --- | --- | --- | --- | --- | --- |\n| 1 1 incomplete | 1 | Documentation | Delivery | Project template completed in Confluence |  |\n| 2 2 incomplete | 2 | System Readiness | Delivery | All Solutions are live and stable |  |\n| 3 3 incomplete | 3 | CX IT Support | Delivery | CX IT Tier 1 support complete |  |\n| 4 4 incomplete | 4 | Backlog Status | Delivery | No items in the backlog with a confirmed deadline. If there are any, the delivery team should deliver them.Open Backlog Items Reduced to 25% of Original Project Plan non critical features |  |\n| 27 a4b03565-10d3-4d9a-9be5-cb474076341e incomplete | 5 | Automation of Manual Steps |  | Workflows and Output delivery should be automated  - E.g. No manual effort of output delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 1,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_2",
+    "content": "output delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 2,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_3",
+    "content": "utput delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 3,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_4",
+    "content": "tput delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 4,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_5",
+    "content": "put delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 5,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_6",
+    "content": "ut delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 6,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_7",
+    "content": "t delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 7,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_8",
+    "content": "delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 8,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_9",
+    "content": "delivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 9,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_10",
+    "content": "elivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 10,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_11",
+    "content": "livery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 11,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_12",
+    "content": "ivery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 12,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_13",
+    "content": "very required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 13,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_14",
+    "content": "ery required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 14,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_15",
+    "content": "ry required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 15,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_16",
+    "content": "y required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 16,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_17",
+    "content": "required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 17,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_18",
+    "content": "required by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 18,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_19",
+    "content": "equired by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 19,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_20",
+    "content": "quired by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 20,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_21",
+    "content": "uired by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 21,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_22",
+    "content": "ired by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 22,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_23",
+    "content": "red by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 23,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_24",
+    "content": "ed by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 24,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_25",
+    "content": "d by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 25,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_26",
+    "content": "by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 26,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_27",
+    "content": "by CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 27,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_28",
+    "content": "y CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 28,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_29",
+    "content": "CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 29,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_30",
+    "content": "CX on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 30,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_31",
+    "content": "X on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 31,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_32",
+    "content": "on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 32,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_33",
+    "content": "on an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 33,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_34",
+    "content": "n an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 34,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_35",
+    "content": "an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 35,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_36",
+    "content": "an on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 36,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_37",
+    "content": "n on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 37,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_38",
+    "content": "on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 38,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_39",
+    "content": "on-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 39,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_40",
+    "content": "n-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 40,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_41",
+    "content": "-going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 41,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_42",
+    "content": "going basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 42,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_43",
+    "content": "oing basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 43,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_44",
+    "content": "ing basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 44,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_45",
+    "content": "ng basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 45,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_46",
+    "content": "g basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 46,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_47",
+    "content": "basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 47,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_48",
+    "content": "basis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 48,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_49",
+    "content": "asis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 49,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_50",
+    "content": "sis |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 50,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_51",
+    "content": "is |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 51,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_52",
+    "content": "s |  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 52,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_53",
+    "content": "|  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 53,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_54",
+    "content": "|  |\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 54,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_55",
+    "content": "|\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 55,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_56",
+    "content": "|\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 56,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_57",
+    "content": "|\n\nDelivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 57,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_58",
+    "content": "Delivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 58,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_59",
+    "content": "Delivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 59,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_60",
+    "content": "Delivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 60,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_61",
+    "content": "elivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 61,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_62",
+    "content": "livery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 62,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_63",
+    "content": "ivery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 63,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_64",
+    "content": "very to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 64,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_65",
+    "content": "ery to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 65,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_66",
+    "content": "ry to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 66,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_67",
+    "content": "y to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 67,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_68",
+    "content": "to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 68,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_69",
+    "content": "to CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 69,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_70",
+    "content": "o CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 70,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_71",
+    "content": "CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 71,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_72",
+    "content": "CX Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 72,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_73",
+    "content": "X Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 73,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_74",
+    "content": "Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 74,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_75",
+    "content": "Handover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 75,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_76",
+    "content": "andover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 76,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_77",
+    "content": "ndover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 77,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_78",
+    "content": "dover Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 78,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_79",
+    "content": "over Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 79,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_80",
+    "content": "ver Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 80,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_81",
+    "content": "er Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 81,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_82",
+    "content": "r Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 82,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_83",
+    "content": "Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 83,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_84",
+    "content": "Process Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 84,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_85",
+    "content": "rocess Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 85,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_86",
+    "content": "ocess Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 86,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_87",
+    "content": "cess Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 87,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_88",
+    "content": "ess Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 88,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_89",
+    "content": "ss Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 89,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_90",
+    "content": "s Checklist:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 90,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_91",
+    "content": "|  | # | Delivery to CX Handover Checklist | Responsible | Description | Comments & Notes |\n| --- | --- | --- | --- | --- | --- |\n|  | 1 | CX Team Integration and Onboarding |  |  |  |\n| 6 6 incomplete | 1.1 | CX Team added to Internal Hub Team meetings | Delivery | CX team formally added to the Project Internal ceremonies to start onboarding/training process |  |\n| 7 7 incomplete | 1.2 | Handover Process Tracker created and introduced to track progress | CX | Create and update a handover tracker tailored to the account, documenting key milestones, outstanding items, and transition progress. (Use Internal Jira Board and create EPICs for different phases - follow in weekly sprints) |  |\n| 26 26 incomplete | 1.3 | Open Client Service project board on Jira | CX | Create a Jira ticket for Alpha Team to open the board. |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 91,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_92",
+    "content": "ent Service project board on Jira | CX | Create a Jira ticket for Alpha Team to open the board. |  |\n| 28 8351dfff-7f33-47fc-a27c-a934d1406bff incomplete | 1.4 | CX Team to Review all Documented Material | CX | CX to Review and Learn UI, UI Training, Technical Documentation, Backlog, Project Material |  |\n|  | 2 | Training and Know-How Transfer |  |  |  |\n| 8 8 incomplete | 2.1 | Knowledge transfer sessions to begin based on Project Confluence Page Topics | Delivery/CX | Example: Project Page |  |\n|  | 3 | Account Clean Up |  |  |  |\n| 22 22 incomplete | 3.1 | Cloud Cost Optimization (What has been done, what opportunities are there?) | Delivery/CX | Discussion on what Cloud cost optimization methods have been tried, where there are opportunities.  A plan of attack. |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 92,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_93",
+    "content": "ud cost optimization methods have been tried, where there are opportunities.  A plan of attack. |  |\n| 25 25 incomplete | 3.2 | Storage Clean Up | Delivery/CX | Clean up storage to ensure there is no temporary or redundant data stored.Review the Tableau site and delete any reports that are not automatically updated, or that are not published/used in the UI. |  |\n|  | 4 | Backlog Alignment |  |  |  |\n| 11 11 incomplete | 4.1 | Jira Backlog Clean Up | Delivery | Clean up of backlog to ensure backlog reflects current priorities |  |\n| 12 12 incomplete | 4.2 | Backlog Onboarding | Delivery | Delivery team to onboard CX team onto remaining backlog items |  |\n| 13 13 incomplete | 4.3 | Backlog Alignment | Delivery/CX | Delivery and CX teams to align on ownership of remaining backlog items |  |\n|  | 5 | Account Ownership Transition |  |  |  |\n| 14 14 incomplete | 5.1 | CX team to lead Internal Hub Ceremonies | CX | Begins the shift of account ownership for Internal operations |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 93,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_MP_5367824888_94",
+    "content": "ad Internal Hub Ceremonies | CX | Begins the shift of account ownership for Internal operations |  |\n| 15 15 incomplete | 5.2 | CX team added to Client Hub call meetings | CX | CX team has started to join all Client interactions |  |\n| 16 16 incomplete | 5.3 | CX team introduced to the Client Team | CX |  |  |\n| 17 17 incomplete | 5.4 | CX team presents CX Ways of Working and Handover Process to the Client | CX | CX standard ways of working slides presented to Client |  |\n| 18 18 incomplete | 5.5 | Delivery and CX to jointly lead Account and Hub conversations | Delivery/CX |  |  |\n| 24 24 incomplete | 5.6 | CX team fully owns the account and Delivery can Exit | CX |  |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "MP",
+      "space_name": "Map POC",
+      "page_id": "5367824888",
+      "title": "Map POC - Delivery to CX Handover Checklist",
+      "url": "https://invent.atlassian.net/wiki/spaces/MP/pages/5367824888",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-08-12T15:22:32.068Z",
+      "chunk_index": 94,
+      "total_chunks": 95
+    }
+  }
+]

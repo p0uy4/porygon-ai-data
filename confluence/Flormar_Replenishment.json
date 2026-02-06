@@ -1,0 +1,34 @@
+[
+  {
+    "id": "confluence_FLORMARREPL_3473511_0",
+    "content": "## Blog stream\n\n## Recently updated",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FLORMARREPL",
+      "space_name": "Flormar Replenishment",
+      "page_id": "3473511",
+      "title": "Flormar Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/FLORMARREPL/pages/3473511",
+      "updated_by": "Taylan Aydinli (Unlicensed)",
+      "updated_date": "2016-01-07T05:08:53.501Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_FLORMARREPL_3473574_0",
+    "content": "## SQL Erişim Bilgileri\n\n| SQL Sunucu IP | 195.214.146.10 |\n| --- | --- |\n| SQL Sunucu Port | 9643 |\n| SQL Username | invent |\n\n## Eski Erişim Bilgileri\n\n## VPN Erişim Bilgileri\n\nFlormar VPN'e erişim için Fortinet client ile bağlanılması önerilmiş ve bağlantı bilgileri gönderilmiş.\n\n| VPN Adres | 195.214.147.42 |\n| --- | --- |\n| VPN Port | 10443 |\n| VPN Username | invent |\n\nFortinet Fortigate'ler IPSec kullanıyorlar, herhangi bir client ile erişmek de mümkün olabilir.\n\n## SQL Erişim Bilgileri\n\n| SQL Sunucu Yerel IP | 192.168.0.4 |\n| --- | --- |\n| SQL Username | invent |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FLORMARREPL",
+      "space_name": "Flormar Replenishment",
+      "page_id": "3473574",
+      "title": "Flormar Erişimi",
+      "url": "https://invent.atlassian.net/wiki/spaces/FLORMARREPL/pages/3473574",
+      "updated_by": "Utku Erdogdu (Unlicensed)",
+      "updated_date": "2015-08-19T08:52:44.134Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

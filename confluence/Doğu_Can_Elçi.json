@@ -1,0 +1,194 @@
+[
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3512205544_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n## Date\n\n## Participants\n\nList meeting participants using their @ mention names\n\n-\n- @ mention a person to add them as an attendee and they will be notified.\n\n## Goals\n\nList goals for this meeting (e.g., Set design priorities for FY19)\n\n-\n\n## Discussion topics\n\n| Time | Item | Presenter | Notes |\n| --- | --- | --- | --- |\n|  |  |  | Add notes for each discussion topic |\n|  |  |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or discussion topics:\n\n-\n\n## Decisions\n\nType /decision to record the decisions you make in this meeting:\n\nc8ce88a5-b9ea-41b5-8456-f336ffe63d3cef4140cc-7a19-43e8-a09b-6e512562d668DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3512205544",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205544",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-07-18T07:36:56.300Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3512205545_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3512205545",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205545",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-07-18T07:36:56.757Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3512205546_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder of storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205545/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3512205546",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205546",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-07-18T07:36:56.862Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3512205553_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nStatusNot started / YellowIn progress / GreenCompleteImpactRedHigh / YellowMedium / GreenLowDriver@ mention driverApprover@ approverContributors@ contributorsInformed@ stakeholdersDue dateType // to add a dateResourcesType /link to add links to relevant research, pages, and related decisions\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision.\n\n## Background\n\nProvide context on a decision the team needs to make and include information about constraints and challenges.\n\n## Options considered\n\n|  | Option 1 | Option 2 |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns.\n\n1\nincomplete\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\n\n## Outcome\n\nSummarize the outcome.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3512205553",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205553",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-07-18T07:36:56.469Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3512205560_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nTarget releaseType // to add a target release dateEpicType /Jira to add Jira epics and issuesDocument statusDRAFTDocument owner@ mention ownerDesigner@ designerTech lead@ leadTechnical writers@ writersQA\n## Objective\n\nProvide context on this project and explain how it fits into your organization's strategic goals.\n\n## Success metrics\n\nList project goals and the metrics you'll use to judge its success.\n\n| Goal | Metric |\n| --- | --- |\n| e.g., Simplify the user experience | e.g., Customer satisfaction score increases |\n|  |  |\n\n## Assumptions\n\nList any assumptions you have about your users, technical constraints, or business goals.\n\n## Milestones\n\nType /planner to create a visual roadmap and help your team stay on track. To edit workstreams or dates, select the placeholder and tap the pencil icon.\n\nType /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3512205560",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205560",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-07-18T07:36:56.648Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3512205560_1",
+    "content": "ype /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.\n\n## Requirements\n\n| Requirement | User Story | Importance | Jira Issue | Notes |\n| --- | --- | --- | --- | --- |\n| e.g., Must be mobile responsive | e.g., John is a PM who wants to check on his team's progress from the train station |  |  |  |\n|  |  |  |  |  |\n\n## User interaction and design\n\nType /image to add mockups, diagrams, and screenshots related to the requirements.\n\n## Open Questions\n\n| Question | Answer | Date Answered |\n| --- | --- | --- |\n| e.g., How might we make users more aware of this feature? | e.g., We'll announce the feature with a blog post and a presentation | Type // to add a date |\n\n## Out of Scope\n\nList the features discussed which are out of scope or might be revisited in a later release.\n\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3512205560",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3512205560",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-07-18T07:36:56.648Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3624730665_0",
+    "content": "AFG Discount Decision Roadmap:\n\n●       Finalizing the list of items to go on sale (1 week prior to finalizing decision sale items list should be  ready)\n\n○       Get Phase Calendar from client\n\n○       Get YTR lines and next season’s orders from the client\n\nDetails:\n\nIf the information of YTR lines does not reach automatically, it is requested manually.\n\nAction:\n\nLines labeled as ytr by the customer, if shared manually with an excel file, will be added to a table by truncate insert operation and the markdown.SaleLines table will be updated with the help of this table.\n\n○       The filtering of items belonging to some Business Units(Dept) requested by the customer(For WN22: T97 items are excluded.)\n\nAction:\n\nThis filtering can be accomplished by adding a simple update line to the\n\n*report.SaleLines_Report_Canberk* stored procedure that provides data to the SaleLines table.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3624730665",
+      "title": "Preprocessing Part of Preparing Sale List Report",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3624730665",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-11-07T22:14:03.297Z",
+      "chunk_index": 0,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3624730665_1",
+    "content": "o the\n\n*report.SaleLines_Report_Canberk* stored procedure that provides data to the SaleLines table.\n\nNote: The update operation mentioned above should not be done for the one-time SaleLines table. Because this report is updated by the daily store procedure(report.SaleLines_Report_Canberk) with truncate insert operation.\n\n○       Checking whether the data in the SaleLines report is up-to-date\n\nAction:\n\nColumns containing Continuous values (Original Price, Total Stock Value etc.) in the Sale Lines report should be compared with the values in the markdown.WeeklyPastData table and manually checked for accuracy.\n\n○       Checking the consistency of OnSale, Reason and flag columns in the SaleLines report\n\nDetails:\n\nFlag columns: IsNoFirstSales, IsYTR, IsFutureOrder, IsBroken, Is90+AndNotCore, IsDiscounted, IsNoStock, IsParent/ChildItem\n\nAction:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3624730665",
+      "title": "Preprocessing Part of Preparing Sale List Report",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3624730665",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-11-07T22:14:03.297Z",
+      "chunk_index": 1,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3624730665_2",
+    "content": "sYTR, IsFutureOrder, IsBroken, Is90+AndNotCore, IsDiscounted, IsNoStock, IsParent/ChildItem\n\nAction:\n\nBy checking the historical data of the items selected from the list, the information in the flag columns and the consistency of the decision made as a result of this information are checked.\n\n○       Prepare a preliminary list with specified rules (2-3 days)\n\n■    report.SetScenarioItemParameters\n\n■    report.SetScenarioWeeklyRateConstraints\n\n○       Prepare SaleItems list\n\n■     [https://docs.google.com/spreadsheets/d/1JXvVfOTPRp1XWBVAWVq07ERre3y-HTjt/edit#gid=1874027367](https://docs.google.com/spreadsheets/d/1JXvVfOTPRp1XWBVAWVq07ERre3y-HTjt/edit#gid=1874027367)\n\n■     report.PrepareSaleLines\n\n○       Client reviews and revises the lists (1 week). Shares final list via Excel\n\n●       Finalize decisions (around 3-4 weeks prior to sale start)\n\nFinal decisions should be made with the previously decided sale items list.\n\n○       After client shares final sale lines exec:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3624730665",
+      "title": "Preprocessing Part of Preparing Sale List Report",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3624730665",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-11-07T22:14:03.297Z",
+      "chunk_index": 2,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3624730665_3",
+    "content": "ade with the previously decided sale items list.\n\n○       After client shares final sale lines exec:\n\n■       report.SetScenarioItemParameters_AfterLineFinalization\n\n■       report.SetScenarioWeeklyRateConstraints\n\n○       Analyze run results internally and with client\n\n■       report.CreateRunControlMaster\n\n■       report.GetRunDetail\n\n○       Inspect ST, MD KPIs against the targets and last year’s sales\n\n○       Revise decisions (2-3 days)\n\n○       Prepare Sale Lists\n\n■       Sale Lists are shared within AFG. Should include all items whose prices are changed\n\n■       [https://drive.google.com/drive/u/0/folders/1oYnJD3oqvG92ri5Vwla015ZRq5SgFn3l](https://drive.google.com/drive/u/0/folders/1oYnJD3oqvG92ri5Vwla015ZRq5SgFn3l)\n\n■       report.PrepareSaleLists\n\n■       report.PrepareSaleListsSA (KSA’s lists should be at article level)\n\n○       Prepare Municipality Lists",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3624730665",
+      "title": "Preprocessing Part of Preparing Sale List Report",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3624730665",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-11-07T22:14:03.297Z",
+      "chunk_index": 3,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3624730665_4",
+    "content": "port.PrepareSaleListsSA (KSA’s lists should be at article level)\n\n○       Prepare Municipality Lists\n\n■       Municipality Lists are shared with local authorities. Price decisions shared in municipality lists should include only the items whose discounts are within Phase discount limits.\n\n●    E.g If Phase 1 discount limits are 30%-50% then items with discount 55% should not be included.\n\n■       report.MunicipalityListFormat\n\n■       Municipality list is not required for Egypt\n\n■       KSA and KW municipality list are not prepared by Invent\n\n○       Prepare Sale Proposal and Markdown By Age Reports\n\n■       Markdown Summary\n\n■       report.MarkdownSummaryByAgeForAllPhasesRevisedV2\n\n■       [https://tableau.inventanalytics.com/#/site/AlFuttaim/workbooks/4759/views](https://tableau.inventanalytics.com/#/site/AlFuttaim/workbooks/4759/views)\n\n■       Sale Proposal\n\n■       report.MarkdownForecast",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3624730665",
+      "title": "Preprocessing Part of Preparing Sale List Report",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3624730665",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-11-07T22:14:03.297Z",
+      "chunk_index": 4,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_~62d50427d1bb05497b0128f1_3624730665_5",
+    "content": "s.com/#/site/AlFuttaim/workbooks/4759/views)\n\n■       Sale Proposal\n\n■       report.MarkdownForecast\n\n■       [https://tableau.inventanalytics.com/#/site/AlFuttaim/workbooks/4725/views](https://tableau.inventanalytics.com/#/site/AlFuttaim/workbooks/4725/views)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~62d50427d1bb05497b0128f1",
+      "space_name": "Doğu Can Elçi",
+      "page_id": "3624730665",
+      "title": "Preprocessing Part of Preparing Sale List Report",
+      "url": "https://invent.atlassian.net/wiki/spaces/~62d50427d1bb05497b0128f1/pages/3624730665",
+      "updated_by": "Doğu Can Elçi (Unlicensed)",
+      "updated_date": "2022-11-07T22:14:03.297Z",
+      "chunk_index": 5,
+      "total_chunks": 6
+    }
+  }
+]

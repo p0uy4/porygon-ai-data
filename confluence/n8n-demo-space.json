@@ -1,0 +1,34 @@
+[
+  {
+    "id": "confluence_n8ndemospa_5887230664_0",
+    "content": "## Description\n\nIn a sentence or two, describe the purpose of this space.\n## Project Tracker\n\ncom.atlassian.confluence.project-linker\nproject-linker\ndefault\n3781a39a-e79f-41c1-a914-38846c22a77c\n\n## Recently updated content\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.\n\n## Contributors\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "n8ndemospa",
+      "space_name": "n8n-demo-space",
+      "page_id": "5887230664",
+      "title": "n8n-demo-space",
+      "url": "https://invent.atlassian.net/wiki/spaces/n8ndemospa/pages/5887230664",
+      "updated_by": "talha.yilmaz",
+      "updated_date": "2026-01-31T11:09:49.198Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_n8ndemospa_5889884175_0",
+    "content": "=\n### Strategic Portfolio Review – OmniChannel Retail Insights\n\nOn February 2, 2026, RetailData Sphere Advisors conducted a strategic review of the Q1 Growth Strategy and Data Integrity Audit. The discussion highlighted the success of the 'Store-of-the-Future' initiative in the apparel sector, while noting significant data drift in grocery segments due to manual ingestion processes. High cloud infrastructure costs and UX challenges with the 'Churn Predictor' module were identified as primary operational concerns. Additionally, the team addressed critical preparation for an upcoming SOC2 Type II compliance audit and the planned expansion of the 'Sentiment Analysis' engine to Shopify and Magento platforms.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "n8ndemospa",
+      "space_name": "n8n-demo-space",
+      "page_id": "5889884175",
+      "title": "=Meeting Notes - 02.02.2026",
+      "url": "https://invent.atlassian.net/wiki/spaces/n8ndemospa/pages/5889884175",
+      "updated_by": "talha.yilmaz",
+      "updated_date": "2026-02-02T14:09:28.032Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

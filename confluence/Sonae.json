@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "confluence_Sonae_4748968528_0",
+    "content": "## Description\n\nIn a sentence or two, describe the purpose of this space.\n## Project Tracker\n\ncom.atlassian.confluence.project-linker\nproject-linker\ndefault\n3781a39a-e79f-41c1-a914-38846c22a77c\n\n## Recently updated content\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.\n\n## Contributors\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4748968528",
+      "title": "Sonae",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4748968528",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2024-12-19T17:24:29.109Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_0",
+    "content": "Sümeyra ve Kerem ile location konuları:\n\nSumeyra\n\n- Yürüyüş mesafesinden önce.\n- Kuş uçuşu\n- geohash ile kareler çizerek.\n\nAçık adresten lat longu free alıyorsun.\n\nEtkisi var mı noktasında gözle görülür bir etki görmedik.\nHafta içi hafta sonu.\nBüyük maç küçük maç (takımların güç kategorisi)\n\nfozzy -> Weather etkisi forecast'lere yansıdı. Learning'leri alalım. Belirli kategorilerde çalıştı.\nMaç kategorisi..\n\nKerem\n\n- uygulamadan getir araç. Uber H3 indexhttp://clubelo.com/POR katman katman hexagon'larda kaç ride var ona bakıyorum.\n\nMigros Sezonsallık Çalışması Yellow House call\n\nSezonsal ürünler x sezonsal mağazalar\n\nEntegrasyon\n\nMağazalar'ı cluster etmişler düzeltilmiş (-1,0,+1 . hafta ortalaması) haftalık satış üstünden\nÖzel günleri çıkarttık sezonsallığı çıkartırken\n\nmağaza clusterları:\n\nyüksek yaz sezonsallığı\ndüşük yaz sezonsallığı\nşehir merkezi mağazaları\norta yaz sezonsallığı",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 0,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_1",
+    "content": "ları:\n\nyüksek yaz sezonsallığı\ndüşük yaz sezonsallığı\nşehir merkezi mağazaları\norta yaz sezonsallığı\n\ntürkiye bölgelerini ve cluster'ları cross analiz etmişler. Bodrum'da 3 farklı cluster'lardan mağazalar var. Müşteriyi etkilemiş\n\nÜrünler\nürün segmentasyonu ile alakalı incelemelerde kornişon örneği eylül ayı (turşu için satışları). Mart ayı için sezonsallık katsayısı verdi, inceleyince veri olmadığında prophetin veri yaratıp katsayı hesapladığını gördük.\nBesim: Burada ürün segmentasyonu yaparken sezonsal mağazaları çıkarıp sadece şehir mağazaları üzerinden ilerlemek mantıklı olabilir.\n\nstoksuz ürünler çıkıyor mu? kendi otomatik çıkartıyor (noob)\n\nnoob data prep öncesinde alınan aksiyonlar: outlier satışların handle edilmediğini öğrendik. Daily data içerisinde outlier'ı eledik.\npromosyonu özel gün olarak tanımlayıp ona geçmiş için tanıtıp sonra ileri tarihler için promosyonu bilmediği için geleceğe o holiday'leri tanımlamıyor.\n\ndimes cool lime",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 1,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_2",
+    "content": "ileri tarihler için promosyonu bilmediği için geleceğe o holiday'leri tanımlamıyor.\n\ndimes cool lime\n\nTüm kategorilere uygulamak mümkün değil. EN gol yediğimiz kategorilerden başlayalım, inanılmaz multiplierı olan kategoriler: içecekler,\nmicrocluster (15 mağaza ) x product group 3, 4,5 bazında sezonsallık hesabı yapıp sonrasında smart selection yapıyoruz. Çıkartılan multiplierın geçmiş verideki lltd tahimini üzerinden hataya bakarak smart selection yapılıyor.\n\nsatışın yüzde kaçı 1 ayda gerçekleşiyor? (ör: kornişon 80%)\n\nmağaza fluctuation'ları çok kötü değildi ama ürün grupları bazında çok oluyor. (sin, cos)\n\n# Call with KorayB for notebooks\n\ncreate ignote table veriyi temizlemek için iyi\n\nproduct_lifecyle_flag - çok kritik değil gibi. Super öncelikli değil.\n\nÖncelikli\nDaily data\nholiday table\nproduct agg level\nstore agg level\nprice verisinin düzgün olması kritik. (Bin'lerin belirlenmesi için quality notebook'ları kullanabiliriz. Bin noktalarını analiz ile biz veriyoruz)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 2,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_3",
+    "content": "in belirlenmesi için quality notebook'ları kullanabiliriz. Bin noktalarını analiz ile biz veriyoruz)\n\noutlier_detection - ne kadar outlier elediğine bakmak lazım. 2-3% gibi olmalı. Black friday'ı etkilememeli. Config'e şunları outlier olarak verme diyebiliyorsun\nConfig içinde ignore_path_mark_outlier .\n\nKritik olan tasklarda quality team notebooklarına bakmalısınız. Sonrasında bir de boots'a bakmak çok iyi olur -- orada detaylı.\n\nDefault configden bunları çıkarabiliriz:\n\n-\n\nMinimumda olması gereken tasklar: forecast data prep öncesindeki feature generation taskları, bunlar enriche, enrich daily data, discount, outlier ve masterlar (holiday product store vs) (speed clusterlar, product cluster'lar).\n--feature generate edenler default'da çalıştırılmış gibi.\n\nSezonsallık - must değil.\n\nMutlaka analiz yapılması gereken tasklar. Product ve store clusters.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 3,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_4",
+    "content": "bi.\n\nSezonsallık - must değil.\n\nMutlaka analiz yapılması gereken tasklar. Product ve store clusters.\n\nNeleri ayrı train ediyorsunuz:\nmeyve sebze\nkategori bazlı train. Gruplar küçükse daha üstten yapmak gibi durumlar olabilir. Buraları manual yürütmek lazım.\n4 tane store type gibi birşey verecekler -- onları ayırmak gerekebilir. Store type x product group gibi\n\n+ML tarafında güzel bir notebook var. Boots'da hepimiz bunu kullanmıştık. Ultimate train and predict notebook\nBaya herhangi bir grup için ayrı hyper parameter tuning ya da ayrı feature selection mümkün.\n\nQT kodları:\n\n- ML iteration\n- Descriptive analysis\n- Special days analysis\n- discount bin liftleri nasıl oluyor?\n\nPromosyon tarafı:\n\n- Boots gelecek haftaların promosyonlarını veriyorlar diye hatırlıyorum.\n\nBoots'dan öğrenim:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 4,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_5",
+    "content": "arafı:\n\n- Boots gelecek haftaların promosyonlarını veriyorlar diye hatırlıyorum.\n\nBoots'dan öğrenim:\n\n- En önemli şeyler: veri hataları varsa onları düzelttik. Caleres'te vardı. Envanter ağırlıklı fiyat.\n- promosyonu içeri alma süreci inanılmaz önemli idi. Promosyonları discount rate'e dönüştürülüp içeri alma şekli inanılmaz kritik idi.\n- promosyonlu tarihleri ayrı train etmek. RMSE kullandık bunlarda. 0ları çok olanda tridie distribution.\n- smart lagden alınan sonuçlar önemli\n- promosyon\n- eksik verileri direkt uçurmak önemli.\n- product store attributes önemli\n- hyper parameter tuning çok fayda alamadık\n- tweedy error function\n- use different run_datesgeçmişte benzer dönemi tahmin etmek de iyi olabilir\n- ensemble'dan bir fayda sağlamadık\n- sezonsaıllık katsayılarını hesaplatıp, holiday ve promo katsayılarını bulup sonra bunları modele veriyoruz.\n\nto-do\nküçük bir bir workflow\nanaliz gerektiren taskları koray atacak\n\n# Data Meeting",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 5,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_6",
+    "content": "ele veriyoruz.\n\nto-do\nküçük bir bir workflow\nanaliz gerektiren taskları koray atacak\n\n# Data Meeting\n\n[Data call notes.xlsx](https://taylanaydinliinventanalytic-my.sharepoint.com/:x:/g/personal/besim_solak_inventanalytics_com/EZNoHzgrORtElsAddJbsq28BkHJYdwTiGYZe1CxyDnRfTA?e=zIf8ed)\n\nField explanations\n\nForecast horizon\n\nApril 30th + 12 weeks ahead (not end of July)\nStart 30th of april 12 weeks\n2 weeks after run 10 weeks (Second run)\n2 weeks after run 8 weeks\n2 weeks after run 6 weeks\n2 weeks after run 4 weeks\n2 weeks after run 2 weeks\n\nQuantity based evaluation\nProduct name - no\nSome UDA will be shared\nEach store - format information\nOne-time buy items for spesific periods\nFresh items - no shelf life information\nFresh item promo -\nMarket share - not provided\nLocal events - football games, additional attributes (biological xx). Regard competiton we have some more data to share\n\nVery slow forecast. They don't round up or round down at the moment. (visual minimums)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 6,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_7",
+    "content": "ata to share\n\nVery slow forecast. They don't round up or round down at the moment. (visual minimums)\n\nStore attributes - demographic?. Dimension, rent..\nOmnichannel transacitons? - A spesific store can have online channel. It is spesified.\n\nEvents\nWhen do you start building your inventory?\nSome of events might increase sales for a store / or a pg and increase another. Usually effects the local environment.\n\n# Kickoff with client call\n\nStocks include warehouse? (only stocks)\nNo transactions for data\n\nIncreasing the scope of stores and decreasing the number of sku's\n\nDecrease number of stores -> They said yes.\n\nWarehouse inventory. If you include it would be great.\n\nOutput: Item x store x day\n\nMeasurament -\n\nMasking - not at category level but at product level.\nUnit size, color, organic etc product features\n\norganic milk etc\n\nCategories to be full in terms of skus?\n\nEvaluation - wMAPE, Bias, R-squared. Single number muhabbetini anlamadım.\n\n1st week of January, 4 weeks.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 7,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4762501255_8",
+    "content": "uation - wMAPE, Bias, R-squared. Single number muhabbetini anlamadım.\n\n1st week of January, 4 weeks.\n\nIn december, we will explain the data and structure and fields, field by field.\n\nFresh items, intermittent items.\nIn and out items? Yes.\nPush allocation items\nAre the twenty stores in Portugal? All in portugal\n\nData level - aggregated by day\n\nFor fresh items are you giving age? Do you provide waste data? Stocks reflecting the renevals.\n\nFor fresh items (özgür question -> we cant give iti to you at this point).\n\nStore information - location   x brand. Stores for food. Brand is given. Format, type.\n\nCompetitor price & store location.\n\nNielsen, GFK information.\n\nLocal events",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4762501255",
+      "title": "Internal Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4762501255",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-04-28T14:33:19.450Z",
+      "chunk_index": 8,
+      "total_chunks": 9
+    }
+  },
+  {
+    "id": "confluence_Sonae_4799528967_0",
+    "content": "- The customer sent some sample data and pre_etl codes were written accoding to those. But when the real data came, it was in a different format and included some extra data. So the initial pre_etl codes turned completely useless.\n- Ömer Akşit: I tried to check the raw csv files that the customer sent. I used a quality notebook as suggested in the POC guideline. https://github.com/inventanalytics/quality-team/blob/main/notebooks/data-quality.ipynb The notebook has some broken links and I had to find a yaml file to make the code run. Using the notebook costed me a lot of time instead of saving it. It took some time to figure out how the code works. The notebook was expecting the column names in invent format. So I kept getting errors and spent my time trying to figure out what to change in order for the code to run. Suggestion: The controls were quite simple. If there was a guideline on what to check, I could have written my own code and do the job much faster.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4799528967",
+      "title": "Problems Encountered - Lessons Learnt",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4799528967",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-06T12:23:19.868Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_Sonae_4799528967_1",
+    "content": "there was a guideline on what to check, I could have written my own code and do the job much faster.\n- Eren spent half of his day on 06.02.2025 with alpha for migrating to another dbx subscription to use gift Azure credits.\n- Tevfik & Eren are having hard time to clarify on what was done how etc.\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4799528967",
+      "title": "Problems Encountered - Lessons Learnt",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4799528967",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-06T12:23:19.868Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_0",
+    "content": "# 1. Project Foundation and Basics\n\nBasic data needs for noob to run (Eren Şahin’s note):\n\n- master-data/products\n- master-data/stores\n- master-data/seasons (if there are seasonal products)\n- operation/inventory\n- operation/sales\n- operation/price (if possible)\n- operation/retail_price (if possible)\n- operation/scope (for which solutions, which pairs will produce results) -- (if not, it can be handled with configuration)\n- operation/promotion (noob does not read it directly, if the customer has a promotion, you can put it here and we will receive it with the extensions in boots)\n- operation/product_store_seasonality (if there are seasonal products)\n\nI don't count markdown related tables because it is not an MD project.\nAssuming that the customer does not send data in invent format, it is necessary to get support from nebula and shield teams for PreETL mapping.\n\nnoob Enablment at the beginning of the project",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 0,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_1",
+    "content": "ort from nebula and shield teams for PreETL mapping.\n\nnoob Enablment at the beginning of the project\n\nKoray Beyaz and Eren Şahin from noob team has created two workflows (basic noob and full noob) and related notebooks at the dbx of the Sonae. They created an up-to date noob workflow (an image of the up-to date product - very similar which runs at airflow) at dbx where everybody was agreed that it will be more flexible and ultimately more fit for a PoC competition.\n\nThey also shared a bunch of notebooks which helped during the poc:\n\nboots learning doc: [Single Page ML Forecasting Tips&Tricks]\n\nUltimate ML train/predict notebook:\n[https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253636388?o=2817762816718114#command/1928803253636389](https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253636388?o=2817762816718114#command/1928803253636389)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 1,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_2",
+    "content": "4.azuredatabricks.net/editor/notebooks/1928803253636388?o=2817762816718114#command/1928803253636389)\n\ndotcom forecast notebook:\n[https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253630035?o=2817762816718114#command/1928803253630104](https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253630035?o=2817762816718114#command/1928803253630104)\n\nforecast alert:\n[https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253631160?o=2817762816718114#command/1928803253631201](https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253631160?o=2817762816718114#command/1928803253631201)\n\naccuracy analysis:\n[https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253631195?o=2817762816718114#command/1928803253631244](https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/1928803253631195?o=2817762816718114#command/1928803253631244)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 2,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_3",
+    "content": "4.azuredatabricks.net/editor/notebooks/1928803253631195?o=2817762816718114#command/1928803253631244)\n\nalternate accuracy analysis:\n[https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/2843742264868378?o=2817762816718114#command/2843742264868379](https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/2843742264868378?o=2817762816718114#command/2843742264868379)\n\nfeature report:\n[https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/2843742264867894?o=2817762816718114#command/2843742264867895](https://adb-2817762816718114.14.azuredatabricks.net/editor/notebooks/2843742264867894?o=2817762816718114#command/2843742264867895)\n\nAfter pre-etl and etl, following fundamental analysis should  be done in order to change config files accordingly (KorayBeyaz):",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 3,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_4",
+    "content": "owing fundamental analysis should  be done in order to change config files accordingly (KorayBeyaz):\n\n1. Descriptive analysishttps://github.com/inventanalytics/quality-team/blob/main/notebooks/descriptive-analysis-guide.ipynb\n2. Ignore dayshttps://github.com/inventanalytics/quality-team/blob/main/notebooks/custom-ignore-logics.ipynb\n3. Promo analysishttps://github.com/inventanalytics/quality-team/blob/main/notebooks/promo-analysis.ipynb\n4. Special days https://github.com/inventanalytics/quality-team/blob/main/notebooks/special-days.ipynb\n5. product agg level & store agg level seviyelerinin belirlenmesi (bununla ilgili notebook görmedim)\n6. outlierhttps://github.com/inventanalytics/quality-team/blob/main/notebooks/outliers-calibration.ipynb  (edited)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 4,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_5",
+    "content": "s://github.com/inventanalytics/quality-team/blob/main/notebooks/outliers-calibration.ipynb  (edited)\n\nIn this project what we used Boots’s config to quickly get a result from the basic noob tasks. And then we turn back to do above analysis to iterate from there. We especially did not use Fozzy configuration where Eren suggested that their config is way too configured -tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 5,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_6",
+    "content": "red -tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 6,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_7",
+    "content": "ed -tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 7,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_8",
+    "content": "d -tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 8,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_9",
+    "content": "-tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 9,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_10",
+    "content": "-tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 10,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_11",
+    "content": "tailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 11,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_12",
+    "content": "ailored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 12,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_13",
+    "content": "ilored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 13,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_14",
+    "content": "lored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 14,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_15",
+    "content": "ored for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 15,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_16",
+    "content": "red for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 16,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_17",
+    "content": "ed for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 17,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_18",
+    "content": "d for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 18,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_19",
+    "content": "for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 19,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_20",
+    "content": "for Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 20,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_21",
+    "content": "or Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 21,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_22",
+    "content": "r Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 22,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_23",
+    "content": "Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 23,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_24",
+    "content": "Fozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 24,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_25",
+    "content": "ozzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 25,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_26",
+    "content": "zzy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 26,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_27",
+    "content": "zy.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 27,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_28",
+    "content": "y.\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 28,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_29",
+    "content": ".\n\nUsing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 29,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_30",
+    "content": "Using ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 30,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_31",
+    "content": "Using ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 31,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_32",
+    "content": "Using ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 32,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_33",
+    "content": "sing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 33,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_34",
+    "content": "ing ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 34,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_35",
+    "content": "ng ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 35,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_36",
+    "content": "g ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 36,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_37",
+    "content": "ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 37,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_38",
+    "content": "ML notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 38,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_39",
+    "content": "L notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 39,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_40",
+    "content": "notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 40,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_41",
+    "content": "notebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 41,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_42",
+    "content": "otebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 42,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_43",
+    "content": "tebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 43,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_44",
+    "content": "ebooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 44,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_45",
+    "content": "books and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 45,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_46",
+    "content": "ooks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 46,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_47",
+    "content": "oks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 47,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_48",
+    "content": "ks and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 48,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_49",
+    "content": "s and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 49,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_50",
+    "content": "and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 50,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_51",
+    "content": "and doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 51,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_52",
+    "content": "nd doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 52,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_53",
+    "content": "d doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 53,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_54",
+    "content": "doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 54,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_55",
+    "content": "doing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 55,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_56",
+    "content": "oing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 56,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_57",
+    "content": "ing iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 57,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_58",
+    "content": "ng iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 58,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_59",
+    "content": "g iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 59,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_60",
+    "content": "iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 60,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_61",
+    "content": "iterations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 61,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_62",
+    "content": "terations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 62,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_63",
+    "content": "erations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 63,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_64",
+    "content": "rations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 64,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_65",
+    "content": "ations is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 65,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_66",
+    "content": "tions is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 66,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_67",
+    "content": "ions is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 67,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_68",
+    "content": "ons is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 68,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_69",
+    "content": "ns is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 69,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_70",
+    "content": "s is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 70,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_71",
+    "content": "is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 71,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_72",
+    "content": "is the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 72,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_73",
+    "content": "s the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 73,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_74",
+    "content": "the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 74,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_75",
+    "content": "the following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 75,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_76",
+    "content": "he following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 76,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_77",
+    "content": "e following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 77,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_78",
+    "content": "following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 78,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_79",
+    "content": "following steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 79,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_80",
+    "content": "ollowing steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 80,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_81",
+    "content": "llowing steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 81,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_82",
+    "content": "lowing steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 82,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_83",
+    "content": "owing steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 83,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_84",
+    "content": "wing steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 84,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_85",
+    "content": "ing steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 85,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_86",
+    "content": "ng steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 86,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_87",
+    "content": "g steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 87,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_88",
+    "content": "steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 88,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_89",
+    "content": "steps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 89,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_90",
+    "content": "teps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 90,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_91",
+    "content": "eps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 91,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_92",
+    "content": "ps.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 92,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_93",
+    "content": "s.\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 93,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_94",
+    "content": ".\n\n# 2. Data",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 94,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_95",
+    "content": "Global sales FileThe online sales/markdown sales quantity are included on the global sales dataset.We have sales at component level. We can have promotional and regular sales for the same component in the same store at the same day. For example, if the pack has a promotion but the product doesnt we have regular and promotional sales. Also when we have promotion like Buy one and get one free if the client takes 1 is regular sale if he buys 2 then we have promotional sales.Items FileIn the items dataset if you combine biz_unit_cd, cat_cd, subcat_cd, and unit_base_cd of a product you will obtain the resulting unique code and description of the market structure. This should follow the format xx_xx_xx_xx.Stocks FileIn the stocks file the quantity is given by the store end of day inventory.There can be stocks adjustments for various reasons (store transfers, waste...) that are not explaneid from the data itself",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 95,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_96",
+    "content": "ustments for various reasons (store transfers, waste...) that are not explaneid from the data itself. Sometimes we can have stock of a certain product and even without sales, the stock can \"disapear\".Price & Promotional PriceIn stocks file, Unit Sales Price EUR is the regular price for a SKU on a store in that specific day. If there were some promotions with direct discounts, the price that customer pays is Unit Sales Price EUR less the percentage or specific value of that promotion. For promotions with direct discounts only have one price for a product x store x day.Product x Store File\"Virtual Range\" means that the product is not physically available in the store; however, the customer can order it. This typically happens with fish and bakery products. When the product is not included in the Virtual Range (Virtual Range - N), the information about range_status is the only one that should be taken into account.We shared information about the range on the productStore file",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 96,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_97",
+    "content": "one that should be taken into account.We shared information about the range on the productStore file. For staple items the A,C,I logic is valid. However, when we have staples related to packs the information we have for staple's range is C or I in this case C is not the normal Discountinued but means that it also can be Active range. we don't have historical data for Active status for staple related to packs.Product Pack FileProducts Staples (s) are components and they have sales, replanishments, assorments and so on. Pack products are composed by staples products with the same products or multiple products. We provide information about the pack sortement. Important: stock files have all info on low product level like staples and fashion skus. Sales could have packs, staples and fashion skus.Product_pack file contains information about the components ID that compose a pack ID and the components quantity. These packs are sent to stores and sold to customers",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 97,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_98",
+    "content": "compose a pack ID and the components quantity. These packs are sent to stores and sold to customers. However, there may be cases where the components of a pack are used as part of a recipe. For example, in bakery products, a cake (pack) consists of several items with can have quantities less than 1 (see picture bellow). The products that make up this pack are considered raw materials and aren't sold individually—only the final pack can be sold. However, in the sales file the pack sales are also desagregated to the component.For bakery items, the components that makes part of a recipe are categorized as raw materials = \"matérias primas\" and follow this market structure:Department IDDepartment DescriptionBusiness Unit IDBusiness Unit DescriptionCategory IDCategory DescriptionSubCategory IDSubCategory Description12F&L C&Q PAD TAWAY16Padaria2pastelaria1matérias primas12F&L C&Q PAD TAWAY16Padaria2pastelaria1matérias primas These components can be included in multiple packs",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 98,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_99",
+    "content": "C&Q PAD TAWAY16Padaria2pastelaria1matérias primas These components can be included in multiple packs. For instance, the same type of flour can be used to make several different cakes. For this proof of concept (POC), we kindly request the forecast for both the pack ID and its components.pack IdProduct IdProduct Quantity726274240061270.4467726274040061270.4467726272740061270.4993726286640061270.4558686994340061270.5833597388740061270.617546272440061270.617Please note that  in this case for pack products we can don't have stock and still have sales.Product Replacement FileProduct_replacement is a file which contains information about the product substitutes.Activate_date and deactivate_date refers the time period where this substitution is valid.Pick_priority correspond to the pick priority of the product. In other words, this indicates which item the warehouse should send when there is a store order",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 99,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_100",
+    "content": "uct. In other words, this indicates which item the warehouse should send when there is a store order. For example : \"7936791\";\"8970\";\"7407276\";\"2024-01-04T00:00:00.000Z\";\"\";\"2\";\"I\";\"SL\" In this example if the store 8970 orders the product 7936791 the warehouse must send the item 7407276 even if the product 7936791 is on stock.One the other hand, \"8113997\";\"7229\";\"8179957\";\"2024-10-20T22:00:00.000Z\";\"2025-06-29T22:00:00.000Z\";\"1\";\"N\";\"SL\" if the store orders 8113997  the warehouse must send the same product. However, in case of outofstock, it must send the product 8179957.Sub_type can be \"I\"= Inverse,\"N\" =Normal, \"P\"=Promocional. Inverse its automatic created by our ERP system and forces the shipment of the substitute product. Generally its applied to campaingns.N and P are created manually by users.Sub_sub_type can be SL or blancks. SL = saída de linha means that the product will be out of range and the substitute will came into the range. The \"\" is applied to other cases.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 100,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_101",
+    "content": "will be out of range and the substitute will came into the range. The \"\" is applied to other cases.\n\n# 3. Clustering\n\n-\n- lorem ipsum\n\n# 4. Features\n\n- Weather data - we use outliers for temperature. Every day’s temperature is compared with its two day ahead and before for last six years data (30 data points). It is an outlier if out of 2 std.\n\nClint Insights\n\n- Some effects we see in the period we want to forecast:Seasonal periodInfluenced by weatherMany holidaysImportance of payment daysRegional events\n\n# 5. Modeling\n\n- getting initial results using noob\n\nWe have concentrated on the most basic tasks of noob and used Boots’s final config to get an initial run before analyzing discount bins, outliers, special days etc. We will then turn back, analyze and iterate from there.\n\nnoob’un önerisi üzerine share_calculation ve share_selection akıştan çıkarıldı.\n\n- Should we ignore irrelevant / not intersecting special days?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 101,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_102",
+    "content": "e share_selection akıştan çıkarıldı.\n\n- Should we ignore irrelevant / not intersecting special days?\n\nOur forecasting output horizon is 12 weeks from beginning of May 2024 to July 2024. Considering that they have back-to-school, Christmas, new year’s potential irregular sales, what do you think of removing such strong special days from the training data as the forecasting horizon does not intersect with these?     your ideas and contribution is much appreciated.\n\n- Lost sales adjustment to sales?\n\nShould we do lost sales adjustment to sales or simlpy remove out-of-stock days or try both?\n\n- KorayB support. He has documented his help in the following https://docs.google.com/document/d/14N1DJZfauguohiHuHIqC_MziOT4nLUbPlv6kV1YF5Yg/edit?tab=t.0\n\n# 6. Forecasting Mechanical Controls",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 102,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4822269974_103",
+    "content": "nt/d/14N1DJZfauguohiHuHIqC_MziOT4nLUbPlv6kV1YF5Yg/edit?tab=t.0\n\n# 6. Forecasting Mechanical Controls\n\n- [Stores] Sonae only want to receive forecast information for the stores whose Forecast =\"Y\".\n- [Products] Please note that the forecast should be done for every item even if it's prediction is zero.\n- [Products] You should do the forecast for items at store day level for the products whose range is A and C in the time key - shared on the FutureRange file.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4822269974",
+      "title": "Modeling Approach Considerations & Discussions",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4822269974",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-18T05:58:57.407Z",
+      "chunk_index": 103,
+      "total_chunks": 104
+    }
+  },
+  {
+    "id": "confluence_Sonae_4871389251_0",
+    "content": "35\n35\nincomplete\nModel data quality check\n\n36\n36\nincomplete\nflkadg\n\n37\n37\nincomplete\nşsklfjgs\n\n38\n38\nincomplete\nşskg\n\n39\n39\nincomplete\nproduct_cluster_attributes - speed cluster control\n\nForecast Control\n\n40\n40\nincomplete\nDaily forecast accuracy vs weekly forecast accuracy\n\n41\n41\nincomplete\nintermittent selling items might have a high gap of different accuracies",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4871389251",
+      "title": "Quality data checks",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4871389251",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-01-30T13:17:10.671Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Sonae_4871847956_0",
+    "content": "1. Change weekly lag features as they ignore w/o stock days while calculating weekly sales. Use day share or get average instead of sum to calculate weekly sales.\n2. Trial of different store and product clustering approaches:Change PG1-Store level clustering to store level clustering within PG1sScaled seasonal store groups over 12 months data then speed clusters within seasonal clusters. Use seasonal clusters in seasonality module to calculate seasonality parameters (which are multiplicative).  Use seasonality_ store speed clusters as features.scaled pg5 clusters over 12 months and then use them as training sets. Use speed clusters as features.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4871847956",
+      "title": "Required iterations",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4871847956",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-13T09:48:02.344Z",
+      "chunk_index": 0,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_Sonae_4871847956_1",
+    "content": "aled pg5 clusters over 12 months and then use them as training sets. Use speed clusters as features.\n3. Make iterations where we manually clear the dates where special dates are out of prediction period scope (for all categories)For a couple of categories with a high Easter effect, try forecasting algorithms with / without special day’s lags data (remove / not remove april etc.). Make quick runs for these to see results.Or clear special date features specific to PG5s where no uplift is observed.\n4. Cross validate over different test dates: 1) 2023 May, Jun, July. 2) 2024 April\n5. Different promotion feature trials. Different price features, discount rates, features to differentiate promotions by type\n6. Adding price bins according to price elasticity\n7. Remove unimportant special days (apply Ömer’s run special day config)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4871847956",
+      "title": "Required iterations",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4871847956",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-13T09:48:02.344Z",
+      "chunk_index": 1,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_Sonae_4871847956_2",
+    "content": "cording to price elasticity\n7. Remove unimportant special days (apply Ömer’s run special day config)\n8. Adjusting category specific parameters to optimize forecasts of:highly promotional itemssummer lower itemssummer higher itemsonly summer selling items (zero otherwise)only summer + another season selling itemsonly out-of-summer selling itemsnewly introduced categories / itemsdeclining / increasing trend itemsnew stores",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4871847956",
+      "title": "Required iterations",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4871847956",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-13T09:48:02.344Z",
+      "chunk_index": 2,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_Sonae_4871847956_3",
+    "content": "-summer selling itemsnewly introduced categories / itemsdeclining / increasing trend itemsnew stores\n9. Additional featuresProduct tenurenumeric. We can try categoricpromotion mix & match Product speed cluster High variance / low variance sales promotion ageprice rank Stage of product life-cycle (sale age, inventory age, is new, is inactive, lifecycle status (robust, continuous etc)event dataweather dataproduct uda datastock percentage of promotional items in the product's category (may be used for first 4 weeks of forecasting period with near past term distribution of inventory)promotion information of substitute (other pg5 products)markdown (deprecated sales) – client will not remove this from sales. We can label the markdown sales entries and tenure. We can check when and how a markdown ends (with an out of stock or else).supersede product relationshippayday\n10. Store life cycle new store identification",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4871847956",
+      "title": "Required iterations",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4871847956",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-13T09:48:02.344Z",
+      "chunk_index": 3,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_Sonae_4871847956_4",
+    "content": "of stock or else).supersede product relationshippayday\n10. Store life cycle new store identification\n11. New stores which are not in scope can be deleted. ( Eliminate 7773, 8427 from high season.)\n12. Iteration ideasRemove slow selling items\n\nquick cleanings to-dosTo-Do.\n\n- Store clustering analysis - cleaning\n- special day to be fixed.  - eren checking\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4871847956",
+      "title": "Required iterations",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4871847956",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-13T09:48:02.344Z",
+      "chunk_index": 4,
+      "total_chunks": 5
+    }
+  },
+  {
+    "id": "confluence_Sonae_4895375383_0",
+    "content": "Store Clusters\n\n| Store | Seasonal Cluster | Speed Cluster | Speed Cluster _ within Seasonal Groups |\n| --- | --- | --- | --- |\n\nProduct Cluster\n\n| Product | Product Speed Cluster | New Product (if not supersede) | Promotion Elasticity |\n| --- | --- | --- | --- |\n\nCategory (pg5)\n\n| PG5 | Seasonal Cluster | Speed Cluster_ within Seasonal Groups | Promotion Elasticity |\n| --- | --- | --- | --- |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4895375383",
+      "title": "Product & Store Tags",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4895375383",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-05T22:15:51.371Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Sonae_4895604758_0",
+    "content": "Stores\n\n- Eliminate 7773,  8427 from high season.\n\n- Test stores to be used in validation groups and concentrate on their test period accuracy?\n- For store cluster, Seasonal cluster split set, fast groups as features.\n\n- Product clusters: seasonal clusters used in splits. Speed clusters as feautre. Product seasonality parameters as features.\n- Product clusters: Within store clusters, PG5s can be clustered. First we will move forward with global seasonal clusters.\n- banana best coefficient to be taken from product\n- Training splits: (christmas, high summer, and mid summer(?) product cluster x speed cluster + other seasonal cluster) x seasonal store cluster",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4895604758",
+      "title": "Eren discussion topics",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4895604758",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-02-06T12:25:19.883Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Sonae_4938760197_0",
+    "content": "# Weekly Call Agenda\n\n- Future range - all stores are here. Do you want the 24 stores?\n- Scope dosyası. Inactive items should be 0, correct?\n- Output sample\n- We will send the results to you by the Monday morning, we will be expecting additional 2 data.\n- Output location and content (will there be inventory)\n-\n- Accuracy calculation session for Tuesday or Wednesday 26th\n- Output\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Sonae",
+      "space_name": "Sonae",
+      "page_id": "4938760197",
+      "title": "Client Meeting Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/Sonae/pages/4938760197",
+      "updated_by": "besim.solak",
+      "updated_date": "2025-03-10T06:51:42.147Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748837_0",
+    "content": "> Info: Bu sayfayı düzenlemek için  bağlantısına tıklayın. Silmek için ··· menüsünü açın ve Sil seçeneğini belirleyin.\n\n## Tarih\n\n## Katılımcılar\n\nToplantı katılımcılarını adlarından @ ile bahsederek listeleyin\n\n-\n- Birini katılımcı olarak eklemek için bu kişiden @ ile bahsedin; kişiye bir bildirim gönderilir.\n\n## Hedefler\n\nBu toplantının hedeflerini listeleyin (ör. FY19 için tasarım önceliklerini belirleme)\n\n-\n\n## Tartışma konuları\n\n| Saat | Öğe | Sunucu | Notlar |\n| --- | --- | --- | --- |\n|  |  |  | Her bir tartışma konusu için notlar ekleyin |\n|  |  |  |  |\n\n## Yapılacaklar listesi\n\nAçık sorular veya tartışma konularında oluşan döngüleri kapatmak için işlem öğeleri ekleyin:\n\n-\n\n## Kararlar\n\nBu toplantıda alınan kararları kaydetmek için /karar yazın:\n\nb9c6fee4-5bec-42cf-b664-14250cafb996d5ec7bae-8a38-4396-a14b-e4b61659b080DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748837",
+      "title": "Toplantı notları",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748837",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:22.087Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748838_0",
+    "content": "> Info: Başlamak için kullanabileceğiniz birkaç örnek sayfa oluşturduk.\n\n| Ürün gereklilikleri | Toplantı notları | Karar |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: Örnek sayfalardan birini silmek için ··· menüsünü açın ve Sil'i seçin.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748838",
+      "title": "Örnek Sayfalar",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748838",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:23.359Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748839_0",
+    "content": "Takımınızla paylaşıldı. [Alan izinleri](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) ve [kısıtlamaları](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html) hakkında bilgi edinin.\n\n## Hoş geldiniz!\n\nKişisel alanınızı, şu anda başka hiçbir yere ait olmayan belgelerin tamamını depolamak için bir klasör olarak düşünün. Bu alan tamamen sizindir. Üstteki düzenleme düğmesine ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) basarak bu sayfayı özelleştirin.\n\n## Bu alanda ne var?\n\n[Örnek Sayfalar](/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748838)\n\n- Toplantı notları\n- Karar\n- Ürün gereklilikleri",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748839",
+      "title": "Genel bakış",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748839",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:23.627Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748846_0",
+    "content": "> Info: Bu sayfayı düzenlemek için  bağlantısına tıklayın. Silmek için ··· menüsünü açın ve Sil seçeneğini belirleyin.\n\nDurumBaşlatılmadı / YellowDEVAM EDİYOR / GreenTamamlandıEtkiRedYüksek / YellowOrta / GreenDüşükMotivasyonMotivasyondan @ ile bahsedinOnaylayan@ onaylayanKatkıda bulunanlar@ katkıda bulunanlarBilgilendirilmiş@ paydaşlarBitiş tarihiTarih eklemek için // yazınKaynaklarİlgili araştırmalara, sayfalara ve kararlara bağlantılar eklemek için /bağlantı yazın\n## İlgili veriler\n\nTakımın bir karar verirken düşünmesi gereken tüm verileri veya geri bildirimleri ekleyin.\n\n## Arkaplan\n\nTakımın vermesi gereken kararlarla ilgili bağlam sağlayın ve kısıtlamalar ile zorluklar hakkında bilgi ekleyin.\n\n## Seçenekler ele alındı\n\n|  | Seçenek 1 | Seçenek 2 |\n| --- | --- | --- |\n| Açıklama |  |  |\n| Artıları ve eksileri |  |  |\n| Tahmini maliyet |  |  |\n\n## Yapılacaklar listesi\n\nAçık soruların ve endişelerin yanıtsız kalmaması için işlem öğeleri ekleyin.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748846",
+      "title": "Karar",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748846",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:22.482Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748846_1",
+    "content": "# Yapılacaklar listesi\n\nAçık soruların ve endişelerin yanıtsız kalmaması için işlem öğeleri ekleyin.\n\n1\nincomplete\nGörevinizi buraya yazın. Kullanıcı aramak için \"@\" işaretini, bitiş tarihi belirlemek için \"//\" işaretini kullanın.\n\n## Sonuç\n\nSonucu özetleyin.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748846",
+      "title": "Karar",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748846",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:22.482Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748853_0",
+    "content": "> Info: Bu sayfayı düzenlemek için  bağlantısına tıklayın. Silmek için ··· menüsünü açın ve Sil seçeneğini belirleyin.\n\nHedeflenen yayınHedef yayın tarihi eklemek için // yazınEpikJira epikleri ve konuları eklemek için /Jira yazınBelge durumuTASLAKBelge sahibiSahibinden @ ile bahsedinTasarımcı@ tasarımcıTeknik lider@ liderTeknik yazarlar@ yazarlarSoru-Cevap\n## Hedef\n\nBu projeye bağlam sağlayın ve organizasyonunuzun stratejik hedeflerine nasıl uyduğunu açıklayın.\n\n## Başarı analizleri\n\nProje hedeflerini ve başarısını değerlendirmek için kullanacağınız analizleri listeleyin.\n\n| Hedef | Analiz |\n| --- | --- |\n| ör. Kullanıcı deneyimini kolaylaştırma | ör. Müşteri memnuniyeti puanı artar |\n|  |  |\n\n## Varsayımlar\n\nKullanıcılarınızla ilgili varsayımlarınızı, teknik kısıtlamalarınızı veya iş hedeflerinizi listeleyin\n\n## Kilometre Taşları",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748853",
+      "title": "Ürün gereklilikleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748853",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:23.052Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748853_1",
+    "content": "li varsayımlarınızı, teknik kısıtlamalarınızı veya iş hedeflerinizi listeleyin\n\n## Kilometre Taşları\n\nGörsel bir yol haritası oluşturmak ve takımınızın plana uygun ilerlemesine yardımcı olmak için /planlayıcı yazın. Tarihi veya iş akışlarını düzenlemek için yer tutucuyu seçin ve kalem simgesine dokunun.\n\nBu sayfaya kart ya da pano eklemek için /trello yazın; Jira konusu, grafiği veya projesi eklemek için /jira yazın.\n\n## Gereklilikler\n\n| Gereklilik | Kullanıcı Hikayesi | Önem | Jira Konusu | Notlar |\n| --- | --- | --- | --- | --- |\n| ör. Mobil cihaza duyarlı olmalıdır | ör. John tren istasyonundayken takımının ilerlemesini takip etmek isteyen bir proje yöneticisi |  |  |  |\n|  |  |  |  |  |\n\n## Kullanıcı etkileşimi ve tasarım\n\nBu gerekliliklerle ilgili örnekler, diyagramlar veya ekran görüntüleri eklemek için /görsel yazın.\n\n## Açık Sorular",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748853",
+      "title": "Ürün gereklilikleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748853",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:23.052Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_3621748853_2",
+    "content": "rle ilgili örnekler, diyagramlar veya ekran görüntüleri eklemek için /görsel yazın.\n\n## Açık Sorular\n\n| Soru | Yanıt | Yanıtlanma Tarihi |\n| --- | --- | --- |\n| ör. Kullanıcıların bu özellikten daha fazla haberdar olmasını nasıl sağlayabiliriz? | ör. Bu özelliği bir blog gönderisi ve sunum ile duyururuz | Tarih eklemek için // yazın |\n\n## Kapsam Dışında\n\nKapsam dışı olan veya daha sonraki bir sürümde yeniden ele alınabilecek özellikleri listeleyin.\n\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "3621748853",
+      "title": "Ürün gereklilikleri",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/3621748853",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2022-11-07T07:24:23.052Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~6368ae77db77c018ecd13062_4312956930_0",
+    "content": "- MSSQL\n\nIf Transfer and Markdown products are given, MS SQL database should be installed as cloud provider and regional and opened as a new database on the existing instance if any. Apart from these products, MS SQL can also be installed on-demand, but it must be specified in the task to be opened.\n\n- Postgresql\n\nFor the Cheetah interface, Postgresql must be opened in the customer region according to the cloud provider.\n\n- GBQ\n\nIf there is RPL, WRPL, Forecast, we need to open GBQ. Each customer should be under their own project. Apart from these products, on-demand can be opened. If there is such a request, it should be specified especially in the task. There is no need to open GBQ in Transfer, Allocation, Markdown and Promo products.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~6368ae77db77c018ecd13062",
+      "space_name": "Burak Obuz",
+      "page_id": "4312956930",
+      "title": "Customer Onboarding - Database Site",
+      "url": "https://invent.atlassian.net/wiki/spaces/~6368ae77db77c018ecd13062/pages/4312956930",
+      "updated_by": "Burak Obuz",
+      "updated_date": "2024-07-09T06:14:05.719Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

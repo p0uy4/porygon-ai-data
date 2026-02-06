@@ -1,0 +1,98 @@
+[
+  {
+    "id": "confluence_~7120208be16dabd7d84471a731c4bfbe4c4723_4511563851_0",
+    "content": "Say hello to your colleagues who want to know your name, pronouns, role, team and location (or if you're remote).\n\n## 📄 Recent pages that I've worked on\n\n## 🖐 Get in touch\n\n✉️ Insert your email here\n\n💼 Insert your LinkedIn URL here\n\n🔗 Insert your Twitter handle here\n\n👤 Insert your Medium profile here\n\nEnd with a bang! Some options are: \"I am so grateful to be here at <Insert company name> and very excited to get started!\" or \"Looking forward to meeting all of you!\" or \"Can't wait to get to know all of you!\"",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120208be16dabd7d84471a731c4bfbe4c4723",
+      "space_name": "omerfaruk.yigit",
+      "page_id": "4511563851",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120208be16dabd7d84471a731c4bfbe4c4723/pages/4511563851",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2024-09-27T16:48:32.142Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~7120208be16dabd7d84471a731c4bfbe4c4723_5853347851_0",
+    "content": "Hello,\n\nThis doc is prepared for clarifying effect of Handover process’s to Tableau Reports and what to do in Handover Process for Reports.\n\n> Info: Note: The necessity of this document has become visible after whole Tableau Cloud Migration and creation of project, hub based Tableau Cloud accounts\n\n#### What has changed from Tableau Server → Tableau Cloud.\n\nOur old Tableau Server has been used with 1 account which is InventService2 and whole refresh tasks are handled by same user. Also we can manage the whole reporting process with same account because of the non existing MFA configurations.\n\nAfter the migration we noticed that Tableau Cloud needs MFA for logging and that new feature blocks us for using same method as Tableau Server.\n\nSo we switched the our accounting to use project(customer) and CX-Hub based accounts. Which some of them also started using since in Migration.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120208be16dabd7d84471a731c4bfbe4c4723",
+      "space_name": "omerfaruk.yigit",
+      "page_id": "5853347851",
+      "title": "Delivery->CX Tableau Reports Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120208be16dabd7d84471a731c4bfbe4c4723/pages/5853347851",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2026-01-21T12:31:03.852Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~7120208be16dabd7d84471a731c4bfbe4c4723_5853347851_1",
+    "content": "oject(customer) and CX-Hub based accounts. Which some of them also started using since in Migration.\n\nWhile the project is handing over to CX, report owners must be changed to related Hub’s user account and connection credentials need to be restored after reports owner change.\n\n### How to change owner of report:\n\n### Why this is necessary ?\n\nBecause Tableau sends the report’s refresh failure email to report’s owner. So we need to make sure that related hub will receive these failure messages.\n\nAfter changing owner of the report. It is crucial to embed the password and tokens right away.\n\n### How to restore the connections:\n\n### For DBX connections:\n\nEnter DBX token to password field and save. (don’t forget to test and make sure)\n\n### For MSSQL connections:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120208be16dabd7d84471a731c4bfbe4c4723",
+      "space_name": "omerfaruk.yigit",
+      "page_id": "5853347851",
+      "title": "Delivery->CX Tableau Reports Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120208be16dabd7d84471a731c4bfbe4c4723/pages/5853347851",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2026-01-21T12:31:03.852Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~7120208be16dabd7d84471a731c4bfbe4c4723_5853347851_2",
+    "content": "X token to password field and save. (don’t forget to test and make sure)\n\n### For MSSQL connections:\n\nEnter the reporting user’s credentials and save (no need to test Tableau can’t connect to db without bridge so it will fail on test. But don’t worry this will successfully refresh if you are sure that you embedded correct password)\n\n### Why this is needed?\n\nWhen you transfer the ownership of a Workbook or Data Source to another user, Tableau automatically deletes the embedded credentials (database usernames/passwords) associated with that content.\n\nThis is a security feature. Tableau ensures that the previous owner's credentials are not inadvertently used or accessible by the new owner.\n\n> Info: PLEASE CHECK YOUR REPORT’S REFRESH AFTER WHOLE PROCESS AND MAKE SURE THAT REFRESH HAS NO AUTHENTICATION ERRORS",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120208be16dabd7d84471a731c4bfbe4c4723",
+      "space_name": "omerfaruk.yigit",
+      "page_id": "5853347851",
+      "title": "Delivery->CX Tableau Reports Handover",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120208be16dabd7d84471a731c4bfbe4c4723/pages/5853347851",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2026-01-21T12:31:03.852Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_~7120208be16dabd7d84471a731c4bfbe4c4723_5875990544_0",
+    "content": "First things first you need the shared account’s credentials. Please create a permission request on ADMIN project.\n\n1-) Locate the note on Lastpass and copy the credentials and paste it on tableau login screen\n\nUse the credentials below for logging in to desired Tableau Cloud Site.\nUS Customers = site: invent-us = [https://us-east-1.online.tableau.com/](https://us-east-1.online.tableau.com/)\nEMEA Customers = site: invent-eu = [https://dub01.online.tableau.com/](https://us-east-1.online.tableau.com/)\n\nSince we use shared accounts we need to use shared authenticator for access. Authenticator code can be generated through Virtual Machine we created.\n\nHow to connect Virtual Machine for receiving authenticator code :\n\nWindows:\n\nConnect to VPN\n\nType 'RDP' into search box and open the app\n\nEnter the username and computer (IP) like below (you can find these on note) and click connect\n\nLastpass note section\n\nClick Yes here and connect to VM",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120208be16dabd7d84471a731c4bfbe4c4723",
+      "space_name": "omerfaruk.yigit",
+      "page_id": "5875990544",
+      "title": "How to login shared Tableau Cloud account ?",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120208be16dabd7d84471a731c4bfbe4c4723/pages/5875990544",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2026-01-28T13:04:32.974Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~7120208be16dabd7d84471a731c4bfbe4c4723_5875990544_1",
+    "content": "u can find these on note) and click connect\n\nLastpass note section\n\nClick Yes here and connect to VM\n\nYou can see the authenticator app like below. You can click for regenerating code",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~7120208be16dabd7d84471a731c4bfbe4c4723",
+      "space_name": "omerfaruk.yigit",
+      "page_id": "5875990544",
+      "title": "How to login shared Tableau Cloud account ?",
+      "url": "https://invent.atlassian.net/wiki/spaces/~7120208be16dabd7d84471a731c4bfbe4c4723/pages/5875990544",
+      "updated_by": "Omer Faruk Yiğit",
+      "updated_date": "2026-01-28T13:04:32.974Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

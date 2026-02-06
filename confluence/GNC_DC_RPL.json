@@ -1,0 +1,1938 @@
+[
+  {
+    "id": "confluence_gncdcrpl_2297659598_0",
+    "content": "> Tip: Welcome to your new documentation space!Use it to organize any information that people need to find and reference easily, like your organisation's travel policies, design guidelines, or marketing assets.To start, you might want to:Customise this overview using the edit icon at the top right of this page.Create a new page by clicking the + in the space sidebar.Tip: Add the label featured to any pages you want to appear in the Featured pages list below.\n\n## Featured Pages\n\n## Recently Updated\n\n> Info: NEED INSPIRATION?Check out our guide on building better documentation to learn best practices for creating and organizing documents in Confluence.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297659598",
+      "title": "GNC DC RPL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297659598",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-09T13:12:14.106Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297659602_0",
+    "content": "> Tip: Here are some tips to get you started. You can edit this page to see how it works!\n\n## 1. Create a page\n\n- Click \"Create\" and select \"Blank Page\" to create your first page.\n- New pages are created as children of the page you are currently viewing.\n\n## 2. Add to your page\n\n- Click \"Edit\" to enter the Confluence editor and use the page layouts feature to structure your content using sections and columns.\n- Use headings to format your text and drag and drop images into your page to provide visual interest.\n- Click \"Insert\" and select \"Other Macros\" to add macros for navigation, special formatting and other media.\n\nOn this page:\n## 3. Organise your pages\n\nHere are some tips for organising your content.\n\n- Change the page order\n\nThe sidebar on the left displays your pages in a hierarchy. If you have Space Administrator permissions you can click \"Space Tools\" > \"Reorder Pages\" to move pages around.\n\n- Add labels",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297659602",
+      "title": "Getting started",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297659602",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-09T13:12:18.513Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297659602_1",
+    "content": "trator permissions you can click \"Space Tools\" > \"Reorder Pages\" to move pages around.\n\n- Add labels\n\nLabels help keep pages organised and make it easier for you to find the information you need. Click \"Labels\" at the bottom of a page to add or edit. The \"Related pages\" section on this page uses labels too!\n\n- Make templates\n\nStandardise and speed up the page creation process with templates. You can create and format a template with page layouts, standard headings and instructional text for hints and guidelines. Check out our sample page on\n                \"[Making a template]\"\n\nRelated pages",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297659602",
+      "title": "Getting started",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297659602",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-09T13:12:18.513Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757714_0",
+    "content": "# 2020-11-06 weekly meeting\n\nnew data feed / data feed update\n\n1\ncomplete\nRite aid productlarini soralim, bize pmasterda ve shipmentta gelmiyor olabilir\n\n2\nincomplete\n Packaging company nin detailed datasi varsa alalim. Sams club Tj max e gonderim yapiyormus. burada mapping tablosu filan gerekebilir productlari map etmek icin\n\n3\ncomplete\ninternational shipments datasina price isteyelim\n\n4\ncomplete\necom shipmentsin eski datasini da isteyelim\n\ndata quality check / logic note\n\n5\ncomplete\nAmazon ecom domestic shipment kisminda neden yuksek cikti? sayi mantikli gelmedi mark a. ecom datasiyla double count olabilir mi?\n\n6\ncomplete\ncasepack sayisini teyit et. vendor to dc casepack mi bizde olan baska bir sey mi?\n\n7\ncomplete\n- discount storelarin kodlari. bunlar urun expritation date geldiginde oralardan satis yapiliyor. demand planning e dahil edilmemeli\n\n8\nincomplete\nEcom Reship leri soralim, bunlari ignore mu etmeliyiz?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757714",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757714",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-12-11T12:38:09.393Z",
+      "chunk_index": 0,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757714_1",
+    "content": "and planning e dahil edilmemeli\n\n8\nincomplete\nEcom Reship leri soralim, bunlari ignore mu etmeliyiz?\n\n9\nincomplete\n12.aylardaki riteaid peakine kontrat demislerdi. bu hangi accountlarda vardi, cleaning icin sorabiliriz.\n\n10\ncomplete\nmark a reminder duzenli toplanti icin\n\n11\ncomplete\nreview timein 1 weekten uzun olanlarini soralim. bunu order export ederken nasil handle edecegiz (User approve ettikçe export olacak detaylar  )\n\n# 2020-11-13 weekly meeting\n\nnew data feed / data feed update\n\n12\nincomplete\nliquidation centers: Doğrudan StoreCode bazlı ayırt ediliyor. Bize bu store code ları verecekler. Sams club için durum farklı hem regular orders hem de liquidation için order veren StoreCode var. Burada liquidation itemler ProductCode bazında ayırt ediliyor. 1-Liquidation store code, 2- sams club için item list almalıyız. Note: bu itemler planogramda olmuyormuş. O yüzden almasak da olur gibi ama alıp data ya yamuk bir şey var mı yok mu diye bakalım.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757714",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757714",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-12-11T12:38:09.393Z",
+      "chunk_index": 1,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757714_2",
+    "content": "olmuyormuş. O yüzden almasak da olur gibi ama alıp data ya yamuk bir şey var mı yok mu diye bakalım.\n\n13\ncomplete\n Private labeled items: Judy hem product master tablosunu hem de bize export ettiği data’da bunların olup olmadığını kontrol edecek.\n\n14\ncomplete\nWeb Shipment: 2018 ve 2019 datasını istedik. Var dediler. Judy üzerine çalışacak takip edelim.\n\n15\ncomplete\nPrice Column for international & franchise shipments. Bunu istedik. Judy ok yaparız dedi. Takip edelim.\n\n16\nincomplete\nActive Store-SKU combination: Judy ve mark aktif store-sku listesi çıkarmaya çalışacak. daily feed e alacaklar takip edelim.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757714",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757714",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-12-11T12:38:09.393Z",
+      "chunk_index": 2,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757714_3",
+    "content": "tion: Judy ve mark aktif store-sku listesi çıkarmaya çalışacak. daily feed e alacaklar takip edelim.\n\n17\ncomplete\nAdditional info for WH inventory: John(?) currently working on that. Kendi sistemlerinde bir şeyler değiştiriyorlarmış onlar bitince bakalım buna dediler. Burada ne var? Allocated: order processed not picked. Commited: Allocated order lar onaylandıktan sonra buraya düşüyor. (Store orderları hemen buraya düşüyor). Others: demaged, web reserved, … needed for availability calculation.\n\ndata quality check / logic note\n\n18\ncomplete\nOrder submission: should we submit all pairs or the pairs on the review day? Mark Jim question dedi. Jim e soralım.\n\n19\ncomplete\n(Wholesale & International) Shipping casepack is the same as the vendor to GNC casepack. GNC doesn’t repack the items.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757714",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757714",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-12-11T12:38:09.393Z",
+      "chunk_index": 3,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757714_4",
+    "content": "national) Shipping casepack is the same as the vendor to GNC casepack. GNC doesn’t repack the items.\n\n21\nincomplete\nPromo source: Mark’lar promo source diye bi excel oluşturuyor. Bunu elden ele dolaştırıyor, buyer lar arasında. Bunu bizim sistem üzerinden yürütmek istiyorlar. Bunu internally konuşup dönüş yapacağız.\n\n22\nincomplete\nGNC has a new project to pack different SKUs with a new code. Forecasting level should be this new level. We need to track the status of this project.\n\n# 2020-12-01 Meeting with Tom & Mark about shared international forecasts\n\nInternational & Wholesales partners share their weekly forecast for the next 6 weeks. It is a new practice for wholesales accounts but the international team doing that for a while.\n\nThe international whl team communicate with the international partners and come up with a final forecast. sku-week level.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757714",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757714",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-12-11T12:38:09.393Z",
+      "chunk_index": 4,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757714_5",
+    "content": "team communicate with the international partners and come up with a final forecast. sku-week level.\n\nThese weekly forecasts have 40% percent accuracy. It increases when aggregated on customer week level and it becomes highly reliable on the quarter level. (Not a surprise)\n\nThen, the forecast shared with Tom and he uploads the forecast.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757714",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757714",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-12-11T12:38:09.393Z",
+      "chunk_index": 5,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2297757721_0",
+    "content": "1-) Active Accounts: Mark is working on active accounts and their assortment. (mail subject: INVENT - Warehouse Replenishment - Active Accounts)\n\n- Mark has shared the file. we’ve asked judy & jim to get that in the daily feed. (mail subject: Invent Warehouse Wholesale 11.9.2020.xlsx)\n\n2-) Corporate Shipment missing dates\n\nIt seems there is a gap between historical & daily data of corporate shipments. The last shipment date in the historical files is '2020-10-29' and the daily feed has started on 2020-11-03. Thus the first shipment date we got in the daily feed is 2020-11-02.\n\nJudy has been asked for sending the missing data. (mail subject: Fwd: Questions on historical exports )",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2297757721",
+      "title": "Open Issues",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2297757721",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-13T06:20:53.677Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_0",
+    "content": "# Raw files\n\nUnder invent-gnc s3 bucket, FranchiseShipments.csv, FranchiseBacklogs.csv, InternationalBacklogs.csv, InternationalOpenOrders.csv, InternationalShipments.csv, WholesaleOpenOrders.csv, WholesaleShipments.csv, EcomShipments.csv files are expected in a daily time-stamped folder.\n\n## 1-) FranchiseShipments.csv\n\nThis data contains franchise orders & shipments.\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| ProductCode | String | Unique code of product. String length is 6. |\n| StoreCode | String | Unique code of product. String length is 5. |\n| WarehouseCode | String | Source warehouse that shipment is made from. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Ordered amount |\n| ShipmentDate | String | YYYY-MM-DD format date that represents shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n| BackorderFlag | String | ““ or “Y” values that indicates if the order is backlogged. |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 0,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_1",
+    "content": "ed amount |\n| BackorderFlag | String | ““ or “Y” values that indicates if the order is backlogged. |\n\n## 2-) FranchiseBacklogs.csv\n\nFranchiseBacklogs.csv is a snapshot of backlogged orders with the following columns:\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| ProductCode | String | Unique code of product. String length is 6. |\n| StoreCode | String | Unique code of store. String length is 5. |\n| WarehouseCode | String | Source warehouse that shipment is made from. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Ordered amount |\n\n## 3-) InternationalShipments.csv\n\nThis data contains shipment & order data for international accounts.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 1,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_2",
+    "content": "3-) InternationalShipments.csv\n\nThis data contains shipment & order data for international accounts.\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| Type | String | Describes location of the customer. Only value is international. |\n| Customer | String | Custmer code. Usually it represents |\n| ProductCode | String | Unique code of product. String length is 6. |\n| OrderNbr | String | Id of the order. |\n| WarehouseCode | String | Source warehouse that shipment is made from. |\n| StoreCode | String | Unique code of store. String length is 5. It represents location of the customer. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Order amount |\n| ShipmentDate | String | YYYY-MM-DD format date that represents shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n\n## 4-) International Open Orders",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 2,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_3",
+    "content": "ipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n\n## 4-) International Open Orders\n\nInternational open orders data represents orders that are accepted and will be shipped in the future for international accounts.\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| Type | String | Describes location of the customer. Only value is international. |\n| Customer | String | Custmer code. Usually, it also represents the country of the account. |\n| ProductCode | String | Unique code of product. String length is 6. |\n| OrderNbr | String | Id of the order. |\n| WarehouseCode | String | Source warehouse that shipment is made from. |\n| StoreCode | String | Unique code of store. String length is 5. It represents location of the customer. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Order amount |\n| ExpectedShipDate | String | YYYY-MM-DD format date that represents expected shipment date |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 3,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_4",
+    "content": "ount |\n| ExpectedShipDate | String | YYYY-MM-DD format date that represents expected shipment date |\n\n## 5-) Wholesale Shipments\n\nThis data contains order & shipment records for domestic (USA) and Canada accounts.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 4,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_5",
+    "content": "esale Shipments\n\nThis data contains order & shipment records for domestic (USA) and Canada accounts.\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| Type | String | Describes location of the customer. (Domestic & Canada) |\n| Customer | String | Custmer code. Usually, it also represents the country of the account. |\n| OrderNbr | String | Id of the order. |\n| ProductCode | String | Unique code of product. String length is 6. |\n| WarehouseCode | String | Source warehouse that shipment is made from. |\n| StoreCode | String | Unique code for customer. String length is 5. |\n| CustomerStoreCode | String | Unique code for customer’s locations. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Order amount |\n| ShipmentDate | String | YYYY-MM-DD format date that represents shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n\n## 6-) Wholesales Open Orders",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 5,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_6",
+    "content": "shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n\n## 6-) Wholesales Open Orders\n\nWholesale open orders data represents orders that are accepted and will be shipped in the future for domestic & Canadian accounts.\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| Type | String | Describes location of the customer. (Domestic & Canada) |\n| Customer | String | Custmer code. Usually, it also represents the country of the account. |\n| OrderNbr | String | Id of the order. |\n| ProductCode | String | Unique code of product. String length is 6. |\n| WarehouseCode | String | Source warehouse that shipment will be made from. |\n| StoreCode | String | Unique code for customer. String length is 5. |\n| CustomerStoreCode | String | Unique code for customer’s locations. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Order amount |\n\n## 7-) E-com Shipments",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 6,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_7",
+    "content": "e that represents order submission date. |\n| OrderQty | Int | Order amount |\n\n## 7-) E-com Shipments\n\nE-com shipment file contains online orders. Channels of online orders are indicated by ORSOType Column. This column has three values:\n\n- MP: Market place. Online GNC stores that are operated on Amazon, E-bay, etc. are indicated with ORSOType == MP.\n- OG – Order Groove (subscription orders)Sources:  OG_STORE – order taken in store  OG_ONLINE – order taken gnc.com\n- SSFC gnc.com                                                                                                                             SFCC_DOMESTIC – gnc.comSFCC_PRO - PRO Customer, signed up for x $ per year (pro box)SFCC_INTERNATIONAL – gnc.com orders shipped out of USSFCC_RESHIP – gnc.com orders reshipped from customer service",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 7,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_8",
+    "content": "IONAL – gnc.com orders shipped out of USSFCC_RESHIP – gnc.com orders reshipped from customer service\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| OrderID | String | Id of the order. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| ORSOType | String | Channel type for online orders. Like SSFC for gnc.com, or MP for market placeses like Amazon.com or E-bay. |\n| ORSOCode | String | Specific value for a sales channel. I.e. ORSOType = MP & ORSOCode = Amazon. |\n| ProductCode | String | Unique code of product. String length is 6. |\n| OrderQty | Int | Order amount |\n| ShipmentDC | String | Source warehouse that shipment is made from. |\n| ShipmentDate | String | YYYY-MM-DD format date that represents shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n\n## 8 -) Corporate Shipments",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 8,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2301132804_9",
+    "content": "ts shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |\n\n## 8 -) Corporate Shipments\n\nCorporate shipment data represents orders & shipments of corporate stores. Since we’ve inventory position data for these locations forecasting orders via this data doesn’t make sense. This data requested from the customer to calculate the ship rate.\n\n| Column Name | Data Type | Description |\n| --- | --- | --- |\n| ProductCode | String | Unique code of product. String length is 6. |\n| StoreCode | String | Unique code for GNC stores. String length is 5. |\n| WarehouseCode | String | Source warehouse that shipment is made from. |\n| OrderDate | String | YYYY-MM-DD format date that represents order submission date. |\n| OrderQty | Int | Order amount |\n| ShipmentDate | String | YYYY-MM-DD format date that represents shipment date of the order. |\n| ShipmentQty | Int | Shipped amount |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2301132804",
+      "title": "GNC -> INV ETL",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2301132804",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-12T14:00:21.225Z",
+      "chunk_index": 9,
+      "total_chunks": 10
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2328068106_0",
+    "content": "Trying to note key issues & business related rules/learnings for new comers.\n\n- Products produced by Nutra (vendor 0333) are consolidated at a plant level (DC = GNP).  Orders for these products are generated for IND initially, and then later redirected as necessary before shipping actually occurs.\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2328068106",
+      "title": "General Notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2328068106",
+      "updated_by": "Emre Duru",
+      "updated_date": "2020-11-18T06:38:08.954Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_0",
+    "content": "### Store\n\nVolume cluster: Last 12 months shipment qty - Stores that generate the 85% of all shipments labelled as \"big\" otherwise \"small\"\nFrequency_with_time_elapsed_between: Average of number of days between the shipments. If lower than 21 than \"frequent\" otherwise \"dispersed\"\nTrend_Volatility: Coefficient of Variation of shipment qty's. <1 then \"low\", between 1 and 1.5 then \"medium\", >1.5 then \"high\nConsistency: If (A / C > 1 & B / D >1) | (A / C < 1 & B / D <1) then \"consistent\" otherwise \"inconsistent\"\n\n| D | C | B | A |\n| --- | --- | --- | --- |\n| Today - 24 Months | Today - 18 Months | Today - 12 Months | Today - 6 Months |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 0,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_1",
+    "content": "| --- | --- | --- |\n| Today - 24 Months | Today - 18 Months | Today - 12 Months | Today - 6 Months |\n\nTrend:\nA / C & B / D >1.1 then upward\nA / C & B / D >0.9 then downward\nA / C & B / D between 1.1 and 0.9 then stationary\nOtherwise irregular patttern\nAge bucket: Time elapsed since the first shipment - (\"0_180\",\"180_365\",\"365_540\",\"540_730\",\"730+\")\nTime bucket since the last shipment: Time elapsed since the last shipment - (\"0_30\",\"30_90\",\"90_180\",\"180_365\",\"365_540\",\"540_720\",\"720+\")\nAssortment Set: # of distinct SKU's the store ordered in the last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 1,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_2",
+    "content": "n the last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 2,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_3",
+    "content": "the last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 3,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_4",
+    "content": "the last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 4,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_5",
+    "content": "he last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 5,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_6",
+    "content": "e last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 6,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_7",
+    "content": "last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 7,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_8",
+    "content": "last 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 8,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_9",
+    "content": "ast 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 9,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_10",
+    "content": "st 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 10,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_11",
+    "content": "t 12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 11,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_12",
+    "content": "12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 12,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_13",
+    "content": "12 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 13,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_14",
+    "content": "2 months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 14,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_15",
+    "content": "months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 15,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_16",
+    "content": "months - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 16,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_17",
+    "content": "onths - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 17,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_18",
+    "content": "nths - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 18,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_19",
+    "content": "ths - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 19,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_20",
+    "content": "hs - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 20,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_21",
+    "content": "s - (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 21,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_22",
+    "content": "- (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 22,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_23",
+    "content": "- (\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 23,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_24",
+    "content": "(\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 24,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_25",
+    "content": "(\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 25,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_26",
+    "content": "\"0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 26,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_27",
+    "content": "0_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 27,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_28",
+    "content": "_50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 28,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_29",
+    "content": "50\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 29,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_30",
+    "content": "0\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 30,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_31",
+    "content": "\",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 31,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_32",
+    "content": ",\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 32,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_33",
+    "content": "\"50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 33,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_34",
+    "content": "50_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 34,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_35",
+    "content": "0_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 35,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_36",
+    "content": "_100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 36,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_37",
+    "content": "100\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 37,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_38",
+    "content": "00\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 38,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_39",
+    "content": "0\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 39,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_40",
+    "content": "\",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 40,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_41",
+    "content": ",\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 41,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_42",
+    "content": "\"100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 42,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_43",
+    "content": "100_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 43,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_44",
+    "content": "00_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 44,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_45",
+    "content": "0_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 45,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_46",
+    "content": "_200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 46,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_47",
+    "content": "200\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 47,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_48",
+    "content": "00\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 48,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_49",
+    "content": "0\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 49,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_50",
+    "content": "\",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 50,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_51",
+    "content": ",\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 51,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_52",
+    "content": "\"200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 52,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_53",
+    "content": "200_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 53,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_54",
+    "content": "00_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 54,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_55",
+    "content": "0_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 55,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_56",
+    "content": "_300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 56,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_57",
+    "content": "300\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 57,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_58",
+    "content": "00\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 58,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_59",
+    "content": "0\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 59,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_60",
+    "content": "\",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 60,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_61",
+    "content": ",\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 61,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_62",
+    "content": "\"300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 62,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_63",
+    "content": "300_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 63,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_64",
+    "content": "00_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 64,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_65",
+    "content": "0_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 65,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_66",
+    "content": "_500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 66,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_67",
+    "content": "500\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 67,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_68",
+    "content": "00\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 68,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_69",
+    "content": "0\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 69,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_70",
+    "content": "\",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 70,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_71",
+    "content": ",\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 71,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_72",
+    "content": "\"500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 72,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_73",
+    "content": "500_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 73,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_74",
+    "content": "00_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 74,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_75",
+    "content": "0_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 75,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_76",
+    "content": "_800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 76,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_77",
+    "content": "800\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 77,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_78",
+    "content": "00\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 78,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_79",
+    "content": "0\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 79,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_80",
+    "content": "\",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 80,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_81",
+    "content": ",\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 81,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_82",
+    "content": "\"800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 82,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_83",
+    "content": "800+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 83,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_84",
+    "content": "00+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 84,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_85",
+    "content": "0+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 85,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_86",
+    "content": "+\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 86,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_87",
+    "content": "\")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 87,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_88",
+    "content": ")\n\n### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 88,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_89",
+    "content": "### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 89,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_90",
+    "content": "### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 90,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_91",
+    "content": "### Product",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 91,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_92",
+    "content": "Volume cluster: Last 12 months shipment qty - Stores that generate the 85% of all shipments labelled as \"big\" otherwise \"small\"\nFrequency_with_time_elapsed_between: Average of number of days between the shipments. If lower than 21 than \"frequent\" otherwise \"dispersed\"\nTrend_Volatility: Coefficient of Variation of shipment qty's. <0.5 then \"low\", between 0.5 and 1 then \"medium\", >1 then \"high\nConsistency: If (A / C > 1 & B / D >1) | (A / C < 1 & B / D <1) then \"consistent\" otherwise \"inconsistent\"\nTrend:\nA / C & B / D >1.1 then upward\nA / C & B / D >0.9 then downward\nA / C & B / D between 1.1 and 0.9 then stationary\nOtherwise irregular patttern\nAge bucket: Time elapsed since the first shipment - (\"0_180\",\"180_365\",\"365_540\",\"540_730\",\"730+\")\nTime bucket since the last shipment: Time elapsed since the last shipment - (\"0_30\",\"30_90\",\"90_180\",\"180_365\",\"365_540\",\"540_720\",\"720+\")",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 92,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_93",
+    "content": "ime elapsed since the last shipment - (\"0_30\",\"30_90\",\"90_180\",\"180_365\",\"365_540\",\"540_720\",\"720+\")\nAssortment Set: # of distinct stores the sku was ordered by in the last 12 months - (\"0_5\",\"5_10\",\"10_20\",\"20_30\",\"30_60\",\"60+\")\n\n### Pair",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 93,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2394947589_94",
+    "content": "he sku was ordered by in the last 12 months - (\"0_5\",\"5_10\",\"10_20\",\"20_30\",\"30_60\",\"60+\")\n\n### Pair\n\nVolume cluster: Last 12 months shipment qty - Stores that generate the 85% of all shipments labelled as \"big\" otherwise \"small\"\nFrequency_with_time_elapsed_between: Average of number of days between the shipments. If lower than 45 than \"frequent\" otherwise \"dispersed\"\nTrend_Volatility: Coefficient of Variation of shipment qty's. <0.1 then \"low\", between 0.1 and 0.6 then \"medium\", >0.6 then \"high\nConsistency: If (A / C > 1 & B / D >1) | (A / C < 1 & B / D <1) then \"consistent\" otherwise \"inconsistent\"\nTrend:\nA / C & B / D >1.1 then upward\nA / C & B / D >0.9 then downward\nA / C & B / D between 1.1 and 0.9 then stationary\nOtherwise irregular patttern\nAge bucket: Time elapsed since the first shipment -(\"0_180\",\"180_365\",\"365_540\",\"540_730\",\"730+\")\nTime bucket since the last shipment: Time elapsed since the last shipment - (\"0_30\",\"30_90\",\"90_180\",\"180_365\",\"365_540\",\"540_720\",\"720+\")",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2394947589",
+      "title": "Clustering",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2394947589",
+      "updated_by": "Aydıncan Demirkaya",
+      "updated_date": "2020-12-09T08:48:21.243Z",
+      "chunk_index": 94,
+      "total_chunks": 95
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2552561971_0",
+    "content": "GNC sends sub item relations as following:\n\n| ProductCode | SubProductCode | ReformInd | CreateDate |\n| --- | --- | --- | --- |\n| 559609 | 559608 |  | 2009-06-01 |\n| 559610 | 559608 |  | 2009-05-02 |\n\nRules of sub item relations usage:\n\n- If the items are subbed, generate forecasts for the new item and show it on the UI\n- If the relationship is broken, generate forecasts for both and show both on the UI\n- If the relationship is broken and one of them is discontinued, do not generate forecasts for the disco and do not show it on the UI\n\nSub item relations resolve:\n\nFirstly, we get the sub-items into a product_code & famil_id format.\n\n| product_code | family_id |\n| --- | --- |\n| 559608 | 477 |\n| 559609 | 477 |\n| 559610 | 477 |\n\nThen we determine the main item. Assumption: the new product is the sub_sku. ( ) We get create date of sub-SKUs and select the sub-SKU as main with the maximum create date for families that have multiple relations.\n\nSo that we get the following output:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2552561971",
+      "title": "Sub item relations",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2552561971",
+      "updated_by": "Emre Duru",
+      "updated_date": "2021-01-27T14:51:50.222Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_2552561971_1",
+    "content": "maximum create date for families that have multiple relations.\n\nSo that we get the following output:\n\n| product_code | family_id | is_main |\n| --- | --- | --- |\n| 559608 | 477 | 1 |\n| 559609 | 477 | 0 |\n| 559610 | 477 | 0 |\n\nAdditionally, sub-item relations are supposed to be used only for wholesales and internationalchannels.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "2552561971",
+      "title": "Sub item relations",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/2552561971",
+      "updated_by": "Emre Duru",
+      "updated_date": "2021-01-27T14:51:50.222Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_3323166721_0",
+    "content": "1/ Inform Client that we are looking into it. via Jira comment, email response etc.\n\n2/ See if there is an actual problem\n\n| Week | Corp Shipments | Corp Fc | Fran Shipment | Fran Fc | Web Sales | Web Fc | WholeSale Ship | WholeSale Fc | International Shipment | International Fc |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 |  |  |  |  |  |  |  |  |  |  |\n| 2 |  |  |  |  |  |  |  |  |  |  |\n| 3 |  |  |  |  |  |  |  |  |  |  |\n| 4 |  |  |  |  |  |  |  |  |  |  |\n| 5 |  |  |  |  |  |  |  |  |  |  |\n| 6 |  |  |  |  |  |  |  |  |  |  |\n| 7 |  |  |  |  |  |  |  |  |  |  |\n\n# UI View\n\n# Corporate Dig-In\n\n1/ Active Stores Stock-Out Position vs Current Target levels\n\nThis will show us how many units that we want to order today if we don’t have an issue with DC inventory.\n\n2/ Why there is a forecast jump in week X?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "3323166721",
+      "title": "Solution Path",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/3323166721",
+      "updated_by": "Koray Parkin",
+      "updated_date": "2021-11-19T09:08:32.880Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_3323166721_1",
+    "content": "order today if we don’t have an issue with DC inventory.\n\n2/ Why there is a forecast jump in week X?\n\nCheck the DC Inventory Simulation lookup. Infinite DC inventory vs Actual DC Inventory Order Forecasts. If there is a significant shape difference between these two, it is because DC inventory position is limited today so we can’t order what we want. We need to wait until DC has inventory levels to order\n\nSCREENSHOT\n\n# Franchise Dig-In\n\n# XX Dig-In\n\n# How to reach when there is an issue?\n\n## 1-Hour Solution\n\nApply a cap to forecast. Via UI, multiplier, freeze forecast whatever. In production, it should be an acceptable level for the customer. Inform the customer about quick patch and let them know we are investigating the underlying reason\n\n## Permanent Solution\n\nUnderstand the root cause in detail.\n\nIf it is not an actual problem:\n\nInform the customer and explain the reason. When they understood it, remove the “1 hour-patch solution”\n\nIf it is an actual problem:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "3323166721",
+      "title": "Solution Path",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/3323166721",
+      "updated_by": "Koray Parkin",
+      "updated_date": "2021-11-19T09:08:32.880Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_gncdcrpl_3323166721_2",
+    "content": "the reason. When they understood it, remove the “1 hour-patch solution”\n\nIf it is an actual problem:\n\nTalk with the team about the problem (Elif, Yasemin, Tugba), discuss potential solutions, and test it. Then inform the solution expert (Aydincan/Emre Duru/KorayP) about the problem and how do you want to change the production system. When it is approved,\n\n15\nincomplete\nmake the change with a before/after run\n\n16\nincomplete\ncheck which items get affected by this change and if they make sense\n\n17\nincomplete\ncreate a reminder for the same product for next week and review it again to make sure it looks good",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "gncdcrpl",
+      "space_name": "GNC DC RPL",
+      "page_id": "3323166721",
+      "title": "Solution Path",
+      "url": "https://invent.atlassian.net/wiki/spaces/gncdcrpl/pages/3323166721",
+      "updated_by": "Koray Parkin",
+      "updated_date": "2021-11-19T09:08:32.880Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "confluence_~580682879_2965471289_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder of storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~580682879/pages/2965471290/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~580682879",
+      "space_name": "yasemin.erdemli",
+      "page_id": "2965471289",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~580682879/pages/2965471289",
+      "updated_by": "yasemin.erdemli (Unlicensed)",
+      "updated_date": "2021-05-25T06:42:31.673Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~580682879_2965471290_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~580682879",
+      "space_name": "yasemin.erdemli",
+      "page_id": "2965471290",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~580682879/pages/2965471290",
+      "updated_by": "yasemin.erdemli (Unlicensed)",
+      "updated_date": "2021-05-25T06:42:31.597Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~580682879_2965471293_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n## Date\n\n## Participants\n\nList meeting participants using their @mention names:-\n- @mention a person to add them as an attendee and they will be notified.\n\n## Goals\n\nList goals for this meeting (e.g., Set design priorities for FY19):-\n\n## Discussion topics\n\n| Time | Item | Presenter | Notes |\n| --- | --- | --- | --- |\n|  |  |  | Add notes for each discussion topic |\n|  |  |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or discussion topics:-\n\n## Decisions\n\nType /decision to record the decisions you make in this meeting:a5c26621-3dd6-4d5b-bf2a-99c35325684f57b64225-322b-493a-b58d-f39c23ba9374DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~580682879",
+      "space_name": "yasemin.erdemli",
+      "page_id": "2965471293",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~580682879/pages/2965471293",
+      "updated_by": "yasemin.erdemli (Unlicensed)",
+      "updated_date": "2021-05-25T06:42:31.186Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~580682879_2965471300_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n> Info: Add your comments directly to the page. Include links to any relevant research, data, or feedback.\n\nSummarize this decision in the table below. Type /date to quickly add the due date and @mention the driver, approver, contributors, and informed to keep everyone on the same page.\n\nStatus\n\nImpact\nRedHigh /\nYellowMedium / GreenLow\n\nDriver\n\nApprover\n\nContributors\n\nInformed\n\nDue date\n\nOutcome\n\n## Background\n\nProvide context on the decision the team needs to make. Include links to relevant research, pages, and related decisions, as well as information on constraints or challenges that may impact the outcome.\n\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision\n\n## Options considered\n\n|  | Option 1: | Option 2: |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~580682879",
+      "space_name": "yasemin.erdemli",
+      "page_id": "2965471300",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~580682879/pages/2965471300",
+      "updated_by": "yasemin.erdemli (Unlicensed)",
+      "updated_date": "2021-05-25T06:42:31.321Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~580682879_2965471300_1",
+    "content": "--- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns\n\n1\nincomplete\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\n\n## Outcome\n\nSummarize the outcome below",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~580682879",
+      "space_name": "yasemin.erdemli",
+      "page_id": "2965471300",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~580682879/pages/2965471300",
+      "updated_by": "yasemin.erdemli (Unlicensed)",
+      "updated_date": "2021-05-25T06:42:31.321Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  }
+]

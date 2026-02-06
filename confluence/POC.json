@@ -1,0 +1,578 @@
+[
+  {
+    "id": "confluence_POC_1027703034_0",
+    "content": "Müşteriden alınan verilerle toplamda 5 haftalık bir çalışma sürdürülmüş ve bu veri bir dizi aşamadan geçirilip istenen formata getirildikten sonra Makine Öğrenmesi algoritmaları kullanılarak forecast yapılmıştır. Genel iş akışını aşağıdaki 4 kategori altında özetleyebiliriz.\n\n- Veri Konsolidasyonu\n- Veri Yapısı Anlama, Temizleme ve Yapılandırma\n- Tahmin Altyapısının Oluşturulması\n- Tahmin Modeli Denemeleri ve Raporlanması\n\n#### Veri Konsolidasyonu\n\nMüşteriden alınan veri toplamda 5 ürün grubunu içermektedir.\n\n- SSG (Seramik Sağlık Gereçleri)\n- Tamamlayıcı\n- Artema\n- Banyo Mobilyaları\n- Yıkanma Alanları",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 0,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_1",
+    "content": "dir.\n\n- SSG (Seramik Sağlık Gereçleri)\n- Tamamlayıcı\n- Artema\n- Banyo Mobilyaları\n- Yıkanma Alanları\n\nVeri her ürün grubu için incelenmiş ve forecast çalışması için kullanılacak kolonlar tespit edilmiştir. Müşteriden de teyit alınarak ürün grubu bazlı kırılımlar belirlenmiş ve ham veri üzerinde yapılacak aggregationlar planlanmıştır. 2015 ve 2016 yıllarına ait veri train verisi olarak kullanılacak, 2017 yılına ait veri ise test verisi olarak kullanılarak ML modeli tasarlanacaktır. Müşteri forecast'i 2018 yılı için ay bazında istediğinden dolayı müşteriye teslim aşamasında 2015, 2016 ve 2017 yıllarına ait veri train verisi olarak kullanılacak ve 2018 yılı satış adetleri her ürün grubu için belirlenen kırılımlar bazında tahmin edilecektir.\n\n#### Veri Yapısı Anlama, Temizleme ve Yapılandırma",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 1,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_2",
+    "content": "elirlenen kırılımlar bazında tahmin edilecektir.\n\n#### Veri Yapısı Anlama, Temizleme ve Yapılandırma\n\nVeri manipülasyonları için Python Pandas library'si kullanılmaktadır. Veri, belirlenen kırılımlara uygun şekilde aggregate edilmektedir. Forecast ay bazlı istendiğinden dolayı aggregationlar ay bazlı yapılmaktadır. Kırılımlar bazında yapılan aggregationlar; aylık toplam satış adedi ve aylık ortalama birim fiyattır. Ayrıca her kırılım için o kırılımın ait oldugu product family bilgisi de eklenmektedir. Product Family'ler arasında bir dependency olduğu için Product Family 3 doğrudan kullanılmamaktadır. Product Family 1, Product Family 2 ve Product Family 3 concatenate edildikten sonra aggregation'a dahil edilmektedir. Müşterinin istediği forecast formatı ürün grubu bazında aşağıdaki gibidir.\n\n| SSG | Pazar | Dağıtım Kanalı | Form/(SKU ilk 4 hane) | Product Family 3 | Marka | Dönem | Tahmin Adet |\n| --- | --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 2,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_3",
+    "content": "| Product Family 3 | Marka | Dönem | Tahmin Adet |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n\n| Tamamlayıcı | Pazar | Dağıtım Kanalı | SKU | Product Family 3 | Dönem | Tahmin Adet |\n| --- | --- | --- | --- | --- | --- | --- |\n\n| Artema | Pazar | Dağıtım Kanalı | SKU | Product Family 3 | Dönem | Tahmin Adet |\n| --- | --- | --- | --- | --- | --- | --- |\n\n| Banyo Mobilyası | Pazar | Dağıtım Kanalı | Seri Adi | Product Family 3 | Dönem | Tahmin Adet |\n| --- | --- | --- | --- | --- | --- | --- |\n\n| Yıkanma Alanları | Pazar | Dağıtım Kanalı | Product Family 3 | Dönem | Tahmin Adet |\n| --- | --- | --- | --- | --- | --- |\n\nAggregation yapılmadan önce ilk olarak ikame ürün analizi yapılmıştır. İkame ürünler tespit edilip etiketlenmiş ve müşteriye raporlanmıştır. Bu kapsamda yapılan çalışmada gözlemlenen bir ikame ürün örneği aşağıda görülebilir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 3,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_4",
+    "content": "raporlanmıştır. Bu kapsamda yapılan çalışmada gözlemlenen bir ikame ürün örneği aşağıda görülebilir.\n\nMüşteriyle iletişime geçilerek forecast kapsamında değerlendirilmeyecek ürünlerin listesi çıkarılmıştır. Bu ürünler tüm ürün grupları için etiketlenmiş ve aggregation aşaması başlamadan ham datadan çıkarılmaları sağlanmıştır. Bu ürünlerin büyük bir bölümü outlier kapsamına girmektedir (yedek parça ve hurda ürünleri gibi). Dolayısıyla müşterinin de bilgisi dahilinde bir outlier detection yapılmıştır.\n\nForecast için referans kolon olarak her ürün grubu için o ürün grubuna özel olan kırılımları içeren unique ID'ler oluşturulmaktadır. Forecast, ID bazında yapılacaktır.\n\nID bazlı aggregation için aşağıdaki teknik kullanılmaktadır.\n\n```py\ndf = df.groupby(['ID', 'year_month']).agg({'quantity_sold': 'sum', 'unit_sale_price_of_an_item': 'mean', 'sale_frequency': 'count'})\n```\n\nHer ID için most frequent product family hesaplamasında aşağıdaki teknik kullanılmaktadır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 4,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_5",
+    "content": "t'})\n```\n\nHer ID için most frequent product family hesaplamasında aşağıdaki teknik kullanılmaktadır.\n\n```py\nid_columns = ['ulke_kodu', 'dagitim_kanali', 'form', 'marka']\ndf = df.groupby(['ID'] + id_columns).agg({'concatenated_product_family': lambda x: x.value_counts().index[0]})\n```\n\nAylık aggregation'dan sonra boş kalan ayları doldurmak için ay bazlı resampling yapılmaktadır. Resampling yapılırken fillna process'i için *pad* metodu kullanılmaktadır. [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html)\n\nData Enrichment çalışması yapılarak forecast sonuçlarının iyileştirilmesi amaçlanmıştır. Bu kapsamda yapılan araştırmalar neticesinde aşağıdaki external kaynaklar kullanılmış ve aggregate edilen veriye entegre edilmiştir. Kaynak listesi aşağıda yer almaktadır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 5,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_6",
+    "content": "ar kullanılmış ve aggregate edilen veriye entegre edilmiştir. Kaynak listesi aşağıda yer almaktadır.\n\n- TÜİK Konut Satış Verisi: Ülke bazında aylık toplam satış bilgilerini içermektedir.\n- TCMB Döviz Kuru Verisi: Aylık ortalama döviz kuru oranlarını içermektedir. USD para birimi kullanılmıştır.\n- TCMB Ortalama Mevduat Faiz Verisi: TL bazında 1 ay, 3 ay, 6 ay ve 1 yıllık ortalama mevduat faiz oranları dört ayrı feature olarak eklenmiştir.\n- Müşteri Lokasyon Verisi: Sipariş veren tüm müşterilerin lokasyonu Geocoding ile noktasal olarak tespit edilerek bölge kümeleri oluşturulmuş ve görselleştirme yapılarak raporlanmıştır. (https://developers.google.com/maps/documentation/geocoding/start)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 6,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_7",
+    "content": "eştirme yapılarak raporlanmıştır. (https://developers.google.com/maps/documentation/geocoding/start)\n\nWalk Forward Optimization tekniği ile rolling yapılarak veri üzerinde feature extraction yapılmıştır. Prensibi, belirli bir kolon üzerinde shifting ve windowing yapılarak belirli aralıktaki ortalamaları hesaplamaya dayanır. Bu yöntemle elde edilen featurelar ile veri seti zenginleştirilmektedir. Bu tekniğin implementasyonu aşağıda görülmektedir.\n\n```py\nfor window in range(1, 13):\n        for shift in range(1, 13):\n            df['rolling_sales_' + str(shift) + '_' + str(window)] = df.groupby(['ID'])['quantity_sold'].transform(lambda x: x.shift(shift).rolling(window = window, min_periods = 1).mean())\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 7,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_8",
+    "content": "tity_sold'].transform(lambda x: x.shift(shift).rolling(window = window, min_periods = 1).mean())\n```\n\nTrain ve test verisinin başlangıç ve bitiş tarihleri belirlendikten sonra moving average hesabı yapılmaktadır. Moving average hesabı için train bitiş tarihi baz alınmaktadır. Dikkate alınan moving average aralığı 1 aydan 12 aya kadardır (MA1 - MA12). Hesaplanan MA'lar ilerleyen safhalarda ML modeli oluşturulduktan sonra baz model olarak ele alınacak ve oluşturulan ML modelinin başarısını ölçmek için kullanılacaktır. Bu process için aşağıdaki teknik kullanılmıştır.\n\n```py\nfrom datetime import datetime\nfrom dateutil.relativedelta import relativedelta\n\ndef create_df_ma(df, train_end_date):\n    end_date = datetime.strptime(train_end_date, '%Y-%m-%d')\n\n    new_df = df[['ID', 'year_month', 'quantity_sold']].reset_index()\n\n    ma_frame = None\n    for i in range(1, 13):\n        start_date = str(end_date - relativedelta(months = i)).split(' ')[0]",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 8,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_9",
+    "content": "for i in range(1, 13):\n        start_date = str(end_date - relativedelta(months = i)).split(' ')[0]\n\n        df_ma = new_df[(new_df['year_month'] >= start_date) & (new_df['year_month'] <= end_date)] \\\n            .groupby(['ID']) \\\n            .agg({'quantity_sold': 'mean'})\n\n        df_ma.columns = ['ma_' + str(i)]\n\n        if ma_frame is None:\n            ma_frame = df_ma\n        else:\n            ma_frame = ma_frame.join(df_ma, how = 'outer')\n\n    ma_frame = ma_frame.fillna(0)\n\n    return ma_frame\n```\n\n#### Tahmin Altyapısının Oluşturulması\n\nVeri aggregate edilip istenen formata getirildikten sonra model kurma fazına geçilmektedir. Birden fazla model oluşturulup ensemble teknikle bu modellerin sonuçları mergelenmektedir. Böylece forecast sonuçları daha optimal değerlere ulaşmaktadır.\n\nAşağıdaki iki model üzerinde geliştirme yapılmıştır:\n\n- XGBoost\n- Prophet\n\n#### 1) XGBoost",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 9,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_10",
+    "content": "aktadır.\n\nAşağıdaki iki model üzerinde geliştirme yapılmıştır:\n\n- XGBoost\n- Prophet\n\n#### 1) XGBoost\n\nXGBoost; bir gradient boosting implementasyonudur. Prensibi; cok sayıda tree modeli paralel olarak çalıştırıp (boosting) daha etkili bir model oluşturmaktır. Gradient Boosting ML problemlerinde oldukça sık tercih edilen bir yöntemdir. İyi performansının yanı sıra, parametreleriyle esnek bir biçimde oynanabilme imkanı da sağlamaktadır. [https://xgboost.readthedocs.io/en/latest/index.html](https://xgboost.readthedocs.io/en/latest/index.html)\n\nAlgoritma üzerinde hyper parameter tuning yapıldıktan sonra aşağıdaki parametrelerin kullanılmasına karar verilmiştir.\n\n```py\nparam['objective'] = 'reg:tweedie'\nparam['eta'] = 0.1\nparam['max_depth'] = 3\nparam['silent'] = 1\nparam['eval_metric'] = \"rmse\"\nparam['min_child_weight'] = 1\nparam['subsample'] = 0.8\nparam['colsample_bytree'] = 0.8\nparam['seed'] = 0\nnum_rounds = best_iteration\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 10,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_11",
+    "content": "'subsample'] = 0.8\nparam['colsample_bytree'] = 0.8\nparam['seed'] = 0\nnum_rounds = best_iteration\n```\n\nVeri analiz edildiğinde 0 ve null değerlerin veri dağılımında baskın olduğu gözlemlenmektedir. Buna ek olarak verideki standart sapmanın da yüksek olduğu tespit edilmiştir. Bu tür veriler *tweedie* distribution'a yakınsamaktadır. Bundan dolayı train aşamasında *tweedie* objective kullanılmaktadır. Modele eval_metric parametresi olarak *rmse*(root mean square error) verilmektedir. Bu hata metriği yüksek sapma gösteren tahminleri daha fazla cezalandırma özelliği göstermektedir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 11,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_12",
+    "content": "r. Bu hata metriği yüksek sapma gösteren tahminleri daha fazla cezalandırma özelliği göstermektedir.\n\n*mae* (mean absolute error) ve *map* (mean average precision) gibi farklı hata metrikleri de kullanılabilmektedir. Bu kapsamda tüm metrlikler değerlendirilmiş olup modele katkısı en yüksek olan metrik *rmse* olarak belirlenmiştir. Bu kararı verme aşamasında veri yapısının dağılımı ve karakteristik özelliklerinin önemli bir etkisinin olduğunun altını çizmek gerekir. *max_depth*değeri ağaç derinliğinin ne kadar olması gerektiğini belirlemektedir. Bu değer ne kadar yükseltilirse modelin overfit olma ihtimali o ölçüde artmaktadır. *num_rounds*değerini belirlemek için init model oluşturulup *model_init.best_iteration*ile iterasyon sayısı belirlenmektedir.\n\n#### 2) Prophet",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 12,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_13",
+    "content": "model oluşturulup *model_init.best_iteration*ile iterasyon sayısı belirlenmektedir.\n\n#### 2) Prophet\n\nProphet; Facebook Core Data Science ekibi tarafından geliştirilen bir time series based forecasting library'sidir. En büyük avantajlarından bir tanesi seasonality pattern'i başarılı bir şekilde yakalayabiliyor oluşudur. Missing ve outlier veriyi de handle edebilmektedir.\n\n[https://facebook.github.io/prophet/](https://facebook.github.io/prophet/)\n\nYapılan çalışmada Prophet ile geliştirilen modelin sesonality pattern'i yakalama konusunda daha başarılı olduğu gözlemlenmiştir. Özellikle satışların daha düzenli olduğu ve quarter'lara dengeli bir şekilde yayıldığı Fransa gibi yurt dışı kanallarında bu model ile iyi sonuçlar alınabilmektedir. Bununla birlikte Türkiye gibi satışların genel olarak düzenli olmadığı ve peak'lerin fazla olduğu kanallarda ise Prophet çok smooth tahminler yapıp peakleri yakalayamazken; XGBoost daha keskin ve iyi tahminler yapabilmektedir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 13,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1027703034_14",
+    "content": "mooth tahminler yapıp peakleri yakalayamazken; XGBoost daha keskin ve iyi tahminler yapabilmektedir.\n\n#### Tahmin Modeli Denemeleri ve Raporlanması\n\nGeliştirilen iki model ensemble teknikle mergelendikten sonra çıkarılan tahminler üzerinden mape (mean absolute percentage error) ve wmape (weighted mape) hesaplaması yapılmaktadır. Hesaplanan metriklerle baz modelin (moving averages) metrikleri compare edilmektedir.\n\nID bazlı wmape hesaplamasının dışında üst seviye kırılımlar (yalnızca ülke kodu, ülke kodu ve dağıtım kanalı gibi) üzerinden de wmape hesaplaması yapılmıştır. Böylece yüksek derecede sapma gösteren tahminler üst seviyeden de belirlenebilmektedir. Bu yöntemle birlikte dalgalanmaların yüksek olduğu durumlar tespit edilip bunlar üzerinde aksiyonlar alınabilmektedir.\n\nHata metrik değerlerini azaltmayı amaçlayarak modeli optimize etmek için konut satış, döviz ve faiz external veri kaynaklarının ağırlıkları optimum değerleriyle belirlenmektedir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1027703034",
+      "title": "Eczacıbaşı Forecast POC",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1027703034",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:32:37.377Z",
+      "chunk_index": 14,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_POC_1044545587_0",
+    "content": "> Tip: Welcome to your new space\n> Use it to create something wonderful.\n> To start, you might want to:\n>\n>\n> Customise this overview using the edit icon at the top right of this page.\n>\n>\n> Create a new page by clicking the + in the space sidebar, then go ahead and fill it with plans, ideas, or anything else your heart desires.\n\n---\n\n> Info: Need inspiration?\n>\n>\n> Get a quick intro into what spaces are, and how to best use them at Confluence 101: organize your work in spaces.\n>\n>\n> Check out our guide for ideas on how to set up your space overview.\n>\n>\n> If starting from a blank space is daunting, try using one of the space templates instead.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1044545587",
+      "title": "POC Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1044545587",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-20T10:19:55.859Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_0",
+    "content": "Müşteriden alınan veri bir dizi aşamadan geçirilip istenen formata getirildikten sonra Makine Öğrenmesi tabanlı veya istatistiksel algoritmalar kullanılarak forecast yapılır. Genel iş akışını aşağıdaki 4 kategori altında özetleyebiliriz.\n\n- Veri Konsolidasyonu\n- Veri Yapısı Anlama, Temizleme ve Yapılandırma\n- Tahmin Altyapısının Oluşturulması\n- Tahmin Modeli Denemeleri ve Raporlanması\n\n#### Veri Konsolidasyonu",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 0,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_1",
+    "content": "hmin Altyapısının Oluşturulması\n- Tahmin Modeli Denemeleri ve Raporlanması\n\n#### Veri Konsolidasyonu\n\n- Alınan veri incelenip genel hatlarıyla analiz edilir.\n- Veride ürün grupları veya alt kategoriler varsa bunlar tespit edilir.\n- Forecast çalışması kapsamında ele alınacak featurelar belirlenir.\n- Bu süreçte müşteriyle de iletişim halinde olunarak gerekli teyitler alınır, forecast formatı belirlenir ve ham veri üzerinde yapılacak aggregationlar planlanır.\n- Forecast'in hangi zaman aralıklarını kapsaması gerektiği netleştirilir. Yapılacak aggregationların hangi zaman biriminde olacağı belirlenir. (günlük, haftalık, aylık gibi)\n- Alınan veriye ek olarak hangi veri kaynaklarından ne şekilde yararlanılabileceği araştırılır. Bu konuda müşterinin de fikri alınmalıdır.\n\n#### Veri Yapısı Anlama, Temizleme ve Yapılandırma",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 1,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_2",
+    "content": "ılır. Bu konuda müşterinin de fikri alınmalıdır.\n\n#### Veri Yapısı Anlama, Temizleme ve Yapılandırma\n\nİlk etapta veri manipülasyonları için kullanılacak teknolojiler belirlenmelidir. Invent Forecast POC çalışmalarında Python programlama dili ve library'leri kullanılmaktadır. Veri analizi ve manipülasyonu için Pandas library'sine, Machine Learning algoritmaları için de scikit-learn library'sine bakılabilir. Eğer gerek duyulursa veritabanı altyapısı hazır hale getirilmelidir.\n\nTeknolojiler belirlendikten sonra bu başlık altında yapılacak çalışmaların akışı aşağıdaki gibidir.\n\n#### 1) İkame Ürün Analizi",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 2,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_3",
+    "content": "sonra bu başlık altında yapılacak çalışmaların akışı aşağıdaki gibidir.\n\n#### 1) İkame Ürün Analizi\n\nAggregation yapılmadan önce İkame Ürün Analizi yapılmalıdır. İkame ürünler tespit edilip etiketlenmeli ve müşteriyle iletişime geçilerek alınacak aksiyonlar kararlaştırılmalıdır. Müşterinin de onayı alındığı takdirde bu ürünler tek bir ID altında toplanmalı ve bu ID üzerinden forecast'e dahil edilmelidir. Eczacıbaşı Forecast POC çalışmasında gözlemlenen bir ikame ürün örneği aşağıda görülebilir.\n\n#### 2) Kırılımlar Bazında Aggregation\n\nVeri, belirlenen kırılımlara uygun şekilde aggregate edilir. Aggregationlar, forecast kapsamında belirlenen zaman bazında yapılır. Müşteri aylık forecast istiyorsa yapılan aggregationlar da aylık olmalıdır. Örnek bir aggregation; X ürününün bütün kanalları için aylık toplam satış adedi ve ortalama kar marjı gibi.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 3,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_4",
+    "content": "ir aggregation; X ürününün bütün kanalları için aylık toplam satış adedi ve ortalama kar marjı gibi.\n\nİdeal senaryoda, alınan verideki tüm ürünlerin forecast kapsamında değerlendirilmesi gerekir fakat yine de müşteri ile iletişime geçilerek bu konuda bilgi alınmalı ve forecast kapsamında değerlendirilmeyecek ürünler varsa bunların listesi çıkarılmalıdır. Daha sonra bu ürünler ile ilgili silme veya etkisini sıfırlama gibi aksiyonlar alınmalıdır.\n\nForecast için referans kolon olarak unique ID'ler oluşturulur. Her ID bir DFU'yu (Demand Forecast Unit) belirtmektedir. Forecast, ID bazında yapılacaktır.\n\nID bazlı aggregation için aşağıdaki teknik kullanılabilir. Buradaki operasyonlar örnek teşkil etmekle birlikte forecast kapsamında değişiklik gösterebilir.\n\nNot: Kod örnekleri Python Pandas library'si üzerinden verilmektedir. ML model örnekleri için Python'ın farklı library'leri de kullanılmıştır.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 4,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_5",
+    "content": "si üzerinden verilmektedir. ML model örnekleri için Python'ın farklı library'leri de kullanılmıştır.\n\n```py\n# date: day, month, year gibi bir zaman birimini temsil etmektedir.\ndf = df.groupby(['ID', date]).agg({'quantity_sold': 'sum', 'unit_sale_price_of_an_item': 'mean'})\n```\n\n#### 3) Outlier Detection\n\nAggregation yapıldıktan sonra Outlier Detection - bir diğer ismiyle Anomaly Detection - çalışması yapılır. Çalışmaya başlamadan önce veri seti üzerinden descriptive istatistikler çıkarılmalıdır. İstatistikler üzerinden verideki tüm kolonlar spesifik olarak analiz edilir. Verinin dağılımı konusunda fikir vermesi ve outlierların gözlemlenebilmesi açısından plotting yapılarak grafikler çıkarılabilir. Plotting için Python'ın sunduğu elverişli libraryler bulunmaktadır. Bu libraryler bağlantılarıyla beraber aşağıda listelenmiştir.\n\n- Matplotlib\n- Plotly",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 5,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_6",
+    "content": "bulunmaktadır. Bu libraryler bağlantılarıyla beraber aşağıda listelenmiştir.\n\n- Matplotlib\n- Plotly\n\nOutlier çalışması yapılırken müşteriye muhakkak danışılmalıdır. Keza bu çalışma neticesinde kritik denebilecek veri kayıpları yaşanabilir. Outlier veriler tespit edildikten sonra müşteri bilgilendirilmeli ve belirlenen veriler üzerinde alınacak aksiyonlar kararlaştırılmalıdır. Eczacıbaşı Forecast POC çalışmasında yapı malzemeleri ürünleri içerisinde bulunan yedek parça ve hurda ürünlerinin outlier oldukları belirlenmiş ve müşteriyle iletişime geçilerek bu ürünlerin çıkarılması konusunda hemfikir olunmuştur.\n\n#### 4) Resampling\n\nOutlier Detection aşamasından sonra resampling çalışması yapılır. Resampling, verideki boş zamanları doldurmak için yapılan bir çalışmadır. Bir örneği aşağıda görülmektedir.\n\n```py\ndf = df.groupby(['ID']).resample('MS').agg({'quantity_sold': 'sum', 'unit_sale_price_of_an_item': 'mean'})\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 6,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_7",
+    "content": "oupby(['ID']).resample('MS').agg({'quantity_sold': 'sum', 'unit_sale_price_of_an_item': 'mean'})\n```\n\nBurada resampling yapılırken *MS* offset alias verilmiştir. Tüm opsiyonlar aşağıda listelenmiştir.\n\n```text\nAlias\t\tDescription",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 7,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_8",
+    "content": "en *MS* offset alias verilmiştir. Tüm opsiyonlar aşağıda listelenmiştir.\n\n```text\nAlias\t\tDescription\n\nB\t\t\tbusiness day frequency\nC\t\t\tcustom business day frequency\nD\t\t\tcalendar day frequency\nW\t\t\tweekly frequency\nM\t\t\tmonth end frequency\nSM\t\t\tsemi-month end frequency (15th and end of month)\nBM\t\t\tbusiness month end frequency\nCBM\t\t\tcustom business month end frequency\nMS\t\t\tmonth start frequency\nSMS\t\t\tsemi-month start frequency (1st and 15th)\nBMS\t\t\tbusiness month start frequency\nCBMS\t\tcustom business month start frequency\nQ\t\t\tquarter end frequency\nBQ\t\t\tbusiness quarter end frequency\nQS\t\t\tquarter start frequency\nBQS\t\t\tbusiness quarter start frequency\nA, Y\t\tyear end frequency\nBA, BY\t\tbusiness year end frequency\nAS, YS\t\tyear start frequency\nBAS, BYS\tbusiness year start frequency\nBH\t\t\tbusiness hour frequency\nH\t\t\thourly frequency\nT, min\t\tminutely frequency\nS\t\t\tsecondly frequency\nL, ms\t\tmilliseconds\nU, us\t\tmicroseconds\nN\t\t\tnanoseconds\n```",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 8,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_9",
+    "content": "inutely frequency\nS\t\t\tsecondly frequency\nL, ms\t\tmilliseconds\nU, us\t\tmicroseconds\nN\t\t\tnanoseconds\n```\n\nResampling yapıldiktan sonra *fillna* process'i ile aggregate kolonlar doldurulmalıdır. *fillna* ile beraber kullanılabilecek metotları (backfill, pad gibi) [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html) bağlantısından inceleyebilirsiniz.\n\n#### 5) Data Enrichment",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 9,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_10",
+    "content": "erence/api/pandas.DataFrame.fillna.html) bağlantısından inceleyebilirsiniz.\n\n#### 5) Data Enrichment\n\nVeri setini zenginleştirmek ve forecast sonuçlarını iyileştirmek için Data Enrichment çalışması yapılabilir. External kaynaklardan elde edilen featurelar var olan veri setine eklenir ve feature sayısı arttırılarak veri seti zenginleştirilmiş olur. Burada dikkat edilecek husus; bu kaynaklardan gelecek featureların ağırlıklarının doğru bir şekilde ayarlanması gerektiğidir. Bu kapsamda ağırlık optimizasyonu yapmak geliştiricinin görevlerinden bir tanesidir. Ayrıca resmi ve güvenilir kaynaklardan yararlanılmasına önem gösterilmelidir. Örnek olması açısından bu kapsamda kullanılabilecek bazı kaynaklar aşağıda listelenmiştir.\n\n- TÜİK Konut Satış Verisi\n- TCMB Döviz Kuru Verisi\n- TCMB Ortalama Mevduat Faiz Verisi\n- Müşteri Lokasyon Verisi: https://developers.google.com/maps/documentation/geocoding/start\n\n#### 6) Feature Extraction (Rolling)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 10,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_11",
+    "content": "tps://developers.google.com/maps/documentation/geocoding/start\n\n#### 6) Feature Extraction (Rolling)\n\nFeature Extraction yapmak için veri setindeki bir veya birden fazla kolon üzerinde rolling yapılabilir. Walk Forward Optimization tekniği rolling yapmak için etkili tekniklerden bir tanesidir. Prensibi, belirli bir kolon üzerinde shifting ve windowing yapılarak belirli aralıktaki ortalamaları hesaplamaya dayanır. Bu yöntemle elde edilen featurelar ile veri seti zenginleştirilmektedir. Bu tekniğin implementasyonu aşağıda görülmektedir.\n\n```py\n# quantity_sold kolonu üzerinde 12 aylık rolling yapılmaktadır.\nfor window in range(1, 13):\n        for shift in range(1, 13):\n            df['rolling_sales_' + str(shift) + '_' + str(window)] = df.groupby(['ID'])['quantity_sold'].transform(lambda x: x.shift(shift).rolling(window = window, min_periods = 1).mean())\n```\n\n#### 7) Moving Average Hesaplaması",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 11,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_12",
+    "content": "ift(shift).rolling(window = window, min_periods = 1).mean())\n```\n\n#### 7) Moving Average Hesaplaması\n\nTrain ve test verisinin başlangıç ve bitiş tarihleri belirlendikten sonra moving average hesabı yapılır. Moving average hesabı için train bitiş tarihi baz alınmalıdır. Dikkate alınan moving average aralığı çoğunlukla 1 aydan 12 aya kadardır (MA1 - MA12). Bu aralık veri setine göre değişiklik gösterebilir. Hesaplanan MA'lar ilerleyen safhalarda ML modeli oluşturulduktan sonra baz model olarak ele alınacak ve oluşturulan ML modelinin başarısını ölçmek için kullanılacaktır. Bu process için aşağıdaki teknik kullanılabilir.\n\n```py\nfrom datetime import datetime\nfrom dateutil.relativedelta import relativedelta\n\ndef create_df_ma(df, train_end_date):\n    end_date = datetime.strptime(train_end_date, '%Y-%m-%d')\n\n    new_df = df[['ID', 'year_month', 'quantity_sold']].reset_index()",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 12,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_13",
+    "content": "me(train_end_date, '%Y-%m-%d')\n\n    new_df = df[['ID', 'year_month', 'quantity_sold']].reset_index()\n\n    ma_frame = None\n    for i in range(1, 13):\n        start_date = str(end_date - relativedelta(months = i)).split(' ')[0]\n\n        df_ma = new_df[(new_df['year_month'] >= start_date) & (new_df['year_month'] <= end_date)] \\\n            .groupby(['ID']) \\\n            .agg({'quantity_sold': 'mean'})\n\n        df_ma.columns = ['ma_' + str(i)]\n\n        if ma_frame is None:\n            ma_frame = df_ma\n        else:\n            ma_frame = ma_frame.join(df_ma, how = 'outer')\n\n    ma_frame = ma_frame.fillna(0)\n\n    return ma_frame\n```\n\n#### Tahmin Altyapısının Oluşturulması\n\nVeri aggregate edilip istenen formata getirildikten sonra model oluşturma fazına geçilir. Best practice olarak birden fazla model oluşturulup ensemble teknikle bu modellerin sonuçları mergelenebilir. Böylece forecast sonuçları daha optimal değerlere ulaşabilmektedir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 13,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_14",
+    "content": "llerin sonuçları mergelenebilir. Böylece forecast sonuçları daha optimal değerlere ulaşabilmektedir.\n\nAşağıdaki modeller Invent Forecast projelerinde kullanılan modellerdir. Modeller hakkında genel bilgiler, örnek implementasyonları ve artı-eksileri ayrı ayrı ele alınmıştır.\n\n- XGBoost\n- Prophet\n\n#### 1) XGBoost\n\nXGBoost; bir gradient boosting implementasyonudur. Prensibi; cok sayıda tree modeli paralel olarak çalıştırıp (boosting) daha etkili bir model oluşturmaktır. Gradient Boosting ML problemlerinde oldukça sık tercih edilen bir yöntemdir. İyi performansının yanı sıra, parametreleriyle esnek bir biçimde oynanabilme imkanı da sağlamaktadır. [https://xgboost.readthedocs.io/en/latest/index.html](https://xgboost.readthedocs.io/en/latest/index.html)\n\nAlgoritma üzerinde hyper parameter tuning yapıldıktan sonra optimal değerler belirlenmelidir. Örnek bir parametre listesi aşağıda verilmiştir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 14,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_15",
+    "content": "yapıldıktan sonra optimal değerler belirlenmelidir. Örnek bir parametre listesi aşağıda verilmiştir.\n\n```py\nparam['objective'] = 'reg:linear'\nparam['eta'] = 0.1\nparam['max_depth'] = 3\nparam['silent'] = 1\nparam['eval_metric'] = \"rmse\"\nparam['min_child_weight'] = 1\nparam['subsample'] = 0.8\nparam['colsample_bytree'] = 0.8\nparam['seed'] = 0\nnum_rounds = best_iteration\n```\n\nİlk etapta veri dağılımı belirlenmeli ve buna göre uygun bir objektif seçimi yapılmalıdır. Örneğin verideki 0 ve null değerler baskınsa *tweedie* objektif seçmek gerekir. eval_metric seçimini yaparken verideki standart sapma göz önünde bulundurulmalıdır. Örneğin *rmse*(root mean square error), yüksek sapma gösteren tahminleri daha fazla cezalandırma özelliği göstermektedir. *rmse* dışında *mae* (mean absolute error) ve *map* (mean average precision) gibi farklı hata metrikleri de kullanılabilmektedir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 15,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_16",
+    "content": "solute error) ve *map* (mean average precision) gibi farklı hata metrikleri de kullanılabilmektedir.\n\n*max_depth*değeri ağaç derinliğinin ne kadar olması gerektiğini belirlemektedir. Bu değer ne kadar yükseltilirse modelin overfit olma ihtimali o ölçüde artmaktadır. *num_rounds*değerini belirlemek için init model oluşturulup *model_init.best_iteration*ile iterasyon sayısı belirlenmelidir.\n\nXGBoost modelini implemente etmek için aşağıdaki kod bloğu kullanılabilir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 16,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_17",
+    "content": "sayısı belirlenmelidir.\n\nXGBoost modelini implemente etmek için aşağıdaki kod bloğu kullanılabilir.\n\n```py\ndef runXGB(train_X, train_y, test_X, test_y=None, feature_names=None, seed_val=0, num_rounds=10000, objective=None):\n    param = {}\n    param['objective'] = 'reg:' + objective\n    param['eta'] = 0.1\n    param['max_depth'] = 3\n    param['silent'] = 1\n    param['eval_metric'] = \"rmse\"\n    param['min_child_weight'] = 1\n    param['subsample'] = 0.8\n    param['colsample_bytree'] = 0.8\n    param['seed'] = seed_val\n    # Init model oluşturulduktan sonra num_rounds için best_iteration belirlenmelidir.\n    num_rounds = num_rounds\n\n    plst = list(param.items())\n    xgtrain = xgb.DMatrix(train_X, label=train_y, missing=np.nan)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 17,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_18",
+    "content": "ds\n\n    plst = list(param.items())\n    xgtrain = xgb.DMatrix(train_X, label=train_y, missing=np.nan)\n\n    if test_y is not None:\n        xgtest = xgb.DMatrix(test_X, label=test_y)\n        watchlist = [ (xgtrain,'train'), (xgtest, 'test') ]\n\t\t# Modelin overfit olduğu belirlenirse early_stopping_rounds değeri azaltılmalıdır.\n        model = xgb.train(plst, xgtrain, num_rounds, watchlist, early_stopping_rounds=25)\n    else:\n        xgtest = xgb.DMatrix(test_X)\n        model = xgb.train(plst, xgtrain, num_rounds)\n\n    pred_test_y = model.predict(xgtest)\n\n    return pred_test_y, model\n```\n\n#### 2) Prophet\n\nProphet; Facebook Core Data Science ekibi tarafından geliştirilen bir time series based forecasting library'sidir. En büyük avantajlarından bir tanesi seasonality pattern'i başarılı bir şekilde yakalayabiliyor oluşudur. Missing ve outlier veriyi de handle edebilmektedir.\n\n[https://facebook.github.io/prophet/](https://facebook.github.io/prophet/)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 18,
+      "total_chunks": 20
+    }
+  },
+  {
+    "id": "confluence_POC_1047331107_19",
+    "content": "e handle edebilmektedir.\n\n[https://facebook.github.io/prophet/](https://facebook.github.io/prophet/)\n\nEczacıbaşı Forecast POC çalışmasında Prophet ile geliştirilen modelin sesonality pattern'i yakalama konusunda daha başarılı olduğu gözlemlenmiştir. Özellikle satışların daha düzenli olduğu ve quarter'lara dengeli bir şekilde yayıldığı Fransa gibi yurt dışı kanallarında bu model ile iyi sonuçlar alındığı görülmüştür. Bununla birlikte Türkiye gibi satışların genel olarak düzenli olmadığı ve peak'lerin fazla olduğu kanallarda ise Prophet çok smooth tahminler yapıp peakleri yakalayamazken; XGBoost daha keskin ve iyi tahminler yapabilmiştir.\n\n#### Tahmin Modeli Denemeleri ve Raporlanması\n\nGeliştirilen modeller ensemble teknikle mergelendikten sonra çıkarılan tahminler üzerinden mape (mean absolute percentage error) ve wmape (weighted mape) hesaplaması yapılır. Hesaplanan metriklerle baz modelin (moving averages) metrikleri compare edilir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "POC",
+      "space_name": "POC",
+      "page_id": "1047331107",
+      "title": "Genel Forecast Yaklaşımı",
+      "url": "https://invent.atlassian.net/wiki/spaces/POC/pages/1047331107",
+      "updated_by": "Emir Kılıç (Unlicensed)",
+      "updated_date": "2019-02-27T13:28:51.820Z",
+      "chunk_index": 19,
+      "total_chunks": 20
+    }
+  }
+]

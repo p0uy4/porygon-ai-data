@@ -1,0 +1,3442 @@
+[
+  {
+    "id": "confluence_UUD_3883073895_0",
+    "content": "Welcome to your new space!Spaces help your team structure, organize, and share work, so every team member has visibility into institutional knowledge and access to the information they need to do their best work.\n## What are design principles?\n\n# Get started with the basics\n\nStart editing this page:\n\n11\nincomplete\nClick the pencil icon ✏️ or `e` on your keyboard to edit and start typing. You can edit anywhere.\n\n13\nincomplete\nHit `/` to see all the types of content you can add to your page. Try `/image` or `/table`\n\n14\nincomplete\nUse the toolbar at the top to play around with *font*, colors, formatting, and more\n\n15\nincomplete\nClick `close` to save your draft or `publish` when your page is ready to be shared\n\n#### 🪄 Need some inspiration?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "3883073895",
+      "title": "UI/ UX Design Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/3883073895",
+      "updated_by": "Orhan Ata (Unlicensed)",
+      "updated_date": "2023-09-29T13:21:46.515Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_UUD_3883073895_1",
+    "content": "to save your draft or `publish` when your page is ready to be shared\n\n#### 🪄 Need some inspiration?\n\n- Check out our Confluence best practices guide.\n- Get a quick intro into what spaces are and how to best use them at Set up your site and spaces.\n- Check out our guide for ideas on how to set up your space overview.\n- If starting from a blank space is daunting, try using one of the space templates instead.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "3883073895",
+      "title": "UI/ UX Design Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/3883073895",
+      "updated_by": "Orhan Ata (Unlicensed)",
+      "updated_date": "2023-09-29T13:21:46.515Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_UUD_4134502401_0",
+    "content": "As you know, we use Figma as a design program in our UI/UX works. I am leaving some notes for anyone who wants to contribute during the design phase.\n\n1. If you visit https://www.figma.com/  and log in with your Invent account, you can access all the design links we share without any problem. It is also necessary to use functions such as leaving comments on designs.\n2. When you open a prototype link, you can quickly access the different flows within design by clicking the Flows button on the top left corner of the page. In the screenshot below, if you want to examine step 3, you can click on the flow and view it without going through all the steps one by one.\n\n1. You can quickly leave feedback on designs with the comment button on top left corner of the screen. You can see the comments made before from the panel on right side of the screen. Please proceed by checking previous comments to avoid confusion by writing similar comments again. You can also reply to a comment.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4134502401",
+      "title": "Figma Usage To Review UI/UX",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4134502401",
+      "updated_by": "Orhan Ata (Unlicensed)",
+      "updated_date": "2024-04-05T13:09:42.585Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_UUD_4134502401_1",
+    "content": "ious comments to avoid confusion by writing similar comments again. You can also reply to a comment.\n\n1. If you have problems such as design not fitting on the screen or clickable areas being under the Figma interface, you can use display options from the Options button in upper right corner of the screen. Actual Size 100% is the best of all options. But if you are using a small screen, Fit Width option is also useful. If clickable areas are under the Figma UI, you can deselect Show Figma UI option.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4134502401",
+      "title": "Figma Usage To Review UI/UX",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4134502401",
+      "updated_by": "Orhan Ata (Unlicensed)",
+      "updated_date": "2024-04-05T13:09:42.585Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_0",
+    "content": "UX FlowPrototypeDesign File (For Dev.)1AdHoc Run Listhttps://www.figma.com/proto/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?page-id=781%3A29733&node-id=1341-46941&node-type=frame&viewport=254%2C268%2C0.11&t=4ARnitUneRYxZGWD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1341%3A46941&show-proto-sidebar=1 https://www.figma.com/design/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?node-id=781-29733&t=ap0gSaoBxhcFIkT1-1 https://www.figma.com/design/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?node-id=80-13095&t=ap0gSaoBxhcFIkT1-1 2Create AdHoc Run https://www.figma.com/proto/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?page-id=80%3A13095&node-id=242-44178&node-type=frame&viewport=405%2C1101%2C0.07&t=D6ZQLV8sMwAX8Nsy-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=242%3A44178&show-proto-sidebar=1 https://www.figma.com/design/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?node-id=80-13095&t=ap0gSaoBxhcFIkT1-1 3Create AdHoc Run - Planning Levelhttps://www.figma.com/p",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 0,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_1",
+    "content": "ted)?node-id=80-13095&t=ap0gSaoBxhcFIkT1-1 3Create AdHoc Run - Planning Levelhttps://www.figma.com/proto/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?page-id=80%3A13095&node-id=9071-21113&node-type=frame&viewport=405%2C1101%2C0.07&t=D6ZQLV8sMwAX8Nsy-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=9071%3A21113&show-proto-sidebar=1 https://www.figma.com/design/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?node-id=80-13095&t=ap0gSaoBxhcFIkT1-1 4Order Releasehttps://www.figma.com/proto/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?page-id=7278%3A69502&node-id=7688-137807&node-type=frame&viewport=784%2C-1839%2C0.43&t=35YI2kFWZCQxQob8-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7688%3A137807&show-proto-sidebar=1 https://www.figma.com/design/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?node-id=7278-69502&t=ap0gSaoBxhcFIkT1-1 5AdHoc Run Resulthttps://www.figma.com/proto/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?page-id=519%3A13540&node-id=857-38817&node-type=fra",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 1,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_2",
+    "content": "roto/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?page-id=519%3A13540&node-id=857-38817&node-type=frame&viewport=750%2C757%2C0.14&t=OzSA4Ox0hPffPJvw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=857%3A38817 https://www.figma.com/design/1vonUziLBOxtdgivp2uaG4/Allocation-(Updated)?node-id=519-13540&t=ap0gSaoBxhcFIkT1-1 6Seasonal (In-season, pre-season) Dashboardshttps://www.figma.com/proto/QesdNEOE1WqEpUQS7nAte8/Allocation-Seasonal-Dashboard?page-id=&node-id=1180-50915&node-type=frame&viewport=1108%2C319%2C0.05&t=JtY8coyT89akDhuW-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1180%3A50915 https://www.figma.com/design/QesdNEOE1WqEpUQS7nAte8/Allocation-Seasonal-Dashboard?node-id=497-6657&t=CyqV9XRJezDbtdwT-1 UX FlowPrototypeDesign File (For Dev.)1PO Reallocation All Flowhttps://www.figma.com/proto/NbjDNT2XKNSGMmybV5lVzs/PO-Reallocation?page-id=1831%3A63351&node-id=7238-27686&node-type=canvas&viewport=394%2C933%2C0.06&t=BEPJUIdnmat3LUMi-1&scaling=min-zoom&c",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 2,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_3",
+    "content": "ode-id=7238-27686&node-type=canvas&viewport=394%2C933%2C0.06&t=BEPJUIdnmat3LUMi-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7238%3A27686&show-proto-sidebar=1 https://www.figma.com/design/NbjDNT2XKNSGMmybV5lVzs/PO-Reallocation?node-id=1831-63351&node-type=canvas&t=N2Q9sp2WL3HXqkUe-11 PrototypeDesign File (For Dev.)1Store RPL Ordershttps://www.figma.com/proto/7zyDb5pFJMw48JncvJFLdG/Store-Replenishment?node-id=0-1&t=TGUupMDENoSbQiaD-1 https://www.figma.com/design/7zyDb5pFJMw48JncvJFLdG/Store-Replenishment?node-id=0-1&m=dev&t=TGUupMDENoSbQiaD-1 2Manual Orders (Updated)https://www.figma.com/proto/7zFEFM0Hk8qwEP76A8QQw4/Manual-Orders?page-id=&node-id=13159-65696&viewport=-25937%2C415%2C0.56&t=nXt5pxEBbXFiuL0W-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=13159%3A65696&show-proto-sidebar=1 https://www.figma.com/design/7zFEFM0Hk8qwEP76A8QQw4/Manual-Orders?node-id=8582-9266&t=VzPlIgqdxrAD9WaT-1 3DC-RPL/ Order Grouphttps://www.figma.com/proto/xBtEc3gYC5B2LFn",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 3,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_4",
+    "content": "de-id=8582-9266&t=VzPlIgqdxrAD9WaT-1 3DC-RPL/ Order Grouphttps://www.figma.com/proto/xBtEc3gYC5B2LFna7wIskV/DC-Replenishment?node-id=320-117658&t=AkNG50sOCTSnyX6T-1 https://www.figma.com/design/xBtEc3gYC5B2LFna7wIskV/DC-Replenishment?node-id=320-117658&m=dev&t=AkNG50sOCTSnyX6T-1 4DC-RPL/Order Schedulehttps://www.figma.com/proto/xBtEc3gYC5B2LFna7wIskV/DC-Replenishment?node-id=0-1&t=AkNG50sOCTSnyX6T-1 https://www.figma.com/design/xBtEc3gYC5B2LFna7wIskV/DC-Replenishment?node-id=0-1&m=dev&t=AkNG50sOCTSnyX6T-1 5Control Towerhttps://www.figma.com/proto/wy7bYHtQieokhpQrKrvzZp/Demo-Flow?page-id=2301%3A76150&node-id=2301-76982&node-type=frame&viewport=-513%2C-655%2C0.26&t=yJrmNuTekWIYJzMz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2301%3A76982 https://www.figma.com/design/wy7bYHtQieokhpQrKrvzZp/Demo-Flow?node-id=2301-76150&node-type=canvas&t=mdWx19HyLtCDO2bV-11 6Alerts Reviewhttps://www.figma.com/proto/wy7bYHtQieokhpQrKrvzZp/Demo-Flow?page-id=1547%3A67862&node-id=4159-16512",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 4,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_5",
+    "content": "https://www.figma.com/proto/wy7bYHtQieokhpQrKrvzZp/Demo-Flow?page-id=1547%3A67862&node-id=4159-16512&node-type=frame&viewport=-912%2C357%2C0.2&t=iM3HILNKzM3FhwZK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4159%3A16512 https://www.figma.com/design/wy7bYHtQieokhpQrKrvzZp/Demo-Flow?node-id=1547-67862&node-type=canvas&t=mdWx19HyLtCDO2bV-11 PrototypeDesign File (For Dev.)1Forecast Reviewhttps://www.figma.com/proto/wV0oTe1NWhowvUvnOIcmnQ/Forecast?page-id=961%3A601&node-id=966-4324&node-type=frame&viewport=968%2C429%2C0.45&t=KKhxNZsFiGSAyzXq-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=966%3A4324 https://www.figma.com/design/wV0oTe1NWhowvUvnOIcmnQ/Forecast?node-id=961-601&node-type=canvas&t=F5XnZP3wmAyancqi-11 2Forecast Edithttps://www.figma.com/proto/wV0oTe1NWhowvUvnOIcmnQ/Forecast?page-id=0%3A1&node-id=966-3177&node-type=frame&viewport=-976%2C-209%2C0.25&t=LrhQBcv4Yg3gQERX-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=966%3A3177 http",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 5,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_6",
+    "content": "5&t=LrhQBcv4Yg3gQERX-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=966%3A3177 https://www.figma.com/design/wV0oTe1NWhowvUvnOIcmnQ/Forecast?node-id=0-1&node-type=canvas&t=F5XnZP3wmAyancqi-11 PrototypeDesign File (For Dev.)1All Tabshttps://www.figma.com/proto/pqRuU0JIKmf3K4keLd4Dlo/Forecast-Enrich-Updated?node-id=937-11458&t=36WaFRqLLFWTMB61-1 https://www.figma.com/design/pqRuU0JIKmf3K4keLd4Dlo/Forecast-Enrich-Updated?node-id=937-11458&m=dev&t=36WaFRqLLFWTMB61-1 2New Updated Flowhttps://www.figma.com/proto/pqRuU0JIKmf3K4keLd4Dlo/Forecast-Enrich-Updated?page-id=3033%3A18747&node-id=3121-4171&node-type=frame&viewport=815%2C107%2C0.13&t=eUXVzU0JbKhTOEXi-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3121%3A4171 https://www.figma.com/design/pqRuU0JIKmf3K4keLd4Dlo/Forecast-Enrich-Updated?node-id=3033-18747&t=BRYDntvLTo9I9O6l-1 PrototypeDesign File (For Dev.)1Control Towerhttps://www.figma.com/proto/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=4855-3",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 6,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_7",
+    "content": "ontrol Towerhttps://www.figma.com/proto/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=4855-3288&t=H6WaOqTUYW6KqfMa-1 https://www.figma.com/design/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=4855-3288&m=dev&t=H6WaOqTUYW6KqfMa-1 2Create Promotion Runhttps://www.figma.com/proto/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=80-13095&t=H6WaOqTUYW6KqfMa-1 https://www.figma.com/design/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=80-13095&m=dev&t=H6WaOqTUYW6KqfMa-1 3Run Listhttps://www.figma.com/proto/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=781-29733&t=H6WaOqTUYW6KqfMa-1 https://www.figma.com/design/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=781-29733&m=dev&t=H6WaOqTUYW6KqfMa-1 4Run Resulthttps://www.figma.com/proto/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?page-id=4684%3A2664&node-id=4715-2735&node-type=frame&viewport=790%2C342%2C0.25&t=DyQURBUzKE2rhuSu-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4715%3A2735&s",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 7,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_8",
+    "content": ".25&t=DyQURBUzKE2rhuSu-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4715%3A2735&show-proto-sidebar=1 https://www.figma.com/design/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=4684-2664&t=KYrnRJy4pHtm6m1E-1 5Rule Groupshttps://www.figma.com/proto/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=6426-14771&t=H6WaOqTUYW6KqfMa-1 https://www.figma.com/design/1pkciu0ZUYXFZDrbEvm8gG/Promotion-Optimization?node-id=6426-14771&m=dev&t=H6WaOqTUYW6KqfMa-1 6Marketing Calendarhttps://www.figma.com/proto/mVsbe4dOUktWZvk3oZ5pc5/Promo-Plan?node-id=7352-290242&t=lIEdBR4eK0UBazJi-1 https://www.figma.com/design/mVsbe4dOUktWZvk3oZ5pc5/Promo-Plan?node-id=7352-290242&m=dev&t=lIEdBR4eK0UBazJi-1 7All Calendar Flowhttps://www.figma.com/proto/mVsbe4dOUktWZvk3oZ5pc5/Promo-Plan?node-id=7622-211120&t=lIEdBR4eK0UBazJi-1 https://www.figma.com/design/mVsbe4dOUktWZvk3oZ5pc5/Promo-Plan?node-id=7622-211120&m=dev&t=lIEdBR4eK0UBazJi-1 PrototypeDesign File (For Dev.)1Create Newhttps://www.fi",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 8,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_9",
+    "content": "e-id=7622-211120&m=dev&t=lIEdBR4eK0UBazJi-1 PrototypeDesign File (For Dev.)1Create Newhttps://www.figma.com/proto/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=0-1&t=nkOSW94lgPslrU41-1 https://www.figma.com/design/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=0-1&m=dev&t=nkOSW94lgPslrU41-1 2Expanded Selectionhttps://www.figma.com/proto/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=2493-21737&t=nkOSW94lgPslrU41-1 https://www.figma.com/design/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=2493-21737&m=dev&t=nkOSW94lgPslrU41-1 3Resolved Configurationshttps://www.figma.com/proto/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=2886-32317&t=nkOSW94lgPslrU41-1 https://www.figma.com/design/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=2886-32317&m=dev&t=nkOSW94lgPslrU41-1 4Large Data Displayhttps://www.figma.com/proto/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?page-id=3473%3A58257&node-id=3531-54827&node-type=frame&viewport=1471%2C4",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 9,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_10",
+    "content": "N/Parameter-Configurations?page-id=3473%3A58257&node-id=3531-54827&node-type=frame&viewport=1471%2C445%2C0.19&t=3gvc94ye1ml9TFdu-1&scaling=min-zoom&content-scaling=fixed https://www.figma.com/design/TDf0cR8CxluwfzV5vJD8bN/Parameter-Configurations?node-id=3473-58257&t=Cpa3aXa7rhRBVgJz-1 UX FlowPrototypeDesign File (For Dev.)1Actual Sales Analysishttps://www.figma.com/proto/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?page-id=2706%3A19735&node-id=2706-19737&node-type=frame&viewport=546%2C162%2C0.05&t=m0NzbC1cbg6PCUUw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2706%3A19737&show-proto-sidebar=1 https://www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=2706-19736&node-type=section&t=hKGdayJ45QWRbcYf-11 2Range Planhttps://www.figma.com/proto/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?page-id=2706%3A19735&node-id=2706-22197&node-type=frame&viewport=546%2C162%2C0.05&t=m0NzbC1cbg6PCUUw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2706%3A22197&show-proto-sidebar=1 https:/",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 10,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_11",
+    "content": "ling=min-zoom&content-scaling=fixed&starting-point-node-id=2706%3A22197&show-proto-sidebar=1 https://www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=4120-38363&node-type=section&t=hKGdayJ45QWRbcYf-11 3Range Plan By Clusters (WIP)https://www.figma.com/proto/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?page-id=2706%3A19735&node-id=4962-35056&node-type=frame&viewport=546%2C162%2C0.05&t=m0NzbC1cbg6PCUUw-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4962%3A35056&show-proto-sidebar=1 https://www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=4962-35055&node-type=section&t=hKGdayJ45QWRbcYf-11 4Product Galleryhttps://www.figma.com/proto/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?page-id=2706%3A19735&node-id=4157-34682&node-type=frame&viewport=546%2C162%2C0.05&t=m0NzbC1cbg6PCUUw-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4157%3A34682&show-proto-sidebar=1 https://www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=4164-51128&node-type=section&t=hKGdayJ45",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 11,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_12",
+    "content": "www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=4164-51128&node-type=section&t=hKGdayJ45QWRbcYf-11 5Style-Color Planhttps://www.figma.com/proto/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?page-id=4078%3A43036&node-id=4279-84139&node-type=frame&viewport=43%2C7%2C0.09&t=Tkfls07kCbM0RgNY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4279%3A84139&show-proto-sidebar=1 https://www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=4078-43036&node-type=canvas&t=hKGdayJ45QWRbcYf-11 6Merchandise Financial Planhttps://www.figma.com/proto/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?page-id=984%3A33448&node-id=1114-30424&node-type=frame&viewport=198%2C476%2C0.07&t=oQeNS8JriCari06j-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1114%3A30424&show-proto-sidebar=1 https://www.figma.com/design/CxYftrrH45R9U1gBo4pz6c/MAP-MFP?node-id=984-33448&node-type=canvas&t=hKGdayJ45QWRbcYf-11 UX FlowPrototypeDesign File (For Dev.)1NRF25'/Control Tower/Case Filteringhttps://www.figma.com/pr",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 12,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_13",
+    "content": "1 UX FlowPrototypeDesign File (For Dev.)1NRF25'/Control Tower/Case Filteringhttps://www.figma.com/proto/TIiOq8GB3SsMlhBMzXmoWa/GenAI?page-id=331%3A95861&node-id=821-99573&node-type=frame&viewport=1112%2C142%2C0.09&t=ty1Be3yERFOzka2n-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=821%3A99573&show-proto-sidebar=1 https://www.figma.com/design/TIiOq8GB3SsMlhBMzXmoWa/GenAI?node-id=331-95861&t=3IGqOQ1ZOYpj4OVo-1 2NRF25'/Control Tower/Common Promptshttps://www.figma.com/proto/TIiOq8GB3SsMlhBMzXmoWa/GenAI?page-id=331%3A95861&node-id=1045-66164&node-type=frame&viewport=1112%2C142%2C0.09&t=ty1Be3yERFOzka2n-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1045%3A66164&show-proto-sidebar=1 https://www.figma.com/design/TIiOq8GB3SsMlhBMzXmoWa/GenAI?node-id=331-95861&t=3IGqOQ1ZOYpj4OVo-1 3Extreme Weather & Eventshttps://www.figma.com/proto/TIiOq8GB3SsMlhBMzXmoWa/GenAI?page-id=1954%3A261402&node-id=1954-264341&viewport=225%2C343%2C0.23&t=WyEQ5Hcly4alslYi-1&scaling=s",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 13,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_4440490033_14",
+    "content": "I?page-id=1954%3A261402&node-id=1954-264341&viewport=225%2C343%2C0.23&t=WyEQ5Hcly4alslYi-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1954%3A264341 https://www.figma.com/design/TIiOq8GB3SsMlhBMzXmoWa/GenAI?node-id=1954-261402&t=SFxipir6YjOA6Nkg-1 4Image Attributionhttps://www.figma.com/proto/TIiOq8GB3SsMlhBMzXmoWa/GenAI?page-id=2031%3A28236&node-id=2584-112807&p=f&viewport=-1247%2C4436%2C0.29&t=Ipp30D5YSD8NRYdS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2584%3A112807 https://www.figma.com/design/TIiOq8GB3SsMlhBMzXmoWa/GenAI?node-id=2031-28236&t=SFxipir6YjOA6Nkg-1",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "4440490033",
+      "title": "Figma Links",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/4440490033",
+      "updated_by": "İlknur Hide Ersoy",
+      "updated_date": "2025-06-03T07:53:22.128Z",
+      "chunk_index": 14,
+      "total_chunks": 15
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_0",
+    "content": "Entity Groups are the foundationalelement across virtually all our solutions and processes. While they have been instrumental in simplifying operations, an urgent reassessment of their current structure is necessary to unlock the next level of efficiency and collaboration.\n\n### Current State and Core Challenge\n\nBy default, all Entity Groups are currently set to private. This configuration restricts usage and modification exclusively to the creator, necessitating manual sharing for broader accessibility.\n\nThis default privacy model introduces significant friction:\n\n- Access Constraints: When a group is manually shared, a recipient's pre-existing restrictions supersede the group's contents. They can only view, edit, or utilize the items within the group to which they already possess individual access rights.\n- Administrative Overhead: The requirement for manual, one-off sharing creates unnecessary administrative burden and leads to inconsistent access across teams.\n\n### Path Forward",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 0,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_1",
+    "content": "s unnecessary administrative burden and leads to inconsistent access across teams.\n\n### Path Forward\n\nThe subsequent sections outline critical use cases, document the problems this structure creates, and propose targeted solutions.\n\nNote:This document is designed to initiate a strategic discussion and define the core principles for the revised Entity Group roadmap. It is not the final implementation plan.\n\n## Creating an Entity Group\n\n#### Current Flow\n\nGroup creation is initiated by selecting the 'Create New Group' tab. After filling in required fields and applying filters, the user must save the group.\n\n- All groups are currently private by default.\n- The owner/creator retains exclusive control and full permissions.\n- The owner must explicitly share the group to grant access.\n- Users granted access can edit, delete, and apply the group on other screens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 1,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_2",
+    "content": "screens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 2,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_3",
+    "content": "screens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 3,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_4",
+    "content": "creens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 4,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_5",
+    "content": "reens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 5,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_6",
+    "content": "eens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 6,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_7",
+    "content": "ens.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 7,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_8",
+    "content": "ns.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 8,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_9",
+    "content": "s.\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 9,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_10",
+    "content": ".\n- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 10,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_11",
+    "content": "- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 11,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_12",
+    "content": "- No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 12,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_13",
+    "content": "No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 13,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_14",
+    "content": "No other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 14,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_15",
+    "content": "o other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 15,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_16",
+    "content": "other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 16,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_17",
+    "content": "other users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 17,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_18",
+    "content": "ther users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 18,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_19",
+    "content": "her users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 19,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_20",
+    "content": "er users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 20,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_21",
+    "content": "r users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 21,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_22",
+    "content": "users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 22,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_23",
+    "content": "users can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 23,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_24",
+    "content": "sers can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 24,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_25",
+    "content": "ers can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 25,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_26",
+    "content": "rs can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 26,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_27",
+    "content": "s can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 27,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_28",
+    "content": "can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 28,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_29",
+    "content": "can view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 29,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_30",
+    "content": "an view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 30,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_31",
+    "content": "n view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 31,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_32",
+    "content": "view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 32,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_33",
+    "content": "view or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 33,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_34",
+    "content": "iew or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 34,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_35",
+    "content": "ew or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 35,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_36",
+    "content": "w or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 36,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_37",
+    "content": "or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 37,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_38",
+    "content": "or utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 38,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_39",
+    "content": "r utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 39,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_40",
+    "content": "utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 40,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_41",
+    "content": "utilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 41,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_42",
+    "content": "tilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 42,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_43",
+    "content": "ilize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 43,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_44",
+    "content": "lize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 44,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_45",
+    "content": "ize the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 45,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_46",
+    "content": "ze the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 46,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_47",
+    "content": "e the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 47,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_48",
+    "content": "the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 48,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_49",
+    "content": "the group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 49,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_50",
+    "content": "he group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 50,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_51",
+    "content": "e group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 51,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_52",
+    "content": "group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 52,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_53",
+    "content": "group on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 53,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_54",
+    "content": "roup on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 54,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_55",
+    "content": "oup on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 55,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_56",
+    "content": "up on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 56,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_57",
+    "content": "p on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 57,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_58",
+    "content": "on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 58,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_59",
+    "content": "on any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 59,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_60",
+    "content": "n any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 60,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_61",
+    "content": "any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 61,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_62",
+    "content": "any screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 62,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_63",
+    "content": "ny screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 63,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_64",
+    "content": "y screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 64,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_65",
+    "content": "screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 65,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_66",
+    "content": "screen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 66,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_67",
+    "content": "creen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 67,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_68",
+    "content": "reen.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 68,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_69",
+    "content": "een.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 69,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_70",
+    "content": "en.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 70,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_71",
+    "content": "n.\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 71,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_72",
+    "content": ".\n\n#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 72,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_73",
+    "content": "#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 73,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_74",
+    "content": "#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 74,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_75",
+    "content": "#### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 75,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_76",
+    "content": "### Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 76,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_77",
+    "content": "## Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 77,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_78",
+    "content": "# Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 78,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_79",
+    "content": "Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 79,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_80",
+    "content": "Issues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 80,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_81",
+    "content": "ssues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 81,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_82",
+    "content": "sues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 82,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_83",
+    "content": "ues of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 83,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_84",
+    "content": "es of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 84,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_85",
+    "content": "s of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 85,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_86",
+    "content": "of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 86,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_87",
+    "content": "of Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 87,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_88",
+    "content": "f Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 88,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_89",
+    "content": "Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 89,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_90",
+    "content": "Current Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 90,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_91",
+    "content": "urrent Flow",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 91,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_92",
+    "content": "1. Side Effects After Group Update: A single group can be used across multiple products. When the group content is updated, it causes unexpected side effects across modules.\n2. Parameter Access Errors: Users without group access receive errors when trying to view parameters scoped with these groups.\n3. Execution Failures Due to Missing Group Items: Group content becomes inconsistent when master data items are deleted or changed. Runs or parameter operations fail because groups reference missing entities.\n4. Dynamic Group Content Changes Due to Master Data Changes: Groups are dynamically generated based on master data. When master data changes, group content also changes, causing loss of previously defined scopes.\n5. Difficulty Identifying Group Usage Across Products: It is hard to analyze where a group is used and which product areas it affects. Groups are shared across multiple modules without a unified visibility layer, making impact analysis and debugging complex.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 92,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_93",
+    "content": "s multiple modules without a unified visibility layer, making impact analysis and debugging complex.\n6. Unnecessary Group Creation for Single Product/Store Scenarios: Some users create a group even when they only need to select a single product or store. In these cases, a group is not required, yet users still create one to proceed. This adds unnecessary load to the system and increases the number of groups that must be stored, maintained, and authorized.\n7. Retention of Unused or Obsolete Groups: Many groups created in the past are no longer needed, but they remain stored indefinitely. This increases system load, causes clutter in dropdowns, complicates authorization logic, and makes it harder for users to find active groups.\n8. Hidden Entities: Users can only see the items they have access to in the group details. They don’t know there are other items in the group. There is no indication in this step about their restrictions.\n\n#### Proposed Mandates and Revisions",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 93,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_94",
+    "content": "There is no indication in this step about their restrictions.\n\n#### Proposed Mandates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 94,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_95",
+    "content": "ed Mandates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 95,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_96",
+    "content": "d Mandates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 96,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_97",
+    "content": "Mandates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 97,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_98",
+    "content": "Mandates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 98,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_99",
+    "content": "andates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 99,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_100",
+    "content": "ndates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 100,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_101",
+    "content": "dates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 101,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_102",
+    "content": "ates and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 102,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_103",
+    "content": "tes and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 103,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_104",
+    "content": "es and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 104,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_105",
+    "content": "s and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 105,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_106",
+    "content": "and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 106,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_107",
+    "content": "and Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 107,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_108",
+    "content": "nd Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 108,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_109",
+    "content": "d Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 109,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_110",
+    "content": "Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 110,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_111",
+    "content": "Revisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 111,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_112",
+    "content": "evisions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 112,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_113",
+    "content": "visions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 113,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_114",
+    "content": "isions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 114,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_115",
+    "content": "sions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 115,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_116",
+    "content": "ions\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 116,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_117",
+    "content": "ons\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 117,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_118",
+    "content": "ns\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 118,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_119",
+    "content": "s\n\nThese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 119,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_120",
+    "content": "These changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 120,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_121",
+    "content": "These changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 121,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_122",
+    "content": "These changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 122,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_123",
+    "content": "hese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 123,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_124",
+    "content": "ese changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 124,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_125",
+    "content": "se changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 125,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_126",
+    "content": "e changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 126,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_127",
+    "content": "changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 127,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_128",
+    "content": "changes can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 128,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_129",
+    "content": "hanges can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 129,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_130",
+    "content": "anges can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 130,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_131",
+    "content": "nges can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 131,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_132",
+    "content": "ges can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 132,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_133",
+    "content": "es can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 133,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_134",
+    "content": "s can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 134,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_135",
+    "content": "can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 135,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_136",
+    "content": "can be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 136,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_137",
+    "content": "an be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 137,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_138",
+    "content": "n be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 138,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_139",
+    "content": "be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 139,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_140",
+    "content": "be discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 140,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_141",
+    "content": "e discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 141,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_142",
+    "content": "discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 142,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_143",
+    "content": "discussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 143,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_144",
+    "content": "iscussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 144,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_145",
+    "content": "scussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 145,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_146",
+    "content": "cussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 146,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_147",
+    "content": "ussed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 147,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_148",
+    "content": "ssed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 148,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_149",
+    "content": "sed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 149,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_150",
+    "content": "ed to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 150,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_151",
+    "content": "d to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 151,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_152",
+    "content": "to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 152,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_153",
+    "content": "to streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 153,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_154",
+    "content": "o streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 154,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_155",
+    "content": "streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 155,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_156",
+    "content": "streamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 156,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_157",
+    "content": "treamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 157,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_158",
+    "content": "reamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 158,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_159",
+    "content": "eamline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 159,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_160",
+    "content": "amline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 160,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_161",
+    "content": "mline access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 161,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_162",
+    "content": "line access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 162,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_163",
+    "content": "ine access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 163,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_164",
+    "content": "ne access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 164,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_165",
+    "content": "e access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 165,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_166",
+    "content": "access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 166,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_167",
+    "content": "access and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 167,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_168",
+    "content": "ccess and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 168,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_169",
+    "content": "cess and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 169,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_170",
+    "content": "ess and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 170,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_171",
+    "content": "ss and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 171,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_172",
+    "content": "s and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 172,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_173",
+    "content": "and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 173,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_174",
+    "content": "and group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 174,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_175",
+    "content": "nd group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 175,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_176",
+    "content": "d group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 176,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_177",
+    "content": "group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 177,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_178",
+    "content": "group management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 178,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_179",
+    "content": "roup management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 179,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_180",
+    "content": "oup management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 180,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_181",
+    "content": "up management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 181,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_182",
+    "content": "p management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 182,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_183",
+    "content": "management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 183,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_184",
+    "content": "management:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 184,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_185",
+    "content": "1. Default Access: All entity groups will be created as Public by default. This is the initial setting.\n2. Solution Binding: Each entity group can be bound to a specific solution. All users associated with that selected solution will automatically have full access (view, edit, delete) to the group.\n3. Private Group Option: Users can create private groups when necessary. A mandatory switch will be integrated into the 'Create New Group' interface to override the default public setting.\n4. Controlled Public Sharing: Owners can override the default full-access setting by making the group public and marking it as 'View Only' for all general users. The owner can then grant explicit edit access to selected users.\n5. Transparent Information Flow: If we can inform users when they have a restriction for some items in the group, how will that affect their process, etc.. users can adjust their workflows accordingly.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 185,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_186",
+    "content": "n the group, how will that affect their process, etc.. users can adjust their workflows accordingly.\n6. Historical Usage Data Display: We can show users the processes which use the group with dates and run/configuration IDs.\n7. Limiting the Number of Items: There must be a minimum number of entities in the group. Users tend to create groups for 1-3 entities. We should limit this number to 10.\n8. Auto-Delete Unused Groups: We can delete the unused or obsolete groups automatically after 30 days from detection. We can show an alert to the user stating that we detected unused groups and we will delete them after 30 days, so they can act accordingly.\n9. Clear Indication of Restrictions: In Group Detail Screen users should be informed that they cannot see all items in this group because of their restrictions.\n\n[https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693276187](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693276187)\n## Entity Group Usage In Runs",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 186,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_187",
+    "content": "7](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693276187)\n## Entity Group Usage In Runs\n\n### Run Creation\n\nAll users must select a run scope before initiating a new run. Entity groups are the primary and most common scope selection for all run operations. The user's access level and any imposed restrictions determine the entire lifecycle of the run, from creation to results management.\n\nUnrestricted User Access\n\nWhen a user has no restrictions:\n\n- The user will view all accessible entity groups within the dropdown menu.\n- The user can create the run by selecting one or more of these groups.\n- The user will access and edit the complete and unfiltered run results upon completion.\n\nRestricted User Access\n\nWhen a user has restrictions:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 187,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_188",
+    "content": "e and unfiltered run results upon completion.\n\nRestricted User Access\n\nWhen a user has restrictions:\n\n- The user will view all accessible entity groups within the dropdown menu.\n- The user will create the run by selecting one or more groups.\n- Crucially, the system will filter the scope:The run will execute using the items which user has access to and remaining items will be discardedThe user then will see and edit the results of the runUser needs to be informed about this change in scope\n\nNo Entity Groups Available\n\nIf a user has no entity groups created by them or shared with them:\n\n- The entity group dropdown will display no available groups.\n- The user must navigate directly to the 'Create New Group' tab under the Product Store Groups screen to establish a new entity group before proceeding.\n\nProposed Solution",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 188,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_189",
+    "content": "he Product Store Groups screen to establish a new entity group before proceeding.\n\nProposed Solution\n\nMaking entity groups public and solution-specific can solve our restriction problems in run processes. Users with solution permissions can view and edit groups created for specific solutions, while those without permission cannot view or use these groups. This prevents conflicting parameters from being defined for the groups.\n\nWe should show the scope preview to users in Create Run Screens. Users should be able to see the eliminated item counts and reasons as well as the remaining scope. We need transparent information flow to manage this issue.\n\n[https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693505585](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693505585)\n### Run List and Run Result\n\nAll users can see all runs in the Run List screen. If user wants to see the result of a run they can click the Run ID to go to Run Result screen.\n\nUnrestricted User Access",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 189,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_190",
+    "content": "the result of a run they can click the Run ID to go to Run Result screen.\n\nUnrestricted User Access\n\nWhen a user has no restrictions:\n\n- The user can view the results for all items in the scope.\n- The user can edit the results for all items in the scope.\n\nRestricted User Access\n\nWhen a user has restrictions:\n\n- User can only view and edit the results for the items they have access to\n- If the user does not have access to any items within the Run Scope, the Run Result screen will be rendered empty.\n\nProposed Solution\n\nIf the user has restrictions and cannot see the run result, we should inform them that this is because of their restrictions. Showing an empty result screen with no data written everywhere causes confusion and frustration. Users can see the entity count on the Run List but Run Result says there is no data.\n\n[https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693210707](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693210707)\n\n### Run Duplication",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 190,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_191",
+    "content": "5693210707](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693210707)\n\n### Run Duplication\n\nUsers can duplicate previous runs for a future date with the same scope and parameters. If the original run was created with an entity group in the scope. Access and restriction issues will arise.\n\nUnrestricted User Access\n\nWhen a user has no restrictions:\n\n- Users can duplicate any run with the same scope and parameters without any issues.\n- Users can view and edit the results of duplicate run\n\nRestricted User Access\n\nWhen a user has restrictions:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 191,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_192",
+    "content": "an view and edit the results of duplicate run\n\nRestricted User Access\n\nWhen a user has restrictions:\n\n- When a user tries to duplicate a run with a scope that includes an entity group the user doesn’t have access to, the user cannot duplicate this run without changing the scope. This creates following problems:If the duplicated run requires to be an exact copy of the original run user cannot proceed with the duplication process.If the user changes the entity group to complete the process this may lead to unwanted items to be included in the run or some wanted items may be discarded.\n\nRun duplication is a delicate process, the user needs to be informed of possible outcomes of the scope change and make an informed and concise decision.\n\nProposed Solution\n\nBulk run duplication should be done by a super user who doesn't have any restrictions. For duplicating individual runs, user should be informed about the restrictions and asked if they want to proceed with the eliminated scope",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 192,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_193",
+    "content": "hould be informed about the restrictions and asked if they want to proceed with the eliminated scope\n\n[https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5692981381](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5692981381)\n## Entity Group Usage In Parameter Configuration\n\n### Configuration Creation\n\nWhen creating a parameter, the user selects a product group and gives it a value. Then that value will be distributed to the entities in the group. Users can complete this process even if they have restrictions.\n\nUnrestricted User Access\n\nWhen a user has no restrictions:\n\n- User can see all the items in the group before defining a parameter configuration\n- User can define a parameter configuration to the group\n\nRestricted User Access\n\nWhen a user has restrictions:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 193,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_194",
+    "content": "define a parameter configuration to the group\n\nRestricted User Access\n\nWhen a user has restrictions:\n\n- Users can only see the items they have access to in the group details. They don’t know there are other items in the group. There is no indication in this step about their restrictions.\n- When they define a parameter to the group, the value is defined to all items in the group, not just the ones they have access to.\n- Now we have a category of items with a parameter defined to them that nobody knows about.\n- 2 users with different restrictions can define conflicting parameters to the same group\n\nProposed Solution\n\nThe Parameter Configuration screen should work like run screens. If a user has restrictions, we should discard the items they don’t have access to from the process and inform them about this change. Users should not be able to define parameters for restricted items and they should understand why.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 194,
+      "total_chunks": 196
+    }
+  },
+  {
+    "id": "confluence_UUD_5693898782_195",
+    "content": ". Users should not be able to define parameters for restricted items and they should understand why.\n\n[https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693276194](https://invent.atlassian.net/wiki/spaces/UUD/whiteboard/5693276194)\n\nQuestions\n\n1. Do restrictions work across solutions when applied to a user?\n2. How do users utilize restrictions?",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "UUD",
+      "space_name": "UI/ UX Design",
+      "page_id": "5693898782",
+      "title": "Entity Group Structure - Current State and Proposed Solutions",
+      "url": "https://invent.atlassian.net/wiki/spaces/UUD/pages/5693898782",
+      "updated_by": "Bahar Papila",
+      "updated_date": "2025-11-24T10:33:08.438Z",
+      "chunk_index": 195,
+      "total_chunks": 196
+    }
+  }
+]

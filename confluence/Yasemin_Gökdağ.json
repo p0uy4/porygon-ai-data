@@ -1,0 +1,130 @@
+[
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3431006259_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\n## Date\n\n## Participants\n\nList meeting participants using their @ mention names\n\n-\n- @ mention a person to add them as an attendee and they will be notified.\n\n## Goals\n\nList goals for this meeting (e.g., Set design priorities for FY19)\n\n-\n\n## Discussion topics\n\n| Time | Item | Presenter | Notes |\n| --- | --- | --- | --- |\n|  |  |  | Add notes for each discussion topic |\n|  |  |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or discussion topics:\n\n-\n\n## Decisions\n\nType /decision to record the decisions you make in this meeting:\n\nd3a7435e-8174-4543-9193-c8563ad3e51e7051f678-48b7-430e-99c4-a24abf59aa45DECIDED",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3431006259",
+      "title": "Meeting notes",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006259",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2022-03-28T08:24:20.098Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3431006260_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3431006260",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006260",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2022-03-28T08:24:20.916Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3431006261_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder of storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006260/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3431006261",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006261",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2022-03-28T08:24:21.124Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3431006268_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nStatusNot started / YellowIn progress / GreenCompleteImpactRedHigh / YellowMedium / GreenLowDriver@ mention driverApprover@ approverContributors@ contributorsInformed@ stakeholdersDue dateType // to add a dateResourcesType /link to add links to relevant research, pages, and related decisions\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision.\n\n## Background\n\nProvide context on a decision the team needs to make and include information about constraints and challenges.\n\n## Options considered\n\n|  | Option 1 | Option 2 |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns.\n\n1\nincomplete\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\n\n## Outcome\n\nSummarize the outcome.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3431006268",
+      "title": "Decision",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006268",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2022-03-28T08:24:20.364Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3431006275_0",
+    "content": "> Info: Click  to edit this page. To delete, open the ··· menu and select Delete.\n\nTarget releaseType // to add a target release dateEpicType /Jira to add Jira epics and issuesDocument statusDRAFTDocument owner@ mention ownerDesigner@ designerTech lead@ leadTechnical writers@ writersQA\n## Objective\n\nProvide context on this project and explain how it fits into your organization's strategic goals.\n\n## Success metrics\n\nList project goals and the metrics you'll use to judge its success.\n\n| Goal | Metric |\n| --- | --- |\n| e.g., Simplify the user experience | e.g., Customer satisfaction score increases |\n|  |  |\n\n## Assumptions\n\nList any assumptions you have about your users, technical constraints, or business goals.\n\n## Milestones\n\nType /planner to create a visual roadmap and help your team stay on track. To edit workstreams or dates, select the placeholder and tap the pencil icon.\n\nType /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3431006275",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006275",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2022-03-28T08:24:20.684Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3431006275_1",
+    "content": "ype /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.\n\n## Requirements\n\n| Requirement | User Story | Importance | Jira Issue | Notes |\n| --- | --- | --- | --- | --- |\n| e.g., Must be mobile responsive | e.g., John is a PM who wants to check on his team's progress from the train station |  |  |  |\n|  |  |  |  |  |\n\n## User interaction and design\n\nType /image to add mockups, diagrams, and screenshots related to the requirements.\n\n## Open Questions\n\n| Question | Answer | Date Answered |\n| --- | --- | --- |\n| e.g., How might we make users more aware of this feature? | e.g., We'll announce the feature with a blog post and a presentation | Type // to add a date |\n\n## Out of Scope\n\nList the features discussed which are out of scope or might be revisited in a later release.\n\n-",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3431006275",
+      "title": "Product requirements",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3431006275",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2022-03-28T08:24:20.684Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_3968893335_0",
+    "content": "Case :\n\n- RecentOptimizationParameters’ta görülen InitialPrice benim markdown.ItemFirstPriceHistory tablosunda o hafta için gördüğüm fiyattan farklı.\n- RecentOptimizationParameters’ta görülen ScheduledPrice benim markdown.ItemPriceHistory tablosunda o hafta için gördüğüm fiyattan farklı.\n\nCheck : markdown.StoreClusterParameters tablosunda FuturePriceInclusionPeriod 0’dan farklı verildiyse run gelecekte gördüğü fiyat bilgisini ilk fiyat ve scheduled price olarak kabul edilir.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "3968893335",
+      "title": "Run Control Clibe",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/3968893335",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2023-12-26T09:52:30.929Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~557058daf7e1c27bf24e8fbd5c6599276224db_4474961974_0",
+    "content": "[https://docs.google.com/spreadsheets/d/1AnWxY__QRwzDNL2HI66Oy5Jy7yZ7_UwINnl5PDjsbiA/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1AnWxY__QRwzDNL2HI66Oy5Jy7yZ7_UwINnl5PDjsbiA/edit?usp=sharing)",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~557058daf7e1c27bf24e8fbd5c6599276224db",
+      "space_name": "Yasemin Gökdağ",
+      "page_id": "4474961974",
+      "title": "Sample",
+      "url": "https://invent.atlassian.net/wiki/spaces/~557058daf7e1c27bf24e8fbd5c6599276224db/pages/4474961974",
+      "updated_by": "Yasemin Gökdağ",
+      "updated_date": "2024-09-16T14:21:34.245Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

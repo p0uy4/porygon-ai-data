@@ -1,0 +1,194 @@
+[
+  {
+    "id": "confluence_FM_3941302709_0",
+    "content": "Welcome to your Project Management team space!You’re in the space overview. It’s what visitors first see, like a landing page for your spaceClick ✏️ Edit to customize your overviewA space contains pages. Create content in a page to collaborate with your teamClick Create at the top to create a page in your spaceWe’ve added example page templates to show what your pages could look likeTemplate - Project planTemplate - Decision documentationTemplate - Status report\n### Mission\n\n*What's your team's mission?*\n\n### Meet the team\n\n*Add team members photo, role, and how to contact them to help connect your team.*\n\n### Team member\n\nRole\n\n@mention\n\n### Team member\n\nRole\n\n@mention\n\n### Team member\n\nRole\n\n@mention\n\n### Key projects\n\nUse the roadmap planner (type `/roadmap`) to help your team stay on track\n\n### Contact us\n\n*How can someone reach out to your team?*\n\n- ✉️ Email address\n- 💬 Chat\n\n### Important Pages\n\n*List them here*\n\n-\n-\n\n### Onboarding FAQs\n\n*Add resources for new hires*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302709",
+      "title": "Fiba Markdown",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302709",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.936Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FM_3941302709_1",
+    "content": "Chat\n\n### Important Pages\n\n*List them here*\n\n-\n-\n\n### Onboarding FAQs\n\n*Add resources for new hires*\n\n### Meeting notes\n\n*Add links to meeting notes*\n\n### Team goals\n\n*List them here*\n\n### Team news\n\n*Create a blog post to share team news. It will automatically appear here once it's published.*",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302709",
+      "title": "Fiba Markdown",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302709",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.936Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FM_3941302763_0",
+    "content": "| Driver | @ mention the driver |\n| --- | --- |\n| Approver | @ approver |\n| Contributors | @ contributors |\n| Informed | @ stakeholders |\n| Objective | Summarize the objective in 1-2 sentences |\n| Due date | Type // to add a date |\n| Key outcomes | List expected outcomes and success metrics |\n| Status | /  / |\n\n## Problem Statement\n\nDescribe the problem and its impact. Include the hypothesis that's driving your work (\"We think X will do Y, and we'll know we've succeeded if Z\").\n\n## Scope\n\n| Must have: | Add your project's core requirements |\n| --- | --- |\n| Nice to have: | Add anything you want but don't strictly need |\n| Not in scope: | Add anything you don't want to include |\n\n## Timeline\n\nType /planner to create a visual roadmap and help your team stay on track. To edit workstreams or dates, select the placeholder below and tap the pencil icon.\n\nType /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.\n\n## Milestones and deadlines",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302763",
+      "title": "Template - Project plan",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302763",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.580Z",
+      "chunk_index": 0,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FM_3941302763_1",
+    "content": "board to this page or /jira to include a Jira issue, chart, or project.\n\n## Milestones and deadlines\n\n| Milestone | Owner | Deadline | Status |\n| --- | --- | --- | --- |\n| e.g., Finalize designs for v1 | @ owner | Type // to add a date |  |\n|  |  |  |  |\n|  |  |  |  |\n\n## Reference materials\n\nAdd links to relevant research and any other key documents",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302763",
+      "title": "Template - Project plan",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302763",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.580Z",
+      "chunk_index": 1,
+      "total_chunks": 2
+    }
+  },
+  {
+    "id": "confluence_FM_3941302777_0",
+    "content": "| Status | /  / |\n| --- | --- |\n| Impact | /  / |\n| Driver | @ mention driver |\n| Approver | @ approver |\n| Contributors | @ contributors |\n| Informed | @ stakeholders |\n| Due date | Type // to add a date |\n| Resources | Type /link to add links to relevant research, pages, and related decisions |\n\n## Relevant data\n\nAdd any data or feedback the team should consider when making this decision.\n\n## Background\n\nProvide context on a decision the team needs to make and include information about constraints and challenges.\n\n## Options considered\n\n|  | Option 1 | Option 2 |\n| --- | --- | --- |\n| Description |  |  |\n| Pros and cons |  |  |\n| Estimated cost |  |  |\n\n## Action items\n\nAdd action items to close the loop on open questions or concerns.\n\n\\n\n\\n1\\nincomplete\\nType your task here. Use \"@\" to assign a user and \"//\" to select a due date.\\n\\n\n\n## Outcome\n\nSummarize the outcome.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302777",
+      "title": "Template - Decision documentation",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302777",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.679Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_FM_3941302791_0",
+    "content": "> Info: Copy and paste this section for each week.\n\n### Type // to add a date\n\n> Tip: WinAdd a few things that went well this week\n\n> Warning: Needs inputAdd some projects or efforts that need more input/help\n\nnoteFocus\n\n1. Add some areas you'll be focusing on next week\n2.\n\n\\nFocus\n\n1.\n2.\n\n\\n\n\n| Notes | Enter any other thoughts or feelings about this past week |\n| --- | --- |\n| Important Links | Add any key links that provide more information, e.g., KPIs, budgets, project status reports, etc. |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302791",
+      "title": "Template - Status report",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302791",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.777Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_FM_3941302805_0",
+    "content": "## Create a stellar overview\n\nThe overview is the first page visitors will see when they visit your space, so it helps to include some information on what the space is about and what your team is working on.\n\nAdd a header image. This gives your overview visual appeal and makes it welcoming for visitors.\n\nExplain what the space is for.Start by summarizing the purpose of the space. This could be your team's mission statement or a brief description of the kind of work you do.\n\nShare team goals. Add links to your team's [OKRs](https://www.atlassian.com/software/confluence/templates/okrs), [project plans](https://www.atlassian.com/software/confluence/templates/project-plan), and [product roadmaps](https://www.atlassian.com/software/confluence/templates/product-roadmap) so visitors can quickly get a sense of your team's goals.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302805",
+      "title": "Get the most out of your team space",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302805",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.877Z",
+      "chunk_index": 0,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FM_3941302805_1",
+    "content": "ware/confluence/templates/product-roadmap) so visitors can quickly get a sense of your team's goals.\n\nTell people how to contact you. Share your timezone and links to Slack channels, email aliases, or other contact details your team uses so visitors can contact you with questions or feedback about your team's work.\n\n## Use shortcuts for easy access\n\nShortcuts are helpful for important pages that members of a space might need to get to often. These shortcuts are added and organized by the space administrator. Space admins can link to pages in the space, other related spaces, or relevant external web content as well as reorder the shortcuts as needed.\n\n## Start discussions with inline comments",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302805",
+      "title": "Get the most out of your team space",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302805",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.877Z",
+      "chunk_index": 1,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FM_3941302805_2",
+    "content": "l web content as well as reorder the shortcuts as needed.\n\n## Start discussions with inline comments\n\nThoughtful responses can get lost and lose context as email replies pile up. And if you neglect to copy someone or want to add them later on, it's difficult for them to get up to speed. [Inline comments](https://support.atlassian.com/confluence-cloud/docs/comment-on-pages-and-blog-posts/) allow anyone (or everyone) to huddle around an idea while referencing key information on the project page.\n\nTo leave an inline comment, highlight text on the page and the comment icon will appear.\n\nTeam members with permission to access the page can respond to any comment. Plus, when a comment thread comes to its natural conclusion, comments can be resolved and cleared away.\n\n## Loop in team members with @mentions",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302805",
+      "title": "Get the most out of your team space",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302805",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.877Z",
+      "chunk_index": 2,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FM_3941302805_3",
+    "content": "tural conclusion, comments can be resolved and cleared away.\n\n## Loop in team members with @mentions\n\n[@mentions](https://support.atlassian.com/confluence-cloud/docs/mention-a-person-or-team/) on Confluence function like @mentions on social media platforms like Twitter, Instagram, and Slack. Type the @ symbol on a Confluence page or in a comment, begin spelling a team member's first name, and a list will appear. Select the individual to ask a question or assign a task.\n\n## Endorse ideas with reactions\n\nUse reactions when you want to support a comment or acknowledge you've seen one without clogging up the thread with another comment.\n\nYou can also use reactions on a page or blog post. The author of the content will be notified, and if enough team members react or add comments to the content, it'll be surfaced on Confluence home feed\n\n## Take your Confluence space to the next level",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302805",
+      "title": "Get the most out of your team space",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302805",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.877Z",
+      "chunk_index": 3,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FM_3941302805_4",
+    "content": "content, it'll be surfaced on Confluence home feed\n\n## Take your Confluence space to the next level\n\nExtend the capabilities of your Confluence pages by  adding extra functionality or including dynamic content.\n\nTo add functionality:\n\n1. Type ' / ' to open the list of items available to use\n2. Find the item to be inserted and select it\n3. Select Insert\n\n## Useful elements for Team space\n\nIntroduce the team\n\nAdd [user profiles](https://support.atlassian.com/confluence-cloud/docs/insert-the-user-profile-macro/) to display a short summary of a given Confluence user's profile with their role, profile photo and contact details.\n\nShare news and announcements with your team\n\nDisplay a stream of latest [blog posts](https://support.atlassian.com/confluence-cloud/docs/insert-the-blog-posts-macro/) so your team can easily see what's been going on.\n\nDisplay a list of important pages",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302805",
+      "title": "Get the most out of your team space",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302805",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.877Z",
+      "chunk_index": 4,
+      "total_chunks": 6
+    }
+  },
+  {
+    "id": "confluence_FM_3941302805_5",
+    "content": "g-posts-macro/) so your team can easily see what's been going on.\n\nDisplay a list of important pages\n\nPaste in page URLs to create smart links, or use the [content report table](https://support.atlassian.com/confluence-cloud/docs/insert-the-content-report-table-macro/) to create a list of all the pages in the space.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "FM",
+      "space_name": "Fiba Markdown",
+      "page_id": "3941302805",
+      "title": "Get the most out of your team space",
+      "url": "https://invent.atlassian.net/wiki/spaces/FM/pages/3941302805",
+      "updated_by": "İlter Efe",
+      "updated_date": "2023-11-30T08:13:04.877Z",
+      "chunk_index": 5,
+      "total_chunks": 6
+    }
+  }
+]

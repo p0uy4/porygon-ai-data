@@ -1,0 +1,2994 @@
+[
+  {
+    "id": "confluence_Science_4406771793_0",
+    "content": "# Miscellaneous Items\n\n- (download & view in MS Word)\n-\n\n# Product Area\n\n## Allocation\n\n-\n-\n- Simulation Results\n\n## Replenishment\n\n-\n\n- Simulation Results https://docs.google.com/presentation/d/1i3aCWeDfechnywtljpOIygXz6Zz0xXKWHKM8tLvqFUc/edit?slide=id.p#slide=id.p\n\n## Reinforcement Learning\n\n- Monte Carlo Policy Gradient\n-\n-\n- RL 10-period asset sale (Python)\n- RL session recording",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4406771793",
+      "title": "Science Home",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4406771793",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2025-09-10T09:21:40.905Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_0",
+    "content": "- AllocationEmploy a heuristic that allocates available units based on the locations where they would achieve the greatest benefit.\n- ReplenishmentGenerate profit-optimizes order points or order quantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 0,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_1",
+    "content": "der quantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 1,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_2",
+    "content": "er quantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 2,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_3",
+    "content": "r quantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 3,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_4",
+    "content": "quantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 4,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_5",
+    "content": "quantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 5,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_6",
+    "content": "uantities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 6,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_7",
+    "content": "antities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 7,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_8",
+    "content": "ntities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 8,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_9",
+    "content": "tities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 9,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_10",
+    "content": "ities.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 10,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_11",
+    "content": "ties.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 11,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_12",
+    "content": "ies.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 12,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_13",
+    "content": "es.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 13,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_14",
+    "content": "s.Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 14,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_15",
+    "content": ".Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 15,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_16",
+    "content": "Dial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 16,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_17",
+    "content": "ial back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 17,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_18",
+    "content": "al back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 18,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_19",
+    "content": "l back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 19,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_20",
+    "content": "back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 20,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_21",
+    "content": "back orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 21,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_22",
+    "content": "ack orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 22,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_23",
+    "content": "ck orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 23,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_24",
+    "content": "k orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 24,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_25",
+    "content": "orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 25,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_26",
+    "content": "orders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 26,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_27",
+    "content": "rders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 27,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_28",
+    "content": "ders such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 28,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_29",
+    "content": "ers such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 29,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_30",
+    "content": "rs such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 30,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_31",
+    "content": "s such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 31,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_32",
+    "content": "such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 32,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_33",
+    "content": "such that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 33,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_34",
+    "content": "uch that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 34,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_35",
+    "content": "ch that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 35,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_36",
+    "content": "h that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 36,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_37",
+    "content": "that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 37,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_38",
+    "content": "that the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 38,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_39",
+    "content": "hat the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 39,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_40",
+    "content": "at the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 40,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_41",
+    "content": "t the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 41,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_42",
+    "content": "the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 42,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_43",
+    "content": "the total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 43,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_44",
+    "content": "he total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 44,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_45",
+    "content": "e total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 45,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_46",
+    "content": "total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 46,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_47",
+    "content": "total does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 47,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_48",
+    "content": "otal does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 48,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_49",
+    "content": "tal does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 49,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_50",
+    "content": "al does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 50,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_51",
+    "content": "l does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 51,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_52",
+    "content": "does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 52,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_53",
+    "content": "does not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 53,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_54",
+    "content": "oes not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 54,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_55",
+    "content": "es not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 55,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_56",
+    "content": "s not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 56,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_57",
+    "content": "not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 57,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_58",
+    "content": "not exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 58,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_59",
+    "content": "ot exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 59,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_60",
+    "content": "t exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 60,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_61",
+    "content": "exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 61,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_62",
+    "content": "exceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 62,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_63",
+    "content": "xceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 63,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_64",
+    "content": "ceed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 64,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_65",
+    "content": "eed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 65,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_66",
+    "content": "ed available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 66,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_67",
+    "content": "d available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 67,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_68",
+    "content": "available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 68,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_69",
+    "content": "available inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 69,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_70",
+    "content": "vailable inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 70,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_71",
+    "content": "ailable inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 71,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_72",
+    "content": "ilable inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 72,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_73",
+    "content": "lable inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 73,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_74",
+    "content": "able inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 74,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_75",
+    "content": "ble inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 75,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_76",
+    "content": "le inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 76,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_77",
+    "content": "e inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 77,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_78",
+    "content": "inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 78,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_79",
+    "content": "inventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 79,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_80",
+    "content": "nventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 80,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_81",
+    "content": "ventory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 81,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_82",
+    "content": "entory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 82,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_83",
+    "content": "ntory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 83,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_84",
+    "content": "tory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 84,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_85",
+    "content": "ory.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 85,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_86",
+    "content": "ry.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 86,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_87",
+    "content": "y.\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 87,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_88",
+    "content": ".\n\nEconomics:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 88,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_89",
+    "content": "- Replenishment: there is an opportunity for ordering new product into the system. For direct shipments from vendor to store, the retailer is deciding whether to purchase the product, so the “cost” of that product is not a sunk cost like with allocation. Similarly, with DC fulfillment, it’s reasonable to assume that any unit sent from the DC to a selling location will be replaced at the DC.Since each unit replenished involves purchase of a unit, the benefit from a sales is the unit margin, not the unit price. This is based on cover period margin since any margin achieved after that could be equally attainable from a later order.Another consequence of bringing new inventory into the system is that the capital required to procure that inventory is now tied up until the product sells. Additionally, inventory must be handled and maintained",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 89,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_90",
+    "content": "ntory is now tied up until the product sells. Additionally, inventory must be handled and maintained. These can be combined into an all-encompassing “inventory carrying cost”, which is proportional to the cost of the product and the time product is held/unsold. Therefore, any margin benefit will be offset by this cost.Some replenishment products may also have shelf lives after which the product much be discarded or sold off at a deep discount. The expected obsolescence cost from any new units should also be deducted from the benefit.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 90,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_91",
+    "content": "iscount. The expected obsolescence cost from any new units should also be deducted from the benefit.\n- Allocation: for allocation, a basic assumption is that no additional rebuys will take place. The only inventory available for sales through the exit date is whatever is either on-hand or in the pipeline. All of this existing inventory is a sunk cost.Unlike with replenishment, the goal should be to maximize revenue from the existing inventory position. Thus, the benefit for sending a product is based on its unit price. Like with replenishment, the benefit is only evaluated for the cover period since post-CP revenue could be captured if the decision to send a unit is deferred until the next allocation.We may also wish to deduct any “stranded cost” for shipped product that doesn’t sell (e.g., cost of shipping back).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 91,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_92",
+    "content": "h to deduct any “stranded cost” for shipped product that doesn’t sell (e.g., cost of shipping back).\n\nIn case of limited inventory (replenishment with constrained DC inventory, or allocation with finite season buy), shipping inventory to a store for immediate benefit must be balanced against the deferred benefit of holding it back at the DC, where it will be available for future use when we’ll have better information where to send it.\n\nUnifying the logic: The process for performing the optimization for both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 92,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_93",
+    "content": "n for both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 93,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_94",
+    "content": "for both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 94,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_95",
+    "content": "for both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 95,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_96",
+    "content": "or both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 96,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_97",
+    "content": "r both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 97,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_98",
+    "content": "both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 98,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_99",
+    "content": "both replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 99,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_100",
+    "content": "oth replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 100,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_101",
+    "content": "th replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 101,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_102",
+    "content": "h replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 102,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_103",
+    "content": "replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 103,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_104",
+    "content": "replenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 104,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_105",
+    "content": "eplenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 105,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_106",
+    "content": "plenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 106,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_107",
+    "content": "lenishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 107,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_108",
+    "content": "enishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 108,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_109",
+    "content": "nishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 109,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_110",
+    "content": "ishment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 110,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_111",
+    "content": "shment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 111,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_112",
+    "content": "hment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 112,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_113",
+    "content": "ment and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 113,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_114",
+    "content": "ent and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 114,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_115",
+    "content": "nt and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 115,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_116",
+    "content": "t and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 116,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_117",
+    "content": "and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 117,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_118",
+    "content": "and allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 118,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_119",
+    "content": "nd allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 119,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_120",
+    "content": "d allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 120,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_121",
+    "content": "allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 121,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_122",
+    "content": "allocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 122,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_123",
+    "content": "llocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 123,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_124",
+    "content": "location could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 124,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_125",
+    "content": "ocation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 125,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_126",
+    "content": "cation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 126,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_127",
+    "content": "ation could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 127,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_128",
+    "content": "tion could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 128,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_129",
+    "content": "ion could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 129,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_130",
+    "content": "on could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 130,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_131",
+    "content": "n could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 131,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_132",
+    "content": "could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 132,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_133",
+    "content": "could utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 133,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_134",
+    "content": "ould utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 134,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_135",
+    "content": "uld utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 135,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_136",
+    "content": "ld utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 136,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_137",
+    "content": "d utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 137,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_138",
+    "content": "utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 138,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_139",
+    "content": "utilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 139,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_140",
+    "content": "tilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 140,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_141",
+    "content": "ilize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 141,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_142",
+    "content": "lize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 142,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_143",
+    "content": "ize the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 143,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_144",
+    "content": "ze the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 144,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_145",
+    "content": "e the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 145,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_146",
+    "content": "the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 146,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_147",
+    "content": "the same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 147,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_148",
+    "content": "he same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 148,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_149",
+    "content": "e same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 149,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_150",
+    "content": "same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 150,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_151",
+    "content": "same logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 151,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_152",
+    "content": "ame logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 152,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_153",
+    "content": "me logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 153,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_154",
+    "content": "e logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 154,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_155",
+    "content": "logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 155,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_156",
+    "content": "logic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 156,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_157",
+    "content": "ogic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 157,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_158",
+    "content": "gic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 158,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_159",
+    "content": "ic (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 159,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_160",
+    "content": "c (although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 160,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_161",
+    "content": "(although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 161,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_162",
+    "content": "(although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 162,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_163",
+    "content": "although different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 163,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_164",
+    "content": "lthough different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 164,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_165",
+    "content": "though different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 165,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_166",
+    "content": "hough different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 166,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_167",
+    "content": "ough different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 167,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_168",
+    "content": "ugh different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 168,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_169",
+    "content": "gh different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 169,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_170",
+    "content": "h different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 170,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_171",
+    "content": "different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 171,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_172",
+    "content": "different economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 172,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_173",
+    "content": "ifferent economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 173,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_174",
+    "content": "fferent economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 174,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_175",
+    "content": "ferent economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 175,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_176",
+    "content": "erent economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 176,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_177",
+    "content": "rent economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 177,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_178",
+    "content": "ent economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 178,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_179",
+    "content": "nt economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 179,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_180",
+    "content": "t economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 180,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_181",
+    "content": "economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 181,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_182",
+    "content": "economics).",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 182,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_183",
+    "content": "1. Assume that inventory sent to selling locations is available as a “shipping unit” (SU), which can be one of the following:each: one unit of a single SKUcase pack: multiple units of a single SKUprepack: one or more units of multiple SKUs\n2. Evaluate the benefit of sending each SU to each location (if applicable for that location). If the SU includes multiple units or products, the benefit of the SU is simply the sum of the benefits for the constituent units. Note that the benefits below are not the total expected margin or revenue, but the incremental values from the units being considered for replenishment/allocation.For replenishment, benefit = expected CP margin - expected carry cost - expected obsolete costFor allocation, benefit = expected CP revenue - expected stranded cost\n3. Allocate one unit of the SU with the largest benefit.\n4. Recalculate benefit for that SU (and other affected SUs) at all applicable locations",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 183,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_184",
+    "content": "est benefit.\n4. Recalculate benefit for that SU (and other affected SUs) at all applicable locations\n5. Repeat the allocation until benefits fall to some arbitrarily small positive value\n\nThe logic above is used to calculate orders, not order points. However, an order point calculation algorithm would use the same benefit calculations (2.a), as would a max-order algorithm.\n\nPros:\n\n1. Consistent algorithm for performing greedy search, with the benefit calculation being the only difference. This would mean one code base that needs to be maintained.\n2. More easily handles business constraints/priorities.\n3. For replenishment, better for handling non-optimal orders:Limited [DC] inventory availabilityTruck-roundingSpecified push (e.g., prior to a promotion event)\n\nCons:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 184,
+      "total_chunks": 186
+    }
+  },
+  {
+    "id": "confluence_Science_4411424771_185",
+    "content": "ed [DC] inventory availabilityTruck-roundingSpecified push (e.g., prior to a promotion event)\n\nCons:\n\n1. Either:No direct order point or max order calculationRequires both greedy heuristic as shown above and the order point algorithm if using forward-looking inventory position (FLIP?)\n2. Changes for one product would need to be tested for both products. This may not be much of an issue if we can include parameter settings that effectively ignore a new feature.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Science",
+      "space_name": "Science",
+      "page_id": "4411424771",
+      "title": "Allocation & Replenishment",
+      "url": "https://invent.atlassian.net/wiki/spaces/Science/pages/4411424771",
+      "updated_by": "stefano.alberti",
+      "updated_date": "2024-09-17T15:27:58.474Z",
+      "chunk_index": 185,
+      "total_chunks": 186
+    }
+  }
+]

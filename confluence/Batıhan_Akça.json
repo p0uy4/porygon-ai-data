@@ -1,0 +1,34 @@
+[
+  {
+    "id": "confluence_~347102620_3175022647_0",
+    "content": "Shared with your team. Learn about [space permissions](https://confluence.atlassian.com/confcloud/assign-space-permissions-724764762.html) and [restrictions](https://confluence.atlassian.com/confcloud/add-or-remove-page-restrictions-724764891.html).\n\n## Greetings!\n\nThink of your personal space as a folder of storing all the documents that don't currently belong anywhere else. It's all yours. Customize this page by clicking the edit button ![image](https://confluence.atlassian.com/images/icons/edit_pencil.png) on top.\n\n## What's inside this space?\n\n[Sample Pages](/wiki/spaces/~347102620/pages/3175022648/Sample+Pages)\n\n- Meeting notes\n- Decision\n- Product requirements",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~347102620",
+      "space_name": "Batıhan Akça",
+      "page_id": "3175022647",
+      "title": "Overview",
+      "url": "https://invent.atlassian.net/wiki/spaces/~347102620/pages/3175022647",
+      "updated_by": "Batıhan Akça",
+      "updated_date": "2021-08-09T08:17:14.905Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_~347102620_3175022648_0",
+    "content": "> Info: We've created a few sample pages that you can use to get started.\n\n| Product requirements | Meeting notes | Decision |\n| --- | --- | --- |\n|  |  |  |\n\n> Info: To delete one of the sample pages, open the ··· menu and select Delete.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "~347102620",
+      "space_name": "Batıhan Akça",
+      "page_id": "3175022648",
+      "title": "Sample Pages",
+      "url": "https://invent.atlassian.net/wiki/spaces/~347102620/pages/3175022648",
+      "updated_by": "Batıhan Akça",
+      "updated_date": "2021-08-09T08:17:14.811Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]

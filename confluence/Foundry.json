@@ -1,0 +1,146 @@
+[
+  {
+    "id": "confluence_Foundry_5557650142_0",
+    "content": "## Description\n\nIn a sentence or two, describe the purpose of this space.\n## Search this Space\n\n## Filter by Label\n\n> Info: These are all the labels in use in this space. Select a label to see a list of content the label has been applied to.\n\n## Recently updated content\n\n> Info: This list below will automatically update each time somebody in your space creates or updates content.",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5557650142",
+      "title": "Foundry",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5557650142",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2025-10-21T15:39:41.447Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Foundry_5758255114_0",
+    "content": "# Airflow components\n\n# Branching strategy\n\n## Release Tracking\n\n| Release | DEV (future state) | UAT | PROD |\n| --- | --- | --- | --- |\n| 1.3.0 | pass | fail |  |\n| 1.3.1 | pass | pass | todo |\n| X.Y.Z |  |  |  |\n\nNOTICE:\nThere is no DEV env, so UAT is updated just after tag creation.\n\n## Deployment\n\n- DAGs code is not merged to environment branches (no branch-deploy)\n- main contains definition and configuration of each environment\n- tag (of its own repo) is used as reference of DAGs version to use for deployment",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5758255114",
+      "title": "CICD Architectural digram (draft)",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5758255114",
+      "updated_by": "lukasz.gawronski",
+      "updated_date": "2025-12-17T15:40:46.560Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  },
+  {
+    "id": "confluence_Foundry_5834473553_0",
+    "content": "| Project | Sub-project | Owner | Effort | Comments |\n| --- | --- | --- | --- | --- |\n| Managed Client Environments | Provisioning (env from scratch + infra) | Deniz + Eymen | 3 | LongList |\n| Release and Deployment | Deniz + Eymen | 3 | LongList |  |\n| CloneGuard | Abdullah Cosgun (+Burak) | 8 | Accepted |  |\n| Decouple Environment-Specific Configurations | Eymen | 12 | Accepted |  |\n| Dependency Management | Eymen (+Deniz) | 4 | Accepted |  |\n| Airflow Modernization | Infrastructure Foundation & Airflow Modernization | Abdullah | 3 | LongList |\n| Feature Branch Environment | Ilter | 2 | LongList |  |\n| Isolated UAT Environment for Boots |  | Ilter Efe (+Burak) | 12 | LongList |\n| Database Platform |  | Burak Obuz | 12 | LongList,epic to be spread across  existing ones:- observability topics- provisioning and cloning (backups) |\n| Observability |  | Abdullah | 3 | LongList |\n| Kubernetes Upgrades |  | Abdullah | 1 | LongList+ rollout on 13 clusters |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5834473553",
+      "title": "Foundry Wave 1 2026 Planning",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5834473553",
+      "updated_by": "lukasz.gawronski",
+      "updated_date": "2026-02-02T13:15:17.441Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_Foundry_5834473553_1",
+    "content": "dullah | 3 | LongList |\n| Kubernetes Upgrades |  | Abdullah | 1 | LongList+ rollout on 13 clusters |\n| Key Vault Modernization (RBAC-based) |  | Ilter | 2 | LongList+ migration |\n| Ad-Hoc work / External work | dedicated epic | All |  | 30% buffer |\n| Customer Onboarding & Provisioning |  | TBC | TBC |  |\n| Kubernetes Infrastructure for Sonic Team |  | TBC | TBC | Proposal |\n|  |  |  |  |  |\n|  |  | Total | 65 |  |\n|  |  | Capacity (5 Eng x 12 Weeks x 0,7 buffer) | 42 | -23 |\n|  |  |  | as StoryPoint (aka WorkWeek) |  |\n|  |  |  |  |  |\n|  |  | Must | 32 |  |\n|  |  | MCE (scope to updated within each subproject) | 10 |  |\n\nBased preparation docs on:",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5834473553",
+      "title": "Foundry Wave 1 2026 Planning",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5834473553",
+      "updated_by": "lukasz.gawronski",
+      "updated_date": "2026-02-02T13:15:17.441Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_Foundry_5834473553_2",
+    "content": "32 |  |\n|  |  | MCE (scope to updated within each subproject) | 10 |  |\n\nBased preparation docs on:\n\n- Platform Engineering 2026 Roadmaphttps://docs.google.com/document/d/1kDV8TA_YtiM-gprALPb86wivhG5_1CBwBGgO41JVW5U/edit?tab=t.yuh4ddvjcffn\n- Managed Client Environment Design Documenthttps://docs.google.com/document/d/1BQSmICECLzcRKEWfrIom2qMZwuf6bzBSCclFIqO1_P8/edit?tab=t.0\n- Technical Approach: Multi-Environment Branch Deployment Workflowhttps://docs.google.com/document/d/1vozJ-bj87fKVm_qYlvMm3FNDTtXx5rQHYyuwJ1QHjfs/edit?tab=t.0#heading=h.sp28jd238o0l",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5834473553",
+      "title": "Foundry Wave 1 2026 Planning",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5834473553",
+      "updated_by": "lukasz.gawronski",
+      "updated_date": "2026-02-02T13:15:17.441Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_Foundry_5865799691_0",
+    "content": "| Action Items | Description | Documents |\n| --- | --- | --- |\n| Create a repository on GitHub | Create a repository on GitHub Repo-1 in customer-pipeline-xxx format | customer-pipeline-xxx |\n| Create a repository on GitHub Repo-2 in customer-analysis-xxx format | customer-analysis-xxx |  |\n| Github branch rule protection | Create branch protection rule | How to Create Branch Protection Rule for Customer Repos. |\n| Onboard data infrastructure | Run - project-pipeline-template / According to solution/parameter matrix (Output Customer-pipeline-repo and terragrunt.hcl) | https://github.com/inventanalytics/tf-infrastructure/blob/main/README.md |\n| Customer repository and init scripts operations | https://github.com/inventanalytics/pipeline-project-template/blob/main/README.md |  |\n| Open airflow and make sure working correctly | customer-pipeline-xxx deploy.yml & airflow check |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5865799691",
+      "title": "Azure Customer",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5865799691",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2026-01-26T08:19:57.733Z",
+      "chunk_index": 0,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_Foundry_5865799691_1",
+    "content": "Open airflow and make sure working correctly | customer-pipeline-xxx deploy.yml & airflow check |  |\n| Granting ivox SP permissions. | The ivox application must be added as a Contributor to the inventxxxshared blob. (Azure Customer) | It will be corrected in the onboard template. |\n| cheetah-sp permissions | Define Storage Blob Data Contributor authority to cheetah-sp in inventcustomer and inventcustomershared storage accounts (Azure Customer) | It will be corrected in the onboard template. |\n| Execution of xxx-storage-key operations. | The xxx-storage-key should be renamed to the inventxxx-storage-key format and added to both invent-prod-eu-vault and invent-key-vault. (Azure Customer) | It will be corrected in the onboard template. |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5865799691",
+      "title": "Azure Customer",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5865799691",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2026-01-26T08:19:57.733Z",
+      "chunk_index": 1,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_Foundry_5865799691_2",
+    "content": "od-eu-vault and invent-key-vault. (Azure Customer) | It will be corrected in the onboard template. |\n| Granting permissions for prod-eu(us,uae)-xxx-databricks. | The Databricks service principal should be granted Storage Blob Data Owner and Contributor permissions on inventcustomer and inventcustomershared storage accounts. (Azure Customer) | It will be corrected in the onboard template. |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5865799691",
+      "title": "Azure Customer",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5865799691",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2026-01-26T08:19:57.733Z",
+      "chunk_index": 2,
+      "total_chunks": 3
+    }
+  },
+  {
+    "id": "confluence_Foundry_5866586113_0",
+    "content": "| Action Items | Description | Documents |\n| --- | --- | --- |\n| Create a repository on GitHub | Create a repository on GitHub Repo-1 in customer-pipeline-xxx format | customer-pipeline-xxx |\n| Create a repository on GitHub Repo-2 in customer-analysis-xxx format | customer-analysis-xxx |  |\n| Github branch rule protection | Create branch protection rule | How to Create Branch Protection Rule for Customer Repos. |\n| Onboard data infrastructure | Run - project-pipeline-template / According to solution/parameter matrix (Output Customer-pipeline-repo and terragrunt.hcl) | https://github.com/inventanalytics/tf-infrastructure/blob/main/README.md |\n| Customer repository and init scripts operations | https://github.com/inventanalytics/pipeline-project-template/blob/main/README.md |  |\n| Open airflow and make sure working correctly | customer-pipeline-xxx deploy.yml & airflow check |  |",
+    "metadata": {
+      "source": "confluence",
+      "space_key": "Foundry",
+      "space_name": "Foundry",
+      "page_id": "5866586113",
+      "title": "AWS Customer",
+      "url": "https://invent.atlassian.net/wiki/spaces/Foundry/pages/5866586113",
+      "updated_by": "Fatih Bahçeçi",
+      "updated_date": "2026-01-26T08:18:43.031Z",
+      "chunk_index": 0,
+      "total_chunks": 1
+    }
+  }
+]
